@@ -113,19 +113,21 @@
                 <div class="hot-block">
                     <a href="">
                         <div class="hot-article">
+<link rel="stylesheet" href="css/mainCss.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
                             <div class="hot-article-words">
-                                <h1>
+								<h1 style="color: #632F34">
+									Joke版
+								</h1>
+                                <h2>
                                     [神人]台北捷運站清純白衣正妹?
-                                </h1>
+                                </h2>
                                 <p>
                                 今天下午三點半左右在台北捷運站看到一個穿白色T-shirt + 小短褲的女生.驚為天人~
                                 </p>
                             </div>
                             <div class="hot-article-info">
-                                <a class="boy-user-link" href="articleUser.html">ricky0214</a>
-                                發表於
-                                <a class="board-link" href="articleBoard.html">政治版</a>
+                                <a class="boy-user-link" href="articleUser.html">ricky0214</a> 發表
                                 <span class="hot-article-good">35推</span>
                             </div>
 
@@ -135,17 +137,18 @@
                         <div class="hot-article">
 
                             <div class="hot-article-words">
-                                <h1>
+								<h1 style="color: #E28035">
+									帥哥美女版
+								</h1>
+                                <h2>
                                     [神人]台北捷運站清純白衣正妹?
-                                </h1>
+                                </h2>
                                 <p>
                                 今天下午三點半左右在台北捷運站看到一個穿白色T-shirt + 小短褲的女生.驚為天人~
                                 </p>
                             </div>
                             <div class="hot-article-info">
-                                <a class="boy-user-link" href="articleUser.html">ricky0214</a>
-                                發表於
-                                <a class="board-link" href="articleBoard.html">政治版</a>
+                                <a class="boy-user-link" href="articleUser.html">ricky0214</a> 發表
                                 <span class="hot-article-bad">35噓</span>
                             </div>
 
@@ -155,17 +158,18 @@
                         <div class="hot-article">
 
                             <div class="hot-article-words">
-                                <h1>
+								<h1 style="color: #E5737D">
+									彩妝版
+								</h1>
+                                <h2>
                                     [神人]台北捷運站清純白衣正妹?
-                                </h1>
+                                </h2>
                                 <p>
                                 今天下午三點半左右在台北捷運站看到一個穿白色T-shirt + 小短褲的女生.驚為天人~
                                 </p>
                             </div>
                             <div class="hot-article-info">
-                                <a class="girl-user-link" href="articleUser.html">mini158</a>
-                                發表於
-                                <a class="board-link" href="articleBoard.html">Boy-Girl版</a>
+                                <a class="girl-user-link" href="articleUser.html">mini158</a> 發表
                                 <span class="hot-article-good">35推</span>
                             </div>
 
@@ -175,17 +179,18 @@
                         <div class="hot-article">
 
                             <div class="hot-article-words">
-                                <h1>
+								<h1 style="color: #E51937">
+									NBA版
+								</h1>
+                                <h2>
                                     [神人]台北捷運站清純白衣正妹?
-                                </h1>
+                                </h2>
                                 <p>
                                 今天下午三點半左右在台北捷運站看到一個穿白色T-shirt + 小短褲的女生.驚為天人~
                                 </p>
                             </div>
                             <div class="hot-article-info">
-                                <a class="girl-user-link" href="articleUser.html">mini158</a>
-                                發表於
-                                <a class="board-link" href="articleBoard.html">Boy-Girl版</a>
+                                <a class="girl-user-link" href="articleUser.html">mini158</a> 發表
                                 <span class="hot-article-bad">35噓</span>
                             </div>
 
@@ -195,17 +200,18 @@
                         <div class="hot-article">
 
                             <div class="hot-article-words">
-                                <h1>
+								<h1 style="color: #819351">
+									八卦版
+								</h1>
+                                <h2>
                                     [神人]台北捷運站清純白衣正妹?
-                                </h1>
+                                </h2>
                                 <p>
                                 今天下午三點半左右在台北捷運站看到一個穿白色T-shirt + 小短褲的女生.驚為天人~
                                 </p>
                             </div>
                             <div class="hot-article-info">
-                                <a class="boy-user-link" href="articleUser.html">booth</a>
-                                發表於
-                                <a class="board-link" href="articleBoard.html">八卦版</a>
+                                <a class="boy-user-link" href="articleUser.html">booth</a> 發表
                                 <span class="hot-article-good">35推</span>
                             </div>
 
@@ -215,17 +221,18 @@
                         <div class="hot-article">
 
                             <div class="hot-article-words">
-                                <h1>
+								<h1 style="color: #E28035">
+									帥哥美女版
+								</h1>
+                                <h2>
                                     [神人]台北捷運站清純白衣正妹?
-                                </h1>
+                                </h2>
                                 <p>
                                 今天下午三點半左右在台北捷運站看到一個穿白色T-shirt + 小短褲的女生.驚為天人~
                                 </p>
                             </div>
                             <div class="hot-article-info">
-                                <a class="boy-user-link" href="articleUser.html">booth</a>
-                                發表於
-                                <a class="board-link" href="articleBoard.html">八卦版</a>
+                                <a class="boy-user-link" href="articleUser.html">booth</a> 發表
                                 <span class="hot-article-good">35推</span>
                             </div>
                         </div>
