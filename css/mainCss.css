@@ -747,5 +747,6 @@ li.selected {
 	background-color: #cd6661;
 	color: #ffffff;
 }
-
-
+.panel {
+	height: 795px;
+}
