@@ -691,8 +691,8 @@ li.selected {
 	width: 150px;
 	height: 185px;
 	position: relative;
-	left: 25px;
-	top: 45px;
+	left: 32px;
+	top: 48px;
 	margin-right: 0px;
 	padding: 0px;
 	display: inline;
@@ -731,13 +731,13 @@ li.selected {
 }
 #second_bar ul {
 	margin: 0;
-	padding-left: 178px;
+	padding-left: 200px;
 }
 #second_bar a {
 	color: #333333;
 	float: left;
 	padding: 13px;
-	width: 45px;
+	width: 60px;
 	text-align: center;
 	border-left: 1px solid #D8D5D0;
 }

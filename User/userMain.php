@@ -52,27 +52,60 @@
 	</div>
         <div id="home_container">
 		<div id="about_panel" class="panel">
+		</br></br></br></br></br>
 		關於
 		</div>
 		<div id="wall_panel" class="panel">
-		動態牆
+		</br></br>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
 		</div>
 		<div id="album_panel" class="panel">
+		</br></br></br></br></br>
 		相簿
 		</div>
 		<div id="friend_panel" class="panel">
+		</br></br></br></br></br>
 		朋友
 		</div>
-		<div id="group_panel" class="panel">
+		<div id="group_panel" class="panel">		
+		</br></br></br></br></br>
 		群組
 		</div>
 		<div id="event_panel" class="panel">
+		</br></br></br></br></br>
 		活動
 		</div>
 		<div id="article_panel" class="panel">
+		</br></br></br></br></br>
 		文章
 		</div>
 		<div id="board_panel" class="panel">
+		</br></br></br></br></br>
 		討論版
 		</div>
         </div>
