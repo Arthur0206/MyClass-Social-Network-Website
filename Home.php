@@ -23,7 +23,7 @@
                 } // mouseout
                 ); // hover
             }); // ready
-        </script>
+        </script> 
     </head>
     <body>
 	<?php 
