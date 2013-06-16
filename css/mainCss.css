@@ -106,6 +106,7 @@ ul {
 	font-weight: bold;
 	color: #e28035;
 }
+
 /* Menu Bar */ 
 #masthead {
 	background-color: #fcf9f2; //#FFFFF2; //#fcf9f2;
@@ -224,6 +225,7 @@ li.selected {
 	width: 1140px;
 	padding: 0;
 }
+
 /* Fire Icon & 人氣Title */
 .hot-title-div {
 	font-size: 125%;
@@ -243,6 +245,7 @@ li.selected {
 .fire-pic {
 	margin: 8px 5px 0px 0px;
 }
+
 /* 四大熱門公告外框 */
 .hot-block {
 	float: left;
@@ -255,6 +258,7 @@ li.selected {
 	background-color: #eef2e0;
 //	box-shadow: 1px 1px 1px 1px #888888;
 }
+
 /* 人氣用戶 */
 .hot-user {
 	float: left;
@@ -278,6 +282,7 @@ li.selected {
 .hot-user .girl-user-link, .hot-user .group-link, .hot-user .boy-user-link {
 	margin-top: 1px; 
 }
+
 /* 熱門文章 */
 .hot-article {
 	float: left;
@@ -314,7 +319,7 @@ li.selected {
 }
 .hot-article-good {
 	float: right;
-	color: #e5737d;
+	color: #BA3239;
 }
 .hot-article-bad {
 	float: right;
@@ -323,6 +328,7 @@ li.selected {
 .hot-article-info {
 	font-size: 85%;
 }
+
 /* 熱門討論版 */
 .hot-board {
 	float: left;
@@ -351,6 +357,7 @@ li.selected {
 	float: right;
 	color: #61A120;
 }
+
 /* 熱門活動 */
 .hot-event {
 	float: left;
