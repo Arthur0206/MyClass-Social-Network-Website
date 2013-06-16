@@ -727,10 +727,15 @@ li.selected {
 }
 #main_tabs ul {
 	margin: 0;
-	padding-left: 200px;
+	padding-left: 170px;
+	border-left: 1px solid #D8D5D0;
 }
 #main_tabs ul li {
 	float: left;
+	padding: 13px;
+	width: 45px;
+	text-align: center;
+	border-right: 1px solid #D8D5D0;
 }
 
 
