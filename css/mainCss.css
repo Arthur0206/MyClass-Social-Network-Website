@@ -1,0 +1,738 @@
+@charset "utf-8";
+/* Body */
+body {
+	background-color: #fcf9f2; //#FFFFF2; //#fcf9f2;
+	color: #333333;
+	font: 15px/1.231 "Helvetica Neue",Helvetica,Arial,"Liberation Sans",FreeSans,sans-serif;
+	margin: 0;
+	min-height: 700px;
+	min-width: 960px;
+}
+#title_text {
+	font: 25px/25px;
+	margin: 18px 0px -5px 20px;
+}
+#button-1 {
+	//display: block;
+	float: left;
+	color: #FFFFEE;
+	background-color: #FFD119;
+	width: 100px;
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+	margin: 8px 10px 8px 10px;
+	border-radius: 4px; // 2px 2px 2px;
+	box-shadow: 0px 0px 2px 2px #FFE119;
+}
+#button-2 {
+	//display: block;
+	float: left;
+	color: #FFFFEE;
+	background-color: #AAC670;
+	width: 100px;
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+	margin: 8px 10px 8px 10px;
+	border-radius: 4px; // 2px 2px 2px;
+	box-shadow: 0px 0px 2px 3px #AAD670;
+}
+#button-3 {
+	//display: block;
+	float: left;
+	color: #FFFFEE;
+	background-color: #6C91DA;
+	width: 100px;
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+	margin: 8px 10px 8px 10px;
+	border-radius: 4px; // 2px 2px 2px;
+	box-shadow: 0px 0px 2px 3px #6CA1DA;
+}
+#button-4 {
+	//display: block;
+	float: left;
+	color: #FFFFEE;
+	background-color: #FF9C59;
+	width: 100px;
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+	margin: 8px 10px 8px 10px;
+	border-radius: 4px; // 2px 2px 2px; 
+	box-shadow: 0px 0px 2px 2px #FFB000;
+}
+#myclass-definition {
+	width: 650px;
+	position: absolute;
+	top: 53px;
+	right: 30px;
+	left: 0px
+	float: right;
+	color: #FFFFEE;
+	font-size: 20px;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none outside none;
+}
+.girl-user-link {   /* 女生user連結為粉紅色 */
+	color: #e5737d;
+}
+.boy-user-link {    /* 男生user連結為藍色 */
+	color: #527fc2;
+}
+.group-link {       /* 群組連結為綠色 */
+	color: #61A120;
+}
+.board-link {       /* 群組連結為綠色 */
+	color: #61A120; //#61A120;
+}
+.black-link {       /* 黑色連結 */
+	color: #333333;
+}
+.red-text {	    /* 紅色字體 */
+	color: #cc0000;
+}
+.bomb {
+	font-weight: bold;
+	color: #517099;
+}
+.explode {
+	font-weight: bold;
+	color: #BA3239;
+}
+.hot {
+	font-weight: bold;
+	color: #e28035;
+}
+/* Menu Bar */ 
+#masthead {
+	background-color: #fcf9f2; //#FFFFF2; //#fcf9f2;
+	height: 55px;
+	//width: 1070px;
+	//margin-left: auto;
+	//margin-right: auto;
+}
+#masthead > div {
+	padding: 0 0 0 0;
+	height: 55px;
+	margin: 0;
+}
+.menu_tabs > li {
+	float: left;
+}
+li.selected {
+	background-color: #e51937;
+}
+.menu_big_chi {
+	text-align: center;
+	color: #e51937; //#ae2a26; //#CC0000;
+	font: 20px/20px "Arial";
+	padding-bottom: 5px;
+	display: block;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+.menu_big_chi.selected {
+	color: #FFFFFF;
+}
+.menu_small_chi {
+	text-align: center;
+	color: #C3C3C3;
+	font: 11px/11px "Arial";
+	display: block;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.menu_small_chi.selected {
+	color: #FFFFF2;
+}
+.menu_tabs, .dropdown {
+	margin: 0;
+	z-index: 3;
+}
+.menu_tabs > li > a {
+	color: #C3C3C3;
+	display: block;
+	font: bold 16px/16px "Arial";
+	letter-spacing: 0.05em;
+	padding: 11px 1px 8px 1px;
+	width: auto;
+}
+.menu_tabs > li .menu_tabs_dropdown_link {
+	text-align: center;
+	color: #FFFFFF;
+	font: 20px/20px "Arial";
+	padding-top: 10px 9px 10px 9px;
+	background-color: #e51937;
+	z-index: 1000;
+	width: 7.5%;
+	position: absolute;
+}
+#create_group_link, #create_event_link {
+	top: 94px;
+}
+.dropdown > li {
+	float: right;
+}
+.dropdown > li > a {
+	color: #b6b6ae; //#C3C3C3;
+	display: block;
+	font: 16px/16px "Arial";
+	letter-spacing: 0.05em;
+	padding: 20px 10px 0px 0px;
+}
+.dropdown > li > a:hover, .dropdown > li > a:active {
+	color: #2CB4DA;
+}
+#logo {
+	float: left;
+	padding-left: 8px;
+	padding-right: 4px;
+}
+#user_img {
+	float: right;
+	border-radius: 4px; 
+	border: 4px solid #FFFFFF;
+}
+#username_button {
+	font: bold 20px/20px "Arial";
+	padding: 17px 12px; // 17px 6px;
+	color: #527fc2; //#037586; //#e5737d; /* #B60000; */
+}
+
+/* Home Advertisement*/
+#homeAd {
+	background-color: #BA3239;//#037586; //#ae2a26; //#037586; //#C11919; /*#B80000;*/
+	height: 240px;
+	margin-bottom: 1em;
+	//box-shadow: 2px 2px 2px 2px #888888;
+}
+
+/* Home Content */
+#home_container {
+	border-radius: 5px 5px 5px 5px;
+	margin-bottom: 2em;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	//border: 1px solid #D8D5D5;
+	background-color: #fcf9f2; //#FFFFF2;
+	//background-color: #FFFFFF;	
+	height: 795px;
+	width: 1140px;
+	padding: 0;
+}
+/* Fire Icon & 人氣Title */
+.hot-title-div {
+	font-size: 125%;
+}
+#hot-title-span-1 {
+	margin: 10px 0px 0px 25px;
+}
+#hot-title-span-2 {
+	margin: 10px 0px 0px 463px;
+}
+#hot-title-span-3 {
+	margin: 10px 0px 0px 25px;
+}
+#hot-title-span-4 {
+	margin: 10px 0px 0px 447px;
+}
+.fire-pic {
+	margin: 8px 5px 0px 0px;
+}
+/* 四大熱門公告外框 */
+.hot-block {
+	float: left;
+	border-radius: 5px 5px 5px 5px;
+	margin: 20px;
+	padding: 3px;
+	width: 524px;                  /* 設定width只是設定到content的width, padding/margin/border會另外加寬此element看起來的寬度 */
+	height: 312px;
+//	border: 1px solid #D8D5D5;
+	background-color: #eef2e0;
+//	box-shadow: 1px 1px 1px 1px #888888;
+}
+/* 人氣用戶 */
+.hot-user {
+	float: left;
+	width: 117px;
+	height: 142px;
+	padding: 5px;
+	margin: 1px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #FFFFF2;
+	border: 1px solid #D8D5D0;
+	font-size: 85%;
+	overflow: hidden;
+}
+.hot-user a {
+	text-align: center;
+	display: block;
+}
+.focused-block {
+	background-color: #000000;
+}
+.hot-user .girl-user-link, .hot-user .group-link, .hot-user .boy-user-link {
+	margin-top: 1px; 
+}
+/* 熱門文章 */
+.hot-article {
+	float: left;
+	width: 248px;               /* 兩個hot-article div, 所以 2*(width + 2 padding + 2 border + 2 margin) = hot-block的content width, 524 */
+	height: 90px;              /* 三個hot-article div, 所以 3*(height + 2 padding + 2 border + 2 margin) = hot-block的content height, 312 */
+	padding: 5px;
+	margin: 1px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #FFFFF2;
+	border: 1px solid #D8D5D0;
+	overflow: hidden;
+}
+.hot-article h1 {
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+	color: #333333;
+}
+.hot-article p {
+	font-size: 85%;
+	padding: 0;
+	margin: 5px 0px 0px 0px;
+	color: #333333;
+}
+.hot-article-words {
+	height: 75px;
+	overflow: hidden;
+}
+.hot-article-good {
+	float: right;
+	color: #e5737d;
+}
+.hot-article-bad {
+	float: right;
+	color: #61A120;
+}
+.hot-article-info {
+	font-size: 90%;
+}
+/* 熱門討論版 */
+.hot-board {
+	float: left;
+	width: 248px;               /* 兩個hot-article div, 所以 2*(width + 2 padding + 2 border + 2 margin) = hot-block的content width, 524 */
+	height: 38px;              /* 六個hot-article div, 所以 6*(height + 2 padding + 2 border + 2 margin) = hot-block的content height, 312 */
+	padding: 5px;
+	margin: 1px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #FFFFF2;
+	border: 1px solid #D8D5D0;
+	overflow: hidden;
+}
+.hot-board h1{
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+	color: #333333;
+}
+.hot-board p {
+	font-size: 85%;
+	padding: 0;
+	margin: 5px 0px 0px 0px;
+	color: #333333;
+}
+.hot-board-count {
+	float: right;
+	color: #61A120;
+}
+/* 熱門活動 */
+.hot-event {
+	float: left;
+	width: 510px;               /* 兩個hot-article div, 所以 2*(width + 2 padding + 2 border + 2 margin) = hot-block的content width, 524 */
+	height: 90px;              /* 三個hot-article div, 所以 3*(height + 2 padding + 2 border + 2 margin) = hot-block的content height, 312 */
+	padding: 5px;
+	margin: 1px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #FFFFF2;
+	border: 1px solid #D8D5D0;
+	overflow: hidden;
+}
+.hot-event-pic {
+	float: left;
+	margin: 0px 5px 0px 0px; 
+}
+.hot-event-words {
+	//display: inline;
+	width: 320px;
+	height: 60px;
+	overflow: hidden;
+	float: left;
+}
+.hot-event-info {
+	font-size: 90%;
+	float: left;
+}
+.hot-event h1 {
+	display: inline;
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+	color: #333333;
+}
+.hot-event p {
+	font-size: 85%;
+	padding: 0;
+	margin: 5px 0px 0px 0px;
+	color: #333333;
+}
+.hot-event-type {
+	border-radius: 2px 2px 2px 2px;
+	color: #FFFFDD;
+	float: right;
+	text-align: center;
+	padding: 5px 7px 5px 7px;
+}
+.hot-event-count {
+	float: right; 
+	line-height: 50px;
+	font-size: 80%;
+	color: #0066CC;
+}
+.hot-block h1:hover {
+	color: #CC0000;
+}
+
+/* 找群組, 找活動 */
+#container_frame {
+	border-top: 1px solid #D8D5D0;
+}
+.search_side_area {
+	min-height: 795px;
+	width: 229px;
+	border-right: 1px solid #D8D5D0;
+	border-top: 1px solid #D8D5D0;
+	float: left;
+	display: block;
+	z-index: 2;
+}
+.search_center_area {
+	min-height: 795px;
+	//position: absolute;
+}
+
+/* 紅色Search Bar */
+#search_list_wrapper {
+	margin-left: 230px;
+	height: 41px;
+	background-color: #cd6563; //#CC0000;
+	//border-top: 1px solid #D8D5D0;
+	border-bottom: 1px solid #D8D5D0;
+	border-radius: 2px 2px 2px 2px;
+}
+#search_list_wrapper.no-side-bar {	/* 左邊沒有area side bar的頁面, search bar的margin設成0 */
+	margin: 0;
+}
+#search_list {
+	display: inline;
+}
+#search_list li{
+	font: 17px/17px bold;
+	float: left;
+}
+.search_bar_title {
+	padding: 13px 7px 12px 10px;
+	color: #FFFFF2;
+}
+.search_bar_dropdown_list_wrapper {
+	margin: 7px 0px 5px 0px;
+	padding: 5px;
+	height: 15px;
+	border-radius: 4px;
+	border: 1px solid #D8D5D0;
+	background-color: #FFFFF2; //#f5f5f5; //#FFFFFF;
+	cursor: pointer;
+	z-index: 10;
+	position: relative;
+}
+.search_bar_dropdown_list_div {
+	border-radius: 4px;
+	border: 1px solid #D8D5D0;
+	background-color: #FFFFF2;//#f5f5f5; //#FFFFFF;
+	cursor: pointer;
+	top: -1px;
+	left: -1px;
+	position: absolute;
+	display: none;
+}
+.search_bar_dropdown_list_div li {
+	clear: left;
+	min-width: 93px;
+}
+#search_list #keyword_title {
+	float: right;
+}
+#keyword_submit_button {
+	margin: 5px;
+	float: right;
+}
+#keyword_input {
+	margin: 7px 4px 0px 0px;
+	float: right;
+	border-radius: 4px;
+	height: 24px;
+	width: 100px;
+	padding-left: 5px;
+	color: #b6b6ae;
+	border: 1px solid #d0d5cb;
+}
+
+/* 結果排序按鍵 */
+#sort_list_wrapper {
+	margin-top: 10px;
+	height: 40px;
+}
+#sort_list {
+	display: inline;
+}
+#sort_list li {
+	float: right;
+	font: 17px/17px;
+}
+#sort_bar_title {
+	margin-top: 6px;
+	color: #CC0000;
+}
+#sort_bar_dropdown_list {
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 6px 10px 5px 10px;
+	//border: 2px solid #D8D5D0;
+	box-shadow: 0px 0px 1px 1px #D8D5D0;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: #f5f5f5;
+}
+
+/* 搜尋結果內容 */
+#search_result_wrapper {
+	margin-left: 230px;
+	min-height: 751px;
+}
+#search_result_wrapper.no-side-bar {	/* 左邊沒有area side bar的頁面, search result wrapper的margin設成0 */
+	margin: 0;
+}
+#search_result_div {
+	width: 800px;
+	min-height: 751px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#search_result_div.no-side-bar {	/* 左邊沒有area side bar的頁面, search result div的寬度加大 */
+	width: 1020px;
+}
+
+/* 群組小box */
+.group_block {
+	float: left;
+	width: 375px;//250px;
+	height: 90px;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #FFFFF2;
+	//border: 1px solid #D8D5D0;
+	box-shadow: 0px 0px 2px 2px #D8D5D0;
+	overflow: hidden;
+	z-index: 10;
+}
+.group_title {
+	//display: inline;
+	width: 270px;
+	height: 60px;
+	overflow: hidden;
+	float: left;
+}
+.group_block h1 {
+	display: inline;
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+	color: #333333;
+}
+.group_block p {
+	font-size: 90%;
+	padding: 0;
+	margin: 5px 0px 0px 0px;
+	color: #333333;
+}
+.group_info {
+	font-size: 90%;
+	float: left;
+//	margin: 0;
+}
+.group_info p {
+	margin: 2px 0px 0px 0px;
+}
+.group_member_count {
+	float: right; 
+	line-height: 50px;
+	font-size: 85%;
+	text-align: right;
+	color: #0066CC;
+}
+
+/* 活動小box */
+.event_block {
+	float: left;
+	width: 375px;//250px;
+	height: 103px;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #FFFFF2;
+	//border: 1px solid #D8D5D0;
+	box-shadow: 0px 0px 2px 2px #D8D5D0;
+	overflow: hidden;
+	z-index: 10;
+}
+.event_title {
+	//display: inline;
+	max-width: 193px;
+	height: 57px;
+	overflow: hidden;
+	float: left;
+}
+.event_block h1 {
+	display: inline;
+	font-size: 100%;
+	margin: 0;
+	color: #333333;
+}
+.event_block p {
+	font-size: 92%;
+	padding: 2px 0 2px 0;
+	margin: 3px 0px 0px 0px;
+	color: #333333;
+}
+.event_info {
+	font-size: 90%;
+	float: left;
+	min-width: 100px;
+}
+.event_member_count {
+	float: right; 
+	//line-height: 50px;
+	font-size: 80%;
+	text-align: right;
+	margin-top: 20px;
+	color: #0066CC;
+}
+
+/* 討論版的小box */
+.board_type_title {
+	font-size: 120%;
+	color: #CC0000;
+	clear: left;
+	padding: 7px 0px 5px 0px;
+}
+.board_block {
+	float: left;
+	width: 318px; //250px;
+	height: 103px;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #FFFFF2;
+	//border: 1px solid #D8D5D0;
+	box-shadow: 0px 0px 2px 2px #D8D5D0;
+	overflow: hidden;
+	z-index: 10;
+}
+.board_title {
+	max-width: 210px;
+	height: 89px;
+	overflow: hidden;
+	float: left;
+	margin-left: 5px;
+}
+.board_block a {
+	float: left;
+}
+.board_block h1 {
+	width: 210px;
+	font-size: 145%;
+	margin: auto;
+	color: #333333;
+	text-align: center;
+}
+.board_block p {
+	font-size: 89%;
+	padding: 0;
+	margin: 0;
+	color: #333333;
+}
+.board_popular_level {
+	float: right;
+	font-size: 90%;
+}
+
+/* 使用者首頁 */
+#boy_user_background {
+	background-color: #3c97ad;
+	height: 200px;
+}
+#girl_user_background {
+	background-color: #e88ea2;
+	height: 200px;
+}
+#user_profile_pics {
+	width: 150px;
+	height: 185px;
+	position: relative;
+	left: 25px;
+	top: 45px;
+	margin-right: 0px;
+	padding: 0px;
+	display: inline;
+}
+.user_profile_pic_big {
+	width: 140px;
+	height: 140px;
+	border: 4px solid #FFFFFF;
+}
+.user_profile_pic_small {
+	float: left;
+	padding: 0;
+	margin: 0;
+	width: 32px;
+	height: 32px;
+	border-top: none;
+	border-right: 3px solid #FFFFFF;
+	border-left: 2px solid #FFFFFF;
+	border-bottom: 3px solid #FFFFFF;
+	box-shadow: 0px 0px 2px 1px #D8D5D0;
+	position: relative;
+}
+#username_text {
+//	font-weight: bold;
+	font-size: 120%;
+	color: #FFFFFF;
+	margin-left: 200px;
+}
+#main_tabs {
+	height: 45px;
+	background-color: #FFFFFF;
+	margin-bottom: 2px;
+	box-shadow: 0px 0px 2px 1px #D8D5D0;
+}
+#main_tabs ul {
+	margin: 0;
+	padding-left: 200px;
+}
+#main_tabs ul li {
+	float: left;
+}
+
+
+
+
