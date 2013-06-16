@@ -36,14 +36,14 @@
 	</div>
 	<div id="main_tabs">
 		<ul>
-			<li>關於</li>
-			<li>動態牆</li>
-			<li>相簿</li>
-			<li>朋友</li>
-			<li>群組</li>
-			<li>活動</li>
-			<li>文章</li>
-			<li>討論版</li>
+			<li><a href="#about_panel">關於</a></li>
+			<li><a href="#wall_panel" class="active">動態牆</a></li>
+			<li><a href="#album_panel">相簿</a></li>
+			<li><a href="#friend_panel">朋友</a></li>
+			<li><a href="#group_panel">群組</a></li>
+			<li><a href="#event_panel">活動</a></li>
+			<li><a href="#article_panel">文章</a></li>
+			<li><a href="#board_panel" class="last_tab">討論版</a></li>
 		</ul>
 	</div>
         <div id="home_container">

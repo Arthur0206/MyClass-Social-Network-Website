@@ -677,6 +677,7 @@ li.selected {
 }
 
 /* 使用者首頁 */
+/* 使用者背景圖區域 */
 #boy_user_background {
 	background-color: #3c97ad;
 	height: 200px;
@@ -719,25 +720,32 @@ li.selected {
 	color: #FFFFFF;
 	margin-left: 200px;
 }
+
+/* Main Bar */
 #main_tabs {
-	height: 45px;
+	height: 43px;
 	background-color: #FFFFFF;
 	margin-bottom: 2px;
 	box-shadow: 0px 0px 2px 1px #D8D5D0;
 }
 #main_tabs ul {
 	margin: 0;
-	padding-left: 170px;
-	border-left: 1px solid #D8D5D0;
+	padding-left: 178px;
 }
-#main_tabs ul li {
+#main_tabs a {
+	color: #333333;
 	float: left;
 	padding: 13px;
 	width: 45px;
 	text-align: center;
+	border-left: 1px solid #D8D5D0;
+}
+.last_tab {
 	border-right: 1px solid #D8D5D0;
 }
-
-
+#main_tabs a.active {
+	background-color: #cd6661;
+	color: #ffffff;
+}
 
 
