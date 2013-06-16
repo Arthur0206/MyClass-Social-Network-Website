@@ -9,6 +9,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script> 
 	<script src="../_js/menuBar.js"></script>
 	<script src="../_js/userBackground.js"></script>
+	<script src="../_js/secondBar.js"></script>
         <script>
             $(document).ready(function() {
                 // Process Menu Bar
@@ -16,6 +17,9 @@
 
 		// Process User Background Area
 		preocessUserBackground();
+
+		// Process Second Bar
+		processSecondBar();
             }); // ready
         </script>
     </head>
@@ -34,10 +38,10 @@
 		</div>
 		<div id="username_text">Sosoman<br/>&nbsp&nbsp陳令堯</div>
 	</div>
-	<div id="main_tabs">
+	<div id="second_bar">
 		<ul>
 			<li><a href="#about_panel">關於</a></li>
-			<li><a href="#wall_panel" class="active">動態牆</a></li>
+			<li><a href="#wall_panel">動態牆</a></li>
 			<li><a href="#album_panel">相簿</a></li>
 			<li><a href="#friend_panel">朋友</a></li>
 			<li><a href="#group_panel">群組</a></li>

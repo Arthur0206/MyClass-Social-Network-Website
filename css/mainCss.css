@@ -721,18 +721,18 @@ li.selected {
 	margin-left: 200px;
 }
 
-/* Main Bar */
-#main_tabs {
+/* Second Bar */
+#second_bar {
 	height: 43px;
 	background-color: #FFFFFF;
 	margin-bottom: 2px;
 	box-shadow: 0px 0px 2px 1px #D8D5D0;
 }
-#main_tabs ul {
+#second_bar ul {
 	margin: 0;
 	padding-left: 178px;
 }
-#main_tabs a {
+#second_bar a {
 	color: #333333;
 	float: left;
 	padding: 13px;
@@ -743,7 +743,7 @@ li.selected {
 .last_tab {
 	border-right: 1px solid #D8D5D0;
 }
-#main_tabs a.active {
+#second_bar a.active {
 	background-color: #cd6661;
 	color: #ffffff;
 }
