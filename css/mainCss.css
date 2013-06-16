@@ -291,7 +291,13 @@ li.selected {
 	overflow: hidden;
 }
 .hot-article h1 {
-	font-size: 100%;
+	font-size: 110%;
+	padding: 1px 0px 1px 0px;
+	margin: 0;
+	text-align: center;
+}
+.hot-article h2 {
+	font-size: 95%;
 	padding: 0;
 	margin: 0;
 	color: #333333;
@@ -300,10 +306,10 @@ li.selected {
 	font-size: 85%;
 	padding: 0;
 	margin: 5px 0px 0px 0px;
-	color: #333333;
+	color: #777777;
 }
 .hot-article-words {
-	height: 75px;
+	height: 78px;
 	overflow: hidden;
 }
 .hot-article-good {
@@ -315,7 +321,7 @@ li.selected {
 	color: #61A120;
 }
 .hot-article-info {
-	font-size: 90%;
+	font-size: 85%;
 }
 /* 熱門討論版 */
 .hot-board {
