@@ -283,12 +283,12 @@ li.selected {
 	margin-top: 1px; 
 }
 
-/* 熱門文章 */
+/* 熱門討論版＆文章 */
 .hot-article {
 	float: left;
-	width: 248px;               /* 兩個hot-article div, 所以 2*(width + 2 padding + 2 border + 2 margin) = hot-block的content width, 524 */
-	height: 90px;              /* 三個hot-article div, 所以 3*(height + 2 padding + 2 border + 2 margin) = hot-block的content height, 312 */
-	padding: 5px;
+	width: 258px;               /* 兩個hot-article div, 所以 2*(width + 2 padding + 2 border + 2 margin) = hot-block的content width, 524 */
+	height: 152px;              /* 三個hot-article div, 所以 3*(height + 2 padding + 2 border + 2 margin) = hot-block的content height, 312 */
+	//padding: 0px;
 	margin: 1px;
 	border-radius: 5px 5px 5px 5px;
 	background-color: #FFFFF2;
@@ -296,36 +296,30 @@ li.selected {
 	overflow: hidden;
 }
 .hot-article h1 {
-	font-size: 110%;
-	padding: 1px 0px 1px 0px;
+	font-size: 130%;
+	padding: 2px 1px 2px 1px;
 	margin: 0;
 	text-align: center;
 }
-.hot-article h2 {
-	font-size: 95%;
-	padding: 0;
-	margin: 0;
-	color: #333333;
-}
-.hot-article p {
-	font-size: 85%;
-	padding: 0;
-	margin: 5px 0px 0px 0px;
-	color: #777777;
-}
 .hot-article-words {
-	height: 78px;
+	font-size: 95%;
+	padding: 4px 4px 3px 4px;
 	overflow: hidden;
+	border-bottom: 1px solid #DDDDDD; //#D8D5D0;
+}
+.hot-article-title {
+	color: #333333;
+	font-weight: bold;
 }
 .hot-article-good {
-	float: right;
 	color: #BA3239;
 }
 .hot-article-bad {
-	float: right;
 	color: #61A120;
 }
 .hot-article-info {
+	padding-top: 2px;
+	float: right;
 	font-size: 85%;
 }
 

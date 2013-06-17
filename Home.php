@@ -46,7 +46,7 @@
             <div id="home_container">
                 <div class="hot-title-div">
                     <span id="hot-title-span-1"><img src="Pics/onfire.gif" alt="onfire" class="fire-pic">人氣用戶</span>
-                    <span id="hot-title-span-2"><img src="Pics/onfire.gif" alt="onfire" class="fire-pic">熱門文章</span>
+                    <span id="hot-title-span-2"><img src="Pics/onfire.gif" alt="onfire" class="fire-pic">熱門討論版＆文章</span>
                 </div>
 
                 <!-- 人氣用戶 -->
@@ -111,132 +111,138 @@
 
                 <!-- 熱門文章 -->
                 <div class="hot-block">
-                    <a href="">
                         <div class="hot-article">
 <link rel="stylesheet" href="css/mainCss.css" type="text/css" media="screen" title="no title" charset="utf-8">
-
-                            <div class="hot-article-words">
-								<h1 style="color: #632F34">
-									Joke版
-								</h1>
-                                <h2>
-                                    [神人]台北捷運站清純白衣正妹?
-                                </h2>
-                                <p>
-                                今天下午三點半左右在台北捷運站看到一個穿白色T-shirt + 小短褲的女生.驚為天人~
-                                </p>
-                            </div>
-                            <div class="hot-article-info">
-                                <a class="boy-user-link" href="articleUser.html">ricky0214</a> 發表
-                                <span class="hot-article-good">35推</span>
-                            </div>
-
+				<a href=""><h1 style="background-color: #819351; color: #FFFFFF">
+					 八卦版
+				</h1></a>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[問卦]最近毒澱粉事件鬧得很兇, 請問有沒有相關的八卦？</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="girl-user-link" href="articleUser.html">IloveBlack2</a> 發表
+                                		<span class="hot-article-good">35推</span>
+                            		</span>
+                            	</div>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		馬英九到底是不是Gay?&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="boy-user-link" href="articleUser.html">ricky0214</a> 發表
+                                		<span class="hot-article-bad">298噓</span>
+                            		</span>
+                            	</div>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[新聞]最強混血女神莉亞上圍暴漲 鬆肚皮曝光嚇人</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="boy-user-link" href="articleUser.html">jackytien</a> 發表
+                                		<span class="hot-article-good">35推</span>
+                            		</span>
+                            	</div>
                         </div>
-                    </a>
-                    <a href="">
+
                         <div class="hot-article">
-
-                            <div class="hot-article-words">
-								<h1 style="color: #E28035">
-									帥哥美女版
-								</h1>
-                                <h2>
-                                    [神人]台北捷運站清純白衣正妹?
-                                </h2>
-                                <p>
-                                今天下午三點半左右在台北捷運站看到一個穿白色T-shirt + 小短褲的女生.驚為天人~
-                                </p>
-                            </div>
-                            <div class="hot-article-info">
-                                <a class="boy-user-link" href="articleUser.html">ricky0214</a> 發表
-                                <span class="hot-article-bad">35噓</span>
-                            </div>
-
+				<a href=""><h1 style="background-color: #E28035; color: #FFFFFF">
+					 帥哥美女版
+				</h1></a>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[問卦]最近毒澱粉事件鬧得很兇, 請問有沒有相關的八卦？</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="girl-user-link" href="articleUser.html">IloveBlack2</a> 發表
+                                		<span class="hot-article-good">35推</span>
+                            		</span>
+                            	</div>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		馬英九到底是不是Gay?&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="boy-user-link" href="articleUser.html">ricky0214</a> 發表
+                                		<span class="hot-article-bad">298噓</span>
+                            		</span>
+                            	</div>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[新聞]最強混血女神莉亞上圍暴漲 鬆肚皮曝光嚇人</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="boy-user-link" href="articleUser.html">jackytien</a> 發表
+                                		<span class="hot-article-good">35推</span>
+                            		</span>
+                            	</div>
                         </div>
-                    </a>
-                    <a href="">
+
                         <div class="hot-article">
-
-                            <div class="hot-article-words">
-								<h1 style="color: #E5737D">
-									彩妝版
-								</h1>
-                                <h2>
-                                    [神人]台北捷運站清純白衣正妹?
-                                </h2>
-                                <p>
-                                今天下午三點半左右在台北捷運站看到一個穿白色T-shirt + 小短褲的女生.驚為天人~
-                                </p>
-                            </div>
-                            <div class="hot-article-info">
-                                <a class="girl-user-link" href="articleUser.html">mini158</a> 發表
-                                <span class="hot-article-good">35推</span>
-                            </div>
-
+				<a href=""><h1 style="background-color: #E5737D; color: #FFFFFF">
+					 彩妝版
+				</h1></a>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[問卦]最近毒澱粉事件鬧得很兇, 請問有沒有相關的八卦？</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="girl-user-link" href="articleUser.html">IloveBlack2</a> 發表
+                                		<span class="hot-article-good">35推</span>
+                            		</span>
+                            	</div>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		馬英九到底是不是Gay?&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="boy-user-link" href="articleUser.html">ricky0214</a> 發表
+                                		<span class="hot-article-bad">298噓</span>
+                            		</span>
+                            	</div>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[新聞]最強混血女神莉亞上圍暴漲 鬆肚皮曝光嚇人</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="boy-user-link" href="articleUser.html">jackytien</a> 發表
+                                		<span class="hot-article-good">35推</span>
+                            		</span>
+                            	</div>
                         </div>
-                    </a>
-                    <a href="">
+
                         <div class="hot-article">
-
-                            <div class="hot-article-words">
-								<h1 style="color: #E51937">
-									NBA版
-								</h1>
-                                <h2>
-                                    [神人]台北捷運站清純白衣正妹?
-                                </h2>
-                                <p>
-                                今天下午三點半左右在台北捷運站看到一個穿白色T-shirt + 小短褲的女生.驚為天人~
-                                </p>
-                            </div>
-                            <div class="hot-article-info">
-                                <a class="girl-user-link" href="articleUser.html">mini158</a> 發表
-                                <span class="hot-article-bad">35噓</span>
-                            </div>
-
+				<a href=""><h1 style="background-color: #E51937; color: #FFFFFF">
+					 NBA版
+				</h1></a>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[問卦]最近毒澱粉事件鬧得很兇, 請問有沒有相關的八卦？</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="girl-user-link" href="articleUser.html">IloveBlack2</a> 發表
+                                		<span class="hot-article-good">35推</span>
+                            		</span>
+                            	</div>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		馬英九到底是不是Gay?&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="boy-user-link" href="articleUser.html">ricky0214</a> 發表
+                                		<span class="hot-article-bad">298噓</span>
+                            		</span>
+                            	</div>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[新聞]最強混血女神莉亞上圍暴漲 鬆肚皮曝光嚇人</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="boy-user-link" href="articleUser.html">jackytien</a> 發表
+                                		<span class="hot-article-good">35推</span>
+                            		</span>
+                            	</div>
                         </div>
-                    </a>
-                    <a href="">
-                        <div class="hot-article">
-
-                            <div class="hot-article-words">
-								<h1 style="color: #819351">
-									八卦版
-								</h1>
-                                <h2>
-                                    [神人]台北捷運站清純白衣正妹?
-                                </h2>
-                                <p>
-                                今天下午三點半左右在台北捷運站看到一個穿白色T-shirt + 小短褲的女生.驚為天人~
-                                </p>
-                            </div>
-                            <div class="hot-article-info">
-                                <a class="boy-user-link" href="articleUser.html">booth</a> 發表
-                                <span class="hot-article-good">35推</span>
-                            </div>
-
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="hot-article">
-
-                            <div class="hot-article-words">
-								<h1 style="color: #E28035">
-									帥哥美女版
-								</h1>
-                                <h2>
-                                    [神人]台北捷運站清純白衣正妹?
-                                </h2>
-                                <p>
-                                今天下午三點半左右在台北捷運站看到一個穿白色T-shirt + 小短褲的女生.驚為天人~
-                                </p>
-                            </div>
-                            <div class="hot-article-info">
-                                <a class="boy-user-link" href="articleUser.html">booth</a> 發表
-                                <span class="hot-article-good">35推</span>
-                            </div>
-                        </div>
-                    </a>
                 </div>
 
                 <div class="hot-title-div">
