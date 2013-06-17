@@ -21,43 +21,43 @@
 	/* include top menu bar */ 
 	require_once('../menubar.php'); 
 	?>
-	<div id="user-registration-form" class="form-wrapper">
-		<h1>建立您的帳號,只需要兩分鐘</h1>
+	<div id="user-registration-form" class="form">
+		<br/><h1>建立您的帳號 只需要兩分鐘</h1><br/>
 		<form action="/MyClass/User/registerUser.php" method="post">
-			<div>
+			<div class="row">
 				<label for="name" class="label">我的姓名</label>
-				<input name="name" type="text" id="name" maxlength="32" size="36">
+				<input name="name" type="text" id="name" maxlength="32" size="24">
 			</div>
-			<div>
+			<div class="row">
 				<label for="account" class="label">設定MyClass帳號</label>
-				<input name="account" type="text" id="account" maxlength="32" size="36">
+				<input name="account" type="text" id="account" maxlength="32" size="24">
 			</div>
-			<div>
+			<div class="row">
 				<label for="password" class="label">設定密碼</label>
-				<input name="password" type="password" id="password" maxlength="16" size="36">
+				<input name="password" type="password" id="password" maxlength="16" size="24">
 			</div>
-			<div>
+			<div class="row">
 				<label for="passwordconfirm" class="label">再次輸入密碼</label>
-				<input name="passwordconfirm" type="password" id="passwordconfirm" maxlength="16" size="36">
+				<input name="passwordconfirm" type="password" id="passwordconfirm" maxlength="16" size="24">
 			</div>
-			<div>
+			<div class="row">
 				<label for="email" class="label">電子郵件信箱</label>
-				<input name="email" type="text" id="email"  maxlength="64" size="36">
+				<input name="email" type="text" id="email"  maxlength="64" size="24">
 			</div>
-			<div>
+			<div class="row">
 				<label for="gender" class="label">性別</label>
 				<input name="gender" type="radio" id="male" value="男生">
-				<label for="male">男生</label>
+				<label for="male" class="radio-label">男生</label>
 				<input name="gender" type="radio" id="female" value="女生">
-				<label for="male">女生</label>
+				<label for="male" class="radio-label">女生</label>
 			</div>
-			<div>
+			<div class="row">
 				<label for="month" class="label">生日</label>
 				<input name="month" type="text" id="month" maxlength="2" value="月" size="2">
 				<input name="day" type="text" id="day" maxlength="2" value="日" size="2">
 				<input name="year" type="text" id="year" maxlength="4" value="年" size="8">
 			</div>
-			<div>
+			<div class="row">
 				<label for="country" class="label">所在地區</label>
 				<select name="country">
 					<option value="/tw/">台灣 </option>
@@ -88,14 +88,13 @@
 					<option value="23">南海諸島</option>
 				</select>
 			</div>
-			<div>
-
-			</div>
-			<div>
+			<br/><br/>
+			<div class="row">
 				<input type="checkbox" name="term-of-use" id="term-of-use">
-				<label for="term-of-use">我已閱讀並同意遵守<a href="" target="">MyClass使用服務條款</a></label>
+				<label for="term-of-use" class="checkbox-label">我已閱讀並同意遵守<a href="" target="">MyClass使用服務條款</a></label>
 			</div>
-			<div style="text-align:center">
+			<br/>
+			<div class="center-text-row">
 				<input type="submit" class="submit-button" name="submit-user-form" id="submit-user-form" value="送出">
 			</div>
 		</form>

@@ -1,14 +1,53 @@
 @charset "utf-8";
-.form-wrapper {
-	width: 380px;
+.form {
+	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
 }
-.form-wrapper h1 {
+.form h1 {
+	font-size: 130%;
 	color: #777777;
 }
-.label {
+.form .row {
+	height: 36px;
+}
+.form .center-text-row {
+	text-align: center;
+}
+.form input {
+	font-size: 15px;
+	border-radius: 4px;
+	height: 24px;
+	color: #666666;
+	border: 1px solid #d0d5cb;
+	vertical-align: middle;
+}
+.form select {
+	font-size: 15px;
+	border-radius: 4px;
+	height: 32px;
+	color: #666666;
+	border: 1px solid #d0d5cb;
+	vertical-align: middle;
+	padding: 0.4em;
+}
+.form .checkbox-label, .form .radio-label {
+	vertical-align: middle;
+}
+.form .label {
 	text-align: left;
-	width: 10em;
+	width: 150px;
 	display: inline-block;
+	vertical-align: middle;
+}
+.form .submit-button {
+    background-color: #D14836;
+    background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    border-radius: 2px 2px 2px 2px;
+    font-size: 14px;
+    font-weight: bold;
+	height: 30px;
+	padding: 0px 12px 4px 12px;
 }
