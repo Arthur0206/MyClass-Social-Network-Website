@@ -55,28 +55,28 @@
                             <a href="">
                             <h1>政治大學</h1>
 			    </a>
-                            <span class="hot-group-count">8567人已參加</span>
+                            <span class="hot-group-count">人數 8567人</span>
                         </div>
                         <div class="hot-group">
 			    <a href=""> <img src="./User/Sosoman/head.jpg" width="160px" height="104px"></a>
                             <a href="">
                             <div><h1 class="long_title">中壢高中3年13班-2002畢</h1></div>
 			    </a>
-                            <span class="hot-group-count">47人已參加</span>
+                            <span class="hot-group-count">人數 7人</span>
                         </div>
                         <div class="hot-group">
 			    <a href=""> <img src="./User/NancyLin/head.jpg" width="160px" height="104px"></a>
                             <a href="">
                             <h1>台灣大學醫學系4年級</h1>
 			    </a>
-                            <span class="hot-group-count">45人已參加</span>
+                            <span class="hot-group-count">人數 45人</span>
                         </div>
                         <div class="hot-group">
 			    <a href=""> <img src="./User/KobeIsGod/head.jpg" width="160px" height="104px"></a>
                             <a href="">
                             <h1>成功大學土木系1年級</h1>
 			    </a>
-                            <span class="hot-group-count">64人已參加</span>
+                            <span class="hot-group-count">人數 64人</span>
                         </div>
 
                         <div class="hot-group">
@@ -84,7 +84,7 @@
                             <a href="">
 			    <h1>輔仁大學法律系1年級</h1>
 			    </a>
-                            <span class="hot-group-count">39人已參加</span>
+                            <span class="hot-group-count">人數 39人</span>
                         </div>
 
                         <div class="hot-group">
@@ -92,7 +92,7 @@
                             <a href="">
                             <h1>中興大學歷史系-2006畢</h1>
 			    </a>
-                            <span class="hot-group-count">58人已參加</span>
+                            <span class="hot-group-count">人數 58人</span>
                         </div>
                 </div>
 
