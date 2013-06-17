@@ -9,7 +9,7 @@
 	color: #777777;
 }
 .form .row {
-	height: 36px;
+	height: 40px;
 }
 .form .center-text-row {
 	text-align: center;
@@ -17,7 +17,7 @@
 .form input {
 	font-size: 15px;
 	border-radius: 4px;
-	height: 24px;
+	height: 28px;
 	color: #666666;
 	border: 1px solid #d0d5cb;
 	vertical-align: middle;
@@ -30,6 +30,12 @@
 	border: 1px solid #d0d5cb;
 	vertical-align: middle;
 	padding: 0.4em;
+}
+.select-country {
+	width: 80px;
+}
+.select-region {
+	width: 100px;
 }
 .form .checkbox-label, .form .radio-label {
 	vertical-align: middle;

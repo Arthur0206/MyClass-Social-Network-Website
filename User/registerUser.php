@@ -49,7 +49,7 @@
 				<input name="gender" type="radio" id="male" value="男生">
 				<label for="male" class="radio-label">男生</label>
 				<input name="gender" type="radio" id="female" value="女生">
-				<label for="male" class="radio-label">女生</label>
+				<label for="female" class="radio-label">女生</label>
 			</div>
 			<div class="row">
 				<label for="month" class="label">生日</label>
@@ -59,10 +59,10 @@
 			</div>
 			<div class="row">
 				<label for="country" class="label">所在地區</label>
-				<select name="country">
+				<select name="country" class="select-country">
 					<option value="/tw/">台灣 </option>
 				</select>
-				<select name="region">
+				<select name="region" class="select-region">
 					<option value="1">台北市</option>
 					<option value="2">基隆市</option>
 					<option value="3">新北市</option>
