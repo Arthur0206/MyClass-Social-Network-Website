@@ -243,7 +243,7 @@ li.selected {
 	margin: 10px 0px 0px 25px;
 }
 #hot-title-span-4 {
-	margin: 10px 0px 0px 447px;
+	margin: 10px 0px 0px 388px;
 }
 .fire-pic {
 	margin: 8px 5px 0px 0px;
@@ -329,7 +329,7 @@ li.selected {
 	font-size: 85%;
 }
 
-/* 熱門討論版 */
+/* 熱門群組 */
 .hot-board {
 	float: left;
 	width: 248px;               /* 兩個hot-article div, 所以 2*(width + 2 padding + 2 border + 2 margin) = hot-block的content width, 524 */

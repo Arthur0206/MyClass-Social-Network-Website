@@ -45,212 +45,10 @@
 
             <div id="home_container">
                 <div class="hot-title-div">
-                    <span id="hot-title-span-1"><img src="Pics/onfire.gif" alt="onfire" class="fire-pic">人氣用戶</span>
-                    <span id="hot-title-span-2"><img src="Pics/onfire.gif" alt="onfire" class="fire-pic">熱門討論版＆文章</span>
+                    <span id="hot-title-span-1"><img src="Pics/onfire.gif" alt="onfire" class="fire-pic">熱門群組</span>
+                    <span id="hot-title-span-2"><img src="Pics/onfire.gif" alt="onfire" class="fire-pic">熱門活動</span>
                 </div>
-
-                <!-- 人氣用戶 -->
-                <div class="hot-block">
-                    <div class="hot-user">
-                        <a target="" href="hotUser.html">
-                            <img class="hot-user-pic" width="113" height="110" src="User/NancyLin/head.jpg">
-                        </a>
-                        <a class="girl-user-link" href="hotUser.html">NancyLin</a>
-                        <a class="black-link" href="hotUserGroup.html">台灣大學生科系</a>
-                    </div>
-                    <div class="hot-user">
-                        <a target="" href="hotUser.html">
-                            <img class="hot-user-pic" width="113" height="110" src="User/Mini157/head.jpg">
-                        </a>
-                        <a class="girl-user-link" href="hotUser.html">Mini157</a>
-                        <a class="black-link" href="hotUserGroup.html">淡江大學外文系</a>
-                    </div>
-                    <div class="hot-user">
-                        <a target="" href="hotUser.html">
-                            <img class="hot-user-pic" width="113" height="110" src="User/NinaPrincess/head.jpg">
-                        </a>
-                        <a class="girl-user-link" href="hotUser.html">NinaPrincess</a>
-                        <a class="black-link" href="hotUserGroup.html">中興大學歷史系</a>
-                    </div>
-                    <div class="hot-user">
-                        <a target="" href="hotUser.html">
-                            <img class="hot-user-pic" width="113" height="110" src="User/Ruby0627/head.jpg">
-                        </a>
-                        <a class="girl-user-link" href="hotUser.html">Ruby0627</a>
-                        <a class="black-link" href="hotUserGroup.html">輔仁大學日文系</a>
-                    </div>
-                    <div class="hot-user">
-                        <a target="" href="hotUser.html">
-                            <img class="hot-user-pic" width="113" height="110" src="User/NamiChang1987/head.jpg">
-                        </a>
-                        <a class="girl-user-link" href="hotUser.html">NamiChang1987</a>
-                        <a class="black-link" href="hotUserGroup.html">東華大學財經系</a>
-                    </div>
-                    <div class="hot-user">
-                        <a target="" href="hotUser.html">
-                            <img class="hot-user-pic" width="113" height="110" src="User/Sosoman/head.jpg">
-                        </a>
-                        <a class="boy-user-link" href="hotUser.html">Sosoman</a>
-                        <a class="black-link" href="hotUserGroup.html">中興大學電機系</a>
-                    </div>
-                    <div class="hot-user">
-                        <a target="" href="hotUser.html">
-                            <img class="hot-user-pic" width="113" height="110" src="User/Annie/head.jpg">
-                        </a>
-                        <a class="girl-user-link" href="hotUser.html">Annie</a>
-                        <a class="black-link" href="hotUserGroup.html">世新大學廣電系</a>
-                    </div>
-                    <div class="hot-user">
-                        <a target="" href="hotUser.html">
-                            <img class="hot-user-pic" width="113" height="110" src="User/KobeIsGod/head.jpg">
-                        </a>
-                        <a class="boy-user-link" href="hotUser.html">KobeIsGod</a>
-                        <a class="black-link" href="hotUserGroup.html">台灣大學動物系</a>
-                    </div>
-                </div>
-
-                <!-- 熱門文章 -->
-                <div class="hot-block">
-                        <div class="hot-article">
-<link rel="stylesheet" href="css/mainCss.css" type="text/css" media="screen" title="no title" charset="utf-8">
-				<a href=""><h1 style="background-color: #819351; color: #FFFFFF">
-					 八卦版
-				</h1></a>
-                        	<div class="hot-article-words">
-                                	<a href="articleUser.html"><span class="hot-article-title">
-                                    		[問卦]最近毒澱粉事件鬧得很兇, 請問有沒有相關的八卦？</span>
-					</a>
-                            		<span class="hot-article-info">
-						<a class="girl-user-link" href="articleUser.html">IloveBlack2</a> 發表 &nbsp
-                                		<span class="hot-article-good">35推</span>
-                            		</span>
-                            	</div>
-                        	<div class="hot-article-words">
-                                	<a href="articleUser.html"><span class="hot-article-title">
-                                    		[問卦]馬英九到底是不是Gay?&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
-					</a>
-                            		<span class="hot-article-info">
-						<a class="boy-user-link" href="articleUser.html">ricky0214</a> 發表 &nbsp
-                                		<span class="hot-article-bad">298噓</span>
-                            		</span>
-                            	</div>
-                        	<div class="hot-article-words">
-                                	<a href="articleUser.html"><span class="hot-article-title">
-                                    		[新聞]最強混血女神莉亞上圍暴漲 鬆肚皮曝光嚇人</span>
-					</a>
-                            		<span class="hot-article-info">
-						<a class="boy-user-link" href="articleUser.html">jackytien</a> 發表 &nbsp
-                                		<span class="hot-article-good">35推</span>
-                            		</span>
-                            	</div>
-                        </div>
-
-                        <div class="hot-article">
-				<a href=""><h1 style="background-color: #E28035; color: #FFFFFF">
-					 帥哥美女版
-				</h1></a>
-                        	<div class="hot-article-words">
-                                	<a href="articleUser.html"><span class="hot-article-title">
-                                    		[神人]今天路過西門町 發現一位身材還不錯喝醉酒的正妹</span>
-					</a>
-                            		<span class="hot-article-info">
-						<a class="boy-user-link" href="articleUser.html">sky13795</a> 發表 &nbsp
-                                		<span class="hot-article-good">35推</span>
-                            		</span>
-                            	</div>
-                        	<div class="hot-article-words">
-                                	<a href="articleUser.html"><span class="hot-article-title">
-                                    		[正妹]常腿正妹 第153彈&nbsp&nbsp&nbsp&nbsp&nbsp</span>
-					</a>
-                            		<span class="hot-article-info">
-						<a class="boy-user-link" href="articleUser.html">GT125</a> 發表 &nbsp
-                                		<span class="hot-article-good">96推</span>
-                            		</span>
-                            	</div>
-                        	<div class="hot-article-words">
-                                	<a href="articleUser.html"><span class="hot-article-title">
-                                    		[新聞]輕便學士服這樣好犯規!Candice秀美腿</span>
-					</a>
-                            		<span class="hot-article-info">
-						<a class="boy-user-link" href="articleUser.html">Reich</a> 發表 &nbsp
-                                		<span class="hot-article-good">107推</span>
-                            		</span>
-                            	</div>
-                        </div>
-
-                        <div class="hot-article">
-				<a href=""><h1 style="background-color: #E5737D; color: #FFFFFF">
-					 彩妝版
-				</h1></a>
-                        	<div class="hot-article-words">
-                                	<a href="articleUser.html"><span class="hot-article-title">
-                                    		[心得]挺鼻小臉間下巴!!修容打亮 步驟教學文</span>
-					</a>
-                            		<span class="hot-article-info">
-						<a class="girl-user-link" href="articleUser.html">annasofi</a> 發表 &nbsp
-                                		<span class="hot-article-good">59推</span>
-                            		</span>
-                            	</div>
-                        	<div class="hot-article-words">
-                                	<a href="articleUser.html"><span class="hot-article-title">
-                                    		[問題]請問Lavshuca的蜜粉哪邊還買得到？</span>
-					</a>
-                            		<span class="hot-article-info">
-						<a class="girl-user-link" href="articleUser.html">fuliiioops</a> 發表 &nbsp
-                                		<span class="hot-article-good">19推</span>
-                            		</span>
-                            	</div>
-                        	<div class="hot-article-words">
-                                	<a href="articleUser.html"><span class="hot-article-title">
-                                    		[心得]日本藥妝必買 visee四色腮紅盤</span>
-					</a>
-                            		<span class="hot-article-info">
-						<a class="girl-user-link" href="articleUser.html">fino0127</a> 發表 &nbsp
-                                		<span class="hot-article-good">17推</span>
-                            		</span>
-                            	</div>
-                        </div>
-
-                        <div class="hot-article">
-				<a href=""><h1 style="background-color: #E51937; color: #FFFFFF">
-					 NBA版
-				</h1></a>
-                        	<div class="hot-article-words">
-                                	<a href="articleUser.html"><span class="hot-article-title">
-                                    		[討論]大家渭河這麼討厭熱火?？&nbsp&nbsp&nbsp&nbsp</span>
-					</a>
-                            		<span class="hot-article-info">
-						<a class="girl-user-link" href="articleUser.html">bee12</a> 發表 &nbsp
-                                		<span class="hot-article-good">77推</span>
-                            		</span>
-                            	</div>
-                        	<div class="hot-article-words">
-                                	<a href="articleUser.html"><span class="hot-article-title">
-                                    		[討論]波波比萊里偉大?&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
-					</a>
-                            		<span class="hot-article-info">
-						<a class="boy-user-link" href="articleUser.html">oldeight2009</a> 發表 &nbsp
-                                		<span class="hot-article-good">167推</span>
-                            		</span>
-                            	</div>
-                        	<div class="hot-article-words">
-                                	<a href="articleUser.html"><span class="hot-article-title">
-                                    		[情報]Green打破冠軍賽的三分球紀錄</span>
-					</a>
-                            		<span class="hot-article-info">
-						<a class="boy-user-link" href="articleUser.html">chanon</a> 發表 &nbsp
-                                		<span class="hot-article-good">201推</span>
-                            		</span>
-                            	</div>
-                        </div>
-                </div>
-
-                <div class="hot-title-div">
-                    <span id="hot-title-span-3"><img src="Pics/onfire.gif" alt="onfire" class="fire-pic">熱門討論版</span>
-                    <span id="hot-title-span-4"><img src="Pics/onfire.gif" alt="onfire" class="fire-pic">熱門群組＆活動</span>
-                </div>
-
-                <!-- 熱門討論版 -->
+                <!-- 熱門群組 -->
                 <div class="hot-block">
                     <a href="">
                         <div class="hot-board">
@@ -374,7 +172,7 @@
                     </a>
                 </div>
 
-                <!-- 熱門群組&活動 -->
+                <!-- 熱門活動 -->
                 <div class="hot-block">
                     <div class="hot-event">
                         <a target="" href="hotUser.html">
@@ -447,6 +245,207 @@
                             </p>
                         </div>
                         <span class="hot-event-count">53人已參加</span>                
+                    </div>
+                </div>
+
+                <div class="hot-title-div">
+                    <span id="hot-title-span-3"><img src="Pics/onfire.gif" alt="onfire" class="fire-pic">熱門討論版＆文章</span>
+                    <span id="hot-title-span-4"><img src="Pics/onfire.gif" alt="onfire" class="fire-pic">人氣用戶</span>
+                </div>
+
+                <!-- 熱門討論版＆文章 -->
+                <div class="hot-block">
+                        <div class="hot-article">
+<link rel="stylesheet" href="css/mainCss.css" type="text/css" media="screen" title="no title" charset="utf-8">
+				<a href=""><h1 style="background-color: #819351; color: #FFFFFF">
+					 八卦版
+				</h1></a>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[問卦]最近毒澱粉事件鬧得很兇, 請問有沒有相關的八卦？</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="girl-user-link" href="articleUser.html">IloveBlack2</a> 發表 &nbsp
+                                		<span class="hot-article-good">35推</span>
+                            		</span>
+                            	</div>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[問卦]馬英九到底是不是Gay?&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="boy-user-link" href="articleUser.html">ricky0214</a> 發表 &nbsp
+                                		<span class="hot-article-bad">298噓</span>
+                            		</span>
+                            	</div>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[新聞]最強混血女神莉亞上圍暴漲 鬆肚皮曝光嚇人</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="boy-user-link" href="articleUser.html">jackytien</a> 發表 &nbsp
+                                		<span class="hot-article-good">35推</span>
+                            		</span>
+                            	</div>
+                        </div>
+
+                        <div class="hot-article">
+				<a href=""><h1 style="background-color: #E28035; color: #FFFFFF">
+					 帥哥美女版
+				</h1></a>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[神人]今天路過西門町 發現一位身材還不錯喝醉酒的正妹</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="boy-user-link" href="articleUser.html">sky13795</a> 發表 &nbsp
+                                		<span class="hot-article-good">35推</span>
+                            		</span>
+                            	</div>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[正妹]常腿正妹 第153彈&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="boy-user-link" href="articleUser.html">GT125</a> 發表 &nbsp
+                                		<span class="hot-article-good">96推</span>
+                            		</span>
+                            	</div>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[新聞]輕便學士服這樣好犯規!Candice秀美腿</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="boy-user-link" href="articleUser.html">Reich</a> 發表 &nbsp
+                                		<span class="hot-article-good">107推</span>
+                            		</span>
+                            	</div>
+                        </div>
+
+                        <div class="hot-article">
+				<a href=""><h1 style="background-color: #E5737D; color: #FFFFFF">
+					 彩妝版
+				</h1></a>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[心得]挺鼻小臉尖下巴!!修容打亮 步驟教學文</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="girl-user-link" href="articleUser.html">annasofi</a> 發表 &nbsp
+                                		<span class="hot-article-good">59推</span>
+                            		</span>
+                            	</div>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[問題]請問Lavshuca的蜜粉哪邊還買得到？</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="girl-user-link" href="articleUser.html">fuliiioops</a> 發表 &nbsp
+                                		<span class="hot-article-good">19推</span>
+                            		</span>
+                            	</div>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[心得]日本藥妝必買 visee四色腮紅盤</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="girl-user-link" href="articleUser.html">fino0127</a> 發表 &nbsp
+                                		<span class="hot-article-good">17推</span>
+                            		</span>
+                            	</div>
+                        </div>
+
+                        <div class="hot-article">
+				<a href=""><h1 style="background-color: #E51937; color: #FFFFFF">
+					 NBA版
+				</h1></a>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[討論]大家渭河這麼討厭熱火?？&nbsp&nbsp&nbsp&nbsp</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="girl-user-link" href="articleUser.html">bee12</a> 發表 &nbsp
+                                		<span class="hot-article-good">77推</span>
+                            		</span>
+                            	</div>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[討論]波波比萊里偉大?&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="boy-user-link" href="articleUser.html">oldeight2009</a> 發表 &nbsp
+                                		<span class="hot-article-good">167推</span>
+                            		</span>
+                            	</div>
+                        	<div class="hot-article-words">
+                                	<a href="articleUser.html"><span class="hot-article-title">
+                                    		[情報]Green打破冠軍賽的三分球紀錄</span>
+					</a>
+                            		<span class="hot-article-info">
+						<a class="boy-user-link" href="articleUser.html">chanon</a> 發表 &nbsp
+                                		<span class="hot-article-good">201推</span>
+                            		</span>
+                            	</div>
+                        </div>
+                </div>
+
+                <!-- 人氣用戶 -->
+                <div class="hot-block">
+                    <div class="hot-user">
+                        <a target="" href="hotUser.html">
+                            <img class="hot-user-pic" width="113" height="110" src="User/NancyLin/head.jpg">
+                        </a>
+                        <a class="girl-user-link" href="hotUser.html">NancyLin</a>
+                        <a class="black-link" href="hotUserGroup.html">台灣大學生科系</a>
+                    </div>
+                    <div class="hot-user">
+                        <a target="" href="hotUser.html">
+                            <img class="hot-user-pic" width="113" height="110" src="User/Mini157/head.jpg">
+                        </a>
+                        <a class="girl-user-link" href="hotUser.html">Mini157</a>
+                        <a class="black-link" href="hotUserGroup.html">淡江大學外文系</a>
+                    </div>
+                    <div class="hot-user">
+                        <a target="" href="hotUser.html">
+                            <img class="hot-user-pic" width="113" height="110" src="User/NinaPrincess/head.jpg">
+                        </a>
+                        <a class="girl-user-link" href="hotUser.html">NinaPrincess</a>
+                        <a class="black-link" href="hotUserGroup.html">中興大學歷史系</a>
+                    </div>
+                    <div class="hot-user">
+                        <a target="" href="hotUser.html">
+                            <img class="hot-user-pic" width="113" height="110" src="User/Ruby0627/head.jpg">
+                        </a>
+                        <a class="girl-user-link" href="hotUser.html">Ruby0627</a>
+                        <a class="black-link" href="hotUserGroup.html">輔仁大學日文系</a>
+                    </div>
+                    <div class="hot-user">
+                        <a target="" href="hotUser.html">
+                            <img class="hot-user-pic" width="113" height="110" src="User/NamiChang1987/head.jpg">
+                        </a>
+                        <a class="girl-user-link" href="hotUser.html">NamiChang1987</a>
+                        <a class="black-link" href="hotUserGroup.html">東華大學財經系</a>
+                    </div>
+                    <div class="hot-user">
+                        <a target="" href="hotUser.html">
+                            <img class="hot-user-pic" width="113" height="110" src="User/Sosoman/head.jpg">
+                        </a>
+                        <a class="boy-user-link" href="hotUser.html">Sosoman</a>
+                        <a class="black-link" href="hotUserGroup.html">中興大學電機系</a>
+                    </div>
+                    <div class="hot-user">
+                        <a target="" href="hotUser.html">
+                            <img class="hot-user-pic" width="113" height="110" src="User/Annie/head.jpg">
+                        </a>
+                        <a class="girl-user-link" href="hotUser.html">Annie</a>
+                        <a class="black-link" href="hotUserGroup.html">世新大學廣電系</a>
+                    </div>
+                    <div class="hot-user">
+                        <a target="" href="hotUser.html">
+                            <img class="hot-user-pic" width="113" height="110" src="User/KobeIsGod/head.jpg">
+                        </a>
+                        <a class="boy-user-link" href="hotUser.html">KobeIsGod</a>
+                        <a class="black-link" href="hotUserGroup.html">台灣大學動物系</a>
                     </div>
                 </div>
             </div>
