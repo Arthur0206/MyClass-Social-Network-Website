@@ -50,126 +50,50 @@
                 </div>
                 <!-- 熱門群組 -->
                 <div class="hot-block">
-                    <a href="">
-                        <div class="hot-board">
-                            <h1>
-                                八卦版
-                            </h1>
-                            <p>
-                            分享討論各種八卦 <span class="hot-board-count">爆 2013</span>
-                            </p>
+                        <div class="hot-group">
+			    <a href=""> <img src="./User/Mini157/head.jpg" width="160px" height="104px"></a>
+                            <a href="">
+                            <h1>政治大學</h1>
+			    </a>
+                            <span class="hot-group-count">8567人已參加</span>
                         </div>
-                    </a>
-                    <a href="">
-                        <div class="hot-board">
-                            <h1>
-                                八卦版
-                            </h1>
-                            <p>
-                            分享討論各種八卦 <span class="hot-board-count">爆 2013</span>
-                            </p>
+                        <div class="hot-group">
+			    <a href=""> <img src="./User/Sosoman/head.jpg" width="160px" height="104px"></a>
+                            <a href="">
+                            <h1>中壢高中3年13班-2002畢</h1>
+			    </a>
+                            <span class="hot-group-count">47人已參加</span>
                         </div>
-                    </a>
-                    <a href="">
-                        <div class="hot-board">
-                            <h1>
-                                帥哥美女版
-                            </h1>
-                            <p>
-                            神人,分享,討論美女 <span class="hot-board-count">爆 2013</span>
-                            </p>
+                        <div class="hot-group">
+			    <a href=""> <img src="./User/NancyLin/head.jpg" width="160px" height="104px"></a>
+                            <a href="">
+                            <h1>台灣大學醫學系4年級</h1>
+			    </a>
+                            <span class="hot-group-count">45人已參加</span>
                         </div>
-                    </a>
-                    <a href="">
-                        <div class="hot-board">
-                            <h1>
-                                遊戲版
-                            </h1>
-                            <p>
-                            遊戲討論,組團,... <span class="hot-board-count">爆 2013</span>
-                            </p>
+                        <div class="hot-group">
+			    <a href=""> <img src="./User/KobeIsGod/head.jpg" width="160px" height="104px"></a>
+                            <a href="">
+                            <h1>成功大學土木系1年級</h1>
+			    </a>
+                            <span class="hot-group-count">64人已參加</span>
                         </div>
-                    </a>
-                    <a href="">
-                        <div class="hot-board">
-                            <h1>
-                                Hate版
-                            </h1>
-                            <p>
-                            有不爽的是就來這裡吧 <span class="hot-board-count">爆 2013</span>
-                            </p>
+
+                        <div class="hot-group">
+			    <a href=""> <img src="./User/Annie/head.jpg" width="160px" height="104px"></a>
+                            <a href="">
+			    <h1>輔仁大學法律系1年級</h1>
+			    </a>
+                            <span class="hot-group-count">39人已參加</span>
                         </div>
-                    </a>
-                    <a href="">
-                        <div class="hot-board">
-                            <h1>
-                                Sex版
-                            </h1>
-                            <p>
-                            18禁 <span class="hot-board-count">爆 2013</span>
-                            </p>
+
+                        <div class="hot-group">
+			    <a href=""> <img src="./User/NinaPrincess/head.jpg" width="160px" height="104px"></a>
+                            <a href="">
+                            <h1>中興大學歷史系-2006畢</h1>
+			    </a>
+                            <span class="hot-group-count">58人已參加</span>
                         </div>
-                    </a>
-                    <a href="">
-                        <div class="hot-board">
-                            <h1>
-                                Joke版
-                            </h1>
-                            <p>
-                            輕鬆一下 <span class="hot-board-count">爆 2013</span>
-                            </p>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="hot-board">
-                            <h1>
-                                美食版
-                            </h1>
-                            <p>
-                            晚餐該吃什麼呢？ <span class="hot-board-count">爆 2013</span>
-                            </p>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="hot-board">
-                            <h1>
-                                旅遊版
-                            </h1>
-                            <p>
-                            國內外旅遊 <span class="hot-board-count">爆 2013</span>
-                            </p>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="hot-board">
-                            <h1>
-                                旅遊版
-                            </h1>
-                            <p>
-                            國內外旅遊 <span class="hot-board-count">爆 2013</span>
-                            </p>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="hot-board">
-                            <h1>
-                                旅遊版
-                            </h1>
-                            <p>
-                            國內外旅遊 <span class="hot-board-count">爆 2013</span>
-                            </p>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="hot-board">
-                            <h1>
-                                旅遊版
-                            </h1>
-                            <p>
-                            國內外旅遊 <span class="hot-board-count">爆 2013</span>
-                            </p>
-                        </div>
-                    </a>
                 </div>
 
                 <!-- 熱門活動 -->
@@ -255,7 +179,7 @@
 
                 <!-- 熱門討論版＆文章 -->
                 <div class="hot-block">
-                        <div class="hot-article">
+                        <div class="hot-board">
 <link rel="stylesheet" href="css/mainCss.css" type="text/css" media="screen" title="no title" charset="utf-8">
 				<a href=""><h1 style="background-color: #819351; color: #FFFFFF">
 					 八卦版
@@ -289,7 +213,7 @@
                             	</div>
                         </div>
 
-                        <div class="hot-article">
+                        <div class="hot-board">
 				<a href=""><h1 style="background-color: #E28035; color: #FFFFFF">
 					 帥哥美女版
 				</h1></a>
@@ -322,7 +246,7 @@
                             	</div>
                         </div>
 
-                        <div class="hot-article">
+                        <div class="hot-board">
 				<a href=""><h1 style="background-color: #E5737D; color: #FFFFFF">
 					 彩妝版
 				</h1></a>
@@ -355,7 +279,7 @@
                             	</div>
                         </div>
 
-                        <div class="hot-article">
+                        <div class="hot-board">
 				<a href=""><h1 style="background-color: #E51937; color: #FFFFFF">
 					 NBA版
 				</h1></a>
