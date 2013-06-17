@@ -287,7 +287,7 @@ li.selected {
 }
 
 /* 熱門討論版＆文章 */
-.hot-article {
+.hot-board {
 	float: left;
 	width: 258px;               /* 兩個hot-article div, 所以 2*(width + 2 padding + 2 border + 2 margin) = hot-block的content width, 524 */
 	height: 152px;              /* 三個hot-article div, 所以 3*(height + 2 padding + 2 border + 2 margin) = hot-block的content height, 312 */
@@ -298,10 +298,10 @@ li.selected {
 	border: 1px solid #D8D5D0;
 	overflow: hidden;
 }
-.hot-article h1 {
-//	font-weight: normal;
-	font-size: 130%;
-	padding: 3px 1px 3px 1px;
+.hot-board h1 {
+	font-weight: normal;
+	font-size: 120%;
+	padding: 4px 1px 4px 1px;
 	margin: 0;
 	text-align: center;
 }
@@ -330,32 +330,30 @@ li.selected {
 }
 
 /* 熱門群組 */
-.hot-board {
+.hot-group {
 	float: left;
-	width: 248px;               /* 兩個hot-article div, 所以 2*(width + 2 padding + 2 border + 2 margin) = hot-block的content width, 524 */
-	height: 38px;              /* 六個hot-article div, 所以 6*(height + 2 padding + 2 border + 2 margin) = hot-block的content height, 312 */
+	width: 160px;
+	height: 142px;
 	padding: 5px;
-	margin: 1px;
+	margin: 1px 0px 1px 2px;
 	border-radius: 5px 5px 5px 5px;
 	background-color: #FFFFF2;
 	border: 1px solid #D8D5D0;
 	overflow: hidden;
 }
-.hot-board h1{
-	font-size: 100%;
-	padding: 0;
+.hot-group h1{
+	font-size: 95%;
+	padding: 6px 0 3px 0;
 	margin: 0;
 	color: #333333;
+	width: 159px;
+	text-align: center;
 }
-.hot-board p {
-	font-size: 85%;
-	padding: 0;
-	margin: 5px 0px 0px 0px;
-	color: #333333;
-}
-.hot-board-count {
+.hot-group-count {
 	float: right;
-	color: #61A120;
+	padding-right: 3px;
+	color:  #0066CC; //#61A120;
+	font-size: 80%;
 }
 
 /* 熱門活動 */
@@ -714,6 +712,7 @@ li.selected {
 	width: 140px;
 	height: 140px;
 	border: 4px solid #FFFFFF;
+//	border-radius: 5px;// 2px 2px 2px;
 }
 .user_profile_pic_small {
 	float: left;
