@@ -1,8 +1,13 @@
 @charset "utf-8";
 .form {
-	width: 400px;
+	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.form .info-msg {
+	display: none;
+	color: #999999;
+	font-size: 85%;
 }
 .form h1 {
 	font-size: 130%;
@@ -15,6 +20,7 @@
 	text-align: center;
 }
 .form input {
+	padding: 0px 0px 0px 6px;
 	font-size: 15px;
 	border-radius: 4px;
 	height: 28px;
@@ -30,6 +36,7 @@
 	border: 1px solid #d0d5cb;
 	vertical-align: middle;
 	padding: 0.4em;
+	background: #FFFFFF;
 }
 .select-country {
 	width: 80px;
@@ -42,7 +49,7 @@
 }
 .form .label {
 	text-align: left;
-	width: 150px;
+	width: 130px;
 	display: inline-block;
 	vertical-align: middle;
 }
