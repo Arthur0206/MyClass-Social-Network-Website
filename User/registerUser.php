@@ -9,10 +9,13 @@
     <link href="../css/form.css" type="text/css" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script> 
 	<script src="../_js/menuBar.js"></script>
+	<script src="../_js/form.js"></script>
     <script>
         $(document).ready(function() {
             // Process Menu Bar
 			processMenuBar();
+			// Process Form
+			processForm();
         }); // ready
     </script>
 </head>
@@ -26,15 +29,18 @@
 		<form action="/MyClass/User/registerUser.php" method="post">
 			<div class="row">
 				<label for="name" class="label">我的姓名</label>
-				<input name="name" type="text" id="name" maxlength="32" size="24">
+				<input name="name" class="need-clean has-info" type="text" id="name" maxlength="32" value="ex. 張君雅" size="24">
+				<span class="info-msg">請輸入您的真實姓名,以方便您的朋友順利找照您</span>
 			</div>
 			<div class="row">
 				<label for="account" class="label">設定MyClass帳號</label>
-				<input name="account" type="text" id="account" maxlength="32" size="24">
+				<input name="account" class="has-info" type="text" id="account" maxlength="32" size="24">
+				<span class="info-msg">您可以使用大小寫字母和數字</span>
 			</div>
 			<div class="row">
 				<label for="password" class="label">設定密碼</label>
-				<input name="password" type="password" id="password" maxlength="16" size="24">
+				<input name="password" class="has-info" type="password" id="password" maxlength="16" size="24">
+				<span class="info-msg">請用3到16字元,您可以使用大小寫字母,數字,及特殊字元</span>
 			</div>
 			<div class="row">
 				<label for="passwordconfirm" class="label">再次輸入密碼</label>
@@ -42,7 +48,8 @@
 			</div>
 			<div class="row">
 				<label for="email" class="label">電子郵件信箱</label>
-				<input name="email" type="text" id="email"  maxlength="64" size="24">
+				<input name="email" class="has-info" type="text" id="email"  maxlength="64" size="24">
+				<span class="info-msg">系統將寄送確認信到您的信箱以完成註冊</span>
 			</div>
 			<div class="row">
 				<label for="gender" class="label">性別</label>
@@ -53,16 +60,17 @@
 			</div>
 			<div class="row">
 				<label for="month" class="label">生日</label>
-				<input name="month" type="text" id="month" maxlength="2" value="月" size="2">
-				<input name="day" type="text" id="day" maxlength="2" value="日" size="2">
-				<input name="year" type="text" id="year" maxlength="4" value="年" size="8">
+				<input name="month" class="need-clean has-info" type="text" id="month" maxlength="2" value="月" size="2">
+				<input name="day" class="need-clean has-info" type="text" id="day" maxlength="2" value="日" size="2">
+				<input name="year" class="need-clean has-info" type="text" id="year" maxlength="4" value="年" size="8">
+				<span class="info-msg">ex. 03 20 1994</span>
 			</div>
 			<div class="row">
 				<label for="country" class="label">所在地區</label>
-				<select name="country" class="select-country">
+				<select name="country" class="select-country has-info">
 					<option value="/tw/">台灣 </option>
 				</select>
-				<select name="region" class="select-region">
+				<select name="region" class="select-region has-info">
 					<option value="1">台北市</option>
 					<option value="2">基隆市</option>
 					<option value="3">新北市</option>
@@ -87,6 +95,7 @@
 					<option value="22">連江縣</option>
 					<option value="23">南海諸島</option>
 				</select>
+				<span class="info-msg">提供您的所在縣市能讓MyClass的服務更完善</span>
 			</div>
 			<br/><br/>
 			<div class="row">
