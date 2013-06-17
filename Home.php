@@ -60,7 +60,7 @@
                         <div class="hot-group">
 			    <a href=""> <img src="./User/Sosoman/head.jpg" width="160px" height="104px"></a>
                             <a href="">
-                            <h1>中壢高中3年13班-2002畢</h1>
+                            <div><h1 class="long_title">中壢高中3年13班-2002畢</h1></div>
 			    </a>
                             <span class="hot-group-count">47人已參加</span>
                         </div>

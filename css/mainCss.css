@@ -341,13 +341,19 @@ li.selected {
 	border: 1px solid #D8D5D0;
 	overflow: hidden;
 }
-.hot-group h1{
+.hot-group div {
+	height: 26px;
+}
+.hot-group h1 {
 	font-size: 95%;
 	padding: 6px 0 3px 0;
 	margin: 0;
 	color: #333333;
 	width: 159px;
 	text-align: center;
+}
+.hot-group h1.long_title {
+	text-align: left;
 }
 .hot-group-count {
 	float: right;
