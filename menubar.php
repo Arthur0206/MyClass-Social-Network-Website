@@ -59,7 +59,7 @@
             </ul>
             <ul class="dropdown">
                 <li>
-                <a href='login/register.php'>註冊</a>
+                <a href='/MyClass/User/registerUser.php'>註冊</a>
                 </li>
                 <li>
                 <a href='login/login.php'>登入</a>
