@@ -8,6 +8,9 @@ body {
 	min-height: 700px;
 	min-width: 960px;
 }
+#menubar {
+	box-shadow: 0px 0px 2px 1px #D8D5D0;
+}
 #title_text {
 	font: 25px/25px;
 	margin: 18px 0px -5px 20px;

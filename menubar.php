@@ -1,5 +1,5 @@
         <header id="masthead">
-        <div>
+        <div id="menubar">
             <a id="logo" href="/MyClass/Home.php">
                 <img src="/MyClass/Pics/MyClassLogo.png" alt="MyClass" height="50">
             </a>
