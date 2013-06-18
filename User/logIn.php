@@ -16,7 +16,7 @@
             // Process Menu Bar
 			processMenuBar();
 			// Process Form
-			processForm();
+			processLogInForm();
         }); // ready
     </script>
 </head>
@@ -26,7 +26,7 @@
 	require_once('../menubar.php'); 
 	?>
 	<div id="log-in-form-wrapper" class="form-wrapper">
-		<br/><h1>登入</h1><br/>
+		<h1>登入</h1><br/>
 		<form action="/MyClass/User/logIn.php" method="post" name="logIn-form" id="logIn-form">
 			<div class="row">
 				<label for="account" class="describe-label">帳號</label>
@@ -34,7 +34,7 @@
 			</div>
 			<div class="row">
 				<label for="password" class="describe-label">密碼</label>
-				<input name="password" type="password" id="account" maxlength="32" size="24">
+				<input name="password" type="password" id="password" maxlength="32" size="24">
 			</div>
 			<div class="row">
 				<input type="checkbox" name="stay-sign-in" id="stay-sign-in">
@@ -46,6 +46,7 @@
 				<input type="submit" class="submit-button" name="submitLogInForm" id="submitLogInForm" value="送出">
 			</div>
 		</form>
+		<div><a href="" style="float: right; margin-top: 15px; font-size: 90%;">無法登入</a></div>
 	</div>
 </body>
 </html>
