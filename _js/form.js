@@ -24,6 +24,7 @@ function processLogInForm(){
 			}
 		}
 	});
+	$('input').eq(0).focus();
 }
 
 function processRegisterForm(){
@@ -219,4 +220,6 @@ function processRegisterForm(){
 			}
 		}
 	}); //end validate
+
+	$('input').eq(0).focus();
 }
