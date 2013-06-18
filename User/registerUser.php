@@ -31,7 +31,7 @@
 			<div class="row">
 				<label for="name" class="describe-label">我的姓名</label>
 				<input name="name" class="need-clean has-info" type="text" id="name" maxlength="32" value="ex. 張君雅" size="24">
-				<span class="info-msg">請輸入您的真實姓名,以方便您的朋友順利找照您</span>
+				<span class="info-msg">請輸入您的真實姓名,以方便您的朋友順利找到您</span>
 			</div>
 			<div class="row">
 				<label for="account" class="describe-label">設定MyClass帳號</label>

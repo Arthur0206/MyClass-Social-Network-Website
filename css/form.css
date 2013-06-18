@@ -4,9 +4,7 @@
 	position: absolute;
 }
 .form-wrapper {
-	width: 800px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 400px;
 }
 .form-wrapper h1 {
 	font-size: 130%;
@@ -76,4 +74,6 @@ form .submit-button {
     font-weight: bold;
 	height: 30px;
 	padding: 0px 12px 4px 12px;
+	float: left;
+	margin-left: 170px;
 }
