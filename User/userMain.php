@@ -68,7 +68,10 @@
 			</div>
 			<div class="about_block">
 				<h1>關於我</h1>
-				<p>我喜歡認識新朋友~</p>
+				<div style="width:95%">
+				<p>我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~</p>
+				</div>
+				<div style="float:right">編輯</div>
 			</div>
 			<div class="about_block">
 				<h1>基本資料</h1>
@@ -79,6 +82,7 @@
 				<tr><td class="entry_title">感情狀態</td><td>單身</td></tr>
 				<tr><td class="entry_title">地區</td><td>台灣, 桃園縣</td></tr>
 				</table>
+				<div style="float:right">編輯</div>
 			</div>
 			<div class="about_block">
 				<h1>學校班級</h1>
