@@ -61,9 +61,9 @@
 			</div>
 			<div class="row">
 				<label for="month" class="describe-label">生日</label>
-				<input name="month" class="need-clean has-info" type="text" id="month" maxlength="2" value="月" size="2">
-				<input name="day" class="need-clean has-info" type="text" id="day" maxlength="2" value="日" size="2">
-				<input name="year" class="need-clean has-info" type="text" id="year" maxlength="4" value="年" size="8">
+				<input name="month" class="need-clean has-info number-only" type="text" id="month" maxlength="2" value="月" size="2">
+				<input name="day" class="need-clean has-info number-only" type="text" id="day" maxlength="2" value="日" size="2">
+				<input name="year" class="need-clean has-info number-only" type="text" id="year" maxlength="4" value="年" size="8">
 				<span class="info-msg">ex. 03 27 1994</span>
 			</div>
 			<div class="row">

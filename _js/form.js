@@ -1,4 +1,14 @@
 function processForm(){
+	$('.number-only').keyup(function() {
+		this.value = this.value.replace(/[^0-9\.]/g,'');
+	}); //end keyup
+
+	$('#day, #month').blur(function() {
+		if ($(this).val().length < 2) {
+			$(this).val("0" + $(this).val());
+		}
+	}); //end blur
+	
 	$('.need-clean').focus(function() {
 		var field = $(this);
 		if (field.val()==field.prop('defaultValue')) {
@@ -33,6 +43,7 @@ function processForm(){
 		},
 		rules: {
 			name: {
+				required: true,
 				notEqual: "ex. 張君雅"
 			},
 			account: {
@@ -54,13 +65,19 @@ function processForm(){
 				required: true
 			},
 			month: {
-				notEqual: "月"
+				required: true,
+				notEqual: "月",
+				range: [1,12]
 			},
 			day: {
-				notEqual: "日"
+				required: true,
+				notEqual: "日",
+				range: [1,31]
 			},
 			year: {
-				notEqual: "年"
+				required: true,
+				notEqual: "年",
+				range: [1900,2050]
 			},
 			termOfUse: {
 				required: true
@@ -71,6 +88,7 @@ function processForm(){
 		}, //end rules
 		messages: {
 			name: {
+				required: "請輸入您的姓名",
 				notEqual: "請輸入您的姓名"
 			},
 			account: {
@@ -92,13 +110,19 @@ function processForm(){
 				required: "請選擇您的性別"
 			},
 			month: {
-				notEqual: "請輸入您的生日"
+				required: "請輸入您的生日",
+				notEqual: "請輸入您的生日",
+				range: "請輸入合理的日期"
 			},
 			day: {
-				notEqual: "請輸入您的生日"
+				required: "請輸入您的生日",
+				notEqual: "請輸入您的生日",
+				range: "請輸入合理的日期"
 			},
 			year: {
-				notEqual: "請輸入您的生日"
+				required: "請輸入您的生日",
+				notEqual: "請輸入您的生日",
+				range: "請輸入合理的日期"
 			},
 			termOfUse: {
 				required: "請閱讀MyClass使用服務條款並勾選此欄位"
