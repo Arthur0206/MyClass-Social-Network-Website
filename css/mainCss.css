@@ -698,18 +698,18 @@ li.selected {
 /* 使用者背景圖區域 */
 #boy_user_background {
 	background-color: #3c97ad;
-	height: 200px;
+	height: 185px;
 }
 #girl_user_background {
 	background-color: #e88ea2;
-	height: 200px;
+	height: 185px;
 }
 #user_profile_pics {
 	width: 150px;
 	height: 185px;
 	position: relative;
-	left: 32px;
-	top: 48px;
+	left: 30px;
+	top: 32px;
 	margin-right: 0px;
 	padding: 0px;
 	display: inline;
@@ -738,6 +738,8 @@ li.selected {
 	font-size: 120%;
 	color: #FFFFFF;
 	margin-left: 200px;
+	position: relative;
+	top: -20px;
 }
 
 /* Second Bar */
@@ -768,4 +770,105 @@ li.selected {
 }
 .panel {
 	height: 795px;
+}
+
+/* 隱私設定按鈕 */
+.setting_panel {
+	height: 40px;
+}
+.private_button {
+	float: right;
+	font-size: 110%;
+	width: 118px;
+	height: 25px;
+	margin: 10px;
+	text-align: center;
+	border-radius: 30px;
+	box-shadow: 0px 0px 2px 1px #acacac;//#D8D5D0;
+	background-color: #edebe2;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	cursor: pointer;
+}
+.private_button img {
+	margin-top: 2px;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	left: -3px;
+}
+.private_button span {
+	position: relative;
+	top: -4px;
+}
+.private_list {
+	border-radius: 4px;
+	box-shadow: 0px 0px 2px 1px #acacac;//#D8D5D0;
+	position: relative;
+	//top: 46px;
+	//left: 440px;
+	//width: 395px;
+	padding: 5px;
+	display: none;
+}
+.private_list span {
+	padding: 6px;
+}
+.private_title {
+	color: #3c97ad;
+	min-width: 207px;
+}
+.private_option {
+	cursor: pointer;
+}
+.private_option.selected {
+	color: #3c97ad;
+	font-weight: bold;
+}
+
+/* 關於頁面 */
+#about_panel {
+	width: 850px;
+	margin: auto;
+}
+
+/* 動態牆頁面 */
+#wall_panel {
+	width: 950px;
+	margin: auto;
+}
+
+/* 相簿頁面 */
+#album_panel {
+	width: 950px;
+	margin: auto;
+}
+
+/* 朋友頁面 */
+#friend_panel {
+	width: 950px;
+	margin: auto;
+}
+
+/* 群組頁面 */
+#group_panel {
+	width: 950px;
+	margin: auto;
+}
+
+/* 活動頁面 */
+#event_panel {
+	width: 950px;
+	margin: auto;
+}
+
+/* 文章頁面 */
+#article_panel {
+
+}
+
+/* 討論版頁面 */
+#board_panel {
+	width: 950px;
+	margin: auto;
 }
