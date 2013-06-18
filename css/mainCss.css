@@ -812,20 +812,22 @@ li.selected {
 	display: none;
 	-webkit-user-select: none;
 	z-index: 100;
+	//background-color: #D8D5D0;
 }
 .private_list span {
-	padding: 6px;
+	padding: 5px;
 	line-height: 1.6em;
 }
 .private_title {
 	color: #3c97ad;
 	min-width: 207px;
+	margin-left: 4px;
 }
 .private_option {
 	cursor: pointer;
 }
 .private_option.selected {
-	color: #3c97ad;
+	color: #3c97ad; 
 	font-weight: bold;
 }
 
@@ -835,9 +837,25 @@ li.selected {
 	margin: auto;
 }
 .about_block {
-	border-radius: 6px;
+	border-radius: 5px;
 	border: 1px solid #D8D5D0;
+	margin-bottom: 20px;
 	z-index: 2;
+}
+.about_block h1 {
+	font-size: 110%;
+	margin: 10px;
+}
+.about_block p {
+	margin: 8px 10px 8px 10px;
+//	color: #6a7480;
+}
+.about_block table {
+	margin: 5px 7px 5px 7px;
+}
+.entry_title {
+	color: #999; //#b6b6ae;
+	width: 200px;
 }
 
 /* 動態牆頁面 */
