@@ -6,10 +6,12 @@
         <meta name="keywords" content="group,club,blog,meetup,event,board,friends,social,chat,news,student,class,版,群組,朋友,交友,班級,班版,討論版,活動,學生,聯誼,同學,同學會,社團" />
         <title>MyClass - 讓妳認識很多新朋友!</title>
         <link href="../css/mainCss.css" type="text/css" rel="stylesheet">
+        <link href="../css/about.css" type="text/css" rel="stylesheet">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script> 
 	<script src="../_js/menuBar.js"></script>
 	<script src="../_js/userBackground.js"></script>
 	<script src="../_js/secondBar.js"></script>
+	<script src="../_js/settingPanel.js"></script>
         <script>
             $(document).ready(function() {
                 // Process Menu Bar
@@ -20,6 +22,9 @@
 
 		// Process Second Bar
 		processSecondBar();
+
+		// Process Setting Panel
+		processSettingPanel();
             }); // ready
         </script>
     </head>
@@ -30,7 +35,7 @@
 	?>
         <div id="boy_user_background">
 		<div id="user_profile_pics">
-		<img class="user_profile_pic_big" src="./Sosoman/head.jpg"><br/>
+		<img class="user_profile_pic_big" src="./Sosoman/head.jpg"></br>
 		<img class="user_profile_pic_small" src="./Sosoman/head1.jpg">
 		<img class="user_profile_pic_small" src="./Sosoman/head2.jpg">
 		<img class="user_profile_pic_small" src="./Sosoman/head3.jpg">
@@ -50,64 +55,74 @@
 			<li><a href="#board_panel" class="last_tab">討論版</a></li>
 		</ul>
 	</div>
-        <div id="home_container">
+
 		<div id="about_panel" class="panel">
-		</br></br></br></br></br>
-		關於
+			<div class="setting_panel">
+				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
+				<div class="private_list" style="width:395px;top:41px;left:440px"> <!-- 用js來計算並填入width, top, left -->
+					<span class="private_title">我的『關於』頁面隱私設定：</span>
+					<span class="private_option selected">公開</span>
+					<span class="private_option">限朋友可見</span>
+					<span class="private_option">隱藏</span>
+				</div>
+			</div>
+			<div class="about_block">
+				<h1>關於我</h1>
+				<p>我喜歡認識新朋友</p>
+			</div>
 		</div>
 		<div id="wall_panel" class="panel">
-		</br></br>
-		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-動態牆-</br>
+			<div class="setting_panel">
+				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
+				<div class="private_list" style="width:305px;top:41px;left:630px"> <!-- 用js來計算並填入width, top, left -->
+					<span class="private_title">我個人的動態：</span>
+					<span class="private_option selected">公開</span>
+					<span class="private_option">限朋友可見</span>
+					<span class="private_option">隱藏</span></br>
+					<span class="private_title">所有人的動態：</span>
+					<span class="private_option selected">公開</span>
+					<span class="private_option">限朋友可見</span>
+					<span class="private_option">隱藏</span>
+				</div>
+			</div>
+		動態牆
 		</div>
 		<div id="album_panel" class="panel">
-		</br></br></br></br></br>
+			<div class="setting_panel">
+				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
+			</div>
 		相簿
 		</div>
 		<div id="friend_panel" class="panel">
-		</br></br></br></br></br>
+			<div class="setting_panel">
+				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
+			</div>
 		朋友
 		</div>
 		<div id="group_panel" class="panel">		
-		</br></br></br></br></br>
+			<div class="setting_panel">
+				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
+			</div>
 		群組
 		</div>
 		<div id="event_panel" class="panel">
-		</br></br></br></br></br>
+			<div class="setting_panel">
+				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
+			</div>
 		活動
 		</div>
 		<div id="article_panel" class="panel">
-		</br></br></br></br></br>
+			<div class="setting_panel">
+				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
+			</div>
 		文章
 		</div>
 		<div id="board_panel" class="panel">
-		</br></br></br></br></br>
+			<div class="setting_panel">
+				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
+			</div>
 		討論版
 		</div>
-        </div>
+ 
     </body>
 </html>
