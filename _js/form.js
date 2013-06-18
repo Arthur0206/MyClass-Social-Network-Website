@@ -5,7 +5,28 @@
 //input field which only contain 0-9 has class .number-only
 //if the info msg need to be put in next line, add a <br/> before all info messages.
 
-function processForm(){
+function processLogInForm(){
+	$('#logIn-form').validate({
+		rules: {
+			account: {
+				required: true
+			},
+			password: {
+				required: true
+			}
+		},
+		messages: {
+			account: {
+				required: "請輸入您的帳號"
+			},
+			password: {
+				required: "請輸入您的密碼"
+			}
+		}
+	});
+}
+
+function processRegisterForm(){
 
  	//allow number only in .number-only input field.
 	$('.number-only').keyup(function() {

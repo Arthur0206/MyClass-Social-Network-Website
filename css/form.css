@@ -3,7 +3,7 @@
 	display: block;
 }
 #logIn-form .row {
-	height: 60px;
+	height: 70px;
 }
 #log-in-form-wrapper {
 	float: right;
@@ -11,10 +11,10 @@
     background: none repeat scroll 0 0 #F1F1F1;
     border: 1px solid #E5E5E5;
     margin: 120px 150px 20px 40px;
-    padding: 0px 30px 30px 30px;
+    padding: 10px 30px 20px 30px;
 }
 #logIn-form .submit-button {
-	float: right;
+	float: left;
 }
 #register-form .submit-button {
 	float: left;

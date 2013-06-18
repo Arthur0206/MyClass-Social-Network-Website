@@ -16,7 +16,7 @@
             // Process Menu Bar
 			processMenuBar();
 			// Process Form
-			processForm();
+			processRegisterForm();
         }); // ready
     </script>
 </head>
