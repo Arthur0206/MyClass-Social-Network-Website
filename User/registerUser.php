@@ -53,7 +53,7 @@
 				<span class="info-msg">系統將寄送確認信到您的信箱以完成註冊</span>
 			</div>
 			<div class="row">
-				<label for="gender" class="describe-label">性別</label>
+				<label for="male" class="describe-label">性別</label>
 				<input name="gender" type="radio" id="male" value="男生">
 				<label for="male" class="radio-label">男生</label>
 				<input name="gender" type="radio" id="female" value="女生">
@@ -68,10 +68,10 @@
 			</div>
 			<div class="row">
 				<label for="country" class="describe-label">所在地區</label>
-				<select name="country" class="select-country has-info">
+				<select name="country" style="width: 80px;" class="has-info" id="country">
 					<option value="/tw/">台灣 </option>
 				</select>
-				<select name="region" class="select-region has-info">
+				<select name="region" style="width: 100px;" class="has-info">
 					<option value="0">選擇縣市</option>
 					<option value="1">台北市</option>
 					<option value="2">基隆市</option>
@@ -102,7 +102,7 @@
 			<br/><br/>
 			<div class="row">
 				<input type="checkbox" name="termOfUse" id="termOfUse">
-				<label for="term-of-use" class="checkbox-label">
+				<label for="termOfUse" class="checkbox-label">
 					我已閱讀並同意遵守<a href="" target="">MyClass使用服務條款</a>
 				</label>
 			</div>
