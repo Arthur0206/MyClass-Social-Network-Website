@@ -35,7 +35,7 @@
 	?>
         <div id="boy_user_background">
 		<div id="user_profile_pics">
-		<img class="user_profile_pic_big" src="./Sosoman/head.jpg"><br/>
+		<img class="user_profile_pic_big" src="./Sosoman/head.jpg"></br>
 		<img class="user_profile_pic_small" src="./Sosoman/head1.jpg">
 		<img class="user_profile_pic_small" src="./Sosoman/head2.jpg">
 		<img class="user_profile_pic_small" src="./Sosoman/head3.jpg">
@@ -59,19 +59,22 @@
 		<div id="about_panel" class="panel">
 			<div class="setting_panel">
 				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
-				<div class="private_list" style="width:390px;top:41px;left:440px"> <!-- 用js來計算並填入width, top, left -->
+				<div class="private_list" style="width:395px;top:41px;left:440px"> <!-- 用js來計算並填入width, top, left -->
 					<span class="private_title">我的『關於』頁面隱私設定：</span>
 					<span class="private_option selected">公開</span>
 					<span class="private_option">限朋友可見</span>
 					<span class="private_option">隱藏</span>
 				</div>
 			</div>
-		關於
+			<div class="about_block">
+				<h1>關於我</h1>
+				<p>我喜歡認識新朋友</p>
+			</div>
 		</div>
 		<div id="wall_panel" class="panel">
 			<div class="setting_panel">
 				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
-				<div class="private_list" style="width:300px;top:41px;left:630px"> <!-- 用js來計算並填入width, top, left -->
+				<div class="private_list" style="width:305px;top:41px;left:630px"> <!-- 用js來計算並填入width, top, left -->
 					<span class="private_title">我個人的動態：</span>
 					<span class="private_option selected">公開</span>
 					<span class="private_option">限朋友可見</span>
