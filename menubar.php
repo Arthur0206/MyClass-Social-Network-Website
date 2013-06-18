@@ -62,7 +62,7 @@
                 <a href='/MyClass/User/registerUser.php'>註冊</a>
                 </li>
                 <li>
-                <a href='login/login.php'>登入</a>
+                <a href='/MyClass/User/logIn.php'>登入</a>
                 </li>
                 <li>
                 <a id='username_button' href='/MyClass/User/userMain.php'> Sosoman </a>

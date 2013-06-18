@@ -1,7 +1,37 @@
 @charset "utf-8";
-.form-wrapper {
+#logIn-form .describe-label {
+	display: block;
+}
+#logIn-form .row {
+	height: 60px;
+}
+#log-in-form-wrapper {
+	float: right;
+	width: 250px;
+    background: none repeat scroll 0 0 #F1F1F1;
+    border: 1px solid #E5E5E5;
+    margin: 120px 150px 20px 40px;
+    padding: 0px 30px 30px 30px;
+}
+#logIn-form .submit-button {
+	float: right;
+}
+#register-form .submit-button {
+	float: left;
+	margin-left: 170px;
+}
+#register-form-wrapper {
 	width: 800px;
 	margin-left: 500px;
+}
+#register-form .row {
+	height: 40px;
+}
+#register-form .describe-label {
+	text-align: left;
+	width: 130px;
+	display: inline-block;
+	vertical-align: middle;
 }
 .form-wrapper h1 {
 	font-size: 130%;
@@ -20,12 +50,6 @@ form .info-msg {
 	color: #999999;
 	font-size: 85%;
 	margin: 0px 0px 0px 6px;
-}
-form .row {
-	height: 40px;
-}
-form .center-text-row {
-	text-align: center;
 }
 form input {
 	padding: 0px 0px 0px 6px;
@@ -55,12 +79,6 @@ form select {
 form .checkbox-label, .form .radio-label {
 	vertical-align: middle;
 }
-form .describe-label {
-	text-align: left;
-	width: 130px;
-	display: inline-block;
-	vertical-align: middle;
-}
 form .submit-button {
     background-color: #D14836;
     background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
@@ -71,6 +89,4 @@ form .submit-button {
     font-weight: bold;
 	height: 30px;
 	padding: 0px 12px 4px 12px;
-	float: left;
-	margin-left: 170px;
 }

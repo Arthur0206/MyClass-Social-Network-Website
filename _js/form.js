@@ -94,7 +94,7 @@ function processForm(){
 		}
 	}, "日期無效");
 
-	$('#register').validate({
+	$('#register-form').validate({
 		groups: {
 			dateOfBirth: "month day year"
 		},

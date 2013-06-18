@@ -25,9 +25,9 @@
 	/* include top menu bar */ 
 	require_once('../menubar.php'); 
 	?>
-	<div class="form-wrapper">
+	<div id="register-form-wrapper" class="form-wrapper">
 		<br/><h1>建立您的帳號 只需要兩分鐘</h1><br/>
-		<form action="/MyClass/User/registerUser.php" method="post" name="register" id="register">
+		<form action="/MyClass/User/registerUser.php" method="post" name="register-form" id="register-form">
 			<div class="row">
 				<label for="name" class="describe-label">我的姓名</label>
 				<input name="name" class="need-clean has-info" type="text" id="name" maxlength="32" value="ex. 張君雅" size="24">
@@ -107,7 +107,7 @@
 				</label>
 			</div>
 			<br/>
-			<div class="center-text-row">
+			<div>
 				<input type="submit" class="submit-button" name="submitUserForm" id="submitUserForm" value="送出">
 			</div>
 		</form>
