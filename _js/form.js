@@ -29,11 +29,19 @@ function processForm(){
 		}
 	}); //end keyup
 
+	//auto blur when user type in 4 digits in year field
+	$('#year').keyup(function() {
+		if ($(this).val().length == 4) {
+			$(this).blur();
+		}
+	}); //end keyup
+
  	//change #day and #month from 2 to 02 when blured.
 	$('#day, #month').blur(function() {
 		value = $(this).val();
 		if (value > 0 && value.length < 2) {
 			$(this).val("0" + value);
+			$(this).next().focus();
 		}
 	}); //end blur
 	
@@ -52,7 +60,8 @@ function processForm(){
 	}); //end blur
 	
 	$('.has-info').focus(function() {
-		if (!$(this).siblings('.error')) {
+		//alert($(this).siblings('.error'));
+		if (!$(this).siblings('label').hasClass('error')) {
 			$(this).siblings('span').show();
 		}
 	}); //end focus
