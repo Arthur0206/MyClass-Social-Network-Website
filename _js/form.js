@@ -1,11 +1,39 @@
 function processForm(){
+
+ 	//allow number only in .number-only input field.
 	$('.number-only').keyup(function() {
-		this.value = this.value.replace(/[^0-9\.]/g,'');
+		value = $(this).val();
+		$(this).val(value.replace(/[^0-9\.]/g,''));
 	}); //end keyup
 
+	//auto focus on #day when user input 2 digits and it is valid month
+	$('#month').keyup(function() {
+		value = $(this).val();
+		if (value.length == 2) {
+			if (value <= 12 && value >= 1) {
+				$(this).siblings('#day').focus();
+			}
+		}
+	}); //end keyup
+	
+	//auto focus on #year when user input 2 digits and it is valid day
+	$('#day').keyup(function() {
+		day = $(this).val();
+		month = $('#month').val();
+		if (day.length == 2) {
+			if (((month==1 || month==3 || month==5 || month==7 || month==8 || month==10 || month==12) && (day>=1) && (day<=31))
+				|| ((month==4 || month==6 || month==9 || month==11) && (day >= 1) && (day <= 30))
+				|| (month==2 && day >= 1 && day <= 29)) {
+				$(this).siblings('#year').focus();
+			}
+		}
+	}); //end keyup
+
+ 	//change #day and #month from 2 to 02 when blured.
 	$('#day, #month').blur(function() {
-		if ($(this).val().length < 2) {
-			$(this).val("0" + $(this).val());
+		value = $(this).val();
+		if (value > 0 && value.length < 2) {
+			$(this).val("0" + value);
 		}
 	}); //end blur
 	
@@ -24,7 +52,7 @@ function processForm(){
 	}); //end blur
 	
 	$('.has-info').focus(function() {
-		if (!$(this).hasClass('error')) {
+		if (!$(this).siblings('.error')) {
 			$(this).siblings('span').show();
 		}
 	}); //end focus
@@ -36,7 +64,19 @@ function processForm(){
 	jQuery.validator.addMethod("notEqual", function(value, element, param) {
 		return this.optional(element) || (value != param);
 	}, "輸入不可和default值相同");
-	
+
+	jQuery.validator.addMethod("validDate", function(value, element) {
+		day = value;
+		month = $('#month').val();
+		if (((month==1 || month==3 || month==5 || month==7 || month==8 || month==10 || month==12) && (day>=1) && (day<=31))
+			|| ((month==4 || month==6 || month==9 || month==11) && (day >= 1) && (day <= 30))
+			|| (month==2 && day >= 1 && day <= 29)) {
+			return true;
+		} else {
+			return false;
+		}
+	}, "日期無效");
+
 	$('#register').validate({
 		groups: {
 			dateOfBirth: "month day year"
@@ -72,7 +112,7 @@ function processForm(){
 			day: {
 				required: true,
 				notEqual: "日",
-				range: [1,31]
+				validDate: true
 			},
 			year: {
 				required: true,
@@ -117,7 +157,7 @@ function processForm(){
 			day: {
 				required: "請輸入您的生日",
 				notEqual: "請輸入您的生日",
-				range: "請輸入合理的日期"
+				validDate: "請輸入合理的日期"
 			},
 			year: {
 				required: "請輸入您的生日",
