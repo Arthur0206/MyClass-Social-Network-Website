@@ -1,10 +1,7 @@
 @charset "utf-8";
-.placeholder {
-	display: block;
-	position: absolute;
-}
 .form-wrapper {
-	margin-left: 400px;
+	width: 800px;
+	margin-left: 500px;
 }
 .form-wrapper h1 {
 	font-size: 130%;
