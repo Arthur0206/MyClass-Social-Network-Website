@@ -59,7 +59,7 @@
 		<div id="about_panel" class="panel">
 			<div class="setting_panel">
 				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
-				<div class="private_list" style="width:395px;top:41px;left:440px"> <!-- 用js來計算並填入width, top, left -->
+				<div class="private_list" style="width:394px;top:41px;left:440px"> <!-- 用js來計算並填入width, top, left -->
 					<span class="private_title">我的『關於』頁面隱私設定：</span>
 					<span class="private_option selected">公開</span>
 					<span class="private_option">限朋友可見</span>
@@ -68,7 +68,38 @@
 			</div>
 			<div class="about_block">
 				<h1>關於我</h1>
-				<p>我喜歡認識新朋友</p>
+				<p>我喜歡認識新朋友~</p>
+			</div>
+			<div class="about_block">
+				<h1>基本資料</h1>
+				<table>
+				<tr><td class="entry_title">生日</td><td>02/06/1984</td></tr>
+				<tr><td class="entry_title">性別</td><td>男</td></tr>
+				<tr><td class="entry_title">年齡</td><td>29</td></tr>
+				<tr><td class="entry_title">感情狀態</td><td>單身</td></tr>
+				<tr><td class="entry_title">地區</td><td>台灣, 桃園縣</td></tr>
+				</table>
+			</div>
+			<div class="about_block">
+				<h1>學校班級</h1>
+				<table>
+				<tr><td class="entry_title">小學</td><td>桃園縣中平國小</td></tr>
+				<tr><td class="entry_title">國中</td><td>桃園縣平興國中</td></tr>
+				<tr><td class="entry_title">高中</td><td>桃園縣中壢高中</td></tr>
+				<tr><td class="entry_title">大學</td><td>台中市中興大學</td></tr>
+				<tr><td class="entry_title">研究所</td><td>UCSD, University of California, San Diego</td></tr>
+				</table>
+			</div>
+			<div class="about_block">
+				<h1>工作經驗</h1>
+				<table>
+				<tr><td class="entry_title">從2010年至2013年</td><td>Broadcom Corporation</td></tr>
+				<tr><td class="entry_title">從2007年至2008年</td><td>空中特勤隊, Army, Taiwan</td></tr>
+				</table>
+			</div>
+			<div class="about_block">
+				<h1>興趣</h1>
+				<p>運動 交友 旅遊 音樂 吉他 美食 創業 冒險 聯誼</p>
 			</div>
 		</div>
 		<div id="wall_panel" class="panel">
