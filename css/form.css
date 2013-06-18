@@ -1,25 +1,38 @@
 @charset "utf-8";
-.form {
+.placeholder {
+	display: block;
+	position: absolute;
+}
+.form-wrapper {
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 }
-.form .info-msg {
-	display: none;
-	color: #999999;
-	font-size: 85%;
-}
-.form h1 {
+.form-wrapper h1 {
 	font-size: 130%;
 	color: #777777;
 }
-.form .row {
+form input.error, form select.error {
+	border: 1px solid #DD4B39;
+}
+form label.error {
+	color: #DD4B39;
+	font-size: 85%;
+	margin: 0px 0px 0px 6px;
+}
+form .info-msg {
+	display: none;
+	color: #999999;
+	font-size: 85%;
+	margin: 0px 0px 0px 6px;
+}
+form .row {
 	height: 40px;
 }
-.form .center-text-row {
+form .center-text-row {
 	text-align: center;
 }
-.form input {
+form input {
 	padding: 0px 0px 0px 6px;
 	font-size: 15px;
 	border-radius: 4px;
@@ -28,7 +41,7 @@
 	border: 1px solid #d0d5cb;
 	vertical-align: middle;
 }
-.form select {
+form select {
 	font-size: 15px;
 	border-radius: 4px;
 	height: 32px;
@@ -44,16 +57,16 @@
 .select-region {
 	width: 100px;
 }
-.form .checkbox-label, .form .radio-label {
+form .checkbox-label, .form .radio-label {
 	vertical-align: middle;
 }
-.form .label {
+form .describe-label {
 	text-align: left;
 	width: 130px;
 	display: inline-block;
 	vertical-align: middle;
 }
-.form .submit-button {
+form .submit-button {
     background-color: #D14836;
     background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
     border: 1px solid transparent;
