@@ -12,6 +12,7 @@
 	<script src="../_js/userBackground.js"></script>
 	<script src="../_js/secondBar.js"></script>
 	<script src="../_js/settingPanel.js"></script>
+	<script src="../_js/aboutPanel.js"></script>
         <script>
             $(document).ready(function() {
                 // Process Menu Bar
@@ -25,6 +26,9 @@
 
 		// Process Setting Panel
 		processSettingPanel();
+
+		// Process About Panel
+		processAboutPanel();
             }); // ready
         </script>
     </head>

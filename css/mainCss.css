@@ -120,6 +120,9 @@ ul {
 	left: -6px;
 	font-size: 85%;
 	display: none;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
 }
 
 /* Menu Bar */ 
@@ -812,19 +815,20 @@ li.selected {
 	position: relative;
 	top: -4px;
 	-webkit-user-select: none;
+	-moz-user-select: none;
 }
 .private_list {
 	border-radius: 4px;
 	box-shadow: 0px 0px 2px 1px #acacac;//#D8D5D0;
 	position: relative;
-	//top: 46px;
+	//top: 46px; 
 	//left: 440px;
 	//width: 395px;
 	padding: 5px;
 	display: none;
-	-webkit-user-select: none;
 	z-index: 100;
-	//background-color: #D8D5D0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
 }
 .private_list span {
 	padding: 5px;
