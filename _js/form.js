@@ -5,6 +5,110 @@
 //input field which only contain 0-9 has class .number-only
 //if the info msg need to be put in next line, add a <br/> before all info messages.
 
+function processCreateGroupForm() {
+	$('#class-group-fieldset').nextAll('fieldset').hide();
+	$('#submit-create-group').hide();
+	$('#class-group-1st-row').nextAll('div').hide();
+	
+	$('input[name=class-group]').change(function() {		
+		if ($('#not-class-group').is(":checked")) { //not a class group
+			$('#school-group-fieldset').show();
+			$('#class-group-1st-row').nextAll('div').hide();
+		} else {
+			$('#school-group-fieldset').hide();	
+			$('#class-group-1st-row').next('div').fadeIn();
+			//$('#class-group-label').nextAll('select[value=0]:first').nextAll('select').attr('disabled', true);
+			$('#class-group-label').nextAll('select').val(0);
+			$('#school-country-0').nextAll('select').attr('disabled', true);
+		}
+	}); //end change
+
+	$('#school-country-0').change(function() {
+		$(this).nextAll('select').val(0);
+		$(this).next('select').nextAll('select').attr('disabled', true);
+		$('#class-group-2nd-row').nextAll('div').hide();
+		if($(this).val() == 0) {
+			$(this).nextAll('select').attr('disabled', true);
+		} else {
+			$(this).next('select').attr('disabled', false);			
+		}
+	}); //end change
+
+	$('#school-region-0').change(function(evt) {
+		$(this).nextAll('select').val(0);
+		$(this).next('select').nextAll('select').attr('disabled', true);
+		$('#class-group-2nd-row').nextAll('div').hide();
+		if($(this).val() == 0) {
+			$(this).nextAll('select').attr('disabled', true);
+		} else {
+			$(this).next('select').attr('disabled', false);			
+		}
+	}); //end change
+
+	$('#school-type-0').change(function() {
+		$(this).nextAll('select').val(0);
+		$('#class-group-2nd-row').nextAll('div').hide();
+		if($(this).val() == 0) {
+			$(this).nextAll('select').attr('disabled', true);
+		} else {
+			$(this).next('select').attr('disabled', false);				
+		}
+	}); //end change
+
+	$('#school-name-0').change(function() {
+		$('#class-group-2nd-row').nextAll('div').hide();
+		if($(this).val() == 0) {
+			$('#class-group-2nd-row').nextAll('div').hide();
+			$('#class-group-fieldset').nextAll('fieldset').hide();
+		} else {
+			$('#class-group-2nd-row').next('div').show();
+			type = $('#school-type-0').val();
+			if (type == 1) { 						
+				//graduate school and Phd - only has department
+				
+				$('#class-group-3rd-row').html('')
+				.append('<label for="grad-department" class="describe-label">科系</label>') 
+				.append('<select name="grad-department" id="grad-department"> <option value="0">--系所--</option><option value="1">外文系</option><option value="2">中文系</option><option value="3">經濟系</option><option value="4">企管系</option><option value="5">資工系</option><option value="6">化工系</option><option value="7">醫學系</option><option value="8">牙醫系</option><option value="9">土木系</option></select>');
+				
+				$('#department').val(0);
+				$('#class-group-4th-row').remove(); 
+			} else if (type == 2 || type == 3 || type == 4 || type == 5 || type == 6) { 	
+				//has a department and a graduate year
+				
+				$('#class-group-3rd-row').html('')
+				.append('<label for="under-department" class="describe-label">科系</label>') 
+				.append('<select name="under-department" id="under-department"> <option value="0">--系所--</option><option value="1">外文系</option><option value="2">中文系</option><option value="3">經濟系</option><option value="4">企管系</option><option value="5">資工系</option><option value="6">化工系</option><option value="7">醫學系</option><option value="8">牙醫系</option><option value="9">土木系</option></select>');
+
+				$('#department').val(0);			
+			} else if (type == 7 || type == 8) {					
+				//high school and junior high school
+				
+				$('#class-group-3rd-row').html('')
+				.append('<label for="high-school-year" class="describe-label">年級</label>') 	
+				.append('<select name="high-school-year" id="high-school-year"> <option value="0">--年級--</option><option value="1">一年級</option><option value="2">二年級</option><option value="3">三年級</option></select>');
+
+				$('#department').val(0);		
+			} else if (type == 9) {
+				//elementary school - 6 year
+
+				$('#class-group-3rd-row').html('')
+				.append('<label for="elem-school-year" class="describe-label">年級</label>') 	
+				.append('<select name="elem-school-year" id="elem-school-year"> <option value="0">--年級--</option><option value="1">一年級</option><option value="2">二年級</option><option value="3">三年級</option><option value="4">四年級</option><option value="5">五年級</option><option value="6">六年級</option></select>');
+
+				$('#department').val(0);				
+			}
+		}
+	}); //end change
+	
+	$('#grad-department').change(function() {
+		if($(this).val() == 0) {
+			$(this).nextAll('select').attr('disabled', true);
+		} else {
+			$(this).next('select').attr('disabled', false);				
+		}	
+	}); //end change
+}
+
 function processLogInForm(){
 	$('#logIn-form').validate({
 		rules: {
@@ -126,7 +230,8 @@ function processRegisterForm(){
 				notEqual: "ex. 張君雅"
 			},
 			account: {
-				required: true
+				required: true,
+				remote: 'check_account.php'
 			},
 			password: {
 				required: true,
@@ -171,7 +276,8 @@ function processRegisterForm(){
 				notEqual: "請輸入您的姓名"
 			},
 			account: {
-				required: "請選擇您的MyClass帳號"
+				required: "請選擇您的MyClass帳號",
+				remote: "此帳號已被人使用"
 			},
 			password: {
 				required: "請設定密碼",

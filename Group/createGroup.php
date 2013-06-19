@@ -28,22 +28,24 @@
 	<div id="create-group-form-wrapper" class="form-wrapper">
 		<h1>建立您的新群組,只要短短三分鐘</h1>
 		<form action="/MyClass/Group/createGroup.php" method="post" name="create-group-form" id="create-group-form">
-			<fieldset>
-				<legend>班版</legend><br/>
-				<div class="row">
-					<label for="is-class-group" class="describe-label">此群組是否為班版?</label>
+			<fieldset id="class-group-fieldset">
+				<legend>班級群組</legend><br/>
+				<div class="row" id="class-group-1st-row">
+					<label for="is-class-group" class="describe-label">此群組是否為班級群組/班版?</label>
 					<input name="class-group" type="radio" id="is-class-group" value="是">
 					<label for="is-class-group" class="radio-label">是</label>
 					<input name="class-group" type="radio" id="not-class-group" value="否">
 					<label for="not-class-group" class="radio-label">否</label>
 				</div>
-				<div class="row">
-					<label for="school-country-0" class="describe-label">學校</label>
+				<div class="row" id="class-group-2nd-row">
+					<label for="school-country-0" class="describe-label" id="class-group-label">學校</label>
 					<select name="school-country-0" id="school-country-0">
-						<option value="/tw/">台灣 </option>
+						<option value="0">--國家-- </option>
+						<option value="1">台灣 </option>
+						<option value="2">其他 </option>
 					</select>
-					<select name="school-region-0">
-						<option value="0">選擇縣市</option>
+					<select name="school-region-0" id="school-region-0">
+						<option value="0">--縣市--</option>
 						<option value="1">台北市</option>
 						<option value="2">基隆市</option>
 						<option value="3">新北市</option>
@@ -69,7 +71,7 @@
 						<option value="23">南海諸島</option>
 					</select>
 					<select name="school-type-0" id="school-type-0">
-						<option value="0">選擇學校類別</option>
+						<option value="0">--類別--</option>
 						<option value="1">博碩士</option>
 						<option value="2">大學</option>
 						<option value="3">四技</option>
@@ -81,7 +83,7 @@
 						<option value="9">國小</option>
 					</select>
 					<select name="school-name-0" id="school-name-0">
-						<option value="0">選擇學校</option>
+						<option value="0">--學校--</option>
 						<option value="1">台灣大學</option>
 						<option value="2">台科大</option>
 						<option value="3">師範學院</option>
@@ -97,11 +99,10 @@
 						<option value="13">其他學校</option>
 					</select>
 				</div>
-				<div class="row">
-					<label for="class" class="describe-label" >班級</label>
-					<input name="class" type="text" id="class" size="8">
+				<div class="row" id="class-group-3rd-row">
+
 				</div>
-				<div class="row">
+				<div class="row" id="class-group-4th-row">
 					<label for="graduate-year" class="describe-label">本班級(預計)畢業年份</label>
 					<select name="graduate-year" id="graduate-year">
 						<option value="0">1996</option>
@@ -130,7 +131,7 @@
 					</select>
 				</div>
 			</fieldset>
-			<fieldset>
+			<fieldset id="school-group-fieldset">
 				<legend>學校社團</legend><br/>
 				<div class="row">
 					<label for="is-shcool-group" class="describe-label">此群組是否為學校社團?</label>
@@ -144,7 +145,7 @@
 					<select name="school-country-1" id="school-country-1">
 						<option value="/tw/">台灣 </option>
 					</select>
-					<select name="school-region-1">
+					<select name="school-region-1" id="school-region-1">
 						<option value="0">選擇縣市</option>
 						<option value="1">台北市</option>
 						<option value="2">基隆市</option>
@@ -200,11 +201,11 @@
 					</select>
 				</div>
 				<div class="row">
-					<label for="school-group" class="describe-label" >社團名稱</label>
-					<input name="school-group" type="text" id="school-group" size="20">
+					<label for="school-group-name" class="describe-label" >社團名稱</label>
+					<input name="school-group-name" type="text" id="school-group-name" size="20">
 				</div>
 			</fieldset>
-			<fieldset>
+			<fieldset id="general-fieldset">
 				<legend>群組資訊</legend><br/>
 				<div class="row">
 					<label for="group-name" class="describe-label">群組名稱</label>
