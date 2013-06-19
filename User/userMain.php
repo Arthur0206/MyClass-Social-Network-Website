@@ -70,14 +70,20 @@
 					<span class="private_option">隱藏</span>
 				</div>
 			</div>
-			<div class="about_block">
+			<div id="description_block" class="about_block">
+				<form>
 				<h1>關於我</h1>
-				<div style="width:95%">
+				<div class="p_wrapper">
+				<textarea rows="5"></textarea>
 				<p>我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~</p>
 				</div>
 				<div class="hidden-button">編輯</div>
+				<input type="button" class="cancel-button" value="取消">
+				<input type="submit" class="submit-button" value="提交">
+				</form>
 			</div>
-			<div class="about_block">
+			<div id="info_block" class="about_block">
+				<form>
 				<h1>基本資料</h1>
 				<table>
 				<tr><td class="entry_title">生日</td><td>02/06/1984</td></tr>
@@ -87,8 +93,12 @@
 				<tr><td class="entry_title">地區</td><td>台灣, 桃園縣</td></tr>
 				</table>
 				<div class="hidden-button">編輯</div>
+				<input type="button" class="cancel-button" value="取消">
+				<input type="submit" class="submit-button" value="提交">
+				</form>
 			</div>
-			<div class="about_block">
+			<div id="education_block" class="about_block">
+				<form>
 				<h1>學校班級</h1>
 				<table>
 				<tr><td class="entry_title">小學</td><td>桃園縣中平國小</td></tr>
@@ -98,21 +108,33 @@
 				<tr><td class="entry_title">研究所</td><td>UCSD, University of California, San Diego</td></tr>
 				</table>
 				<div class="hidden-button">編輯</div>
+				<input type="button" class="cancel-button" value="取消">
+				<input type="submit" class="submit-button" value="提交">
+				</form>
 			</div>
-			<div class="about_block">
+			<div id="work_block" class="about_block">
+				<form>
 				<h1>工作經驗</h1>
 				<table>
 				<tr><td class="entry_title">從2010年至2013年</td><td>Broadcom Corporation</td></tr>
 				<tr><td class="entry_title">從2007年至2008年</td><td>空中特勤隊, Army, Taiwan</td></tr>
 				</table>
 				<div class="hidden-button">編輯</div>
+				<input type="button" class="cancel-button" value="取消">
+				<input type="submit" class="submit-button" value="提交">
+				</form>
 			</div>
-			<div class="about_block">
+			<div id="hobbit_block" class="about_block">
+				<form>
 				<h1>興趣</h1>
-				<div style="width:95%">
+				<div class="p_wrapper">
+				<textarea rows="3"></textarea>
 				<p>運動 交友 旅遊 音樂 吉他 美食 創業 冒險 聯誼</p>
 				</div>
 				<div class="hidden-button">編輯</div>
+				<input type="button" class="cancel-button" value="取消">
+				<input type="submit" class="submit-button" value="提交">
+				</form>
 			</div>
 		</div>
 		<div id="wall_panel" class="panel">
