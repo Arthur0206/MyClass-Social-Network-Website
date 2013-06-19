@@ -16,9 +16,15 @@ form .check-type {
 form .block {
 	margin: 10px 0px 15px 0px;
 }
+#submit-create-group {
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 20px 220px 0px 0px;
+}
 #create-group-form-wrapper {
 	width: 515px;
-	margin: 50px auto 100px auto;
+	margin: 50px auto 150px auto;
 }
 #create-group-form .describe-label {
 	display: block;

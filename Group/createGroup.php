@@ -305,6 +305,9 @@
 					<label for="private" class="radio-label">否</label>
 				</div>
 			</fieldset>
+			<div>
+				<input type="submit" class="submit-button" name="submit-create-group" id="submit-create-group" value="送出">
+			</div>
 		</form>
 	</div>
 </body>
