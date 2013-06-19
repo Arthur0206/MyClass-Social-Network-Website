@@ -1,6 +1,6 @@
 function processWallPanel()
 {
-	// 為了支援no js用戶, "編輯"按鈕剛開始要是顯示狀態!
+	// 為了支援no js用戶, "編輯"和"刪除"按鈕剛開始要是顯示狀態!
 	$('#wall_panel .hidden-button').hide();
 
 	$('.moment_content.user_own').hover(
@@ -14,77 +14,29 @@ function processWallPanel()
 
 	$('#wall_panel .hidden-button').click(function() {
 		if ($(this).val() == "編輯") {
+			var pElement = $(this).parent().parent().siblings('p');
+			var pText = pElement.text();
+
+			pElement.hide().siblings('textarea').text(pText).hide().fadeIn(200);
+
+			$(this).addClass('is_clicked').hide();
+			$(this).next('.hidden-button').addClass('is_clicked').hide().next('.cancel-button').show().next('.submit-button').show();
 		}
 	}); // end click
 
 	$('#wall_panel .cancel-button').click(function() {
-		var selectedBlock = $(this).parent().parent();
+		var pElement = $(this).parent().parent().siblings('p');
 
-		switch (selectedBlock.attr('id')) {
-			case "description_block":
-			case "hobbit_block":
-				processTextAreaCancel(selectedBlock);
-				break;
-			case "info_block":
-			case "education_block":
-			case "work_block":
-				processEntryCancel(selectedBlock);
-				break;
-		}
+		pElement.show().siblings('textarea').text("").hide();
+
+		$(this).siblings(".hidden-button").removeClass('is_clicked');
+		$(this).hide().siblings('.submit-button').hide();
 	}); // end click
 }
-
-/* 處理textarea類的表單修改: 關於我, 興趣 */
-function processTextAreaEdit(selectedBlock)
-{
-	var pText = selectedBlock.find('p').text();
-
-	selectedBlock.find('p').hide();
-	selectedBlock.find('textarea').text(pText).hide().fadeIn(200);
-	selectedBlock.find('.hidden-button').addClass('is_clicked').hide();
-	selectedBlock.find('input:not(.hidden-button)').show();
-}
-
-function processTextAreaCancel(selectedBlock)
-{
-	var pText = selectedBlock.find('p').text();
-
-	selectedBlock.find('textarea').text(pText).hide();
-	selectedBlock.find('p').show();
-	selectedBlock.find('.hidden-button').removeClass('is_clicked');
-	selectedBlock.find('input').hide();
-}
-
-/* 處理input entry類的表單修改: 基本資料, 學校經歷, 工作 */
-function processEntryEdit(selectedBlock)
-{
-	// input entry類的表單裡, 一個td裡面有一個input後面連接著其相對的span, ex. <td><input class="hidden"><span>02/06/1984</span></td>
-	selectedBlock.find('span').each(function() {
-		var spanText = $(this).text();
-		$(this).hide();
-		$(this).prev().val(spanText).show();
-	}); // each
-
-	selectedBlock.find('.hidden-button').addClass('is_clicked').hide();
-	selectedBlock.find('input:not(.hidden-button)').show();
-}
-
-function processEntryCancel(selectedBlock)
-{
-	// input entry類的表單裡, 一個td裡面有一個input後面連接著其相對的span, ex. <td><input class="hidden"><span>02/06/1984</span></td>
-	selectedBlock.find('span').each(function() {
-		var spanText = $(this).text();
-		$(this).prev().val("").hide();
-		$(this).show();
-	}); // each
-
-	selectedBlock.find('.hidden-button').removeClass('is_clicked');
-	selectedBlock.find('input').hide();
-}
-
-
-
-
-
-
+/*
+<input type="button" class="hidden-button" value="編輯">
+<input type="button" class="hidden-button" value="刪除">
+<input type="button" class="cancel-button hidden" value="取消">
+<input type="submit" class="submit-button hidden" value="提交">
+*/
 

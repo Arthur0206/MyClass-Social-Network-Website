@@ -964,6 +964,10 @@ textarea {
 	float: right;
 	margin: 40px 0 0 4px;
 }
+.moment_content textarea {
+	margin-left: 0px;
+	width: 600px;
+}
 
 /* 相簿頁面 */
 #album_panel {
