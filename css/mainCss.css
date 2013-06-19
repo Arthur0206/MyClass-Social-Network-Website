@@ -396,6 +396,7 @@ li.selected {
 	width: 320px;
 	height: 60px;
 	overflow: hidden;
+
 	float: left;
 }
 .hot-event-info {
@@ -908,9 +909,15 @@ textarea {
 	width: 950px;
 	margin: auto;
 }
+.moment_wrapper {
+	min-height: 80px;
+}
 .date_line_title {
 	font-size: 110%;
 	font-weight: bold;
+	margin: 0;
+	width: 80px;
+	float: left;
 }
 #wall_panel hr {
 	border: dashed #b6b6ae;
@@ -918,7 +925,17 @@ textarea {
 	width: 91%;
 	float: right;
 }
-
+.time_title {
+	font-size: 85%;
+	margin: 0;
+	width: 80px;
+	float: left;
+}
+.wall_poster_pic {
+	height: 60px;
+	width: 60px;
+	float: left;
+}
 /* 相簿頁面 */
 #album_panel {
 	width: 950px;

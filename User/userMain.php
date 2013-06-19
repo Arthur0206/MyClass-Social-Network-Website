@@ -152,9 +152,9 @@
 					<span class="private_option">隱藏</span>
 				</div>
 			</div>
-		<div><span class="date_line_title">現在</span> <hr></div>
-
-		<div><span class="date_line_title">6/19(三)</span> <hr></div>
+		<div class="moment_wrapper"><div class="date_line_title">現在</div> <hr></div>
+		<div class="moment_wrapper"><div class="time_title">2:35pm</div><img src="/MyClass/User/Sosoman/head.jpg" height="55" width="55" class="wall_poster_pic"></div>
+		<div class="moment_wrapper"><div class="date_line_title">6/19(三)</div> <hr></div>
 
 		</div>
 		<div id="album_panel" class="panel">
