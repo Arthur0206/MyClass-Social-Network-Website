@@ -1,7 +1,7 @@
 function processAboutPanel()
 {
 	// 為了支援no js用戶, "編輯"按鈕剛開始要是顯示狀態!
-	$('.hidden-button').hide();
+	$('#about_panel .hidden-button').hide();
 
 	$('.about_block').hover(
 		function() {
@@ -12,7 +12,7 @@ function processAboutPanel()
 		}
 	); // end hover
 
-	$('.hidden-button').click(function() {
+	$('#about_panel .hidden-button').click(function() {
 		var selectedBlock = $(this).parent().parent();
 
 		switch (selectedBlock.attr('id')) {
@@ -28,7 +28,7 @@ function processAboutPanel()
 		}
 	}); // end click
 
-	$('.cancel-button').click(function() {
+	$('#about_panel .cancel-button').click(function() {
 		var selectedBlock = $(this).parent().parent();
 
 		switch (selectedBlock.attr('id')) {

@@ -849,22 +849,10 @@ li.selected {
 }
 .about_block form .submit-button, .about_block form .cancel-button, .about_block form .hidden-button {
 	float: right;
-	background-color: #D14836;
-    	background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
-	border-radius: 2px;
-	cursor: pointer;
-	font-weight: bold;
 	position: relative;
-	color: #FFFFFF;
-	font-size: 95%;
 	top: -35px;
 	left: -4px;
-	-webkit-user-select: none;
-	-moz-user-select: none;
 	display: none;
-	border: 1px solid transparent;
-	padding: 4px 12px 4px 12px;
-	height: 30px;
 	margin-left: 4px;
 }
 .about_block h1 {
@@ -899,8 +887,18 @@ textarea {
 	width: 950px;
 	margin: auto;
 }
+.timeline_wrapper {
+	overflow: hidden;
+	min-height: 20px;
+	//padding: 5px;
+	margin-bottom: 6px;
+	clear: right;
+}
 .moment_wrapper {
-	min-height: 80px;
+	overflow: hidden;
+	min-height: 90px;
+	padding: 5px;
+	clear: right;
 }
 .date_line_title {
 	font-size: 110%;
@@ -908,6 +906,7 @@ textarea {
 	margin: 0;
 	width: 80px;
 	float: left;
+	text-align: center;
 }
 #wall_panel hr {
 	border: dashed #b6b6ae;
@@ -917,15 +916,55 @@ textarea {
 }
 .time_title {
 	font-size: 85%;
-	margin: 0;
-	width: 80px;
+	margin: 2px 0 0 2px;
+	width: 72px;
 	float: left;
+	font-weight: bold;
+	text-align: center;
 }
 .wall_poster_pic {
-	height: 60px;
-	width: 60px;
+	height: 64px;
+	width: 64px;
+	float: left;
+	border-radius: 3px;
+	border: 4px solid #FFFFFF;
+}
+.wall_poster_pic img {
+	height: 64px;
+	width: 64px;
+	border-radius: 3px;
+}
+.wall_poster_username {
+	display: block;
+	width: 64px;
+	text-align: center;
+	font-size: 80%;
+	margin-top: 2px;
+	//overflow: hidden;
+}
+.moment_content {
+	float: left;
+	width: 740px;
+	min-height: 53px;
+	margin: 4px 0px 5px 10px;
+	padding: 12px 15px 12px 14px;
+	border-radius: 6px;
+	box-shadow: 0px 0px 1px 2px #D8D5D0;
+}
+.moment_content p {
+	margin: 0 0 10px 0;
+}
+.moment_content #gallery img {
+	padding-right: 5px;
+}
+.moment_content #gallery a {
 	float: left;
 }
+.moment_wrapper form .submit-button, .moment_wrapper form .cancel-button, .moment_wrapper form .hidden-button, .moment_wrapper form .delete-button {
+	float: right;
+	margin: 40px 0 0 4px;
+}
+
 /* 相簿頁面 */
 #album_panel {
 	width: 950px;

@@ -109,14 +109,18 @@ form select {
 form .checkbox-label, form .radio-label {
 	vertical-align: middle;
 }
-form .submit-button {
-    background-color: #D14836;
-    background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
-    border: 1px solid transparent;
-    color: #FFFFFF;
-    border-radius: 2px 2px 2px 2px;
-    font-size: 14px;
-    font-weight: bold;
+form .submit-button, form .cancel-button, form .hidden-button, form .delete-button {
+	background-color: #D14836;
+	background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
+	border: 1px solid transparent;
+	color: #FFFFFF;
+	border-radius: 2px;
+	font-size: 14px;
+	font-weight: bold;
 	height: 30px;
-	padding: 0px 12px 4px 12px;
+	padding: 4px 12px 4px 12px;
+	font-size: 95%;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
 }
