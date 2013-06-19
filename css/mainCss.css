@@ -125,20 +125,8 @@ ul {
 	font-weight: bold;
 	color: #e28035;
 }
-.hidden-button {
-	float: right;
-	background-color: #edebe2;
-	box-shadow: 0px 2px 3px 1px #acacac;
-	border-radius: 3px;
-	padding: 4px 12px 4px 12px;
-	position: relative;
-	top: -31px;
-	left: -6px;
-	font-size: 85%;
+.hidden {
 	display: none;
-	cursor: pointer;
-	-webkit-user-select: none;
-	-moz-user-select: none;
 }
 
 /* Menu Bar */ 
@@ -868,13 +856,44 @@ li.selected {
 	margin-bottom: 20px;
 	z-index: 2;
 }
+.about_block form .submit-button, .about_block form .cancel-button, .about_block form .hidden-button {
+	float: right;
+	background-color: #D14836;
+    	background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
+	border-radius: 2px;
+	cursor: pointer;
+	font-weight: bold;
+	position: relative;
+	color: #FFFFFF;
+	font-size: 95%;
+	top: -35px;
+	left: -4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	display: none;
+	border: 1px solid transparent;
+	padding: 4px 12px 4px 12px;
+	height: 30px;
+	margin-left: 4px;
+}
 .about_block h1 {
 	font-size: 110%;
 	margin: 10px;
 }
+.p_wrapper {
+	width: 93%;
+}
 .about_block p {
 	margin: 8px 10px 8px 10px;
-//	color: #6a7480;
+}
+textarea {
+	margin: 2px 10px 10px 10px;
+	color: #6a7480;
+	border: 1px solid #acacac;
+	padding: 6px;
+	width: 86%;
+	font-size: 100%;
+	display: none;
 }
 .about_block table {
 	margin: 5px 7px 5px 7px;

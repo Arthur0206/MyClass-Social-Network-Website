@@ -7,6 +7,7 @@
         <title>MyClass - 讓妳認識很多新朋友!</title>
         <link href="../css/mainCss.css" type="text/css" rel="stylesheet">
         <link href="../css/about.css" type="text/css" rel="stylesheet">
+        <link href="../css/form.css" type="text/css" rel="stylesheet">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script> 
 	<script src="../_js/menuBar.js"></script>
 	<script src="../_js/userBackground.js"></script>
@@ -70,25 +71,35 @@
 					<span class="private_option">隱藏</span>
 				</div>
 			</div>
-			<div class="about_block">
+			<div id="description_block" class="about_block">
+				<form>
 				<h1>關於我</h1>
-				<div style="width:95%">
+				<div class="p_wrapper">
+				<textarea rows="5" class="hidden"></textarea>
 				<p>我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~</p>
 				</div>
-				<div class="hidden-button">編輯</div>
+				<input type="button" class="hidden-button" value="編輯">
+				<input type="button" class="cancel-button hidden" value="取消">
+				<input type="submit" class="submit-button hidden" value="提交">
+				</form>
 			</div>
-			<div class="about_block">
+			<div id="info_block" class="about_block">
+				<form>
 				<h1>基本資料</h1>
 				<table>
-				<tr><td class="entry_title">生日</td><td>02/06/1984</td></tr>
-				<tr><td class="entry_title">性別</td><td>男</td></tr>
-				<tr><td class="entry_title">年齡</td><td>29</td></tr>
-				<tr><td class="entry_title">感情狀態</td><td>單身</td></tr>
-				<tr><td class="entry_title">地區</td><td>台灣, 桃園縣</td></tr>
+				<tr><td class="entry_title">生日</td><td><input class="hidden"><span>02/06/1984</span></td></tr>
+				<tr><td class="entry_title">性別</td><td><input class="hidden"><span>男</span></td></tr>
+				<tr><td class="entry_title">年齡</td><td><input class="hidden"><span>29</span></td></tr>
+				<tr><td class="entry_title">感情狀態</td><td><input class="hidden"><span>單身</span></td></tr>
+				<tr><td class="entry_title">地區</td><td><input class="hidden"><span>台灣, 桃園縣</span></td></tr>
 				</table>
-				<div class="hidden-button">編輯</div>
+				<input type="button" class="hidden-button" value="編輯">
+				<input type="button" class="cancel-button hidden" value="取消">
+				<input type="submit" class="submit-button hidden" value="提交">
+				</form>
 			</div>
-			<div class="about_block">
+			<div id="education_block" class="about_block">
+				<form>
 				<h1>學校班級</h1>
 				<table>
 				<tr><td class="entry_title">小學</td><td>桃園縣中平國小</td></tr>
@@ -97,22 +108,34 @@
 				<tr><td class="entry_title">大學</td><td>台中市中興大學</td></tr>
 				<tr><td class="entry_title">研究所</td><td>UCSD, University of California, San Diego</td></tr>
 				</table>
-				<div class="hidden-button">編輯</div>
+				<input type="button" class="hidden-button" value="編輯">
+				<input type="button" class="cancel-button hidden" value="取消">
+				<input type="submit" class="submit-button hidden" value="提交">
+				</form>
 			</div>
-			<div class="about_block">
+			<div id="work_block" class="about_block">
+				<form>
 				<h1>工作經驗</h1>
 				<table>
 				<tr><td class="entry_title">從2010年至2013年</td><td>Broadcom Corporation</td></tr>
 				<tr><td class="entry_title">從2007年至2008年</td><td>空中特勤隊, Army, Taiwan</td></tr>
 				</table>
-				<div class="hidden-button">編輯</div>
+				<input type="button" class="hidden-button" value="編輯">
+				<input type="button" class="cancel-button hidden" value="取消">
+				<input type="submit" class="submit-button hidden" value="提交">
+				</form>
 			</div>
-			<div class="about_block">
+			<div id="hobbit_block" class="about_block">
+				<form>
 				<h1>興趣</h1>
-				<div style="width:95%">
+				<div class="p_wrapper">
+				<textarea rows="3" class="hidden"></textarea>
 				<p>運動 交友 旅遊 音樂 吉他 美食 創業 冒險 聯誼</p>
 				</div>
-				<div class="hidden-button">編輯</div>
+				<input type="button" class="hidden-button" value="編輯">
+				<input type="button" class="cancel-button hidden" value="取消">
+				<input type="submit" class="submit-button hidden" value="提交">
+				</form>
 			</div>
 		</div>
 		<div id="wall_panel" class="panel">
