@@ -898,6 +898,16 @@ textarea {
 	width: 950px;
 	margin: auto;
 }
+.date_line_title {
+	font-size: 110%;
+	font-weight: bold;
+}
+#wall_panel hr {
+	border: dashed #b6b6ae;
+	border-width: 1px;
+	width: 91%;
+	float: right;
+}
 
 /* 相簿頁面 */
 #album_panel {

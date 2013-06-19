@@ -152,7 +152,10 @@
 					<span class="private_option">隱藏</span>
 				</div>
 			</div>
-		動態牆
+		<div><span class="date_line_title">現在</span> <hr></div>
+
+		<div><span class="date_line_title">6/19(三)</span> <hr></div>
+
 		</div>
 		<div id="album_panel" class="panel">
 			<div class="setting_panel">
