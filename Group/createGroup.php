@@ -244,48 +244,65 @@
 					<input name="none-area" type="checkbox" id="none-area">
 					<label for="none-area" class="checkbox-label">不限於特定地區</label>
 				</div>
-				<div class="row">
+				<div class="block">
 					<label class="describe-label">性質</label>
-					<input name="group-type-0" type="checkbox" id="group-type-0">
+					<input name="group-type-0" type="checkbox" id="group-type-0" class="check-type">
 					<label for="group-type-0" class="checkbox-label">班版</label>
-					<input name="group-type-1" type="checkbox" id="group-type-1">
+					<input name="group-type-1" type="checkbox" id="group-type-1" class="check-type">
 					<label for="group-type-1" class="checkbox-label">學校社團</label>
-					<input name="group-type-2" type="checkbox" id="group-type-2">
+					<input name="group-type-2" type="checkbox" id="group-type-2" class="check-type">
 					<label for="group-type-2" class="checkbox-label">旅遊</label>
-					<input name="group-type-3" type="checkbox" id="group-type-3">
+					<input name="group-type-3" type="checkbox" id="group-type-3" class="check-type">
 					<label for="group-type-3" class="checkbox-label">美食</label>
-					<input name="group-type-4" type="checkbox" id="group-type-4">
+					<input name="group-type-4" type="checkbox" id="group-type-4" class="check-type">
 					<label for="group-type-4" class="checkbox-label">唱歌</label>
-					<input name="group-type-5" type="checkbox" id="group-type-5">
+					<input name="group-type-5" type="checkbox" id="group-type-5" class="check-type">
 					<label for="group-type-5" class="checkbox-label">音樂</label>
-					<input name="group-type-6" type="checkbox" id="group-type-6">
+					<input name="group-type-6" type="checkbox" id="group-type-6" class="check-type">
 					<label for="group-type-6" class="checkbox-label">玩樂</label>
-					<input name="group-type-7" type="checkbox" id="group-type-7">
-					<label for="group-type-6" class="checkbox-label">交友</label>
-					<input name="group-type-8" type="checkbox" id="group-type-8">
+					<input name="group-type-7" type="checkbox" id="group-type-7" class="check-type">
+					<label for="group-type-7" class="checkbox-label">交友</label>
+					<input name="group-type-8" type="checkbox" id="group-type-8" class="check-type">
 					<label for="group-type-8" class="checkbox-label">運動</label>
-					<input name="group-type-9" type="checkbox" id="group-type-9">
+					<input name="group-type-9" type="checkbox" id="group-type-9" class="check-type">
 					<label for="group-type-9" class="checkbox-label">藝術</label>
-					<input name="group-type-10" type="checkbox" id="group-type-10">
+					<input name="group-type-10" type="checkbox" id="group-type-10" class="check-type">
 					<label for="group-type-10" class="checkbox-label">電影</label>
-					<input name="group-type-11" type="checkbox" id="group-type-11">
+					<input name="group-type-11" type="checkbox" id="group-type-11" class="check-type">
 					<label for="group-type-11" class="checkbox-label">電玩遊戲</label>
-					<input name="group-type-12" type="checkbox" id="group-type-12">
+					<input name="group-type-12" type="checkbox" id="group-type-12" class="check-type">
 					<label for="group-type-12" class="checkbox-label">科技</label>
-					<input name="group-type-13" type="checkbox" id="group-type-13">
+					<input name="group-type-13" type="checkbox" id="group-type-13" class="check-type">
 					<label for="group-type-13" class="checkbox-label">家庭</label>
-					<input name="group-type-14" type="checkbox" id="group-type-14">
-					<label for="group-type-14" class="checkbox-label">美容 & 時尚</label>
-					<input name="group-type-15" type="checkbox" id="group-type-15">
-					<label for="group-type-15" class="checkbox-label">購物</label>
-					<input name="group-type-16" type="checkbox" id="group-type-16">
+					<input name="group-type-14" type="checkbox" id="group-type-14" class="check-type">
+					<label for="group-type-14" class="checkbox-label">購物</label>
+					<input name="group-type-15" type="checkbox" id="group-type-15" class="check-type">
+					<label for="group-type-15" class="checkbox-label">健康&醫學</label>
+					<input name="group-type-16" type="checkbox" id="group-type-16" class="check-type">
 					<label for="group-type-16" class="checkbox-label">工作</label>
-					<input name="group-type-17" type="checkbox" id="group-type-17">
+					<input name="group-type-17" type="checkbox" id="group-type-17" class="check-type">
 					<label for="group-type-17" class="checkbox-label">公司&商務</label>
-					<input name="group-type-18" type="checkbox" id="group-type-18">
-					<label for="group-type-18" class="checkbox-label">研究&學習</label>	
+					<input name="group-type-18" type="checkbox" id="group-type-18" class="check-type">
+					<label for="group-type-18" class="checkbox-label">寵物</label>
+					<input name="group-type-19" type="checkbox" id="group-type-19" class="check-type">
+					<label for="group-type-19" class="checkbox-label">美容&時尚</label>	
+					<input name="group-type-20" type="checkbox" id="group-type-20" class="check-type">
+					<label for="group-type-20" class="checkbox-label">創業</label>	
+					<input name="group-type-21" type="checkbox" id="group-type-21" class="check-type">
+					<label for="group-type-21" class="checkbox-label">跑車&重機</label>
+					<input name="group-type-22" type="checkbox" id="group-type-22" class="check-type">
+					<label for="group-type-22" class="checkbox-label">攝影</label>	
+					<input name="group-type-23" type="checkbox" id="group-type-23" class="check-type">
+					<label for="group-type-23" class="checkbox-label">模特</label>	
+					<input name="group-type-24" type="checkbox" id="group-type-24" class="check-type">
+					<label for="group-type-24" class="checkbox-label">研究&學習</label>	
 				</div>
 				<div class="row">
+					<label for="public" class="describe-label">此群組是否為公開群組?</label>
+					<input name="privacy" type="radio" id="public" value="public">
+					<label for="public" class="radio-label">是</label>
+					<input name="privacy" type="radio" id="private" value="private">
+					<label for="private" class="radio-label">否</label>
 				</div>
 			</fieldset>
 		</form>
