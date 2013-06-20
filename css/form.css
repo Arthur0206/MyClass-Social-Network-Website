@@ -118,6 +118,18 @@ form input {
 	vertical-align: middle;
 }
 form select {
+	background-color: #FFFFFF;
+	font-size: 15px;
+	border-radius: 4px;
+	height: 32px;
+	color: #666666;
+	border: 1px solid #d0d5cb;
+	vertical-align: middle;
+	padding: 0.4em;
+	//background: #FFFFFF;
+}
+form select:disabled {
+	background-color: #CCCCCC;
 	font-size: 15px;
 	border-radius: 4px;
 	height: 32px;

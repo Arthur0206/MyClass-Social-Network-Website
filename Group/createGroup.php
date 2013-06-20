@@ -29,7 +29,7 @@
 		<h1>建立您的新群組,只要短短三分鐘</h1>
 		<form action="/MyClass/Group/createGroup.php" method="post" name="create-group-form" id="create-group-form">
 				<div class="row" id="group-1st-row">
-					<label for="is-class-group" class="describe-label">此群組是否為班級群組/班版?</label>
+					<label for="is-class-group" class="describe-label">此群組是否為班級群組?</label>
 					<input name="class-group" type="radio" id="is-class-group" value="是">
 					<label for="is-class-group" class="radio-label">是</label>
 					<input name="class-group" type="radio" id="not-class-group" value="否">
