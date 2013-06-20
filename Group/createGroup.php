@@ -29,7 +29,7 @@
 		<h1>建立您的新群組,只要短短三分鐘</h1>
 		<form action="/MyClass/Group/createGroup.php" method="post" name="create-group-form" id="create-group-form">
 			<fieldset id="class-group-fieldset">
-				<legend>班級群組</legend><br/>
+				<legend>班級群組</legend>
 				<div class="row" id="class-group-1st-row">
 					<label for="is-class-group" class="describe-label">此群組是否為班級群組/班版?</label>
 					<input name="class-group" type="radio" id="is-class-group" value="是">
@@ -38,7 +38,7 @@
 					<label for="not-class-group" class="radio-label">否</label>
 				</div>
 				<div class="row" id="class-group-2nd-row">
-					<label for="school-country-0" class="describe-label" id="class-group-label">學校</label>
+					<label for="school-country-0" class="describe-label" id="class-group-label">此班級的學校:</label>
 					<select name="school-country-0" id="school-country-0">
 						<option value="0">--國家-- </option>
 						<option value="1">台灣 </option>
@@ -132,7 +132,7 @@
 				</div>
 			</fieldset>
 			<fieldset id="school-group-fieldset">
-				<legend>學校社團</legend><br/>
+				<legend>學校社團</legend>
 				<div class="row">
 					<label for="is-shcool-group" class="describe-label">此群組是否為學校社團?</label>
 					<input name="school-group" type="radio" id="is-school-group" value="是">
@@ -206,7 +206,7 @@
 				</div>
 			</fieldset>
 			<fieldset id="general-fieldset">
-				<legend>群組資訊</legend><br/>
+				<legend>群組資訊</legend>
 				<div class="row">
 					<label for="group-name" class="describe-label">群組名稱</label>
 					<input name="group-name" type="text" id="group-name" size="20">
