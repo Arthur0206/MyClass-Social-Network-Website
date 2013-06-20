@@ -28,16 +28,14 @@
 	<div id="create-group-form-wrapper" class="form-wrapper">
 		<h1>建立您的新群組,只要短短三分鐘</h1>
 		<form action="/MyClass/Group/createGroup.php" method="post" name="create-group-form" id="create-group-form">
-			<fieldset id="class-group-fieldset">
-				<legend>班級群組</legend>
-				<div class="row" id="class-group-1st-row">
+				<div class="row" id="group-1st-row">
 					<label for="is-class-group" class="describe-label">此群組是否為班級群組/班版?</label>
 					<input name="class-group" type="radio" id="is-class-group" value="是">
 					<label for="is-class-group" class="radio-label">是</label>
 					<input name="class-group" type="radio" id="not-class-group" value="否">
 					<label for="not-class-group" class="radio-label">否</label>
 				</div>
-				<div class="row" id="class-group-2nd-row">
+				<div class="row" id="group-2nd-row">
 					<label for="school-country-0" class="describe-label" id="class-group-label">此班級的學校:</label>
 					<select name="school-country-0" id="school-country-0">
 						<option value="0">--國家-- </option>
@@ -99,10 +97,10 @@
 						<option value="13">其他學校</option>
 					</select>
 				</div>
-				<div class="row" id="class-group-3rd-row">
+				<div class="row" id="group-3rd-row">
 
 				</div>
-				<div class="row" id="class-group-4th-row">
+				<div class="row" id="group-4th-row">
 					<label for="graduate-year" class="describe-label">本班級(預計)畢業年份</label>
 					<select name="graduate-year" id="graduate-year">
 						<option value="0">1996</option>
@@ -130,18 +128,15 @@
 						<option value="22">2018</option>
 					</select>
 				</div>
-			</fieldset>
-			<fieldset id="school-group-fieldset">
-				<legend>學校社團</legend>
-				<div class="row">
+				<div class="row" id="group-5th-row">
 					<label for="is-shcool-group" class="describe-label">此群組是否為學校社團?</label>
 					<input name="school-group" type="radio" id="is-school-group" value="是">
 					<label for="is-school-group" class="radio-label">是</label>
 					<input name="school-group" type="radio" id="not-school-group" value="否">
 					<label for="not-school-group" class="radio-label">否</label>
 				</div>
-				<div class="row">
-					<label for="school-country-1" class="describe-label">學校</label>
+				<div class="row" id="group-6th-row">
+					<label for="school-country-1" class="describe-label" id="school-group-label">學校</label>
 					<select name="school-country-1" id="school-country-1">
 						<option value="/tw/">台灣 </option>
 					</select>
@@ -200,18 +195,19 @@
 						<option value="13">其他學校</option>
 					</select>
 				</div>
-				<div class="row">
+				<div class="row" id="group-7th-row">
 					<label for="school-group-name" class="describe-label" >社團名稱</label>
 					<input name="school-group-name" type="text" id="school-group-name" size="20">
 				</div>
-			</fieldset>
-			<fieldset id="general-fieldset">
-				<legend>群組資訊</legend>
-				<div class="row">
+				<div class="row" id="group-8th-row">
 					<label for="group-name" class="describe-label">群組名稱</label>
 					<input name="group-name" type="text" id="group-name" size="20">
 				</div>
-				<div class="row">
+				<div class="row" id="group-9th-row">
+					<label for="group-describe" class="describe-label">群組介紹</label>
+					<textarea name="group-describe" id="group-describe" rows="15" cols="50">sss</textarea>
+				</div>
+				<div class="row" id="group-10th-row">
 					<label class="describe-label">群組地點</label>
 					<select name="group-country" id="group-country">
 						<option value="/tw/">台灣 </option>
@@ -245,7 +241,7 @@
 					<input name="none-area" type="checkbox" id="none-area">
 					<label for="none-area" class="checkbox-label">不限於特定地區</label>
 				</div>
-				<div class="block">
+				<div class="block" id="group-11th-row">
 					<label class="describe-label">性質</label>
 					<input name="group-type-0" type="checkbox" id="group-type-0" class="check-type">
 					<label for="group-type-0" class="checkbox-label">班版</label>
@@ -298,17 +294,16 @@
 					<input name="group-type-24" type="checkbox" id="group-type-24" class="check-type">
 					<label for="group-type-24" class="checkbox-label">研究&學習</label>	
 				</div>
-				<div class="row">
+				<div class="row" id="group-12th-row">
 					<label for="public" class="describe-label">此群組是否為公開群組?</label>
 					<input name="privacy" type="radio" id="public" value="public">
 					<label for="public" class="radio-label">是</label>
 					<input name="privacy" type="radio" id="private" value="private">
 					<label for="private" class="radio-label">否</label>
 				</div>
-			</fieldset>
-			<div>
-				<input type="submit" class="submit-button" name="submit-create-group" id="submit-create-group" value="送出">
-			</div>
+				<div id="group-13th-row">
+					<input type="submit" class="submit-button" name="submit-create-group" id="submit-create-group" value="送出">
+				</div>
 		</form>
 	</div>
 </body>

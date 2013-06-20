@@ -1,4 +1,13 @@
 @charset "utf-8";
+.text-field-word {
+	font-size: 90%;
+	vertical-align: middle;
+}
+.text-field-explan {
+	font-size: 90%;
+	color: #777777;
+	vertical-align: middle;
+}
 form .same-line {
 	float: left;
 	margin: 0px 10px 0px 0px;
