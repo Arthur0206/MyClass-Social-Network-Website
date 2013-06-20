@@ -138,10 +138,12 @@
 				<div class="row" id="group-6th-row">
 					<label for="school-country-1" class="describe-label" id="school-group-label">學校:</label>
 					<select name="school-country-1" id="school-country-1">
-						<option value="/tw/">台灣 </option>
+						<option value="0">--國家-- </option>
+						<option value="1">台灣 </option>
+						<option value="2">其他 </option>
 					</select>
 					<select name="school-region-1" id="school-region-1">
-						<option value="0">選擇縣市</option>
+						<option value="0">--縣市--</option>
 						<option value="1">台北市</option>
 						<option value="2">基隆市</option>
 						<option value="3">新北市</option>
@@ -167,7 +169,7 @@
 						<option value="23">南海諸島</option>
 					</select>
 					<select name="school-type-1" id="school-type-1">
-						<option value="0">選擇學校類別</option>
+						<option value="0">--學校類別--</option>
 						<option value="1">博碩士</option>
 						<option value="2">大學</option>
 						<option value="3">四技</option>
@@ -179,7 +181,7 @@
 						<option value="9">國小</option>
 					</select>
 					<select name="school-name-1" id="school-name-1">
-						<option value="0">選擇學校</option>
+						<option value="0">--學校--</option>
 						<option value="1">台灣大學</option>
 						<option value="2">台科大</option>
 						<option value="3">師範學院</option>
@@ -205,16 +207,18 @@
 				</div>
 				<div class="flexible" id="group-9th-row">
 					<label for="group-describe" class="describe-label">群組介紹:</label>
-					<textarea name="group-describe" id="group-describe" rows="15" cols="50">請介紹這個群組</textarea>
+					<textarea name="group-describe" id="group-describe" rows="15" cols="50">這個群組在做什麼, 有什麼有趣地方呢?</textarea>
 				</div>
 				<div class="row" id="group-10th-row">
 					<label class="describe-label">群組地點:</label>
 					<select name="group-country" id="group-country">
-						<option value="/tw/">台灣 </option>
+						<option value="0">--國家-- </option>
+						<option value="1">台灣 </option>
+						<option value="2">其他 </option>
 					</select>
-					<select name="group-region">
-						<option value="0">選擇縣市</option>
-						<option value="1">台北市</option>
+					<select name="group-region" id="group-region">
+						<option value="0">--縣市--</option>
+						<option value="1">不拘縣市</option>
 						<option value="2">基隆市</option>
 						<option value="3">新北市</option>
 						<option value="4">宜蘭縣</option>
@@ -244,9 +248,9 @@
 				<div class="block" id="group-11th-row">
 					<label class="describe-label">性質:</label>
 					<input name="group-type-0" type="checkbox" id="group-type-0" class="check-type">
-					<label for="group-type-0" class="checkbox-label">班版</label>
+					<label for="group-type-0" class="checkbox-label">攝影</label>
 					<input name="group-type-1" type="checkbox" id="group-type-1" class="check-type">
-					<label for="group-type-1" class="checkbox-label">學校社團</label>
+					<label for="group-type-1" class="checkbox-label">創業</label>
 					<input name="group-type-2" type="checkbox" id="group-type-2" class="check-type">
 					<label for="group-type-2" class="checkbox-label">旅遊</label>
 					<input name="group-type-3" type="checkbox" id="group-type-3" class="check-type">
@@ -284,15 +288,7 @@
 					<input name="group-type-19" type="checkbox" id="group-type-19" class="check-type">
 					<label for="group-type-19" class="checkbox-label">美容&時尚</label>	
 					<input name="group-type-20" type="checkbox" id="group-type-20" class="check-type">
-					<label for="group-type-20" class="checkbox-label">創業</label>	
-					<input name="group-type-21" type="checkbox" id="group-type-21" class="check-type">
-					<label for="group-type-21" class="checkbox-label">跑車&重機</label>
-					<input name="group-type-22" type="checkbox" id="group-type-22" class="check-type">
-					<label for="group-type-22" class="checkbox-label">攝影</label>	
-					<input name="group-type-23" type="checkbox" id="group-type-23" class="check-type">
-					<label for="group-type-23" class="checkbox-label">模特</label>	
-					<input name="group-type-24" type="checkbox" id="group-type-24" class="check-type">
-					<label for="group-type-24" class="checkbox-label">研究&學習</label>	
+					<label for="group-type-20" class="checkbox-label">研究&學習</label>	
 				</div>
 				<div class="row" id="group-12th-row">
 					<label for="public" class="describe-label">此群組是否為公開群組?</label>
