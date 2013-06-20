@@ -872,7 +872,6 @@ textarea {
 	padding: 6px;
 	width: 86%;
 	font-size: 100%;
-	display: none;
 }
 .about_block table {
 	margin: 5px 7px 5px 7px;
@@ -954,19 +953,71 @@ textarea {
 .moment_content p {
 	margin: 0 0 10px 0;
 }
+.moment_content #gallery {
+	overflow: auto;
+}
 .moment_content #gallery img {
 	padding-right: 5px;
 }
 .moment_content #gallery a {
 	float: left;
 }
-.moment_wrapper form .submit-button, .moment_wrapper form .cancel-button, .moment_wrapper form .hidden-button, .moment_wrapper form .delete-button {
+.moment_post form .submit-button, .moment_post form .cancel-button, .moment_post form .hidden-button, .moment_post form .delete-button {
 	float: right;
 	margin: 40px 0 0 4px;
 }
 .moment_content textarea {
 	margin-left: 0px;
 	width: 600px;
+}
+.moment_response {
+	padding: 4px 0 4px 0;
+	overflow: auto;
+	clear: left;
+	border-bottom: 1px solid #D8D5D0;
+}
+.moment_response.last {
+	border: none;
+}
+.moment_response div {
+	width: 695px;
+	margin: 1px 0 0 6px;
+	float: left;
+	position: relative; /* for all red buttons in moment_response*/
+}
+.moment_response p {
+	margin: 0;
+	font-size: 90%;
+}
+.moment_response div a {
+	font-size: 90%;
+	margin-right: 5px;
+	float: left;
+}
+.moment_response img {
+ 	width:35px;
+	height:35px;
+	border-radius: 2px;
+	float: left;
+}
+.moment_content hr {
+	width: 100% !important;
+	float: left !important;
+	margin: 7px 0 5px 0;
+}
+.moment_content .date {
+	margin: 4px 0 0 0;
+	width: 100px;
+	float: left;
+	display: inline;
+	color: #acacac;
+	font-size: 80%;
+}
+.moment_response form .submit-button, .moment_response form .cancel-button, .moment_response form .hidden-button, .moment_response form .delete-button {
+	margin: none;
+	position: absolute;
+	top: 100px;
+	left: 635px;
 }
 
 /* 相簿頁面 */
