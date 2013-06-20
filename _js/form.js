@@ -5,20 +5,24 @@
 //input field which only contain 0-9 has class .number-only
 //if the info msg need to be put in next line, add a <br/> before all info messages.
 
+function scrollTo(id, time) {
+	$('html, body').animate({
+		scrollTop: $(id).offset().top
+	}, time);
+}
+
 function processCreateGroupForm() {
-	$('#class-group-fieldset').nextAll('fieldset').fadeOut();
-	$('#submit-create-group').fadeOut();
-	$('#class-group-1st-row').nextAll('div').fadeOut();
-	
+	$('#group-1st-row').nextAll('div').fadeOut();//hide all after 1st Q
+
+	//------------------------------- class group's questions ------------------------------------
+
 	$('input[name=class-group]').change(function() {		
 		if ($('#not-class-group').is(":checked")) { //not a class group
-			$('#class-group-1st-row').nextAll('div').fadeOut();
-			$('#general-fieldset').fadeOut();
-			$('#school-group-fieldset').fadeIn();
+			$('#group-1st-row').nextAll('div').fadeOut();//hide all after 1st Q
+			$('#group-5th-row').fadeIn();
 		} else {
-			$('#school-group-fieldset').fadeOut();	
-			$('general-fieldset').fadeOut();
-			$('#class-group-1st-row').next('div').fadeIn();
+			$('#group-2nd-row').fadeIn();
+			$('#group-2nd-row').nextAll('div').fadeOut();
 			$('#class-group-label').nextAll('select').val(0);
 			$('#school-country-0').nextAll('select').attr('disabled', true);
 		}
@@ -27,8 +31,7 @@ function processCreateGroupForm() {
 	$('#school-country-0').change(function() {
 		$(this).nextAll('select').val(0);
 		$(this).next('select').nextAll('select').attr('disabled', true);
-		$('#class-group-2nd-row').nextAll('div').fadeOut();
-		$('#general-fieldset').fadeOut();
+		$('#group-2nd-row').nextAll('div').fadeOut();
 
 		if($(this).val() == 0) {
 			$(this).nextAll('select').attr('disabled', true);
@@ -37,11 +40,10 @@ function processCreateGroupForm() {
 		}
 	}); //end change
 
-	$('#school-region-0').change(function(evt) {
+	$('#school-region-0').change(function() {
 		$(this).nextAll('select').val(0);
 		$(this).next('select').nextAll('select').attr('disabled', true);
-		$('#class-group-2nd-row').nextAll('div').fadeOut();
-		$('#general-fieldset').fadeOut();
+		$('#group-2nd-row').nextAll('div').fadeOut();
 
 		if($(this).val() == 0) {
 			$(this).nextAll('select').attr('disabled', true);
@@ -52,8 +54,7 @@ function processCreateGroupForm() {
 
 	$('#school-type-0').change(function() {
 		$(this).nextAll('select').val(0);
-		$('#class-group-2nd-row').nextAll('div').fadeOut();
-		$('#general-fieldset').fadeOut();
+		$('#group-2nd-row').nextAll('div').fadeOut();
 
 		if($(this).val() == 0) {
 			$(this).nextAll('select').attr('disabled', true);
@@ -63,52 +64,49 @@ function processCreateGroupForm() {
 	}); //end change
 
 	$('#school-name-0').change(function() {
-		$('#class-group-2nd-row').nextAll('div').fadeOut();
-		$('#general-fieldset').fadeOut();
+		$('#group-2nd-row').nextAll('div').fadeOut();
 
 		if($(this).val() == 0) {
-			$('#class-group-2nd-row').nextAll('div').fadeOut();
-			$('#class-group-fieldset').nextAll('fieldset').fadeOut();
+			$('#group-2nd-row').nextAll('div').fadeOut();
 		} else {
-			$('#class-group-2nd-row').next('div').fadeIn();
+			$('#group-2nd-row').next('div').fadeIn();
 			type = $('#school-type-0').val();
 			if (type == 1) { 						
 				//graduate school and Phd - only has department
 				
-				$('#class-group-3rd-row').html('')
-				.append('<label for="grad-department" class="describe-label">科系</label>') 
+				$('#group-3rd-row').html('')
+				.append('<label for="grad-department" class="describe-label">科系:</label>') 
 				.append('<select name="grad-department" id="grad-department"> <option value="0">--系所--</option><option value="1">外文系</option><option value="2">中文系</option><option value="3">經濟系</option><option value="4">企管系</option><option value="5">資工系</option><option value="6">化工系</option><option value="7">醫學系</option><option value="8">牙醫系</option><option value="9">土木系</option></select>');
 
 				$('#grad-department').val(0);
 
 				$('#grad-department').change(function() {
 					if($(this).val() == 0) {
-						$('#general-fieldset').fadeOut();
+						$('#group-7th-row').nextAll('div').fadeOut();
 					} else {
-						$('#general-fieldset').fadeIn();		
+						$('#group-9th-row').fadeIn();
+						$('#group-13th-row').fadeIn();
 					}	
 				}); //end change
 
-				$('#class-group-4th-row').remove(); 
 			} else if (type == 2 || type == 3 || type == 4 || type == 5 || type == 6) { 	
-				//has a department and a graduate year
+				//has a department and a year
 				
-				$('#class-group-3rd-row').html('').append('<div id="under-depart-div" class="same-line"></div>');
-				
-				$('#under-depart-div').append('<label for="under-department" class="describe-label">科系</label>')
-				.append('<select name="under-department" id="under-department"> <option value="0">--系所--</option><option value="1">外文系</option><option value="2">中文系</option><option value="3">經濟系</option></select>')
-				.after('<div id="under-year-div" class="same-line"></div>');
-				
-				$('#under-year-div').append('<label for="under-year" class="describe-label">年級</label>')
+				$('#group-3rd-row').html('').append('<div id="under-depart-div" class="same-line"></div>');		
+				$('#under-depart-div').append('<label for="under-department" class="describe-label">科系:</label>')
+				.append('<select name="under-department" id="under-department"> <option value="0">--系所--</option><option value="1">外文系</option><option value="2">中文系</option><option value="3">經濟系</option></select>');
+			
+				$('#under-depart-div').after('<div id="under-year-div" class="same-line"></div>');
+				$('#under-year-div').append('<label for="under-year" class="describe-label">年級:</label>')
 				.append('<select name="under-year" id="under-year"> <option value="0">--年級--</option><option value="1">一年級</option><option value="2">二年級</option><option value="3">三年級</option><option value="4">四年級</option></select>');
 				
-				$('#under-department').val(0);
 				$('#under-year-div').hide();
+				$('#under-department').val(0);
 
 				$('#under-department').change(function() {
 					if($(this).val() == 0) {
 						$('#under-year-div').fadeOut().val(0);
-						$('#general-fieldset').fadeOut();
+						$('#group-7th-row').nextAll('div').fadeOut();
 					} else {
 						$('#under-year-div').fadeIn();			
 					}	
@@ -116,29 +114,76 @@ function processCreateGroupForm() {
 				
 				$('#under-year').change(function() {
 					if($(this).val() == 0) {
-						$('#general-fieldset').fadeOut();
+						$('#group-3rd-row').nextAll('div').fadeOut();
 					} else {
-						$('#general-fieldset').fadeIn();			
+						$('#group-4th-row').fadeIn();
 					}				
 				}); //end change
 			
-			} else if (type == 7 || type == 8) {					
-				//high school and junior high school
+			} else if (type == 7 || type == 8 || type == 9) {					
+				//has a year and a class
 				
-				$('#class-group-3rd-row').html('')
-				.append('<label for="high-school-year" class="describe-label">年級</label>') 	
-				.append('<select name="high-school-year" id="high-school-year"> <option value="0">--年級--</option><option value="1">一年級</option><option value="2">二年級</option><option value="3">三年級</option></select>');
+				$('#group-3rd-row').html('').append('<div id="year-n-class-year-div" class="same-line"></div>');
+				$('#year-n-class-year-div').append('<label for="year-n-class-year" class="describe-label">年級:</label>') 	
+				.append('<select name="year-n-class-year" id="year-n-class-year"> <option value="0">--年級--</option><option value="1">一年級</option><option value="2">二年級</option><option value="3">三年級</option></select>');
+				
+				$('#year-n-class-year-div').after('<div id="year-n-class-class-div" class="same-line"></div>');
+				$('#year-n-class-class-div').append('<label for="year-n-class-class" class="describe-label">班級:</label>')
+				.append('<input name="year-n-class-class" type="text" id="year-n-class-class" size="2" maxlength="2"><span class="text-field-word"> 班 </span> <span class="text-field-explan"> (請輸入正確的班級名稱, 例如: 13, 7, 孝, 仁) </span>');
+				
+				$('#year-n-class-year').val(0);
+				$('#year-n-class-class-div').hide();
+				
+				$('#year-n-class-year').change(function() {
+					if($(this).val() == 0) {
+						$('#year-n-class-class-div').fadeOut().val(0);
+						$('#group-3rd-row').nextAll('div').fadeOut();
+					} else {
+						$('#year-n-class-class-div').fadeIn();
+						$('#group-4th-row').fadeIn();
+						$('#year-n-class-class').focus();		
+					}				
+				}); //end change
+			} //school type condition
+		} //type is not 0 
+	}); //end change
+	
+	$('#graduate-year').change(function() {
+		if($(this).val() == 0) {
+			$('#group-4th-row').nextAll('div').fadeOut();
+		} else {
+			$('#group-9th-row').fadeIn();
+			$('#group-13th-row').fadeIn();
+			//scrollTo("#submit-create-group", 0);
+		}	
+	}); //end change;
 
-				$('#high-school-year').val(0);		
-			} else if (type == 9) {
-				//elementary school - 6 year
-
-				$('#class-group-3rd-row').html('')
-				.append('<label for="elem-school-year" class="describe-label">年級</label>') 	
-				.append('<select name="elem-school-year" id="elem-school-year"> <option value="0">--年級--</option><option value="1">一年級</option><option value="2">二年級</option><option value="3">三年級</option><option value="4">四年級</option><option value="5">五年級</option><option value="6">六年級</option></select>');
-
-				$('#elem-school-year').val(0);				
-			}
+	$('#group-describe').focus(function() {
+		if (this.value === this.defaultValue) {
+			this.value = '';
+		}
+	}).blur(function() {
+		if (this.value === '') {
+			this.value = this.defaultValue;
+		}
+	});
+	
+	//------------------------------- school group's questions ------------------------------------
+	
+	$('input[name=school-group]').change(function() {		
+		if ($('#not-school-group').is(":checked")) { //not a class group
+			$('#group-5th-row').nextAll('div').fadeOut();//hide all after 1st Q
+			//$('#general-fieldset').fadeOut();
+			//$('#school-group-fieldset').fadeIn();
+			$('#group-7th-row').nextAll('div').fadeIn();
+		} else {
+			//$('#school-group-fieldset').fadeOut();	
+			//$('general-fieldset').fadeOut();
+			$('#group-6th-row').fadeIn();
+			$('#group-6th-row').nextAll('div').fadeOut();
+			//$('#group-1st-row').next('div').fadeIn();
+			$('#school-group-label').nextAll('select').val(0);
+			$('#school-country-1').nextAll('select').attr('disabled', true);
 		}
 	}); //end change
 }

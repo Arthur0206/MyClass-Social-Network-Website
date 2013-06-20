@@ -101,9 +101,9 @@
 
 				</div>
 				<div class="row" id="group-4th-row">
-					<label for="graduate-year" class="describe-label">本班級(預計)畢業年份</label>
+					<label for="graduate-year" class="describe-label">本班級(預計)畢業年份:</label>
 					<select name="graduate-year" id="graduate-year">
-						<option value="0">1996</option>
+						<option value="0">--畢業年份--</option>
 						<option value="1">1997</option>
 						<option value="2">1998</option>
 						<option value="3">1999</option>
@@ -136,7 +136,7 @@
 					<label for="not-school-group" class="radio-label">否</label>
 				</div>
 				<div class="row" id="group-6th-row">
-					<label for="school-country-1" class="describe-label" id="school-group-label">學校</label>
+					<label for="school-country-1" class="describe-label" id="school-group-label">學校:</label>
 					<select name="school-country-1" id="school-country-1">
 						<option value="/tw/">台灣 </option>
 					</select>
@@ -196,19 +196,19 @@
 					</select>
 				</div>
 				<div class="row" id="group-7th-row">
-					<label for="school-group-name" class="describe-label" >社團名稱</label>
+					<label for="school-group-name" class="describe-label" >社團名稱:</label>
 					<input name="school-group-name" type="text" id="school-group-name" size="20">
 				</div>
 				<div class="row" id="group-8th-row">
-					<label for="group-name" class="describe-label">群組名稱</label>
+					<label for="group-name" class="describe-label">群組名稱:</label>
 					<input name="group-name" type="text" id="group-name" size="20">
 				</div>
-				<div class="row" id="group-9th-row">
-					<label for="group-describe" class="describe-label">群組介紹</label>
-					<textarea name="group-describe" id="group-describe" rows="15" cols="50">sss</textarea>
+				<div class="flexible" id="group-9th-row">
+					<label for="group-describe" class="describe-label">群組介紹:</label>
+					<textarea name="group-describe" id="group-describe" rows="15" cols="50">請介紹這個群組</textarea>
 				</div>
 				<div class="row" id="group-10th-row">
-					<label class="describe-label">群組地點</label>
+					<label class="describe-label">群組地點:</label>
 					<select name="group-country" id="group-country">
 						<option value="/tw/">台灣 </option>
 					</select>
@@ -242,7 +242,7 @@
 					<label for="none-area" class="checkbox-label">不限於特定地區</label>
 				</div>
 				<div class="block" id="group-11th-row">
-					<label class="describe-label">性質</label>
+					<label class="describe-label">性質:</label>
 					<input name="group-type-0" type="checkbox" id="group-type-0" class="check-type">
 					<label for="group-type-0" class="checkbox-label">班版</label>
 					<input name="group-type-1" type="checkbox" id="group-type-1" class="check-type">
