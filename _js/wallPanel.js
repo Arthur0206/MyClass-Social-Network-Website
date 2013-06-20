@@ -1,9 +1,9 @@
 function processWallPanel()
 {
 	// 為了支援no js用戶, "編輯"和"刪除"按鈕剛開始要是顯示狀態!
-	$('#wall_panel .hidden-button').hide();
+	$('#wall_panel .hidden-button').show();
 
-	$('.moment_content.user_own').hover(
+	$('.moment_content.user_own .moment_post').hover(
 		function() {
 			$(this).find('.hidden-button:not(.is_clicked)').show();
 		},
@@ -12,12 +12,21 @@ function processWallPanel()
 		}
 	); // end hover
 
+	$('.moment_content.user_own .moment_response').hover(
+		function() {
+			$(this).find('.hidden-button:not(.is_clicked)').show();
+		},
+		function() {
+			$(this).find('.hidden-button').show();
+		}
+	); // end hover
+
 	$('#wall_panel .hidden-button').click(function() {
 		if ($(this).val() == "編輯") {
 			var pElement = $(this).parent().parent().siblings('p');
 			var pText = pElement.text();
 
-			pElement.hide().siblings('textarea').text(pText).hide().fadeIn(200);
+			pElement.hide().siblings('textarea').val(pText).fadeIn(200);
 
 			$(this).addClass('is_clicked').hide();
 			$(this).next('.hidden-button').addClass('is_clicked').hide().next('.cancel-button').show().next('.submit-button').show();
@@ -27,7 +36,8 @@ function processWallPanel()
 	$('#wall_panel .cancel-button').click(function() {
 		var pElement = $(this).parent().parent().siblings('p');
 
-		pElement.show().siblings('textarea').text("").hide();
+		pElement.show();
+		pElement.siblings('textarea').val("").hide();
 
 		$(this).siblings(".hidden-button").removeClass('is_clicked');
 		$(this).hide().siblings('.submit-button').hide();

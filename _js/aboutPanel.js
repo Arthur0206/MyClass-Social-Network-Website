@@ -51,7 +51,7 @@ function processTextAreaEdit(selectedBlock)
 	var pText = selectedBlock.find('p').text();
 
 	selectedBlock.find('p').hide();
-	selectedBlock.find('textarea').text(pText).hide().fadeIn(200);
+	selectedBlock.find('textarea').val(pText).fadeIn(200);
 	selectedBlock.find('.hidden-button').addClass('is_clicked').hide();
 	selectedBlock.find('input:not(.hidden-button)').show();
 }
@@ -60,7 +60,7 @@ function processTextAreaCancel(selectedBlock)
 {
 	var pText = selectedBlock.find('p').text();
 
-	selectedBlock.find('textarea').text(pText).hide();
+	selectedBlock.find('textarea').val("").hide();
 	selectedBlock.find('p').show();
 	selectedBlock.find('.hidden-button').removeClass('is_clicked');
 	selectedBlock.find('input').hide();
