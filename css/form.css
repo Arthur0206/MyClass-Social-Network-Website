@@ -1,4 +1,16 @@
 @charset "utf-8";
+.flexible {
+	margin-bottom: 10px;
+}
+.text-field-word {
+	font-size: 90%;
+	vertical-align: middle;
+}
+.text-field-explan {
+	font-size: 90%;
+	color: #777777;
+	vertical-align: middle;
+}
 form .same-line {
 	float: left;
 	margin: 0px 10px 0px 0px;
@@ -7,12 +19,8 @@ form label {
 	-webkit-user-select: none;
 	-moz-user-select: none;
 }
-form fieldset {
-	-webkit-user-select: none;
-	-moz-user-select: none;
-    border: 2px solid #E5E5E5;
-	border-radius: 4px;
-	margin-top: 20px;
+form legend {
+	display: none;
 }
 form .check-type {
 	height: 18px !important;
@@ -25,11 +33,11 @@ form .block {
 	float: right;
 	padding-left: 20px;
 	padding-right: 20px;
-	margin: 20px 220px 0px 0px;
+	margin: 20px 250px 50px 0px;
 }
 #create-group-form-wrapper {
 	width: 515px;
-	margin: 50px auto 150px auto;
+	margin: 50px auto 50px auto;
 }
 #create-group-form .describe-label {
 	display: block;
@@ -39,6 +47,14 @@ form .block {
 }
 #create-group-form .row {
 	height: 60px;
+}
+#create-group-form textarea {
+	margin: 0px;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 4px;
+	color: #666666;
+	border: 1px solid #d0d5cb;
 }
 #logIn-form .describe-label {
 	display: block;
