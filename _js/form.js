@@ -6,18 +6,19 @@
 //if the info msg need to be put in next line, add a <br/> before all info messages.
 
 function processCreateGroupForm() {
-	$('#class-group-fieldset').nextAll('fieldset').hide();
-	$('#submit-create-group').hide();
-	$('#class-group-1st-row').nextAll('div').hide();
+	$('#class-group-fieldset').nextAll('fieldset').fadeOut();
+	$('#submit-create-group').fadeOut();
+	$('#class-group-1st-row').nextAll('div').fadeOut();
 	
 	$('input[name=class-group]').change(function() {		
 		if ($('#not-class-group').is(":checked")) { //not a class group
-			$('#school-group-fieldset').show();
-			$('#class-group-1st-row').nextAll('div').hide();
+			$('#class-group-1st-row').nextAll('div').fadeOut();
+			$('#general-fieldset').fadeOut();
+			$('#school-group-fieldset').fadeIn();
 		} else {
-			$('#school-group-fieldset').hide();	
+			$('#school-group-fieldset').fadeOut();	
+			$('general-fieldset').fadeOut();
 			$('#class-group-1st-row').next('div').fadeIn();
-			//$('#class-group-label').nextAll('select[value=0]:first').nextAll('select').attr('disabled', true);
 			$('#class-group-label').nextAll('select').val(0);
 			$('#school-country-0').nextAll('select').attr('disabled', true);
 		}
@@ -26,8 +27,8 @@ function processCreateGroupForm() {
 	$('#school-country-0').change(function() {
 		$(this).nextAll('select').val(0);
 		$(this).next('select').nextAll('select').attr('disabled', true);
-		$('#class-group-2nd-row').nextAll('div').hide();
-		$('#general-fieldset').hide();
+		$('#class-group-2nd-row').nextAll('div').fadeOut();
+		$('#general-fieldset').fadeOut();
 
 		if($(this).val() == 0) {
 			$(this).nextAll('select').attr('disabled', true);
@@ -39,8 +40,8 @@ function processCreateGroupForm() {
 	$('#school-region-0').change(function(evt) {
 		$(this).nextAll('select').val(0);
 		$(this).next('select').nextAll('select').attr('disabled', true);
-		$('#class-group-2nd-row').nextAll('div').hide();
-		$('#general-fieldset').hide();
+		$('#class-group-2nd-row').nextAll('div').fadeOut();
+		$('#general-fieldset').fadeOut();
 
 		if($(this).val() == 0) {
 			$(this).nextAll('select').attr('disabled', true);
@@ -51,8 +52,8 @@ function processCreateGroupForm() {
 
 	$('#school-type-0').change(function() {
 		$(this).nextAll('select').val(0);
-		$('#class-group-2nd-row').nextAll('div').hide();
-		$('#general-fieldset').hide();
+		$('#class-group-2nd-row').nextAll('div').fadeOut();
+		$('#general-fieldset').fadeOut();
 
 		if($(this).val() == 0) {
 			$(this).nextAll('select').attr('disabled', true);
@@ -62,12 +63,12 @@ function processCreateGroupForm() {
 	}); //end change
 
 	$('#school-name-0').change(function() {
-		$('#class-group-2nd-row').nextAll('div').hide();
-		$('#general-fieldset').hide();
+		$('#class-group-2nd-row').nextAll('div').fadeOut();
+		$('#general-fieldset').fadeOut();
 
 		if($(this).val() == 0) {
-			$('#class-group-2nd-row').nextAll('div').hide();
-			$('#class-group-fieldset').nextAll('fieldset').hide();
+			$('#class-group-2nd-row').nextAll('div').fadeOut();
+			$('#class-group-fieldset').nextAll('fieldset').fadeOut();
 		} else {
 			$('#class-group-2nd-row').next('div').fadeIn();
 			type = $('#school-type-0').val();
@@ -82,9 +83,9 @@ function processCreateGroupForm() {
 
 				$('#grad-department').change(function() {
 					if($(this).val() == 0) {
-						$('#general-fieldset').hide();
+						$('#general-fieldset').fadeOut();
 					} else {
-						$('#general-fieldset').show();		
+						$('#general-fieldset').fadeIn();		
 					}	
 				}); //end change
 
@@ -106,18 +107,18 @@ function processCreateGroupForm() {
 
 				$('#under-department').change(function() {
 					if($(this).val() == 0) {
-						$('#under-year-div').hide().val(0);
-						$('#general-fieldset').hide();
+						$('#under-year-div').fadeOut().val(0);
+						$('#general-fieldset').fadeOut();
 					} else {
-						$('#under-year-div').show();			
+						$('#under-year-div').fadeIn();			
 					}	
 				}); //end change
 				
 				$('#under-year').change(function() {
 					if($(this).val() == 0) {
-						$('#general-fieldset').hide();
+						$('#general-fieldset').fadeOut();
 					} else {
-						$('#general-fieldset').show();			
+						$('#general-fieldset').fadeIn();			
 					}				
 				}); //end change
 			
@@ -229,12 +230,12 @@ function processRegisterForm(){
 		if ($(this).siblings('label.error').length == 0 || //no error label
 			$(this).siblings('label.error').is(":hidden")) //all error label is hidden
 		{
-			$(this).siblings('span').show(); //show info msg
+			$(this).siblings('span').fadeIn(); //show info msg
 		}
 	}); //end focus
 	
 	$('.has-info').blur(function() {
-		$(this).siblings('span').hide(); //hide info msg
+		$(this).siblings('span').fadeOut(); //hide info msg
 	}); //end blur
 	
 	jQuery.validator.addMethod("notEqual", function(value, element, param) {

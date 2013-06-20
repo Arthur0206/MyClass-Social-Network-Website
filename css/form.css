@@ -7,12 +7,17 @@ form label {
 	-webkit-user-select: none;
 	-moz-user-select: none;
 }
+form legend {
+	display: none;
+}
 form fieldset {
 	-webkit-user-select: none;
 	-moz-user-select: none;
-    border: 2px solid #E5E5E5;
-	border-radius: 4px;
-	margin-top: 20px;
+    //border: 2px solid #E5E5E5;
+	//border-radius: 4px;
+	border: none;
+	//margin-top: 20px;
+	padding: 0px;
 }
 form .check-type {
 	height: 18px !important;
