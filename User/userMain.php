@@ -197,7 +197,7 @@
 				</div>
 				</div>
 				<hr>
-				<div class="moment_response">
+				<div class="moment_response user_own"> <!--  Sosoman自己的moment: user_own class -->
 					<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
 					<div>
 					<a href="hotUser.html" class="boy-user-link">Sosoman</a>
@@ -213,39 +213,71 @@
 					</div>
 				</div>
 
-				<div class="moment_response">
+				<div class="moment_response user_own">
 					<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
 					<div><a href="hotUser.html" class="boy-user-link">Sosoman</a>
 					<p>想吃大便嗎?
-					</p><div class="date">6月18日 7:20pm</div></div>
+					</p><div class="date">6月18日 7:20pm</div>
+						<form> <!--  只有自己的moment有這些button -->
+						<input type="button" class="hidden-button" value="編輯">
+						<input type="button" class="hidden-button" value="刪除">
+						<input type="button" class="cancel-button hidden" value="取消">
+						<input type="submit" class="submit-button hidden" value="提交">
+						</form>
+					</div>
 				</div>
 
-				<div class="moment_response">
+				<div class="moment_response user_own">
 					<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
 					<div><a href="hotUser.html" class="boy-user-link">Sosoman</a>
 					<p>想吃啊
-					</p><div class="date">6月18日 7:22pm</div></div>
+					</p><div class="date">6月18日 7:22pm</div>
+						<form> <!--  只有自己的moment有這些button -->
+						<input type="button" class="hidden-button" value="編輯">
+						<input type="button" class="hidden-button" value="刪除">
+						<input type="button" class="cancel-button hidden" value="取消">
+						<input type="submit" class="submit-button hidden" value="提交">
+						</form>
+					</div>
 				</div>
 
-				<div class="moment_response">
+				<div class="moment_response user_own">
 					<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
 					<div><a href="hotUser.html" class="boy-user-link">Sosoman</a>
 					<p>明天再吃好了
-					</p><div class="date">6月18日 7:26pm</div></div>
+					</p><div class="date">6月18日 7:26pm</div>
+						<form> <!--  只有自己的moment有這些button -->
+						<input type="button" class="hidden-button" value="編輯">
+						<input type="button" class="hidden-button" value="刪除">
+						<input type="button" class="cancel-button hidden" value="取消">
+						<input type="submit" class="submit-button hidden" value="提交">
+						</form>
+					</div>
 				</div>
 
 				<div class="moment_response">
 					<a href="hotUser.html"><img src="/MyClass/User/KobeIsGod/head.jpg"></a>
 					<div><a href="hotUser.html" class="boy-user-link">KobeIsGod</a>
 					<p>幹 樓上被到帳號喔
-					</p><div class="date">6月19日 9:15am</div></div>
+					</p><div class="date">6月19日 9:15am</div>
+						<form> <!--  只有自己的moment有這些button -->
+						<input type="button" class="hidden-button" value="刪除">
+						</form>
+					</div>
 				</div>
 
-				<div class="moment_response last"> <!-- 最後一個留言必須是"last" class -->
+				<div class="moment_response last user_own"> <!-- 最後一個留言必須是"last" class -->
 					<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
 					<div><a href="hotUser.html" class="boy-user-link">Sosoman</a>
 					<p>嘻嘻
-					</p><div class="date">6月19日 11:38m</div></div>
+					</p><div class="date">6月19日 11:38m</div>
+						<form> <!--  只有自己的moment有這些button -->
+						<input type="button" class="hidden-button" value="編輯">
+						<input type="button" class="hidden-button" value="刪除">
+						<input type="button" class="cancel-button hidden" value="取消">
+						<input type="submit" class="submit-button hidden" value="提交">
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -256,7 +288,15 @@
 				<a href="Home.php" class="wall_poster_username girl-user-link">NancyLin</a>
 			</div>
 			<div class="moment_content">
+				<div class="moment_post">
 				<p>熱火贏了 我愛君子劍 ! Ray Gun~~~</p>
+					<form> <!--  只有自己的moment有這些button =====> 此為測試(parent沒有gallery的button)用!!!!! -->  
+					<input type="button" class="hidden-button" value="編輯">
+					<input type="button" class="hidden-button" value="刪除">
+					<input type="button" class="cancel-button hidden" value="取消">
+					<input type="submit" class="submit-button hidden" value="提交">
+					</form>
+				</div>
 				<hr>
 				<div class="moment_response">
 					<a href="hotUser.html"><img src="/MyClass/User/KobeIsGod/head.jpg"></a>
@@ -279,6 +319,7 @@
 				<a href="Home.php" class="wall_poster_username girl-user-link">NancyLin</a>
 			</div>
 			<div class="moment_content">
+				<div class="moment_post">
 				<p>今天的活動太好完了 ! 認識很多新朋友～ 希望改天還能一起出去玩 !</p>
 				<div id="gallery">
 					<a href="./NancyLin/Album/Moment/slide1.jpg" rel="gallery" title="一堆高爾夫球"><img src="./NancyLin/Album/Moment/slide1_h.jpg" width="70" height="70" alt="golf balls"></a>
@@ -288,12 +329,20 @@
 					<a href="./NancyLin/Album/Moment/slide5.jpg" rel="gallery" title="湖與樹"><img src="./NancyLin/Album/Moment/slide5_h.jpg" width="70" height="70" alt="tree"></a>
 					<a href="./NancyLin/Album/Moment/slide6.jpg" rel="gallery" title="旁邊打球的老人們..."><img src="./NancyLin/Album/Moment/slide6_h.jpg" width="70" height="70" alt="ocean course"></a>
 				</div>
+				</div>
 				<hr>
-				<div class="moment_response">
+				<div class="moment_response user_own">
 					<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
 					<div><a href="hotUser.html" class="boy-user-link">Sosoman</a>
 					<p>很高興認識妳^^
-					</p><div class="date">6月18日 11:38m</div></div>
+					</p><div class="date">6月18日 11:38m</div>
+						<form> <!--  只有自己的moment有這些button -->
+						<input type="button" class="hidden-button" value="編輯">
+						<input type="button" class="hidden-button" value="刪除">
+						<input type="button" class="cancel-button hidden" value="取消">
+						<input type="submit" class="submit-button hidden" value="提交">
+						</form>
+					</div>
 				</div>
 				<div class="moment_response last">
 					<a href="hotUser.html"><img src="/MyClass/User/NancyLin/head.jpg"></a>
@@ -311,7 +360,9 @@
 				<a href="Home.php" class="wall_poster_username girl-user-link">Mini157</a>
 			</div>
 			<div class="moment_content">
+				<div class="moment_post">
 				<p>今天看到帥哥 超爽的~</p>
+				</div>
 			</div>
 		</div>
 		<div class="moment_wrapper">
@@ -321,9 +372,11 @@
 				<a href="Home.php" class="wall_poster_username boy-user-link">KobeIsGod</a>
 			</div>
 			<div class="moment_content">
+				<div class="moment_post">
 				<p>幹 剛剛在捷運上遇到Kobe 他好像被抓了 不知道為什麼 QQ~</p>
 				<div id="gallery">
 					<a href="./KobeIsGod/Album/Moment/1_b.jpg" rel="gallery" title="一堆高爾夫球"><img src="./KobeIsGod/Album/Moment/1_s.jpg" width="70" height="70" alt="golf balls"></a>
+				</div>
 				</div>
 			</div>
 		</div>
