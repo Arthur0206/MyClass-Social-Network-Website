@@ -33,10 +33,10 @@ form .block {
 	float: right;
 	padding-left: 20px;
 	padding-right: 20px;
-	margin: 20px 250px 50px 0px;
+	margin: 20px 200px 50px 0px;
 }
 #create-group-form-wrapper {
-	width: 515px;
+	width: 450px;
 	margin: 50px auto 50px auto;
 }
 #create-group-form .describe-label {

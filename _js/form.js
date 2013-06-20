@@ -12,17 +12,17 @@ function scrollTo(id, time) {
 }
 
 function processCreateGroupForm() {
-	$('#group-1st-row').nextAll('div').fadeOut();//hide all after 1st Q
+	$('#group-1st-row').nextAll('div').hide();//hide all after 1st Q
 
 	//------------------------------- class group's questions ------------------------------------
 
 	$('input[name=class-group]').change(function() {		
 		if ($('#not-class-group').is(":checked")) { //not a class group
-			$('#group-1st-row').nextAll('div').fadeOut();//hide all after 1st Q
+			$('#group-1st-row').nextAll('div').hide();//hide all after 1st Q
 			$('#group-5th-row').fadeIn();
 		} else {
 			$('#group-2nd-row').fadeIn();
-			$('#group-2nd-row').nextAll('div').fadeOut();
+			$('#group-2nd-row').nextAll('div').hide();
 			$('#class-group-label').nextAll('select').val(0);
 			$('#school-country-0').nextAll('select').attr('disabled', true);
 		}
@@ -31,7 +31,7 @@ function processCreateGroupForm() {
 	$('#school-country-0').change(function() {
 		$(this).nextAll('select').val(0);
 		$(this).next('select').nextAll('select').attr('disabled', true);
-		$('#group-2nd-row').nextAll('div').fadeOut();
+		$('#group-2nd-row').nextAll('div').hide();
 
 		if($(this).val() == 0) {
 			$(this).nextAll('select').attr('disabled', true);
@@ -43,7 +43,7 @@ function processCreateGroupForm() {
 	$('#school-region-0').change(function() {
 		$(this).nextAll('select').val(0);
 		$(this).next('select').nextAll('select').attr('disabled', true);
-		$('#group-2nd-row').nextAll('div').fadeOut();
+		$('#group-2nd-row').nextAll('div').hide();
 
 		if($(this).val() == 0) {
 			$(this).nextAll('select').attr('disabled', true);
@@ -54,7 +54,7 @@ function processCreateGroupForm() {
 
 	$('#school-type-0').change(function() {
 		$(this).nextAll('select').val(0);
-		$('#group-2nd-row').nextAll('div').fadeOut();
+		$('#group-2nd-row').nextAll('div').hide();
 
 		if($(this).val() == 0) {
 			$(this).nextAll('select').attr('disabled', true);
@@ -64,10 +64,10 @@ function processCreateGroupForm() {
 	}); //end change
 
 	$('#school-name-0').change(function() {
-		$('#group-2nd-row').nextAll('div').fadeOut();
+		$('#group-2nd-row').nextAll('div').hide();
 
 		if($(this).val() == 0) {
-			$('#group-2nd-row').nextAll('div').fadeOut();
+			$('#group-2nd-row').nextAll('div').hide();
 		} else {
 			$('#group-2nd-row').next('div').fadeIn();
 			type = $('#school-type-0').val();
@@ -82,7 +82,7 @@ function processCreateGroupForm() {
 
 				$('#grad-department').change(function() {
 					if($(this).val() == 0) {
-						$('#group-7th-row').nextAll('div').fadeOut();
+						$('#group-7th-row').nextAll('div').hide();
 					} else {
 						$('#group-9th-row').fadeIn();
 						$('#group-13th-row').fadeIn();
@@ -105,8 +105,8 @@ function processCreateGroupForm() {
 
 				$('#under-department').change(function() {
 					if($(this).val() == 0) {
-						$('#under-year-div').fadeOut().val(0);
-						$('#group-7th-row').nextAll('div').fadeOut();
+						$('#under-year-div').hide().val(0);
+						$('#group-7th-row').nextAll('div').hide();
 					} else {
 						$('#under-year-div').fadeIn();			
 					}	
@@ -114,7 +114,7 @@ function processCreateGroupForm() {
 				
 				$('#under-year').change(function() {
 					if($(this).val() == 0) {
-						$('#group-3rd-row').nextAll('div').fadeOut();
+						$('#group-3rd-row').nextAll('div').hide();
 					} else {
 						$('#group-4th-row').fadeIn();
 					}				
@@ -136,8 +136,8 @@ function processCreateGroupForm() {
 				
 				$('#year-n-class-year').change(function() {
 					if($(this).val() == 0) {
-						$('#year-n-class-class-div').fadeOut().val(0);
-						$('#group-3rd-row').nextAll('div').fadeOut();
+						$('#year-n-class-class-div').hide().val(0);
+						$('#group-3rd-row').nextAll('div').hide();
 					} else {
 						$('#year-n-class-class-div').fadeIn();
 						$('#group-4th-row').fadeIn();
@@ -150,7 +150,7 @@ function processCreateGroupForm() {
 	
 	$('#graduate-year').change(function() {
 		if($(this).val() == 0) {
-			$('#group-4th-row').nextAll('div').fadeOut();
+			$('#group-4th-row').nextAll('div').hide();
 		} else {
 			$('#group-9th-row').fadeIn();
 			$('#group-13th-row').fadeIn();
@@ -172,18 +172,84 @@ function processCreateGroupForm() {
 	
 	$('input[name=school-group]').change(function() {		
 		if ($('#not-school-group').is(":checked")) { //not a class group
-			$('#group-5th-row').nextAll('div').fadeOut();//hide all after 1st Q
-			//$('#general-fieldset').fadeOut();
-			//$('#school-group-fieldset').fadeIn();
+			$('#group-5th-row').nextAll('div').hide();//hide all after 1st Q
 			$('#group-7th-row').nextAll('div').fadeIn();
+			$('#group-name').focus();	
+			$('#group-region').attr('disabled', true);	
 		} else {
-			//$('#school-group-fieldset').fadeOut();	
-			//$('general-fieldset').fadeOut();
 			$('#group-6th-row').fadeIn();
-			$('#group-6th-row').nextAll('div').fadeOut();
-			//$('#group-1st-row').next('div').fadeIn();
+			$('#group-6th-row').nextAll('div').hide();
 			$('#school-group-label').nextAll('select').val(0);
 			$('#school-country-1').nextAll('select').attr('disabled', true);
+		}
+	}); //end change
+
+	$('#school-country-1').change(function() {
+		$(this).nextAll('select').val(0);
+		$(this).next('select').nextAll('select').attr('disabled', true);
+		$('#group-6th-row').nextAll('div').hide();
+
+		if($(this).val() == 0) {
+			$(this).nextAll('select').attr('disabled', true);
+		} else {
+			$(this).next('select').attr('disabled', false);			
+		}
+	}); //end change
+
+	$('#school-region-1').change(function() {
+		$(this).nextAll('select').val(0);
+		$(this).next('select').nextAll('select').attr('disabled', true);
+		$('#group-6th-row').nextAll('div').hide();
+
+		if($(this).val() == 0) {
+			$(this).nextAll('select').attr('disabled', true);
+		} else {
+			$(this).next('select').attr('disabled', false);			
+		}
+	}); //end change
+
+	$('#school-type-1').change(function() {
+		$(this).nextAll('select').val(0);
+		$('#group-6th-row').nextAll('div').hide();
+
+		if($(this).val() == 0) {
+			$(this).nextAll('select').attr('disabled', true);
+		} else {
+			$(this).next('select').attr('disabled', false);	
+		}
+	}); //end change
+
+	$('#school-name-1').change(function() {
+		if($(this).val() == 0) {
+			$('#group-6th-row').nextAll('div').hide();
+		} else {
+			$('#group-7th-row').fadeIn();
+			$('#group-9th-row').fadeIn();
+			$('#group-11th-row').fadeIn();
+			$('#group-13th-row').fadeIn();		
+			$('#school-group-name').focus();
+		}
+	}); //end change
+	
+	//------------------------------- general questions ------------------------------------
+
+	$('#group-country').change(function() {
+		$(this).next('select').val(0);
+
+		if($(this).val() == 0) {
+			$(this).next('select').attr('disabled', true);
+		} else {
+			$(this).next('select').attr('disabled', false);			
+		}
+	}); //end change
+
+	$('#none-area').change(function() {
+		if ($(this).is(":checked")) { 
+			$('#group-country').val(0).attr('disabled', true);
+			$('#group-region').val(0).attr('disabled', true);
+		} else {
+			$('#group-country').attr('disabled', false);
+			$('#group-region').attr('disabled', false);	
 		}
 	}); //end change
 }
@@ -280,7 +346,7 @@ function processRegisterForm(){
 	}); //end focus
 	
 	$('.has-info').blur(function() {
-		$(this).siblings('span').fadeOut(); //hide info msg
+		$(this).siblings('span').hide(); //hide info msg
 	}); //end blur
 	
 	jQuery.validator.addMethod("notEqual", function(value, element, param) {
