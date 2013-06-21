@@ -814,6 +814,7 @@ li.selected {
 }
 .private_list {
 	border-radius: 4px;
+	background-color: #FFFFF2;
 	box-shadow: 0px 0px 2px 1px #acacac;//#D8D5D0;
 	position: relative;
 	//top: 46px; 
@@ -830,7 +831,7 @@ li.selected {
 	line-height: 1.6em;
 }
 .private_title {
-	color: #3c97ad;
+	color: #333333;//#3c97ad;
 	min-width: 207px;
 	margin-left: 4px;
 }
