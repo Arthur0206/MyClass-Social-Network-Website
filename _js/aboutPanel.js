@@ -5,7 +5,7 @@ function processAboutPanel()
 
 	$('.about_block').hover(
 		function() {
-			$(this).find('.hidden-button:not(.is_clicked)').show();
+			$(this).find('.hidden-button:not(.is_clicked)').fadeIn(150);
 		},
 		function() {
 			$(this).find('.hidden-button').hide();
@@ -48,10 +48,11 @@ function processAboutPanel()
 /* 處理textarea類的表單修改: 關於我, 興趣 */
 function processTextAreaEdit(selectedBlock)
 {
-	var pText = selectedBlock.find('p').text();
+	var pElement = selectedBlock.find('p');
+	var pText = pElement.text();
 
-	selectedBlock.find('p').hide();
-	selectedBlock.find('textarea').val(pText).fadeIn(200);
+	pElement.hide().before('<textarea rows="5"></textarea>');
+	pElement.siblings('textarea').val(pText).fadeIn(200).focus();
 	selectedBlock.find('.hidden-button').addClass('is_clicked').hide();
 	selectedBlock.find('input:not(.hidden-button)').show();
 }
@@ -60,7 +61,7 @@ function processTextAreaCancel(selectedBlock)
 {
 	var pText = selectedBlock.find('p').text();
 
-	selectedBlock.find('textarea').val("").hide();
+	selectedBlock.find('textarea').remove();
 	selectedBlock.find('p').show();
 	selectedBlock.find('.hidden-button').removeClass('is_clicked');
 	selectedBlock.find('input').hide();

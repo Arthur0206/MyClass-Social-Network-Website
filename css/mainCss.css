@@ -966,15 +966,25 @@ li.selected {
 	float: left;
 }
 .moment_post {
+	overflow: hidden;
+	position: relative;
 	min-height: 50px;
 }
-.moment_post form .submit-button, .moment_post form .cancel-button, .moment_post form .hidden-button, .moment_post form .delete-button {
-	float: right;			/* 沒有gallery時moment_post裡的button */
-	margin: 0px 0 0 4px;
+.moment_post form .cancel-button, .moment_post form .hidden-button {
+	float: right;			/* 沒有gallery時moment_post裡的"編輯" "取消"button */
+	margin: 0px 110px 0 4px;
 }
-.moment_post #gallery form .submit-button, .moment_post #gallery form .cancel-button, .moment_post #gallery form .hidden-button, .moment_post #gallery form .delete-button {
-	float: right;			/* 有gallery時moment_post裡的button */
-	margin: 40px 0 0 4px;
+.moment_post form .submit-button , .moment_post form .delete-button {
+	float: right;			/* 沒有gallery時moment_post裡的"提交" "刪除"button */
+	margin: 0px 0px 0 4px;	
+}
+.moment_post #gallery form .cancel-button, .moment_post #gallery form .hidden-button {
+	float: right;			/* 有gallery時moment_post裡的"編輯" "取消"button */
+	margin: 40px 110px 0 4px;
+}
+.moment_post #gallery form .submit-button, .moment_post #gallery form .delete-button {
+	float: right;			/* 有gallery時moment_post裡的"提交" "刪除"button */
+	margin: 40px 0px 0 4px;	
 }
 .moment_content textarea {
 	margin-left: 0px;
@@ -988,6 +998,7 @@ li.selected {
 }
 .moment_response.last {
 	border: none;
+	padding-bottom: 0;
 }
 .moment_response div {
 	width: 675px;
@@ -1034,6 +1045,34 @@ li.selected {
 .moment_response textarea {
 	width: 661px;
 	margin-bottom: 5px;
+}
+.like-button {
+	position: absolute;
+	display: block;
+	width: 50px;
+	overflow: hidden;
+	bottom: 0px;
+	right: 0px; //110px;
+	color: #cd6661; //#cc0000;
+	font-size: 85%;
+}
+.respond-button {
+	position: absolute;
+	display: block;
+	width: 50px;
+	overflow: hidden;
+	bottom: 0px;
+	right: 50px; //160px;
+	color: #61A120; //#cc0000;
+	font-size: 85%;
+}
+.like-button img {
+	width: 19px;
+	height: 19px;
+}
+.respond-button img {
+	width: 18px;
+	height: 18px;
 }
 
 /* 相簿頁面 */
