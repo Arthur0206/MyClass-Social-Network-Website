@@ -207,7 +207,7 @@
 				</div>
 				<div class="flexible" id="group-9th-row">
 					<label for="group-describe" class="describe-label">群組介紹:</label>
-					<textarea name="group-describe" id="group-describe" rows="15" cols="50">這個群組在做什麼, 有什麼有趣地方呢?</textarea>
+					<textarea name="group-describe" id="group-describe" rows="15" cols="45">這個群組在做什麼, 有什麼有趣地方呢?</textarea>
 				</div>
 				<div class="row" id="group-10th-row">
 					<label class="describe-label">群組地點:</label>
@@ -290,14 +290,7 @@
 					<input name="group-type-20" type="checkbox" id="group-type-20" class="check-type">
 					<label for="group-type-20" class="checkbox-label">研究&學習</label>	
 				</div>
-				<div class="row" id="group-12th-row">
-					<label for="public" class="describe-label">此群組是否為公開群組?</label>
-					<input name="privacy" type="radio" id="public" value="public">
-					<label for="public" class="radio-label">是</label>
-					<input name="privacy" type="radio" id="private" value="private">
-					<label for="private" class="radio-label">否</label>
-				</div>
-				<div id="group-13th-row">
+				<div id="group-12th-row">
 					<input type="submit" class="submit-button" name="submit-create-group" id="submit-create-group" value="送出">
 				</div>
 		</form>

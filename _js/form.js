@@ -12,19 +12,23 @@ function scrollTo(id, time) {
 }
 
 function processCreateGroupForm() {
+	$('input[type="radio"]').prop('checked', false); //important - ctrl R will not refresh radio button and other field, casing the form go into a bug state.
 	$('#group-1st-row').nextAll('div').hide();//hide all after 1st Q
-
 	//------------------------------- class group's questions ------------------------------------
 
 	$('input[name=class-group]').change(function() {		
 		if ($('#not-class-group').is(":checked")) { //not a class group
 			$('#group-1st-row').nextAll('div').hide();//hide all after 1st Q
 			$('#group-5th-row').fadeIn();
+			$('#is-school-group').prop('checked', false);
+			$('#not-school-group').prop('checked', false);
 		} else {
 			$('#group-2nd-row').fadeIn();
 			$('#group-2nd-row').nextAll('div').hide();
 			$('#class-group-label').nextAll('select').val(0);
 			$('#school-country-0').nextAll('select').attr('disabled', true);
+			$('#is-school-group').prop('checked', false);
+			$('#not-school-group').prop('checked', false);
 		}
 	}); //end change
 
@@ -85,7 +89,7 @@ function processCreateGroupForm() {
 						$('#group-7th-row').nextAll('div').hide();
 					} else {
 						$('#group-9th-row').fadeIn();
-						$('#group-13th-row').fadeIn();
+						$('#group-12th-row').fadeIn();
 					}	
 				}); //end change
 
@@ -105,10 +109,11 @@ function processCreateGroupForm() {
 
 				$('#under-department').change(function() {
 					if($(this).val() == 0) {
-						$('#under-year-div').hide().val(0);
-						$('#group-7th-row').nextAll('div').hide();
+						$('#under-year-div').hide();
+						$('#under-year').val(0);
+						$('#group-3rd-row').nextAll('div').hide();
 					} else {
-						$('#under-year-div').fadeIn();			
+						$('#under-year-div').fadeIn();		
 					}	
 				}); //end change
 				
@@ -117,6 +122,7 @@ function processCreateGroupForm() {
 						$('#group-3rd-row').nextAll('div').hide();
 					} else {
 						$('#group-4th-row').fadeIn();
+						$('#graduate-year').val(0);
 					}				
 				}); //end change
 			
@@ -141,6 +147,7 @@ function processCreateGroupForm() {
 					} else {
 						$('#year-n-class-class-div').fadeIn();
 						$('#group-4th-row').fadeIn();
+						$('#graduate-year').val(0);
 						$('#year-n-class-class').focus();		
 					}				
 				}); //end change
@@ -153,7 +160,7 @@ function processCreateGroupForm() {
 			$('#group-4th-row').nextAll('div').hide();
 		} else {
 			$('#group-9th-row').fadeIn();
-			$('#group-13th-row').fadeIn();
+			$('#group-12th-row').fadeIn();
 			//scrollTo("#submit-create-group", 0);
 		}	
 	}); //end change;
@@ -226,7 +233,7 @@ function processCreateGroupForm() {
 			$('#group-7th-row').fadeIn();
 			$('#group-9th-row').fadeIn();
 			$('#group-11th-row').fadeIn();
-			$('#group-13th-row').fadeIn();		
+			$('#group-12th-row').fadeIn();		
 			$('#school-group-name').focus();
 		}
 	}); //end change
@@ -249,7 +256,6 @@ function processCreateGroupForm() {
 			$('#group-region').val(0).attr('disabled', true);
 		} else {
 			$('#group-country').attr('disabled', false);
-			$('#group-region').attr('disabled', false);	
 		}
 	}); //end change
 }

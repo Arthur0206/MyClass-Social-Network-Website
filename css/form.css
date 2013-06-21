@@ -49,6 +49,7 @@ form .block {
 	height: 60px;
 }
 #create-group-form textarea {
+	resize: none;
 	margin: 0px;
 	padding: 10px;
 	font-size: 15px;
