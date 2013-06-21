@@ -167,7 +167,7 @@ function processCreateGroupForm() {
 	}); //end change;
 	
 	//------------------------------- school group's questions ------------------------------------
-	
+
 	$('input[name=school-group]').change(function() {		
 		if ($('#not-school-group').is(":checked")) { //not a class group
 			$('#group-5th-row').nextAll('div').hide();//hide all after 1st Q
@@ -228,7 +228,17 @@ function processCreateGroupForm() {
 			$('#school-group-name').focus();
 		}
 	}); //end change
-	
+
+	$('#school-group-name').focus(function() {
+		if (this.value === this.defaultValue) {
+			this.value = '';
+		}
+	}).blur(function() {
+		if (this.value === '') {
+			this.value = this.defaultValue;
+		}
+	});
+
 	//------------------------------- general questions ------------------------------------
 
 	$('#group-name').focus(function() {
@@ -272,48 +282,41 @@ function processCreateGroupForm() {
 	
 	//--------------------validation-----------------------
 
-	jQuery.validator.addMethod("notEqual", function(value, element, param) {
-		return this.optional(element) || (value != param);
-	}, "怪怪的");
-
-	jQuery.validator.addMethod("notDefault", function(value, element, param) {
+	jQuery.validator.addMethod("validGroupDescribe", function(value, element, param) {
 		//value = "ex. 張君雅"
 		//element is name element
 		//param is passed in by the rules
-		return value != element.defaultValue;
-	}, "輸入不可和default值相同");
+		return (value != element.defaultValue);
+	}, "請簡短介紹, 讓其他使用者能更了解這個群組");
 
-	jQuery.validator.addMethod("validateGroupArea", function(value, element, param) {
-		return (value != 0) || ($('#none-area').is(":checked"));
+	jQuery.validator.addMethod("validGroupName", function(value, element, param) {
+		return (value != element.defaultValue) || ($('#group-name').is(":hidden"));
+	}, "請替您的群組取一個名字");
+
+	jQuery.validator.addMethod("validGroupArea", function(value, element, param) {
+		return (value != 0) || ($('#none-area').is(":checked")) || $('#none-area').is(":hidden");
 	}, '請選擇群組地區. 如果不限地區, 請勾選「不限於特定地區」');
+
+	jQuery.validator.addMethod("validSchoolGroupName", function(value, element, param) {
+		return (value != element.defaultValue) || ($('#school-group-name').is(":hidden"));
+	}, "請輸入社團名稱");
 
 	$('#create-group-form').validate({
 		rules: {
+			"school-group-name": {
+				validSchoolGroupName: true
+			},
 			"group-describe": {
-				required: true,
-				notDefault: true
+				validGroupDescribe: true
 			},
 			"group-name": {
-				required: function() {
-					return ($('#not-school-group').is(":checked")) && ($('#not-class-group').is(":checked"));
-				},
-				notDefault: true
+				validGroupName: true
 			},
 			"group-country": {
-				validateGroupArea: true
+				validGroupArea: true
 			},
 			"group-region": {
-				validateGroupArea: true
-			}
-		},
-		messages: {
-			"group-describe": {
-				required: "請簡短介紹, 讓其他使用者能瞭解這個群組",
-				notDefault: "請簡短介紹, 讓其他使用者能瞭解這個群組"
-			},
-			"group-name": {
-				required: "請替您的群組取一個名字",
-				notDefault: "請替您的群組取一個名字"
+				validGroupArea: true
 			}
 		},
 		errorPlacement: function(error, element) {

@@ -199,7 +199,7 @@
 				</div>
 				<div class="row" id="group-7th-row">
 					<label for="school-group-name" class="describe-label" >社團名稱:</label>
-					<input name="school-group-name" type="text" id="school-group-name" size="20">
+					<input name="school-group-name" type="text" id="school-group-name" size="20" value="ex. 中山大學吉他社">
 				</div>
 				<div class="row" id="group-8th-row">
 					<label for="group-name" class="describe-label">群組名稱:</label>
