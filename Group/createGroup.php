@@ -29,7 +29,9 @@
 		<h1>建立您的新群組,只要短短三分鐘</h1>
 		<form action="/MyClass/Group/createGroup.php" method="post" name="create-group-form" id="create-group-form">
 				<div class="row" id="group-1st-row">
-					<label for="is-class-group" class="describe-label">此群組是否為班級群組?</label>
+					<label for="is-class-group" class="describe-label">此群組是否為班級群組?
+						<span class="label-explan">(ex. 景美女中一年三班, 中山大學電機系一年級)</span>
+					</label>
 					<input name="class-group" type="radio" id="is-class-group" value="是">
 					<label for="is-class-group" class="radio-label">是</label>
 					<input name="class-group" type="radio" id="not-class-group" value="否">
@@ -129,7 +131,9 @@
 					</select>
 				</div>
 				<div class="row" id="group-5th-row">
-					<label for="is-shcool-group" class="describe-label">此群組是否為學校社團?</label>
+					<label for="is-shcool-group" class="describe-label">此群組是否為學校社團?
+						<span class="label-explan">(ex. 東海大學熱舞社, 師大附中吉他社)</span>
+					</label>
 					<input name="school-group" type="radio" id="is-school-group" value="是">
 					<label for="is-school-group" class="radio-label">是</label>
 					<input name="school-group" type="radio" id="not-school-group" value="否">
@@ -198,12 +202,16 @@
 					</select>
 				</div>
 				<div class="row" id="group-7th-row">
-					<label for="school-group-name" class="describe-label" >社團名稱:</label>
-					<input name="school-group-name" type="text" id="school-group-name" size="20" value="ex. 中山大學吉他社">
+					<label for="school-group-name" class="describe-label" >社團名稱:
+						<span class="label-explan">(ex. 熱舞社, 排球社, 長青吉他社)</span>
+					</label>
+					<input name="school-group-name" type="text" id="school-group-name" size="20">
 				</div>
 				<div class="row" id="group-8th-row">
-					<label for="group-name" class="describe-label">群組名稱:</label>
-					<input name="group-name" type="text" id="group-name" size="20" value="ex. 華航空姐團">
+					<label for="group-name" class="describe-label">群組名稱:
+						<span class="label-explan">(ex. 華航空姐團, 台中吃喝玩樂團)</span>
+					</label>
+					<input name="group-name" type="text" id="group-name" size="20">
 				</div>
 				<div class="flexible" id="group-9th-row">
 					<label for="group-describe" class="describe-label">群組介紹:</label>

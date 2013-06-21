@@ -136,7 +136,7 @@ function processCreateGroupForm() {
 				
 				$('#year-n-class-year-div').after('<div id="year-n-class-class-div" class="same-line"></div>');
 				$('#year-n-class-class-div').append('<label for="year-n-class-class" class="describe-label">班級:</label>')
-				.append('<input name="year-n-class-class" type="text" id="year-n-class-class" size="2" maxlength="2"><span class="text-field-word"> 班 </span> <span class="text-field-explan"> (請輸入正確的班級名稱, 例如: 13, 7, 孝, 仁) </span>');
+				.append('<input name="year-n-class-class" type="text" id="year-n-class-class" size="2" maxlength="2"><span class="text-field-word"> 班 </span> <span class="text-field-explan"> (請輸入正確的班級名稱, ex. 3, 12, 孝, 仁) </span>');
 				
 				$('#year-n-class-year').val(0);
 				$('#year-n-class-class-div').hide();

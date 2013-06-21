@@ -2,13 +2,18 @@
 .flexible {
 	margin-bottom: 10px;
 }
+.label-explan {
+	font-size: 90%;
+	color: #999999;
+	line-height: 10px;
+}
 .text-field-word {
 	font-size: 90%;
 	vertical-align: middle;
 }
 .text-field-explan {
 	font-size: 90%;
-	color: #777777;
+	color: #999999;
 	vertical-align: middle;
 }
 form .same-line {
