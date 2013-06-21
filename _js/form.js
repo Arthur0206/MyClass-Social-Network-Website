@@ -301,6 +301,10 @@ function processCreateGroupForm() {
 		return (value != element.defaultValue) || ($('#school-group-name').is(":hidden"));
 	}, "請輸入社團名稱");
 
+	jQuery.validator.addMethod("validGraduateYear", function(value, element, param) {
+		return (value != 0) || ($('#graduate-year').is(":hidden"));
+	}, "請選擇畢業年份");
+
 	$('#create-group-form').validate({
 		rules: {
 			"school-group-name": {
@@ -317,6 +321,9 @@ function processCreateGroupForm() {
 			},
 			"group-region": {
 				validGroupArea: true
+			},
+			"graduate-year": {
+				validGraduateYear: true
 			}
 		},
 		errorPlacement: function(error, element) {
