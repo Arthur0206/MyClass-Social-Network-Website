@@ -12,19 +12,24 @@ function scrollTo(id, time) {
 }
 
 function processCreateGroupForm() {
+	$('input[type="radio"]').prop('checked', false); //important - need this one, otherwise ctrl R will not refresh radio button and other field, casing the form go into a bug state.
 	$('#group-1st-row').nextAll('div').hide();//hide all after 1st Q
-
+	
 	//------------------------------- class group's questions ------------------------------------
 
-	$('input[name=class-group]').change(function() {		
-		if ($('#not-class-group').is(":checked")) { //not a class group
-			$('#group-1st-row').nextAll('div').hide();//hide all after 1st Q
-			$('#group-5th-row').fadeIn();
-		} else {
-			$('#group-2nd-row').fadeIn();
-			$('#group-2nd-row').nextAll('div').hide();
-			$('#class-group-label').nextAll('select').val(0);
-			$('#school-country-0').nextAll('select').attr('disabled', true);
+	$('input[name=class-group]').change(function() {
+		if ($('#not-class-group').is(":checked")) { 		// not a class group
+			$('#group-1st-row').nextAll('div').hide();		// hide all after 1st Q
+			$('#group-5th-row').fadeIn();					// ask if it is a school group
+			$('#is-school-group').prop('checked', false);	// unselect is-school-group radio button first
+			$('#not-school-group').prop('checked', false);	// unselect not-school-group radio button first
+		} else {											// it is a class group
+			$('#group-2nd-row').fadeIn();					// show 1st class group's question
+			$('#group-2nd-row').nextAll('div').hide();		// hide all rest questions
+			$('#class-group-label').nextAll('select').val(0);// set all select field to 0 first
+			$('#school-country-0').nextAll('select').attr('disabled', true); //enable school contry only
+			$('#is-school-group').prop('checked', false);	// unselect is-school-group radio button first 
+			$('#not-school-group').prop('checked', false);	// unselect not-school-group radio button first
 		}
 	}); //end change
 
@@ -85,7 +90,7 @@ function processCreateGroupForm() {
 						$('#group-7th-row').nextAll('div').hide();
 					} else {
 						$('#group-9th-row').fadeIn();
-						$('#group-13th-row').fadeIn();
+						$('#group-12th-row').fadeIn();
 					}	
 				}); //end change
 
@@ -105,10 +110,11 @@ function processCreateGroupForm() {
 
 				$('#under-department').change(function() {
 					if($(this).val() == 0) {
-						$('#under-year-div').hide().val(0);
-						$('#group-7th-row').nextAll('div').hide();
+						$('#under-year-div').hide();
+						$('#under-year').val(0);
+						$('#group-3rd-row').nextAll('div').hide();
 					} else {
-						$('#under-year-div').fadeIn();			
+						$('#under-year-div').fadeIn();		
 					}	
 				}); //end change
 				
@@ -117,6 +123,7 @@ function processCreateGroupForm() {
 						$('#group-3rd-row').nextAll('div').hide();
 					} else {
 						$('#group-4th-row').fadeIn();
+						$('#graduate-year').val(0);
 					}				
 				}); //end change
 			
@@ -129,7 +136,7 @@ function processCreateGroupForm() {
 				
 				$('#year-n-class-year-div').after('<div id="year-n-class-class-div" class="same-line"></div>');
 				$('#year-n-class-class-div').append('<label for="year-n-class-class" class="describe-label">班級:</label>')
-				.append('<input name="year-n-class-class" type="text" id="year-n-class-class" size="2" maxlength="2"><span class="text-field-word"> 班 </span> <span class="text-field-explan"> (請輸入正確的班級名稱, 例如: 13, 7, 孝, 仁) </span>');
+				.append('<input name="year-n-class-class" type="text" id="year-n-class-class" size="2" maxlength="2"><span class="text-field-word"> 班 </span> <span class="text-field-explan"> (請輸入正確的班級名稱, ex. 3, 12, 孝, 仁) </span>');
 				
 				$('#year-n-class-year').val(0);
 				$('#year-n-class-class-div').hide();
@@ -141,6 +148,7 @@ function processCreateGroupForm() {
 					} else {
 						$('#year-n-class-class-div').fadeIn();
 						$('#group-4th-row').fadeIn();
+						$('#graduate-year').val(0);
 						$('#year-n-class-class').focus();		
 					}				
 				}); //end change
@@ -153,23 +161,13 @@ function processCreateGroupForm() {
 			$('#group-4th-row').nextAll('div').hide();
 		} else {
 			$('#group-9th-row').fadeIn();
-			$('#group-13th-row').fadeIn();
+			$('#group-12th-row').fadeIn();
 			//scrollTo("#submit-create-group", 0);
 		}	
 	}); //end change;
-
-	$('#group-describe').focus(function() {
-		if (this.value === this.defaultValue) {
-			this.value = '';
-		}
-	}).blur(function() {
-		if (this.value === '') {
-			this.value = this.defaultValue;
-		}
-	});
 	
 	//------------------------------- school group's questions ------------------------------------
-	
+
 	$('input[name=school-group]').change(function() {		
 		if ($('#not-school-group').is(":checked")) { //not a class group
 			$('#group-5th-row').nextAll('div').hide();//hide all after 1st Q
@@ -226,12 +224,42 @@ function processCreateGroupForm() {
 			$('#group-7th-row').fadeIn();
 			$('#group-9th-row').fadeIn();
 			$('#group-11th-row').fadeIn();
-			$('#group-13th-row').fadeIn();		
+			$('#group-12th-row').fadeIn();		
 			$('#school-group-name').focus();
 		}
 	}); //end change
-	
+
+	$('#school-group-name').focus(function() {
+		if (this.value === this.defaultValue) {
+			this.value = '';
+		}
+	}).blur(function() {
+		if (this.value === '') {
+			this.value = this.defaultValue;
+		}
+	});
+
 	//------------------------------- general questions ------------------------------------
+
+	$('#group-name').focus(function() {
+		if (this.value === this.defaultValue) {
+			this.value = '';
+		}
+	}).blur(function() {
+		if (this.value === '') {
+			this.value = this.defaultValue;
+		}
+	});
+
+	$('#group-describe').focus(function() {
+		if (this.value === this.defaultValue) {
+			this.value = '';
+		}
+	}).blur(function() {
+		if (this.value === '') {
+			this.value = this.defaultValue;
+		}
+	});
 
 	$('#group-country').change(function() {
 		$(this).next('select').val(0);
@@ -249,9 +277,56 @@ function processCreateGroupForm() {
 			$('#group-region').val(0).attr('disabled', true);
 		} else {
 			$('#group-country').attr('disabled', false);
-			$('#group-region').attr('disabled', false);	
 		}
 	}); //end change
+	
+	//--------------------validation-----------------------
+
+	jQuery.validator.addMethod("validGroupDescribe", function(value, element, param) {
+		//value = "ex. 張君雅"
+		//element is name element
+		//param is passed in by the rules
+		return (value != element.defaultValue);
+	}, "請簡短介紹, 讓其他使用者能更了解這個群組");
+
+	jQuery.validator.addMethod("validGroupName", function(value, element, param) {
+		return (value != element.defaultValue) || ($('#group-name').is(":hidden"));
+	}, "請替您的群組取一個名字");
+
+	jQuery.validator.addMethod("validGroupArea", function(value, element, param) {
+		return (value != 0) || ($('#none-area').is(":checked")) || $('#none-area').is(":hidden");
+	}, '請選擇群組地區. 如果不限地區, 請勾選「不限於特定地區」');
+
+	jQuery.validator.addMethod("validSchoolGroupName", function(value, element, param) {
+		return (value != element.defaultValue) || ($('#school-group-name').is(":hidden"));
+	}, "請輸入社團名稱");
+
+	$('#create-group-form').validate({
+		rules: {
+			"school-group-name": {
+				validSchoolGroupName: true
+			},
+			"group-describe": {
+				validGroupDescribe: true
+			},
+			"group-name": {
+				validGroupName: true
+			},
+			"group-country": {
+				validGroupArea: true
+			},
+			"group-region": {
+				validGroupArea: true
+			}
+		},
+		errorPlacement: function(error, element) {
+			if (element.is("#group-country, #group-region")) {
+				error.insertAfter("#group-10th-row");
+			} else {
+				error.insertAfter(element);
+			}
+		}
+	}); //end validate
 }
 
 function processLogInForm(){
@@ -272,7 +347,7 @@ function processLogInForm(){
 				required: "請輸入您的密碼"
 			}
 		}
-	});
+	}); // end validate
 	$('input').eq(0).focus();
 }
 
@@ -351,6 +426,13 @@ function processRegisterForm(){
 	
 	jQuery.validator.addMethod("notEqual", function(value, element, param) {
 		return this.optional(element) || (value != param);
+	}, "怪怪的");
+
+	jQuery.validator.addMethod("notDefault", function(value, element, param) {
+		//value = "ex. 張君雅"
+		//element is name element
+		//param is passed in by the rules
+		return value != element.defaultValue;
 	}, "輸入不可和default值相同");
 
 	jQuery.validator.addMethod("validDate", function(value, element) {
@@ -372,7 +454,7 @@ function processRegisterForm(){
 		rules: {
 			name: {
 				required: true,
-				notEqual: "ex. 張君雅"
+				notDefault: true
 			},
 			account: {
 				required: true,
@@ -395,17 +477,17 @@ function processRegisterForm(){
 			},
 			month: {
 				required: true,
-				notEqual: "月",
+				notDefault: true,
 				range: [1,12]
 			},
 			day: {
 				required: true,
-				notEqual: "日",
+				notDefault: true,
 				validDate: true
 			},
 			year: {
 				required: true,
-				notEqual: "年",
+				notDefault: true,
 				range: [1900,2050]
 			},
 			termOfUse: {
@@ -418,7 +500,7 @@ function processRegisterForm(){
 		messages: {
 			name: {
 				required: "請輸入您的姓名",
-				notEqual: "請輸入您的姓名"
+				notDefault: "請輸入您的姓名"
 			},
 			account: {
 				required: "請選擇您的MyClass帳號",
@@ -441,17 +523,17 @@ function processRegisterForm(){
 			},
 			month: {
 				required: "請輸入您的生日",
-				notEqual: "請輸入您的生日",
+				notDefault: "請輸入您的生日",
 				range: "請輸入合理的日期"
 			},
 			day: {
 				required: "請輸入您的生日",
-				notEqual: "請輸入您的生日",
+				notDefault: "請輸入您的生日",
 				validDate: "請輸入合理的日期"
 			},
 			year: {
 				required: "請輸入您的生日",
-				notEqual: "請輸入您的生日",
+				notDefault: "請輸入您的生日",
 				range: "請輸入合理的日期"
 			},
 			termOfUse: {

@@ -2,13 +2,18 @@
 .flexible {
 	margin-bottom: 10px;
 }
+.label-explan {
+	font-size: 90%;
+	color: #999999;
+	line-height: 10px;
+}
 .text-field-word {
 	font-size: 90%;
 	vertical-align: middle;
 }
 .text-field-explan {
 	font-size: 90%;
-	color: #777777;
+	color: #999999;
 	vertical-align: middle;
 }
 form .same-line {
@@ -49,6 +54,7 @@ form .block {
 	height: 60px;
 }
 #create-group-form textarea {
+	resize: none;
 	margin: 0px;
 	padding: 10px;
 	font-size: 15px;
@@ -94,8 +100,8 @@ form .block {
 	font-size: 130%;
 	color: #777777;
 }
-form input.error, form select.error {
-	border: 1px solid #DD4B39;
+form input.error, form select.error, form textarea.error{
+	border: 1px solid #DD4B39 !important;
 }
 form label.error {
 	color: #DD4B39;
@@ -118,6 +124,18 @@ form input {
 	vertical-align: middle;
 }
 form select {
+	background-color: #FFFFFF;
+	font-size: 15px;
+	border-radius: 4px;
+	height: 32px;
+	color: #666666;
+	border: 1px solid #d0d5cb;
+	vertical-align: middle;
+	padding: 0.4em;
+	//background: #FFFFFF;
+}
+form select:disabled {
+	background-color: #CCCCCC;
 	font-size: 15px;
 	border-radius: 4px;
 	height: 32px;
