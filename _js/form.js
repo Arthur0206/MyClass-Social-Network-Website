@@ -12,23 +12,24 @@ function scrollTo(id, time) {
 }
 
 function processCreateGroupForm() {
-	$('input[type="radio"]').prop('checked', false); //important - ctrl R will not refresh radio button and other field, casing the form go into a bug state.
+	$('input[type="radio"]').prop('checked', false); //important - need this one, otherwise ctrl R will not refresh radio button and other field, casing the form go into a bug state.
 	$('#group-1st-row').nextAll('div').hide();//hide all after 1st Q
+	
 	//------------------------------- class group's questions ------------------------------------
 
-	$('input[name=class-group]').change(function() {		
-		if ($('#not-class-group').is(":checked")) { //not a class group
-			$('#group-1st-row').nextAll('div').hide();//hide all after 1st Q
-			$('#group-5th-row').fadeIn();
-			$('#is-school-group').prop('checked', false);
-			$('#not-school-group').prop('checked', false);
-		} else {
-			$('#group-2nd-row').fadeIn();
-			$('#group-2nd-row').nextAll('div').hide();
-			$('#class-group-label').nextAll('select').val(0);
-			$('#school-country-0').nextAll('select').attr('disabled', true);
-			$('#is-school-group').prop('checked', false);
-			$('#not-school-group').prop('checked', false);
+	$('input[name=class-group]').change(function() {
+		if ($('#not-class-group').is(":checked")) { 		// not a class group
+			$('#group-1st-row').nextAll('div').hide();		// hide all after 1st Q
+			$('#group-5th-row').fadeIn();					// ask if it is a school group
+			$('#is-school-group').prop('checked', false);	// unselect is-school-group radio button first
+			$('#not-school-group').prop('checked', false);	// unselect not-school-group radio button first
+		} else {											// it is a class group
+			$('#group-2nd-row').fadeIn();					// show 1st class group's question
+			$('#group-2nd-row').nextAll('div').hide();		// hide all rest questions
+			$('#class-group-label').nextAll('select').val(0);// set all select field to 0 first
+			$('#school-country-0').nextAll('select').attr('disabled', true); //enable school contry only
+			$('#is-school-group').prop('checked', false);	// unselect is-school-group radio button first 
+			$('#not-school-group').prop('checked', false);	// unselect not-school-group radio button first
 		}
 	}); //end change
 
@@ -164,16 +165,6 @@ function processCreateGroupForm() {
 			//scrollTo("#submit-create-group", 0);
 		}	
 	}); //end change;
-
-	$('#group-describe').focus(function() {
-		if (this.value === this.defaultValue) {
-			this.value = '';
-		}
-	}).blur(function() {
-		if (this.value === '') {
-			this.value = this.defaultValue;
-		}
-	});
 	
 	//------------------------------- school group's questions ------------------------------------
 	
@@ -240,6 +231,26 @@ function processCreateGroupForm() {
 	
 	//------------------------------- general questions ------------------------------------
 
+	$('#group-name').focus(function() {
+		if (this.value === this.defaultValue) {
+			this.value = '';
+		}
+	}).blur(function() {
+		if (this.value === '') {
+			this.value = this.defaultValue;
+		}
+	});
+
+	$('#group-describe').focus(function() {
+		if (this.value === this.defaultValue) {
+			this.value = '';
+		}
+	}).blur(function() {
+		if (this.value === '') {
+			this.value = this.defaultValue;
+		}
+	});
+
 	$('#group-country').change(function() {
 		$(this).next('select').val(0);
 
@@ -258,6 +269,61 @@ function processCreateGroupForm() {
 			$('#group-country').attr('disabled', false);
 		}
 	}); //end change
+	
+	//--------------------validation-----------------------
+
+	jQuery.validator.addMethod("notEqual", function(value, element, param) {
+		return this.optional(element) || (value != param);
+	}, "怪怪的");
+
+	jQuery.validator.addMethod("notDefault", function(value, element, param) {
+		//value = "ex. 張君雅"
+		//element is name element
+		//param is passed in by the rules
+		return value != element.defaultValue;
+	}, "輸入不可和default值相同");
+
+	jQuery.validator.addMethod("validateGroupArea", function(value, element, param) {
+		return (value != 0) || ($('#none-area').is(":checked"));
+	}, '請選擇群組地區. 如果不限地區, 請勾選「不限於特定地區」');
+
+	$('#create-group-form').validate({
+		rules: {
+			"group-describe": {
+				required: true,
+				notDefault: true
+			},
+			"group-name": {
+				required: function() {
+					return ($('#not-school-group').is(":checked")) && ($('#not-class-group').is(":checked"));
+				},
+				notDefault: true
+			},
+			"group-country": {
+				validateGroupArea: true
+			},
+			"group-region": {
+				validateGroupArea: true
+			}
+		},
+		messages: {
+			"group-describe": {
+				required: "請簡短介紹, 讓其他使用者能瞭解這個群組",
+				notDefault: "請簡短介紹, 讓其他使用者能瞭解這個群組"
+			},
+			"group-name": {
+				required: "請替您的群組取一個名字",
+				notDefault: "請替您的群組取一個名字"
+			}
+		},
+		errorPlacement: function(error, element) {
+			if (element.is("#group-country, #group-region")) {
+				error.insertAfter("#group-10th-row");
+			} else {
+				error.insertAfter(element);
+			}
+		}
+	}); //end validate
 }
 
 function processLogInForm(){
@@ -278,7 +344,7 @@ function processLogInForm(){
 				required: "請輸入您的密碼"
 			}
 		}
-	});
+	}); // end validate
 	$('input').eq(0).focus();
 }
 
@@ -357,6 +423,13 @@ function processRegisterForm(){
 	
 	jQuery.validator.addMethod("notEqual", function(value, element, param) {
 		return this.optional(element) || (value != param);
+	}, "怪怪的");
+
+	jQuery.validator.addMethod("notDefault", function(value, element, param) {
+		//value = "ex. 張君雅"
+		//element is name element
+		//param is passed in by the rules
+		return value != element.defaultValue;
 	}, "輸入不可和default值相同");
 
 	jQuery.validator.addMethod("validDate", function(value, element) {
@@ -378,7 +451,7 @@ function processRegisterForm(){
 		rules: {
 			name: {
 				required: true,
-				notEqual: "ex. 張君雅"
+				notDefault: true
 			},
 			account: {
 				required: true,
@@ -401,17 +474,17 @@ function processRegisterForm(){
 			},
 			month: {
 				required: true,
-				notEqual: "月",
+				notDefault: true,
 				range: [1,12]
 			},
 			day: {
 				required: true,
-				notEqual: "日",
+				notDefault: true,
 				validDate: true
 			},
 			year: {
 				required: true,
-				notEqual: "年",
+				notDefault: true,
 				range: [1900,2050]
 			},
 			termOfUse: {
@@ -424,7 +497,7 @@ function processRegisterForm(){
 		messages: {
 			name: {
 				required: "請輸入您的姓名",
-				notEqual: "請輸入您的姓名"
+				notDefault: "請輸入您的姓名"
 			},
 			account: {
 				required: "請選擇您的MyClass帳號",
@@ -447,17 +520,17 @@ function processRegisterForm(){
 			},
 			month: {
 				required: "請輸入您的生日",
-				notEqual: "請輸入您的生日",
+				notDefault: "請輸入您的生日",
 				range: "請輸入合理的日期"
 			},
 			day: {
 				required: "請輸入您的生日",
-				notEqual: "請輸入您的生日",
+				notDefault: "請輸入您的生日",
 				validDate: "請輸入合理的日期"
 			},
 			year: {
 				required: "請輸入您的生日",
-				notEqual: "請輸入您的生日",
+				notDefault: "請輸入您的生日",
 				range: "請輸入合理的日期"
 			},
 			termOfUse: {

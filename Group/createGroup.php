@@ -203,7 +203,7 @@
 				</div>
 				<div class="row" id="group-8th-row">
 					<label for="group-name" class="describe-label">群組名稱:</label>
-					<input name="group-name" type="text" id="group-name" size="20">
+					<input name="group-name" type="text" id="group-name" size="20" value="ex. 華航空姐團">
 				</div>
 				<div class="flexible" id="group-9th-row">
 					<label for="group-describe" class="describe-label">群組介紹:</label>

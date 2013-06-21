@@ -95,8 +95,8 @@ form .block {
 	font-size: 130%;
 	color: #777777;
 }
-form input.error, form select.error {
-	border: 1px solid #DD4B39;
+form input.error, form select.error, form textarea.error{
+	border: 1px solid #DD4B39 !important;
 }
 form label.error {
 	color: #DD4B39;
