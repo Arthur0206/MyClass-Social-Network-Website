@@ -12,3 +12,5 @@ To Do List
 * userMain.php頁面中, button和like, comment button的位置也許可以用全部float:right來做到現在的需求.
 
 * create 學校群組, 如何選管理員
+* userMain 頁面, 動態改成白色框框. comment要用和動態不同的顏色來凸顯.不然很難分辨.
+* 動態牆上的照片要改大, 看facebook的style. 從動態強連到圖片可以用fancy box. 在相簿裡不行, 因為使用者看相簿時,很有可能要聊天或玩遊戲或作其他事情.
