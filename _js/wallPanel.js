@@ -95,11 +95,11 @@ function processWallPanel()
 
 			if (selectedMomentContent.find('.moment_response').length > 0) {
 				selectedMomentContent.append(newMomentResponse);
-				selectedMomentContent.find('.newly_added').css(
+				selectedMomentContent.find('.newly_added.moment_response').css(
 				{'border-top':'1px solid #D8D5D0','border-bottom':'none','margin-top':'4px'}).hide().fadeIn(150);
 			} else {
 				selectedMomentContent.append('<hr>' + newMomentResponse);
-				selectedMomentContent.find('.newly_added').css('border','none').hide().fadeIn(150);
+				selectedMomentContent.find('.newly_added.moment_response').css('border','none').hide().fadeIn(150);
 			}
 			selectedMomentContent.find('.newly_added textarea').focus();
 
