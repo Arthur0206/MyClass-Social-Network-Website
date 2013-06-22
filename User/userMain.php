@@ -158,6 +158,8 @@
 
 		<div id="wall_panel" class="panel">
 			<div class="setting_panel">
+				<span class="filter_button">我個人的動態</span>
+				<span class="filter_button is_clicked">所有人的動態</span>
 				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
 				<div class="private_list" style="width:305px;top:41px;left:630px"> <!-- 用js來計算並填入width, top, left -->
 					<span class="private_title">我個人的動態：</span>
@@ -170,9 +172,9 @@
 					<span class="private_option">隱藏</span>
 				</div>
 			</div>
-		<div class="timeline_wrapper"><div class="date_line_title">現在</div> <hr></div>
+		<!--<div class="timeline_wrapper"><div class="date_line_title">現在</div> <hr></div>-->
 		<div class="moment_wrapper">
-			<div class="time_title">02:35pm</div>
+			<div class="time_title">今天<br>02:35pm</div>
 			<div class="wall_poster_pic">
 				<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
 				<a href="hotUser.html" class="wall_poster_username boy-user-link">Sosoman</a>
@@ -246,10 +248,10 @@
 					<p>明天再吃好了
 					</p><div class="date">6月18日 7:26pm</div>
 						<form> <!--  只有自己的moment有這些button -->
-						<input type="button" class="hidden-button" value="編輯">
-						<input type="button" class="hidden-button delete-button" value="刪除">
-						<input type="button" class="cancel-button hidden" value="取消">
-						<input type="submit" class="submit-button hidden" value="提交">
+						<input type="button" class="gray_button hidden-button" value="編輯">
+						<input type="button" class="gray_button hidden-button delete-button" value="刪除">
+						<input type="button" class="gray_button cancel-button hidden" value="取消">
+						<input type="submit" class="gray_button submit-button hidden" value="提交">
 						</form>
 					</div>
 				</div>
@@ -281,7 +283,7 @@
 			</div>
 		</div>
 		<div class="moment_wrapper">
-			<div class="time_title">11:35am</div>
+			<div class="time_title">今天<br>11:35am</div>
 			<div class="wall_poster_pic">
 				<a href="hotUser.html"><img src="/MyClass/User/NancyLin/head.jpg"></a>
 				<a href="Home.php" class="wall_poster_username girl-user-link">NancyLin</a>
@@ -308,7 +310,7 @@
 			</div>
 		</div>
 		<div class="moment_wrapper">
-			<div class="time_title">02:35am</div>
+			<div class="time_title">今天<br>02:35am</div>
 			<div class="wall_poster_pic">
 				<a href="hotUser.html"><img src="/MyClass/User/NancyLin/head.jpg"></a>
 				<a href="Home.php" class="wall_poster_username girl-user-link">NancyLin</a>
@@ -350,9 +352,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="timeline_wrapper"><div class="date_line_title">6/18 (二)</div> <hr></div>
+		<!--<div class="timeline_wrapper"><div class="date_line_title">6/18 (二)</div> <hr></div>-->
 		<div class="moment_wrapper">
-			<div class="time_title">11:35am</div>
+			<div class="time_title">昨天<br>11:35am</div>
 			<div class="wall_poster_pic">
 				<a href="hotUser.html"><img src="/MyClass/User/Mini157/head.jpg"></a>
 				<a href="Home.php" class="wall_poster_username girl-user-link">Mini157</a>
@@ -366,7 +368,7 @@
 			</div>
 		</div>
 		<div class="moment_wrapper">
-			<div class="time_title">03:35am</div>
+			<div class="time_title">昨天<br>03:35am</div>
 			<div class="wall_poster_pic">
 				<a href="hotUser.html"><img src="/MyClass/User/KobeIsGod/head.jpg"></a>
 				<a href="Home.php" class="wall_poster_username boy-user-link">KobeIsGod</a>
@@ -383,7 +385,7 @@
 			</div>
 		</div>
 		<div class="moment_wrapper">
-			<div class="time_title">01:17am</div>
+			<div class="time_title">星期三<br>01:17am</div>
 			<div class="wall_poster_pic">
 				<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
 				<a href="Home.php" class="wall_poster_username boy-user-link">Sosoman</a>
@@ -402,7 +404,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="timeline_wrapper"><div class="date_line_title">6/17 (一)</div> <hr></div>
+		<!--<div class="timeline_wrapper"><div class="date_line_title">6/17 (一)</div> <hr></div>-->
 
 		</div>
 

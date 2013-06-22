@@ -781,16 +781,31 @@ li.selected {
 	height: 795px;
 }
 
+/* 設定按鈕panel */
+/* 藍, 灰filter按鈕 */
+.filter_button {
+	background-color: #b8b8b8;
+	color: #FFFFFF;
+	margin: 20px 2px 15px 2px;
+	padding: 5px 10px 5px 10px;
+	float: left;
+	cursor: pointer;
+	font-size: 110%;
+}
+.filter_button.is_clicked {
+	background-color: #4096ab;
+}
 /* 隱私設定按鈕 */
 .setting_panel {
-	height: 50px;
+	//height: 50px;
+	overflow: hidden;
 }
 .private_button {
 	float: right;
 	font-size: 110%;
 	width: 118px;
 	height: 25px;
-	margin: 10px;
+	margin: 20px;
 	text-align: center;
 	border-radius: 30px;
 	box-shadow: 0px 0px 2px 1px #acacac;//#D8D5D0;
@@ -861,6 +876,11 @@ li.selected {
 	left: -4px;
 	display: none;
 	margin-left: 4px;
+
+	background-color: #f5f5f5;
+	border: 1px solid #dcdcdc;
+	color: #444;
+//	font-weight: normal;
 }
 .about_block h1 {
 	font-size: 110%;
@@ -888,6 +908,9 @@ li.selected {
 #wall_panel {
 	width: 950px;
 	margin: auto;
+}
+#wall_panel .setting_panel {
+	margin-left: 160px;
 }
 .timeline_wrapper {
 	overflow: hidden;
@@ -969,23 +992,43 @@ li.selected {
 .moment_post {
 	overflow: hidden;
 	position: relative;
-	min-height: 50px;
+	min-height: 55px;
 }
 .moment_post form .cancel-button, .moment_post form .hidden-button {
 	float: right;			/* 沒有gallery時moment_post裡的"編輯" "取消"button */
-	margin: 0px 110px 0 4px;
+	margin: 7px 110px 0 4px;
+
+	background-color: #f5f5f5;
+	border: 1px solid #dcdcdc;
+	color: #444;
+//	font-weight: normal;
 }
 .moment_post form .submit-button , .moment_post form .delete-button {
 	float: right;			/* 沒有gallery時moment_post裡的"提交" "刪除"button */
-	margin: 0px 0px 0 4px;	
+	margin: 7px 0px 0 4px;	
+
+	background-color: #f5f5f5;
+	border: 1px solid #dcdcdc;
+	color: #444;
+//	font-weight: normal;
 }
 .moment_post #gallery form .cancel-button, .moment_post #gallery form .hidden-button {
 	float: right;			/* 有gallery時moment_post裡的"編輯" "取消"button */
 	margin: 40px 110px 0 4px;
+
+	background-color: #f5f5f5;
+	border: 1px solid #dcdcdc;
+	color: #444;
+//	font-weight: normal;
 }
 .moment_post #gallery form .submit-button, .moment_post #gallery form .delete-button {
 	float: right;			/* 有gallery時moment_post裡的"提交" "刪除"button */
 	margin: 40px 0px 0 4px;	
+
+	background-color: #f5f5f5;
+	border: 1px solid #dcdcdc;
+	color: #444;
+//	font-weight: normal;
 }
 .moment_content textarea {
 	margin-left: 0px;
@@ -1038,6 +1081,10 @@ li.selected {
 .moment_response form .submit-button, .moment_response form .cancel-button, .moment_response form .hidden-button, .moment_response form .delete-button {
 	margin: 0 0 0 4px;
 	float: right;
+	background-color: #f5f5f5;
+	border: 1px solid #dcdcdc;
+	color: #444;
+//	font-weight: normal;
 }
 .moment_post textarea {
 	width: 725px;
@@ -1052,7 +1099,7 @@ li.selected {
 	display: block;
 	width: 50px;
 	overflow: hidden;
-	bottom: 0px;
+	bottom: -1px;
 	right: 0px; //110px;
 	color: #cd6661; //#cc0000;
 	font-size: 85%;
@@ -1062,7 +1109,7 @@ li.selected {
 	display: block;
 	width: 50px;
 	overflow: hidden;
-	bottom: 0px;
+	bottom: -1px;
 	right: 50px; //160px;
 	color: #61A120; //#cc0000;
 	font-size: 85%;
@@ -1070,10 +1117,12 @@ li.selected {
 .like-button img {
 	width: 19px;
 	height: 19px;
+	vertical-align: middle;
 }
 .respond-button img {
 	width: 18px;
 	height: 18px;
+	vertical-align: middle;
 }
 
 /* 相簿頁面 */

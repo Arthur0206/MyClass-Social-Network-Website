@@ -5,7 +5,7 @@ function processAboutPanel()
 
 	$('.about_block').hover(
 		function() {
-			$(this).find('.hidden-button:not(.is_clicked)').fadeIn(150);
+			$(this).find('.hidden-button:not(.is_clicked)').fadeIn(100);
 		},
 		function() {
 			$(this).find('.hidden-button').hide();

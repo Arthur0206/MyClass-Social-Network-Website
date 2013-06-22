@@ -7,7 +7,7 @@ function processWallPanel()
 	$('.moment_content.user_own .moment_post').hover(
 		function() {
 			// aboutPanel.js 裡還是用show(), hide(), 為了consistency 有機會要改 
-			$(this).find('.hidden-button:not(.is_clicked)').css('visibility','visible').hide().fadeIn(150);
+			$(this).find('.hidden-button:not(.is_clicked)').css('visibility','visible').hide().fadeIn(100);
 		},
 		function() {
 			// aboutPanel.js 裡還是用show(), hide(), 為了consistency 有機會要改 
@@ -18,7 +18,7 @@ function processWallPanel()
 	// hover moment_response 區塊時, 顯示"編輯"和"刪除"按鍵
 	$('.moment_content .moment_response').hover(
 		function() {
-			$(this).find('.hidden-button:not(.is_clicked)').css('visibility','visible').hide().fadeIn(150);
+			$(this).find('.hidden-button:not(.is_clicked)').css('visibility','visible').hide().fadeIn(100);
 		},
 		function() {
 			$(this).find('.hidden-button').css('visibility','hidden');
@@ -95,11 +95,11 @@ function processWallPanel()
 
 			if (selectedMomentContent.find('.moment_response').length > 0) {
 				selectedMomentContent.append(newMomentResponse);
-				selectedMomentContent.find('.newly_added').css(
+				selectedMomentContent.find('.newly_added.moment_response').css(
 				{'border-top':'1px solid #D8D5D0','border-bottom':'none','margin-top':'4px'}).hide().fadeIn(150);
 			} else {
 				selectedMomentContent.append('<hr>' + newMomentResponse);
-				selectedMomentContent.find('.newly_added').css('border','none').hide().fadeIn(150);
+				selectedMomentContent.find('.newly_added.moment_response').css('border','none').hide().fadeIn(150);
 			}
 			selectedMomentContent.find('.newly_added textarea').focus();
 
