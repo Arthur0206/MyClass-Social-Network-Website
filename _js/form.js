@@ -273,10 +273,12 @@ function processCreateGroupForm() {
 
 	$('#none-area').change(function() {
 		if ($(this).is(":checked")) { 
-			$('#group-country').val(0).attr('disabled', true);
-			$('#group-region').val(0).attr('disabled', true);
+			$('#group-country').val(0).attr('disabled', true).hide();
+			$('#group-region').val(0).attr('disabled', true).hide();
+			$('#group-10th-row').next('label.error').hide();
 		} else {
-			$('#group-country').attr('disabled', false);
+			$('#group-country').attr('disabled', false).fadeIn();
+			$('#group-region').fadeIn();
 		}
 	}); //end change
 	
@@ -286,11 +288,11 @@ function processCreateGroupForm() {
 		//value = "ex. 張君雅"
 		//element is name element
 		//param is passed in by the rules
-		return (value != element.defaultValue);
+		return (value != element.defaultValue) && (value != "");
 	}, "請簡短介紹, 讓其他使用者能更了解這個群組");
 
 	jQuery.validator.addMethod("validGroupName", function(value, element, param) {
-		return (value != element.defaultValue) || ($('#group-name').is(":hidden"));
+		return (value != element.defaultValue && value != "") || ($('#group-name').is(":hidden"));
 	}, "請替您的群組取一個名字");
 
 	jQuery.validator.addMethod("validGroupArea", function(value, element, param) {
