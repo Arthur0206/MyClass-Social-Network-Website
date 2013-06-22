@@ -246,10 +246,10 @@
 					<p>明天再吃好了
 					</p><div class="date">6月18日 7:26pm</div>
 						<form> <!--  只有自己的moment有這些button -->
-						<input type="button" class="hidden-button" value="編輯">
-						<input type="button" class="hidden-button delete-button" value="刪除">
-						<input type="button" class="cancel-button hidden" value="取消">
-						<input type="submit" class="submit-button hidden" value="提交">
+						<input type="button" class="gray_button hidden-button" value="編輯">
+						<input type="button" class="gray_button hidden-button delete-button" value="刪除">
+						<input type="button" class="gray_button cancel-button hidden" value="取消">
+						<input type="submit" class="gray_button submit-button hidden" value="提交">
 						</form>
 					</div>
 				</div>
