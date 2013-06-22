@@ -286,11 +286,11 @@ function processCreateGroupForm() {
 		//value = "ex. 張君雅"
 		//element is name element
 		//param is passed in by the rules
-		return (value != element.defaultValue);
+		return (value != element.defaultValue) && (value != "");
 	}, "請簡短介紹, 讓其他使用者能更了解這個群組");
 
 	jQuery.validator.addMethod("validGroupName", function(value, element, param) {
-		return (value != element.defaultValue) || ($('#group-name').is(":hidden"));
+		return (value != element.defaultValue && value != "") || ($('#group-name').is(":hidden"));
 	}, "請替您的群組取一個名字");
 
 	jQuery.validator.addMethod("validGroupArea", function(value, element, param) {
