@@ -15,6 +15,7 @@ function processSecondBar()
 
 		// 把本來打開的隱私選單關起來
 		$(selectedPanel).siblings().find('.private_list').hide();
+
 		return false;
 	}); // end click
 
