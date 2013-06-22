@@ -983,6 +983,7 @@ li.selected {
 	text-align: center;
 	font-size: 80%;
 	margin-top: 2px;
+	overflow: hidden;
 	//overflow: hidden;
 }
 .moment_content {
