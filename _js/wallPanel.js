@@ -4,7 +4,7 @@ function processWallPanel()
 	$('#wall_panel .hidden-button').css('visibility','hidden');
 
 	// hover moment_post 區塊時, 顯示"編輯"和"刪除"按鍵
-	$('.moment_content.user_own .moment_post').hover(
+	$('.moment_wrapper.user_own .moment_post').hover(
 		function() {
 			// aboutPanel.js 裡還是用show(), hide(), 為了consistency 有機會要改 
 			$(this).find('.hidden-button:not(.is_clicked)').css('visibility','visible').hide().fadeIn(100);
@@ -71,7 +71,7 @@ function processWallPanel()
 		$(this).hide().siblings('.submit-button').hide();
 	}); // end click
 
-/* 新增留言部份 */
+	/* 新增留言部份 */
 	$('.respond-button').click(function() {
 		if ($(this).hasClass('is_clicked')) {
 			$(this).closest('.moment_content').find('.moment_response.newly_added textarea').focus();
@@ -87,8 +87,8 @@ function processWallPanel()
 				<div><a href="hotUser.html" class="boy-user-link">' + currentUser + '</a> \
 				<textarea rows="2">請輸入您的留言</textarea> \
 					<form> <!--  只有自己的moment有這些button --> \
-					<input type="button" class="newly_added cancel-button" value="取消"> \
-					<input type="submit" class="newly_added submit-button" value="提交"> \
+					<input type="button" class="cancel-button newly_added" value="取消"> \
+					<input type="submit" class="submit-button newly_added" value="提交"> \
 			 		</form> \
 				</div> \
 			</div>'
@@ -106,10 +106,8 @@ function processWallPanel()
 			// 標記為is_clicked
 			$(this).addClass('is_clicked');
 
-
-
 			/********************** 在這裡註冊剛剛新生出來的.newly_added.cancel-button的click() event function **********************/
-			$('.newly_added.cancel-button').click(function() {
+			$('.newly_added.moment_response .cancel-button').click(function() {
 				// 把之前標記成is_clicked(所以被disabled)的respond-button再度enable(移除is_clicked)
 				$(this).closest('.moment_content').find('.respond-button.is_clicked').removeClass('is_clicked');
 
@@ -127,6 +125,76 @@ function processWallPanel()
 		}
 		return false;
 	}); // end click
+
+	// 以下也許要搬到settingPanel.js
+	// 紅色新增, 搜尋按鍵
+	// Add Moment
+	$('#add_new_moment_button').click(function() {
+		if ($(this).hasClass('is_clicked')) {
+			$('.newly_added.moment_wrapper textarea').focus();
+		} else {
+			cancelAllOtherEditor();
+			
+			var currentUser = $('#username_button').text(); // 從header bar拿到username
+			var currentUserImgPath = $('#user_img img').attr('src');
+			var time = new Date();
+			var cHour = time.getHours();
+			var ampm = (cHour < 12) ? 'am' : 'pm';
+			cHour = (cHour % 12) ? cHour : 12;
+			var cMin = time.getMinutes();
+
+			var newMomentWrapper = 
+			'<div class="moment_wrapper user_own newly_added"> \
+				<div class="time_title">今天<br>'+cHour+':'+cMin+ampm+'</div> \
+				<div class="wall_poster_pic"> \
+					<a href="hotUser.html"><img src="'+currentUserImgPath+'"></a> \
+					<a href="Home.php" class="wall_poster_username boy-user-link">'+currentUser+'</a> \
+				</div> \
+				<div class="moment_content"> \
+					<div class="moment_post"> \
+					<textarea rows="10">請在此輸入您要發表的動態</textarea> \
+					<form> <!--  只有自己的moment有這些button --> \
+						<input type="button" class="cancel-button newly_added" value="取消"> \
+						<input type="submit" class="submit-button newly_added" value="提交"> \
+					</form> \
+					</div> \
+				</div> \
+			</div>'
+
+			$('#wall_panel .setting_panel').after(newMomentWrapper);
+			$('.newly_added.moment_wrapper').hide().fadeIn(200);
+			$('.newly_added.moment_wrapper .moment_post textarea').focus();
+			// 標記為is_clicked
+			$(this).addClass('is_clicked');
+
+			/********************** 在這裡註冊剛剛新生出來的.newly_added.cancel-button的click() event function **********************/
+			$('.newly_added.moment_wrapper .cancel-button').click(function() {
+				// 把之前標記成is_clicked(所以被disabled)的respond-button再度enable(移除is_clicked)
+				$('#add_new_moment_button').removeClass('is_clicked');
+
+				// 刪除moment_wrapper.newly_added
+				$('.newly_added.moment_wrapper').remove();
+			}); // end click
+
+			$('.newly_added.moment_wrapper textarea').click(function() {
+				$(this).text("");			
+			}); // end click
+		}
+	}); // end click
+
+	// 藍灰按鍵
+	// Moment Filter
+	$('#all_moment_filter, #user_own_moment_filter').click(function() {
+		$(this).siblings('.filter_button').removeClass('is_clicked');
+		$(this).addClass('is_clicked');
+
+		$('.moment_wrapper').show();
+
+		// 查看是否為"我個人的動態"按鍵
+		if ($(this).is('#user_own_moment_filter')) {
+			$('.moment_wrapper').not('.user_own').hide();
+		} 
+	});
 }
 
 function cancelAllOtherEditor()

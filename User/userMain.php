@@ -83,7 +83,7 @@
 		<div id="about_panel" class="panel">
 			<div class="setting_panel">
 				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
-				<div class="private_list" style="width:394px;top:41px;left:440px"> <!-- 用js來計算並填入width, top, left -->
+				<div class="private_list" style="width:394px;bottom:-16px;right:18px"> <!-- 用js來計算並填入width, top, left -->
 					<span class="private_title">我的『關於』頁面隱私設定：</span>
 					<span class="private_option selected">公開</span>
 					<span class="private_option">限朋友可見</span>
@@ -158,10 +158,11 @@
 
 		<div id="wall_panel" class="panel">
 			<div class="setting_panel">
-				<span class="filter_button">我個人的動態</span>
-				<span class="filter_button is_clicked">所有人的動態</span>
+				<span id="all_moment_filter" class="filter_button is_clicked unselectable">朋友及我的動態</span>
+				<span id="user_own_moment_filter" class="filter_button unselectable">我個人的動態</span>
+				<span id="add_new_moment_button" class="add_search_button unselectable">＋發表動態</span>
 				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
-				<div class="private_list" style="width:305px;top:41px;left:630px"> <!-- 用js來計算並填入width, top, left -->
+				<div class="private_list" style="width:305px;bottom:-40px;right:18px"> <!-- 用js來計算並填入width, top, left -->
 					<span class="private_title">我個人的動態：</span>
 					<span class="private_option selected">公開</span>
 					<span class="private_option">限朋友可見</span>
@@ -172,14 +173,31 @@
 					<span class="private_option">隱藏</span>
 				</div>
 			</div>
-		<!--<div class="timeline_wrapper"><div class="date_line_title">現在</div> <hr></div>-->
 		<div class="moment_wrapper">
-			<div class="time_title">今天<br>02:35pm</div>
+			<div class="time_title">今天<br>09:23pm</div>
+			<div class="wall_poster_pic">
+				<a href="hotUser.html"><img src="/MyClass/User/NamiChang1987/head.jpg"></a>
+				<a href="Home.php" class="wall_poster_username girl-user-link">NamiChang1987</a>
+			</div>
+			<div class="moment_content">
+				<div class="moment_post">
+				<p>剛剛在捷運上被人摸屁股了 QQ~</p>
+				<div id="gallery">
+					<a href="./NamiChang1987/Album/Moment/1_b.jpg" rel="gallery" title="我今天撿到的怪東西^^"><img src="./NamiChang1987/Album/Moment/1_s.jpg" width="70" height="70" alt="golf balls"></a>
+				</div>
+				<a href="hotUser.html" class="like-button"><img src="../Pics/heart.png">0</a>
+				<a href="hotUser.html" class="respond-button"><img src="../Pics/comment.png">0</a>
+				</div>
+			</div>
+		</div>
+		<!--<div class="timeline_wrapper"><div class="date_line_title">現在</div> <hr></div>-->
+		<div class="moment_wrapper user_own">
+			<div class="time_title">今天<br>11:35am</div>
 			<div class="wall_poster_pic">
 				<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
 				<a href="hotUser.html" class="wall_poster_username boy-user-link">Sosoman</a>
 			</div>
-			<div class="moment_content user_own"> <!--  Sosoman自己的moment: user_own class -->
+			<div class="moment_content"> <!--  Sosoman自己的moment: user_own class -->
 				<div class="moment_post" style="position:relative"> <!-- Case#1 : 是user_own且有gallery的case --> <!--  發的文是moment_post, 回文是moment_response -->
 				<p>我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~
 我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~~~
@@ -283,7 +301,7 @@
 			</div>
 		</div>
 		<div class="moment_wrapper">
-			<div class="time_title">今天<br>11:35am</div>
+			<div class="time_title">今天<br>09:35am</div>
 			<div class="wall_poster_pic">
 				<a href="hotUser.html"><img src="/MyClass/User/NancyLin/head.jpg"></a>
 				<a href="Home.php" class="wall_poster_username girl-user-link">NancyLin</a>
@@ -384,13 +402,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="moment_wrapper">
+		<div class="moment_wrapper user_own">
 			<div class="time_title">星期三<br>01:17am</div>
 			<div class="wall_poster_pic">
 				<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
 				<a href="Home.php" class="wall_poster_username boy-user-link">Sosoman</a>
 			</div>
-			<div class="moment_content user_own">
+			<div class="moment_content">
 				<div class="moment_post"> <!-- Case#4 : user_own但沒有gallery的case-->
 				<p>睡不著覺啊~</p>
 				<form> <!--  只有自己的moment有這些button -->
