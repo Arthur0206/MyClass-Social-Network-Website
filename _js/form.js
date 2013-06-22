@@ -14,7 +14,8 @@ function scrollTo(id, time) {
 function processCreateGroupForm() {
 	$('input[type="radio"]').prop('checked', false); //important - need this one, otherwise ctrl R will not refresh radio button and other field, casing the form go into a bug state.
 	$('#group-1st-row').nextAll('div').hide();//hide all after 1st Q
-	
+	$('#group-1st-row').hide().delay(100).fadeIn();
+
 	//------------------------------- class group's questions ------------------------------------
 
 	$('input[name=class-group]').change(function() {
