@@ -204,6 +204,7 @@ function cancelAllOtherEditor()
 	// 包括 新增留言 的button
 	$('.newly_added.cancel-button').click();
 }
+
 /*
 <input type="button" class="hidden-button" value="編輯">
 <input type="button" class="hidden-button" value="刪除">
