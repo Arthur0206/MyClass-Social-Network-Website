@@ -273,10 +273,12 @@ function processCreateGroupForm() {
 
 	$('#none-area').change(function() {
 		if ($(this).is(":checked")) { 
-			$('#group-country').val(0).attr('disabled', true);
-			$('#group-region').val(0).attr('disabled', true);
+			$('#group-country').val(0).attr('disabled', true).hide();
+			$('#group-region').val(0).attr('disabled', true).hide();
+			$('#group-10th-row').next('label.error').hide();
 		} else {
-			$('#group-country').attr('disabled', false);
+			$('#group-country').attr('disabled', false).fadeIn();
+			$('#group-region').fadeIn();
 		}
 	}); //end change
 	
