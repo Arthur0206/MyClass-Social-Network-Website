@@ -51,9 +51,8 @@
 	margin-right: 4px;
 }
 .like-count {
-	padding-left: 4px;
-	float: right;
-	vertical-align: middle;
+	padding-left: 0px;
+	vertical-align: top;
 }
 li {
 	display: table-cell;
