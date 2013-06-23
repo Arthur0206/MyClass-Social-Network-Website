@@ -20,5 +20,5 @@ function processSecondBar()
 	}); // end click
 
 	// 點動態牆tab, 讓一進個人首頁就看到動態牆
-	$('#second_bar a').eq(1).click();
+	$('#second_bar a').eq(5).click();
 }

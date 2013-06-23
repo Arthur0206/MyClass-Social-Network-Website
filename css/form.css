@@ -150,7 +150,7 @@ form .checkbox-label, form .radio-label {
 }
 form .submit-button, form .cancel-button, form .hidden-button, form .delete-button {
 	background-color: #D14836;
-	background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
+	//background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
 	border: 1px solid transparent;
 	color: #FFFFFF;
 	border-radius: 2px;

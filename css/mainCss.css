@@ -1153,19 +1153,19 @@ li.selected {
 
 /* 朋友頁面 */
 #friend_panel {
-	width: 950px;
+	width: 790px;
 	margin: auto;
 }
 
 /* 群組頁面 */
 #group_panel {
-	width: 950px;
+	width: 790px;
 	margin: auto;
 }
 
 /* 活動頁面 */
 #event_panel {
-	width: 950px;
+	width: 790px;
 	margin: auto;
 }
 
@@ -1176,6 +1176,6 @@ li.selected {
 
 /* 討論版頁面 */
 #board_panel {
-	width: 950px;
+	width: 790px;
 	margin: auto;
 }
