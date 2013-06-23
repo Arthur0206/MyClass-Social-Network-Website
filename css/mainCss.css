@@ -122,6 +122,12 @@ textarea {
 	-webkit-user-select: none;
 	-moz-user-select: none;
 }
+hr {
+	border: dashed #b8b8b8; //#b6b6ae;
+	border-width: 1px;
+	width: 87%;
+	float: right;
+}
 
 /* Menu Bar */ 
 #masthead {
@@ -553,7 +559,7 @@ li.selected {
 	margin: 0;
 }
 #search_result_div {
-	width: 800px;
+	width: 815px;
 	min-height: 751px;
 	margin-left: auto;
 	margin-right: auto;
@@ -616,7 +622,7 @@ li.selected {
 /* 活動小box */
 .event_block {
 	float: left;
-	width: 375px;//250px;
+	width: 385px;//250px;
 	height: 103px;
 	padding: 5px;
 	margin: 5px;
@@ -641,7 +647,7 @@ li.selected {
 	color: #333333;
 }
 .event_block p {
-	font-size: 92%;
+	font-size: 90%;
 	padding: 2px 0 2px 0;
 	margin: 3px 0px 0px 0px;
 	color: #333333;
@@ -649,7 +655,7 @@ li.selected {
 .event_info {
 	font-size: 90%;
 	float: left;
-	min-width: 100px;
+	min-width: 90px;
 }
 .event_member_count {
 	float: right; 
@@ -782,7 +788,7 @@ li.selected {
 	color: #ffffff;
 }
 .panel {
-	height: 795px;
+	min-height: 795px;
 }
 
 /* 設定按鈕panel */
@@ -951,12 +957,6 @@ li.selected {
 	width: 80px;
 	float: left;
 	text-align: center;
-}
-#wall_panel hr {
-	border: dashed #b6b6ae;
-	border-width: 1px;
-	width: 91%;
-	float: right;
 }
 .time_title {
 	font-size: 85%;
@@ -1165,8 +1165,73 @@ li.selected {
 
 /* 活動頁面 */
 #event_panel {
-	width: 790px;
+	width: 930px;
 	margin: auto;
+}
+.monthly_event_wrapper {
+	margin: 10px 0px 10px 0px;
+}
+.monthly_event_title {
+	float:left;
+	font-size: 85%;
+	font-weight: bold;
+	margin: 8px 6px 3px 40px;
+}
+.monthly_events {
+	overflow: hidden;
+}
+#event_panel .setting_panel {
+	margin-left: 110px;	
+}
+#event_panel .add_search_button {
+	float: left;
+}
+#event_panel .setting_panel_2nd {
+	position: relative;
+	height: 49px;
+	padding-top: 0;
+	margin-left: 110px;
+}
+.setting_panel_2nd .filter_button {
+	margin-top: 0;
+}
+/* 中間版本
+.monthly_event_wrapper {
+	margin: 16px 0px 16px 0px;
+}
+.event_timing_hr {
+	position: relative;
+	margin-bottom: 18px;
+	overflow: hidden;
+}
+hr {
+	border: dashed #4096ab;//#b6b6ae;
+	border-width: 1px;
+	width: 89%;
+	float: right;
+}
+.event_timing_hr span {
+	color: #4096ab;
+	position: absolute;
+	left: 450px;
+	background-color: #fcf9f2;
+	padding: 0px 3px 0px 3px;
+	font-size: 110%;
+	font-weight: bold;
+}
+*/
+#event_panel hr {
+	border: dashed #b6b6ae; //#4096ab;
+	border-width: 1px;
+	width: 87%;
+	float: right;
+}
+.event_timing_hr span {
+	color: #4096ab;
+	background-color: #fcf9f2;
+	padding: 0px;
+	//font-size: 110%;
+	//font-weight: bold;
 }
 
 /* 文章頁面 */
