@@ -20,6 +20,7 @@
 	<script src="../_js/wallPanel.js"></script>
 	<script src="../_js/eventPanel.js"></script>
 	<script src="../_js/albumPanel.js"></script>
+	<script src="../_js/friendPanel.js"></script>
 	<!--<script src="../_js/jquery.easing.1.3.js"></script> 先disable, 省去不必須的下載-->
 	<script src="../fancybox/jquery.fancybox-1.3.4.min.js"></script>
         <script>
@@ -48,6 +49,9 @@
 				// Process Album Panel
 				processAlbumPanel();
         		
+				// Process Friend Panel
+				processFriendPanel();
+				
 				// Process Fancybox
 				$('#gallery a').fancybox({
 					overlayColor: '#666',

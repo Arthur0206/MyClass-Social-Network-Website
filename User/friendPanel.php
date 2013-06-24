@@ -6,15 +6,17 @@
 	<div class="user_continer">
 		<div class="user">
 			<a class="user-link" href="albumPage.php">
-				<img class="user-image" alt="" src="Sosoman/Album/1/oreo.jpg">
+				<img class="user-image" alt="" src="../Pics/girl1.jpg">
 				<div class="user-name-wrapper"> 
 					<h1 class="user-name">郭雪芙</h1>
 				</div>
 				<div class="user-info"> 
-							<span class="user-location">新北市</span>
-							<span class="user-age">18</span>歲
-							<img class="like-icon" alt="like" src="../Pics/icon_like.png">
-							<span class="like-count">128</span>
+					<span class="user-age">18<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
+					<span class="user-location">新北市</span>
+					<span class="like">
+						<span class="like-count">128</span>
+						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
+					</span>
 				</div>
 			</a>
 		</div>
@@ -22,23 +24,17 @@
 	<div class="user_continer">
 		<div class="user">
 			<a class="user-link" href="albumPage.php">
-				<img class="user-image" alt="" src="Sosoman/Album/1/oreo.jpg">
+				<img class="user-image" alt="" src="../Pics/girl2.jpg">
 				<div class="user-name-wrapper"> 
-					<h1 class="user-name">馮媛甄</h1>
+					<h1 class="user-name">徐若瑄</h1>
 				</div>
-				<div class="user-info-wrapper"> 
-					<ul class="user-info">
-						<li class="user-location-wrapper">
-							<span class="user-location">新北市</span>
-						</li>
-						<li class="user-age-wrapper">
-							<span class="user-age">18</span>歲
-						</li>
-						<li class="like">
-							<img class="like-icon" alt="like" src="../Pics/icon_like.png">
-							<span class="like-count">128</span>
-						</li>
-					</ul>
+				<div class="user-info"> 
+					<span class="user-age">43<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
+					<span class="user-location">新北市</span>
+					<span class="like">
+						<span class="like-count">98</span>
+						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
+					</span>
 				</div>
 			</a>
 		</div>
@@ -46,23 +42,17 @@
 	<div class="user_continer">
 		<div class="user">
 			<a class="user-link" href="albumPage.php">
-				<img class="user-image" alt="" src="Sosoman/Album/1/oreo.jpg">
+				<img class="user-image" alt="" src="../Pics/girl3.jpg">
 				<div class="user-name-wrapper"> 
 					<h1 class="user-name">陳妍希</h1>
 				</div>
-				<div class="user-info-wrapper"> 
-					<ul class="user-info">
-						<li class="user-location-wrapper">
-							<span class="user-location">新北市</span>
-						</li>
-						<li class="user-age-wrapper">
-							<span class="user-age">18</span>歲
-						</li>
-						<li class="like">
-							<img class="like-icon" alt="like" src="../Pics/icon_like.png">
-							<span class="like-count">128</span>
-						</li>
-					</ul>
+				<div class="user-info"> 
+					<span class="user-age">29<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
+					<span class="user-location">新北市</span>
+					<span class="like">
+						<span class="like-count">128</span>
+						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
+					</span>
 				</div>
 			</a>
 		</div>
@@ -70,122 +60,92 @@
 	<div class="user_continer">
 		<div class="user">
 			<a class="user-link" href="albumPage.php">
-				<img class="user-image" alt="" src="Sosoman/Album/1/oreo.jpg">
+				<img class="user-image" alt="" src="../Pics/girl4.jpg">
 				<div class="user-name-wrapper"> 
-					<h1 class="user-name">辜婉允</h1>
+					<h1 class="user-name">侯佩岑</h1>
 				</div>
-				<div class="user-info-wrapper"> 
-					<ul class="user-info">
-						<li class="user-location-wrapper">
-							<span class="user-location">新北市</span>
-						</li>
-						<li class="user-age-wrapper">
-							<span class="user-age">18</span>歲
-						</li>
-						<li class="like">
-							<img class="like-icon" alt="like" src="../Pics/icon_like.png">
-							<span class="like-count">128</span>
-						</li>
-					</ul>
+				<div class="user-info"> 
+					<span class="user-age">35<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
+					<span class="user-location">新北市</span>
+					<span class="like">
+						<span class="like-count">278</span>
+						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
+					</span>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="user_continer">
+		<div class="user">
+			<a class="user-link" href="albumPage.php">
+				<img class="user-image" alt="" src="../Pics/girl5.jpg">
+				<div class="user-name-wrapper"> 
+					<h1 class="user-name">隋棠</h1>
+				</div>
+				<div class="user-info"> 
+					<span class="user-age">36<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
+					<span class="user-location">新北市</span>
+					<span class="like">
+						<span class="like-count">73</span>
+						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
+					</span>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="user_continer">
+		<div class="user">
+			<a class="user-link" href="albumPage.php">
+				<img class="user-image" alt="" src="../Pics/girl6.jpg">
+				<div class="user-name-wrapper"> 
+					<h1 class="user-name">李豫芬</h1>
+				</div>
+				<div class="user-info"> 
+					<span class="user-age">29<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
+					<span class="user-location">新北市</span>
+					<span class="like">
+						<span class="like-count">209</span>
+						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
+					</span>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="user_continer">
+		<div class="user">
+			<a class="user-link" href="albumPage.php">
+				<img class="user-image" alt="" src="../Pics/girl7.jpg">
+				<div class="user-name-wrapper"> 
+					<h1 class="user-name">馮媛甄</h1>
+				</div>
+				<div class="user-info"> 
+					<span class="user-age">28<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
+					<span class="user-location">新北市</span>
+					<span class="like">
+						<span class="like-count">38</span>
+						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
+					</span>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="user_continer">
+		<div class="user">
+			<a class="user-link" href="albumPage.php">
+				<img class="user-image" alt="" src="../Pics/girl8.jpg">
+				<div class="user-name-wrapper"> 
+					<h1 class="user-name">邵庭</h1>
+				</div>
+				<div class="user-info"> 
+					<span class="user-age">26<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
+					<span class="user-location">新北市</span>
+					<span class="like">
+						<span class="like-count">35</span>
+						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
+					</span>
 				</div>
 			</a>
 		</div>
 	</div>
 
-	<div class="user_continer">
-		<div class="user">
-			<a class="user-link" href="albumPage.php">
-				<img class="user-image" alt="" src="Sosoman/Album/1/oreo.jpg">
-				<div class="user-name-wrapper"> 
-					<h1 class="user-name">張鈞甯</h1>
-				</div>
-				<div class="user-info-wrapper"> 
-					<ul class="user-info">
-						<li class="user-location-wrapper">
-							<span class="user-location">新北市</span>
-						</li>
-						<li class="user-age-wrapper">
-							<span class="user-age">18</span>歲
-						</li>
-						<li class="like">
-							<img class="like-icon" alt="like" src="../Pics/icon_like.png">
-							<span class="like-count">128</span>
-						</li>
-					</ul>
-				</div>
-			</a>
-		</div>
-	</div>
-	<div class="user_continer">
-		<div class="user">
-			<a class="user-link" href="albumPage.php">
-				<img class="user-image" alt="" src="Sosoman/Album/1/oreo.jpg">
-				<div class="user-name-wrapper"> 
-					<h1 class="user-name">袁艾菲</h1>
-				</div>
-				<div class="user-info-wrapper"> 
-					<ul class="user-info">
-						<li class="user-location-wrapper">
-							<span class="user-location">新北市</span>
-						</li>
-						<li class="user-age-wrapper">
-							<span class="user-age">18</span>歲
-						</li>
-						<li class="like">
-							<img class="like-icon" alt="like" src="../Pics/icon_like.png">
-							<span class="like-count">128</span>
-						</li>
-					</ul>
-				</div>
-			</a>
-		</div>
-	</div>
-	<div class="user_continer">
-		<div class="user">
-			<a class="user-link" href="albumPage.php">
-				<img class="user-image" alt="" src="Sosoman/Album/1/oreo.jpg">
-				<div class="user-name-wrapper"> 
-					<h1 class="user-name">李毓芬</h1>
-				</div>
-				<div class="user-info-wrapper"> 
-					<ul class="user-info">
-						<li class="user-location-wrapper">
-							<span class="user-location">新北市</span>
-						</li>
-						<li class="user-age-wrapper">
-							<span class="user-age">18</span>歲
-						</li>
-						<li class="like">
-							<img class="like-icon" alt="like" src="../Pics/icon_like.png">
-							<span class="like-count">128</span>
-						</li>
-					</ul>
-				</div>
-			</a>
-		</div>
-	</div>
-	<div class="user_continer">
-		<div class="user">
-			<a class="user-link" href="albumPage.php">
-				<img class="user-image" alt="" src="Sosoman/Album/1/oreo.jpg">
-				<div class="user-name-wrapper"> 
-					<h1 class="user-name">隋棠</h1>
-				</div>
-				<div class="user-info-wrapper"> 
-					<ul class="user-info">
-						<li class="user-location-wrapper">
-							<span class="user-location">新北市</span>
-						</li>
-						<li class="user-age-wrapper">
-							<span class="user-age">18</span>歲
-						</li>
-						<li class="like">
-							<img class="like-icon" alt="like" src="../Pics/icon_like.png">
-							<span class="like-count">128</span>
-						</li>
-					</ul>
-				</div>
-			</a>
-		</div>
-	</div>
 </div>
