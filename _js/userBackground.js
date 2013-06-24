@@ -17,4 +17,26 @@ function preocessUserBackground()
 		$('.user_profile_pic_small:last').attr('src', big_pic_src);
 		*/
 	}); // end click
+
+/*
+	$('#user_background').hover(
+		function() {
+			$('#hide_background_button').show();
+		},
+		function() {
+			$('#hide_background_button').hide();
+		}
+	); // end hover
+
+	$('#hide_background_button').toggle(
+		function() {
+			$('#user_background').css('height','55px').children().hide();
+			$(this).text("最大化背景圖片").show().css({'top':'0','bottom':'','border-radius':'0 0 10px 10px'});
+		},
+		function() {
+			$('#user_background').css('height','185px').children().show();;
+			$(this).text("最小化背景圖片").css({'bottom':'0','top':'','border-radius':'10px 10px 0px 0px'});
+		}
+	); // end toggle
+*/
 }

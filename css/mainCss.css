@@ -716,7 +716,7 @@ li.selected {
 
 /* 使用者首頁 */
 /* 使用者背景圖區域 */
-#boy_user_background {
+.boy_user_background {
 	background-color: #3c97ad;
 	height: 185px;
 }
