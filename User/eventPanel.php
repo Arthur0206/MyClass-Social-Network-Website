@@ -63,7 +63,10 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 景美橋下球場
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>
+			    <form>
+				<input type="button" class="gray_button" value="編輯/互動" style="position:absolute;bottom:0;right:0">
+			    </form>
                         </div>
                         <div class="event_block requested cared">
                             <a target="" href="group1.html">
