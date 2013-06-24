@@ -12,7 +12,9 @@
 				</div>
 				<div class="album-info-wrapper"> 
 					<ul class="album-info">
-						<li class="create-time">2013年5月3日</li>
+						<li class="contents">
+							<span class="photo-count">128</span>張相片
+						</li>
 						<li class="like">
 							<img class="like-icon" alt="like" src="../Pics/icon_like.png">
 							<span class="like-count">128</span>
@@ -31,7 +33,10 @@
 				</div>
 				<div class="album-info-wrapper"> 
 					<ul class="album-info">
-						<li class="create-time">2013年1月17日</li>
+						<li class="contents">
+							<span class="photo-count">99</span>張相片
+						</li>
+
 						<li class="like">
 							<img class="like-icon" alt="like" src="../Pics/icon_like.png">
 							<span class="like-count">64</span>
@@ -50,7 +55,10 @@
 				</div>
 				<div class="album-info-wrapper"> 
 					<ul class="album-info">
-						<li class="create-time">2012年9月27日</li>
+						<li class="contents">
+							<span class="photo-count">16</span>張相片
+						</li>
+
 						<li class="like">
 							<img class="like-icon" alt="like" src="../Pics/icon_like.png">
 							<span class="like-count">234</span>
@@ -69,7 +77,10 @@
 				</div>
 				<div class="album-info-wrapper"> 
 					<ul class="album-info">
-						<li class="create-time">2012年8月8日</li>						
+						<li class="contents">
+							<span class="photo-count">88</span>張相片
+						</li>
+					
 						<li class="like">
 							<img class="like-icon" alt="like" src="../Pics/icon_like.png">
 							<span class="like-count">17</span>
@@ -88,7 +99,10 @@
 				</div>
 				<div class="album-info-wrapper"> 
 					<ul class="album-info">
-						<li class="create-time">2012年2月6日</li>
+						<li class="contents">
+							<span class="photo-count">37</span>張相片
+						</li>
+
 						<li class="like">
 							<img class="like-icon" alt="like" src="../Pics/icon_like.png">
 							<span class="like-count">128</span>
@@ -107,7 +121,10 @@
 				</div>
 				<div class="album-info-wrapper"> 
 					<ul class="album-info">
-						<li class="create-time">2010年4月21日</li>
+						<li class="contents">
+							<span class="photo-count">57</span>張相片
+						</li>
+
 						<li class="like">
 							<img class="like-icon" alt="like" src="../Pics/icon_like.png">
 							<span class="like-count">88</span>
