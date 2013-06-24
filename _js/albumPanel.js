@@ -1,10 +1,10 @@
 function processAlbumPanel() {
 	$('.album').hover(
 		function() {
-			$(this).css({'background-color': '#F4F4F4', 'border-color': '#C1C1C1'});
+			$(this).css({'background-color': '#F4F4F4', 'border-color': '#C1C1C1'}).find('.album-image').css('border-color', '#C1C1C1');
 		},
 		function() {
-			$(this).css({'background-color': '#FFFFFF', 'border-color': '#E1E1E1'});
+			$(this).css({'background-color': '#FFFFFF', 'border-color': '#E1E1E1'}).find('.album-image').css('border-color', '#E1E1E1');
 		}
 	); //end hover
 
