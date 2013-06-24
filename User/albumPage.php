@@ -17,42 +17,7 @@
 	<script src="../_js/albumPanel.js"></script>
 	<!--<script src="../_js/jquery.easing.1.3.js"></script> 先disable, 省去不必須的下載-->
 	<script src="../fancybox/jquery.fancybox-1.3.4.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                // Process Menu Bar
-				processMenuBar();
-        		
-				// Process User Background Area
-				preocessUserBackground();
-        		
-				// Process Second Bar
-				processSecondBar();
-        		
-				// Process Setting Panel
-				processSettingPanel();
-        		
-				// Process About Panel
-				processAboutPanel();
-        		
-				// Process Wall Panel
-				processWallPanel();
-        		
-				// Process Album Panel
-				processAlbumPanel();
-        		
-				// Process Fancybox
-				$('#gallery a').fancybox({
-					overlayColor: '#666',
-					overlayOpacity: .05,
-					transitionIn: 'elastic',
-					transitionOut: 'elastic',
-					//easingIn: 'easeInSine', 省去不必須的下載(easing.js)
-					//easingOut: 'easeOutSine',
-					titlePosition: 'inside' ,		
-					cyclic: true
-				});
-            }); // ready
-        </script>
+
     </head>
     <body>
 	<?php 

@@ -48,12 +48,12 @@
 .album-info .like{
 	float: right;
 	margin-left: 4px;
-	margin-right: 4px;
+	//margin-right: 4px;
 }
-.like-count {
+.album-info .like-count {
 	padding-left: 0px;
 	vertical-align: top;
 }
-li {
+.album-info li {
 	display: table-cell;
 }
