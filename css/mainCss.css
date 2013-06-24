@@ -598,6 +598,7 @@ li.selected {
 	box-shadow: 0px 0px 2px 2px #D8D5D0;
 	overflow: hidden;
 	z-index: 10;
+	position: relative;
 }
 .group_title {
 	//display: inline;
@@ -680,7 +681,7 @@ li.selected {
 	//line-height: 50px;
 	font-size: 80%;
 	text-align: right;
-	margin-top: 20px;
+	margin-top: 6px;
 	color: #0066CC;
 }
 
@@ -703,6 +704,7 @@ li.selected {
 	box-shadow: 0px 0px 2px 2px #D8D5D0;
 	overflow: hidden;
 	z-index: 10;
+	position: relative;
 }
 .board_title {
 	max-width: 210px;
@@ -1251,6 +1253,13 @@ hr {
 	//font-size: 110%;
 	//font-weight: bold;
 }
+.event_block_bandage {
+	position: absolute;
+	top:-5px;
+	right: -5px;
+	width: 131px;
+	height: 121px;
+}
 
 /* 文章頁面 */
 #article_panel {
@@ -1259,6 +1268,7 @@ hr {
 
 /* 討論版頁面 */
 #board_panel {
-	width: 790px;
+	width: 1015px;
+	//overflow: hidden;
 	margin: auto;
 }
