@@ -65,7 +65,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                             </div>
                             <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>
 			    <form>
-				<input type="button" class="gray_button" value="編輯/互動" style="position:absolute;bottom:0;right:0">
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>
                         </div>
                         <div class="event_block requested cared">
@@ -90,7 +90,10 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 景美橋下球場
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>  
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>  
                         </div>
                         <div class="event_block joined">
                             <a target="" href="Group1.html">
@@ -115,6 +118,9 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 </p>
                             </div>
                             <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">126</span></span>
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>
                         </div>
 			</div>
 			</div>
@@ -145,7 +151,10 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 待定
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 120<br/>已參加人數: <span class="red-text">32</span></span>                
+                            <span class="event_member_count">人數限制: 120<br/>已參加人數: <span class="red-text">32</span></span>           
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>     
                         </div>
 			</div>
 			</div>
@@ -177,7 +186,10 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 待定
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 120<br/>已參加人數: <span class="red-text">32</span></span>                
+                            <span class="event_member_count">人數限制: 120<br/>已參加人數: <span class="red-text">32</span></span>    
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>            
                         </div>
 			</div>
 			</div>
@@ -210,7 +222,9 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 </p>
                             </div>
                             <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
-
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>
                         </div>
                         <div class="event_block requested cared">
                             <a target="" href="group1.html">
@@ -235,7 +249,9 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 </p>
                             </div>
                             <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
-
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>
                         </div>
                         <div class="event_block created">
                             <a target="" href="Group1.html">
@@ -260,7 +276,9 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 </p>
                             </div>
                             <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">126</span></span>
-
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>
                         </div>
                         <div class="event_block created cared">
                             <a target="" href="hotUser.html">
@@ -284,7 +302,10 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 待定
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 120<br/>已參加人數: <span class="red-text">32</span></span>                
+                            <span class="event_member_count">人數限制: 120<br/>已參加人數: <span class="red-text">32</span></span>   
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>             
                         </div>
 			</div>
 			</div>
@@ -316,7 +337,9 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 </p>
                             </div>
                             <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
-
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>
                         </div>
                         <div class="event_block joined cared">
                             <a target="" href="group1.html">
@@ -341,7 +364,9 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 </p>
                             </div>
                             <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
-
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>
                         </div>
 			</div>
 			</div>
@@ -373,7 +398,9 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 </p>
                             </div>
                             <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">126</span></span>
-
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>
                         </div>
 			</div>
 			</div>
@@ -404,7 +431,10 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 待定
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 120<br/>已參加人數: <span class="red-text">32</span></span>                
+                            <span class="event_member_count">人數限制: 120<br/>已參加人數: <span class="red-text">32</span></span>       
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>         
                         </div>
                         <div class="event_block cared created">
                             <a target="" href="group1.html">
@@ -429,7 +459,9 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 </p>
                             </div>
                             <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
-
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>
                         </div>
                         <div class="event_block requested cared">
                             <a target="" href="group1.html">
@@ -454,7 +486,9 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 </p>
                             </div>
                             <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
-
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>
                         </div>
 			</div>
 			</div>
@@ -485,7 +519,9 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 </p>
                             </div>
                             <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
-
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>
                         </div>
                         <div class="event_block requested cared">
                             <a target="" href="group1.html">
@@ -510,6 +546,9 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 </p>
                             </div>
                             <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>
                         </div>
                         <div class="event_block requested cared">
                             <a target="" href="group1.html">
@@ -534,6 +573,9 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 </p>
                             </div>
                             <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>
                         </div>
                         <div class="event_block requested cared">
                             <a target="" href="group1.html">
@@ -558,6 +600,9 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 </p>
                             </div>
                             <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
+			    <form>
+				<input type="button" class="gray_button unselectable" value="編輯/互動">
+			    </form>
                         </div>
 			</div>
 			</div>
