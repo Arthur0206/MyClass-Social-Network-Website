@@ -90,7 +90,7 @@
                         <div class="hot-group">
 			    <a href=""> <img src="./User/NinaPrincess/head.jpg" width="160px" height="104px"></a>
                             <a href="">
-                            <h1>中興大學歷史系-2006畢</h1>
+                            <div><h1 class="long_title">中興大學歷史系-2006畢</h1></div>
 			    </a>
                             <span class="hot-group-count">人數 58人</span>
                         </div>

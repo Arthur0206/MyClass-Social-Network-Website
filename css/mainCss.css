@@ -26,6 +26,7 @@ body {
 	margin: 8px 10px 8px 10px;
 	border-radius: 4px; // 2px 2px 2px;
 	box-shadow: 0px 0px 2px 2px #FFE119;
+	cursor: pointer;
 }
 #button-2 {
 	//display: block;
@@ -38,6 +39,7 @@ body {
 	margin: 8px 10px 8px 10px;
 	border-radius: 4px; // 2px 2px 2px;
 	box-shadow: 0px 0px 2px 3px #AAD670;
+	cursor: pointer;
 }
 #button-3 {
 	//display: block;
@@ -50,6 +52,7 @@ body {
 	margin: 8px 10px 8px 10px;
 	border-radius: 4px; // 2px 2px 2px;
 	box-shadow: 0px 0px 2px 3px #6CA1DA;
+	cursor: pointer;
 }
 #button-4 {
 	//display: block;
@@ -62,6 +65,7 @@ body {
 	margin: 8px 10px 8px 10px;
 	border-radius: 4px; // 2px 2px 2px; 
 	box-shadow: 0px 0px 2px 2px #FFB000;
+	cursor: pointer;
 }
 #myclass-definition {
 	width: 650px;
@@ -138,7 +142,6 @@ hr {
 	padding: 6px 15px 6px 15px;
 	font-size: 95%;
 	cursor: pointer;
-	margin-left: 4px;
 	background-color: #f5f5f5 !important;
 	border: 1px solid #dcdcdc !important;
 	color: #444 !important;
@@ -611,12 +614,12 @@ li.selected {
 	font-size: 110%;
 	padding: 0;
 	margin: 0;
-	color: #333333;
+	color: #444444;
 }
 .group_block p { font-size: 90%;
 	padding: 0;
 	margin: 5px 0px 0px 0px;
-	color: #333333;
+	color: #555555;
 }
 .group_info {
 	font-size: 90%;
@@ -660,13 +663,13 @@ li.selected {
 	display: inline;
 	font-size: 100%;
 	margin: 0;
-	color: #333333;
+	color: #444444;
 }
 .event_block p {
 	font-size: 90%;
 	padding: 2px 0 2px 0;
 	margin: 3px 0px 0px 0px;
-	color: #333333;
+	color: #555555;
 }
 .event_info {
 	font-size: 90%;
