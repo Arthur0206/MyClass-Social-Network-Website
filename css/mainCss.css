@@ -198,8 +198,8 @@ li.selected {
 	display: block;
 	font: bold 16px/16px "Arial";
 	letter-spacing: 0.05em;
-	padding: 11px 1px 8px 1px;
-	width: auto;
+	padding: 11px 3px 8px 3px;
+	overflow: hidden;
 }
 .menu_tabs > li .menu_tabs_dropdown_link {
 	text-align: center;
@@ -208,7 +208,6 @@ li.selected {
 	padding-top: 10px 9px 10px 9px;
 	background-color: #e51937;
 	z-index: 1000;
-	width: 8.1%;
 	position: absolute;
 }
 #create_group_link, #create_event_link {
@@ -614,7 +613,7 @@ li.selected {
 	font-size: 110%;
 	padding: 0;
 	margin: 0;
-	color: #444444;
+	color: #333333;
 }
 .group_block p { font-size: 90%;
 	padding: 0;
@@ -663,7 +662,7 @@ li.selected {
 	display: inline;
 	font-size: 100%;
 	margin: 0;
-	color: #444444;
+	color: #333333;
 }
 .event_block p {
 	font-size: 90%;
