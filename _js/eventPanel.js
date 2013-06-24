@@ -23,7 +23,7 @@ function processEventPanel()
 
 		// 查看是哪個按鍵, 並show出對應的
 		if ($(this).is('#joined_event_filter')) {
-			$('.event_block.joined').show();
+			$('.event_block.joined, .event_block.requested, .event_block.created').show();
 		} else if ($(this).is('#created_event_filter')) {
 			$('.event_block.created').show();
 		} else if ($(this).is('#invited_event_filter')) {
@@ -73,6 +73,15 @@ function processEventPanel()
 		}
 	); // hover
 	*/
+
+	$('#event_panel .event_block').hover(
+		function() {
+			$(this).find('.event_block_bandage').hide();
+		},
+		function() {
+			$(this).find('.event_block_bandage').fadeIn(100);
+		}
+	); // hover
 
 	// default是選擇"我參加的event"
 	$('#joined_event_filter').click();

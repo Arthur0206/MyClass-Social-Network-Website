@@ -41,7 +41,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_event_wrapper">
 			<div class="monthly_event_title">2013年7月</div>
 			<div class="monthly_events">
-                        <div class="event_block requested cared">
+                        <div class="event_block cared">
                             <a target="" href="group1.html">
                                 <img class="hot-event-pic" width="103" height="106" src="../Event/EventPics/EventPic1.png">
                             </a>
@@ -63,12 +63,12 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 景美橋下球場
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span><br/>關係: 已關切</span>
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>
                         </div>
-                        <div class="event_block requested cared">
+                        <div class="event_block cared">
                             <a target="" href="group1.html">
                                 <img class="hot-event-pic" width="103" height="106" src="../Event/EventPics/EventPic1.png">
                             </a>
@@ -90,10 +90,10 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 景美橋下球場
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>  
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span><br/>關係: 已關切</span>  
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
-			    </form>  
+			    </form>
                         </div>
                         <div class="event_block joined">
                             <a target="" href="Group1.html">
@@ -117,7 +117,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 東海大學大禮堂
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">126</span></span>
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">126</span><br/>關係: 已加入</span>
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>
@@ -151,7 +151,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 待定
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 120<br/>已參加人數: <span class="red-text">32</span></span>           
+                            <span class="event_member_count">人數限制: 120<br/>已參加人數: <span class="red-text">32</span><br/>關係: 由我建立</span>           
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>     
@@ -186,7 +186,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 待定
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 120<br/>已參加人數: <span class="red-text">32</span></span>    
+                            <span class="event_member_count">人數限制: 120<br/>已參加人數: <span class="red-text">32</span><br/>關係: 由我建立, 已關切</span>    
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>            
@@ -199,7 +199,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_event_wrapper">
 			<div class="monthly_event_title">2013年5月</div>
 			<div class="monthly_events">
-                        <div class="event_block requested cared">
+                        <div class="event_block cared">
                             <a target="" href="group1.html">
                                 <img class="hot-event-pic" width="103" height="106" src="../Event/EventPics/EventPic1.png">
                             </a>
@@ -221,7 +221,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 景美橋下球場
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span><br/>關係: 已關切</span>    
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>
@@ -248,10 +248,11 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 景美橋下球場
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span><br/>關係: 已報名, 已關切</span>    
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>
+			    <!-- <img class="event_block_bandage" src="../Pics/bandage.png"> 使用繃帶表示狀態的設計-->
                         </div>
                         <div class="event_block created">
                             <a target="" href="Group1.html">
@@ -275,7 +276,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 東海大學大禮堂
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">126</span></span>
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">126</span><br/>關係: 由我建立</span>
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>
@@ -302,7 +303,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 待定
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 120<br/>已參加人數: <span class="red-text">32</span></span>   
+                            <span class="event_member_count">人數限制: 120<br/>已參加人數: <span class="red-text">32</span><br/>關係: 由我建立, 已關切</span>   
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>             
@@ -336,7 +337,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 景美橋下球場
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span><br/>關係: 已加入, 已關切</span>    
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>
@@ -363,7 +364,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 景美橋下球場
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span><br/>關係: 已加入, 已關切</span>    
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>
@@ -375,7 +376,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_event_wrapper">
 			<div class="monthly_event_title">2013年3月</div>
 			<div class="monthly_events">
-                        <div class="event_block joined cared">
+                        <div class="event_block joined">
                             <a target="" href="Group1.html">
                                 <img class="hot-event-pic" width="103" height="103" src="../Event/EventPics/EventPic2.png">
                             </a>
@@ -393,11 +394,11 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                             <div class="event_info">
                                 <p>
 				發起人: <a class="group-link" href="#">東海大學吉他社</a><br/>
-                                時間: 6月15日(六) - 6月16日(日)<br/>
+                                時間: 6月15日(六)-6月16日(日)<br/>
                                 地點: 東海大學大禮堂
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">126</span></span>
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">126</span><br/>關係: 已加入</span>
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>
@@ -431,7 +432,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 待定
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 120<br/>已參加人數: <span class="red-text">32</span></span>       
+                            <span class="event_member_count">人數限制: 120<br/>已參加人數: <span class="red-text">32</span><br/>關係: 由我建立</span>       
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>         
@@ -458,7 +459,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 景美橋下球場
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span><br/>關係: 由我建立, 已關切</span>    
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>
@@ -485,10 +486,11 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 景美橋下球場
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span><br/>關係: 已報名, 已關切</span>    
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>
+			    <!-- <img class="event_block_bandage" src="../Pics/bandage.png"> 使用繃帶表示狀態的設計-->
                         </div>
 			</div>
 			</div>
@@ -518,7 +520,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 景美橋下球場
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span><br/>關係: 由我建立, 已關切</span>    
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>
@@ -545,10 +547,11 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 景美橋下球場
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span><br/>關係: 已報名, 已關切</span>    
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>
+			    <!-- <img class="event_block_bandage" src="../Pics/bandage.png"> 使用繃帶表示狀態的設計-->
                         </div>
                         <div class="event_block requested cared">
                             <a target="" href="group1.html">
@@ -572,10 +575,11 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 景美橋下球場
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span><br/>關係: 已報名, 已關切</span>    
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>
+			    <!-- <img class="event_block_bandage" src="../Pics/bandage.png"> 使用繃帶表示狀態的設計-->
                         </div>
                         <div class="event_block requested cared">
                             <a target="" href="group1.html">
@@ -599,10 +603,11 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                                 地點: 景美橋下球場
                                 </p>
                             </div>
-                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span></span>    
+                            <span class="event_member_count">人數限制: 不限<br/>已參加人數: <span class="red-text">42</span><br/>關係: 已報名, 已關切</span>    
 			    <form>
 				<input type="button" class="gray_button unselectable" value="編輯/互動">
 			    </form>
+			    <!-- <img class="event_block_bandage" src="../Pics/bandage.png"> 使用繃帶表示狀態的設計-->
                         </div>
 			</div>
 			</div>

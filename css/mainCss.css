@@ -681,7 +681,7 @@ li.selected {
 	//line-height: 50px;
 	font-size: 80%;
 	text-align: right;
-	margin-top: 20px;
+	margin-top: 6px;
 	color: #0066CC;
 }
 
@@ -1252,6 +1252,13 @@ hr {
 	padding: 0px;
 	//font-size: 110%;
 	//font-weight: bold;
+}
+.event_block_bandage {
+	position: absolute;
+	top:-5px;
+	right: -5px;
+	width: 131px;
+	height: 121px;
 }
 
 /* 文章頁面 */
