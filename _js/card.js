@@ -1,5 +1,5 @@
-function processAlbumPanel() {
-	$('.album').hover(
+function processCard() {
+	$('.card').hover(
 		function() {
 			$(this).css({'background-color': '#F4F4F4', 'border-color': '#C1C1C1'}).find('.album-image').css('border-color', '#C1C1C1');
 		},
