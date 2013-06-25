@@ -52,6 +52,7 @@
 	//float: right;
 	width: 11px;
 	height: 11px;
+	opacity: 0.8;
 	vertical-align: middle;
 }
 .user-info .like-count {
