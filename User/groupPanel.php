@@ -31,7 +31,7 @@
 			<div class="group_continer">
 				<div class="group card">
 					<a class="group-image-link" href="groupPage.php">
-						<img class="group-image card-image" alt="" src="../Event/EventPics/EventPic1.png">
+						<img class="group-image card-image" alt="" src="../Pics/date-club.jpg">
 						<div class="group-describe-wrapper"> 
 							<h1 class="group-headline">高雄單身聯誼會</h1>
 							<p class="group-description">歡迎單身的高雄人來加入, 不定期舉辦聯誼</p>
@@ -56,7 +56,7 @@
 			<div class="group_continer">
 				<div class="group card">
 					<a class="group-image-link" href="groupPage.php">
-						<img class="group-image card-image" alt="" src="../Event/EventPics/EventPic2.png">
+						<img class="group-image card-image" alt="" src="../Pics/guitar.jpg">
 						<div class="group-describe-wrapper"> 
 							<h1 class="group-headline">東海大學吉他社</h1>
 							<p class="group-description">想要自彈自唱情歌來追女生嗎? 那還不快加入! 熱烈招會員中～</p>
@@ -81,7 +81,7 @@
 			<div class="group_continer">
 				<div class="group card">
 					<a class="group-image-link" href="groupPage.php">
-						<img class="group-image card-image" alt="" src="../Event/EventPics/EventPic3.png">
+						<img class="group-image card-image" alt="" src="../Pics/kobe.jpg">
 						<div class="group-describe-wrapper"> 
 							<h1 class="group-headline">Laker's Fans</h1>
 							<p class="group-description">Kobe強爆了!喜歡laoda的朋友就加入吧!</p>
