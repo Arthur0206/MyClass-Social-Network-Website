@@ -4,9 +4,9 @@
 		<span id="add_new_moment_button" class="add_search_button unselectable">＋新增相簿</span>
 	</div>
 	<div class="albums_continer">
-		<div class="album">
+		<div class="album card">
 			<a class="album-image-link" href="albumPage.php">
-				<img class="album-image" alt="" src="Sosoman/Album/1/oreo.jpg">
+				<img class="album-image card-image" alt="" src="Sosoman/Album/1/oreo.jpg">
 				<div class="album-headline-wrapper"> 
 					<h1 class="album-headline">我的餅乾</h1>
 				</div>
@@ -25,9 +25,9 @@
 		</div>
 	</div>
 	<div class="albums_continer">
-		<div class="album">
+		<div class="album card">
 			<a class="album-image-link" href="albumPage.php">
-				<img class="album-image" alt="" src="Sosoman/Album/2/player.jpg">
+				<img class="album-image card-image" alt="" src="Sosoman/Album/2/player.jpg">
 				<div class="album-headline-wrapper"> 
 					<h1 class="album-headline">雜七雜八的東西</h1>
 				</div>
@@ -47,9 +47,9 @@
 		</div>
 	</div>
 	<div class="albums_continer">
-		<div class="album">
+		<div class="album card">
 			<a class="album-image-link" href="albumPage.php">
-				<img class="album-image" alt="" src="Sosoman/Album/3/geek.jpg">
+				<img class="album-image card-image" alt="" src="Sosoman/Album/3/geek.jpg">
 				<div class="album-headline-wrapper"> 
 					<h1 class="album-headline">Geeks</h1>
 				</div>
@@ -69,9 +69,9 @@
 		</div>
 	</div>
 	<div class="albums_continer">
-		<div class="album">
+		<div class="album card">
 			<a class="album-image-link" href="albumPage.php">
-				<img class="album-image" alt="" src="Sosoman/Album/4/telly-ios.jpg">
+				<img class="album-image card-image" alt="" src="Sosoman/Album/4/telly-ios.jpg">
 				<div class="album-headline-wrapper"> 
 					<h1 class="album-headline">手機拍的照片</h1>
 				</div>
@@ -91,9 +91,9 @@
 		</div>
 	</div>
 	<div class="albums_continer">
-		<div class="album">
+		<div class="album card">
 			<a class="album-image-link" href="albumPage.php">
-				<img class="album-image" alt="" src="Sosoman/Album/5/book.jpg">
+				<img class="album-image card-image" alt="" src="Sosoman/Album/5/book.jpg">
 				<div class="album-headline-wrapper"> 
 					<h1 class="album-headline">我的作品</h1>
 				</div>
@@ -113,9 +113,9 @@
 		</div>
 	</div>
 	<div class="albums_continer">
-		<div class="album">
+		<div class="album card">
 			<a class="album-image-link" href="albumPage.php">
-				<img class="album-image" alt="" src="Sosoman/Album/Moment/7_b.jpg">
+				<img class="album-image card-image" alt="" src="Sosoman/Album/Moment/7_b.jpg">
 				<div class="album-headline-wrapper"> 
 					<h1 class="album-headline">Moment</h1>
 				</div>
