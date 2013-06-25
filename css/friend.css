@@ -1,5 +1,7 @@
+/* 朋友頁面 */
 #friend_panel {
 	width: 980px;
+	margin: auto;
 }
 .user {
 	background-color: #FFFFFF;

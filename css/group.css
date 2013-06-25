@@ -1,9 +1,9 @@
-/* 相簿頁面 */
-#album_panel {
+/* 群組頁面 */
+#group_panel {
 	width: 950px;
 	margin: auto;
 }
-.album {
+.group {
 	background-color: #FFFFFF;
 	width: 200px;
 	height: 220px;
@@ -12,33 +12,26 @@
 	overflow: hidden;
 	border: 1px solid #E1E1E1;
 }
-.album-image {
+.group-image {
 	width: 190px; 
 	height: 150px; 
 	display: block;
 	border: 1px solid #E1E1E1;
 	margin: 4px 4px 0px 4px; 
-	//width: 200px; 
-	//height: 160px; 
 }
-.album-headline {
+.group-headline {
     color: #686E77;
     font-size: 15px;
     font-weight: bold;
 	text-align: center;
 	margin: 7px 0px 0px 0px;
 }
-.album-headline-wrapper {
+.group-headline-wrapper {
 	width: 200px;
 	height: 32px;
 	overflow: hidden;
 }
-.album-info-wrapper {
-	width: 200px;
-	height: 32px;
-	overflow: hidden;
-}
-.album-info {
+.group-info {
 	margin: 0px 10px 0px 10px;
 	padding: 8px 0px 0px 0px;
 	vertical-align: middle;
@@ -47,18 +40,24 @@
 	font-size: 12px;
 	color: #888888 !important;
 }
-.album-info .contents{
+.group-info .float-left-info{
+	font-size: 13px;
 	float: left;
 }
-.album-info .like{
+.group-info .float-right-info{
+	font-size: 13px;
 	float: right;
 	margin-left: 4px;
 	//margin-right: 4px;
 }
-.album-info .like-count {
+.group-info .like-count {
 	padding-left: 0px;
 	vertical-align: top;
 }
-.album-info li {
-	display: table-cell;
+.group-info .like-icon {
+	height: 10px;
+	width: 10px;
+}
+.group-location {
+	padding-left: 5px;
 }
