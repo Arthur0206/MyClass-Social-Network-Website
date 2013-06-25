@@ -1166,24 +1166,6 @@ li.selected {
 	vertical-align: middle;
 }
 
-/* 相簿頁面 */
-#album_panel {
-	width: 950px;
-	margin: auto;
-}
-
-/* 朋友頁面 */
-#friend_panel {
-	width: 790px;
-	margin: auto;
-}
-
-/* 群組頁面 */
-#group_panel {
-	width: 790px;
-	margin: auto;
-}
-
 /* 活動頁面 */
 #event_panel {
 	width: 930px;

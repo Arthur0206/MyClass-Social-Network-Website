@@ -1,5 +1,7 @@
+/* 朋友頁面 */
 #friend_panel {
 	width: 980px;
+	margin: auto;
 }
 .user {
 	background-color: #FFFFFF;
@@ -50,6 +52,7 @@
 	//float: right;
 	width: 11px;
 	height: 11px;
+	opacity: 0.8;
 	vertical-align: middle;
 }
 .user-info .like-count {
