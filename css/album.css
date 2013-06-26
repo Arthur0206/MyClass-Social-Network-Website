@@ -22,7 +22,7 @@
 	//height: 160px; 
 }
 .album-headline {
-    color: #686E77;
+    color: #000000;//#686E77;
     font-size: 15px;
     font-weight: bold;
 	text-align: center;
@@ -45,7 +45,7 @@
 	list-style-type: none !important;
  	border-top: 1px dotted #CCCCCC;
 	font-size: 12px;
-	color: #888888 !important;
+	color: #666666 !important;
 }
 .album-info .contents{
 	float: left;

@@ -33,8 +33,8 @@
 					<a class="group-image-link" href="groupPage.php">
 						<img class="group-image card-image" alt="" src="../Pics/date-club.jpg">
 						<div class="group-describe-wrapper"> 
-							<h1 class="group-headline">高雄單身聯誼會</h1>
-							<p class="group-description">歡迎單身的高雄人來加入, 不定期舉辦聯誼</p>
+							<h1 class="group-headline">單身聯誼會</h1>
+							<p class="group-description">歡迎單身的朋友來加入, 不定期舉辦聯誼</p>
 						</div>
 						<div class="group-info-wrapper"> 
 							<div class="group-info">
