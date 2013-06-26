@@ -1,7 +1,17 @@
 <?php
+require_once('define.php');
+
 if (!isset($_SESSION)) {
 	session_start();
 }
+
+/***************************************************************************/
+if (BYPASS_LOGIN) {
+	$_SESSION['Username'] = "Sosoman";
+	$_SESSION['Fullname'] = "陳令堯";
+	$_SESSION['Sex'] = "男";
+}
+/***************************************************************************/
 ?>
 
         <header id="masthead">
