@@ -103,15 +103,15 @@ ul {
 }
 .bomb {
 	font-weight: bold;
-	color: #517099;
+	//color: #517099;
 }
 .explode {
 	font-weight: bold;
-	color: #BA3239;
+	//color: #BA3239;
 }
 .hot {
 	font-weight: bold;
-	color: #e28035;
+	//color: #e28035;
 }
 .hidden {
 	display: none;
@@ -373,7 +373,7 @@ li.selected {
 	padding: 5px;
 	margin: 1px 0px 1px 2px;
 	border-radius: 5px 5px 5px 5px;
-	background-color: #FFFFFF;
+	background-color: #FFFFF2;
 	border: 1px solid #D8D5D0;
 	overflow: hidden;
 }
@@ -406,7 +406,7 @@ li.selected {
 	padding: 5px;
 	margin: 1px;
 	border-radius: 5px 5px 5px 5px;
-	background-color: #FFFFFF;
+	background-color: #FFFFF2;
 	border: 1px solid #D8D5D0;
 	overflow: hidden;
 }
@@ -495,7 +495,7 @@ li.selected {
 }
 .search_bar_title {
 	padding: 13px 7px 12px 10px;
-	color: #FFFFFF;
+	color: #FFFFF2;
 }
 .search_bar_dropdown_list_wrapper {
 	margin: 7px 0px 5px 0px;
@@ -503,7 +503,7 @@ li.selected {
 	height: 15px;
 	border-radius: 4px;
 	border: 1px solid #D8D5D0;
-	background-color: #FFFFFF; //#f5f5f5; //#FFFFFF;
+	background-color: #FFFFF2; //#f5f5f5; //#FFFFFF;
 	cursor: pointer;
 	z-index: 10;
 	position: relative;
@@ -619,7 +619,7 @@ li.selected {
 .group_block p { font-size: 90%;
 	padding: 0;
 	margin: 5px 0px 0px 0px;
-	color: #444444;
+	color: #555555;
 }
 .group_info {
 	font-size: 90%;
@@ -669,7 +669,7 @@ li.selected {
 	font-size: 90%;
 	padding: 2px 0 2px 0;
 	margin: 3px 0px 0px 0px;
-	color: #444444;
+	color: #555555;
 }
 .event_info {
 	font-size: 90%;
@@ -686,6 +686,16 @@ li.selected {
 }
 
 /* 討論版的小box */
+.board_title h1 {
+	padding-top: 4px;
+	padding-bottom: 7px; 
+}
+.hot-board-pic {
+	border: 1px solid #D8D5D0;
+	height: 121px;
+	width: 111px;
+	padding: 0px;
+}
 .board_type_title {
 	font-size: 120%;
 	color: #CC0000;
@@ -695,20 +705,20 @@ li.selected {
 .board_block {
 	float: left;
 	width: 318px; //250px;
-	height: 103px;
-	padding: 5px;
+	height: 123px;
+	padding: 3px;
 	margin: 5px;
-	border-radius: 5px 5px 5px 5px;
+	//border-radius: 5px 5px 5px 5px;
 	background-color: #FFFFFF;
-	//border: 1px solid #D8D5D0;
-	box-shadow: 0px 0px 2px 2px #D8D5D0;
+	border: 1px solid #D8D5D0;
+	//box-shadow: 0px 0px 2px 2px #D8D5D0;
 	overflow: hidden;
 	z-index: 10;
 	position: relative;
 }
 .board_title {
-	max-width: 210px;
-	height: 89px;
+	max-width: 200px;
+	height: 105px;
 	overflow: hidden;
 	float: left;
 	margin-left: 5px;
@@ -1015,7 +1025,6 @@ li.selected {
 	padding: 12px 15px 12px 14px;
 	border-radius: 6px;
 	box-shadow: 0px 0px 1px 2px #D8D5D0;
-	background-color: #FFFFFF;
 }
 .moment_content p {
 	margin: 0;
@@ -1247,11 +1256,4 @@ hr {
 /* 文章頁面 */
 #article_panel {
 
-}
-
-/* 討論版頁面 */
-#board_panel {
-	width: 1015px;
-	//overflow: hidden;
-	margin: auto;
 }
