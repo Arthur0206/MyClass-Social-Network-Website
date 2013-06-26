@@ -10,6 +10,7 @@
 	<script src="../_js/menuBar.js"></script> 
 	<script src="../_js/collapsableList.js"></script> 
 	<script src="../_js/searchBar.js"></script> 
+	<script src="../_js/card.js"></script> 
 	<script>
 	$(document).ready(function() {
 		//Process Menu Bar
@@ -20,6 +21,9 @@
 
 		// Process Search Bar
 		processSearchBar();
+		
+		// Process Card
+		processCard();
 	}); // ready
 	</script>
 </head>
@@ -64,9 +68,9 @@
 				</div>
 				<div class="board_type_div">
 					<div class="board_type_title">聊天類</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="group1.html">
-							<img class="hot-board-pic" src="../Pics/talk.jpg">
+							<img class="hot-board-pic card-image" src="../Pics/talk.jpg">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
@@ -81,9 +85,9 @@
 						<span class="board_popular_level">人氣: <span class="bomb">10923 炸</span></span>    
 
 					</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="Group1.html">
-							<img class="hot-board-pic" src="../Pics/angry-bird-2.png">
+							<img class="hot-board-pic card-image" src="../Pics/angry-bird-2.png">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
@@ -97,9 +101,9 @@
 						</a>
 						<span class="board_popular_level">人氣: <span class="explode">5032 爆</span></span>
 					</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="hotUser.html">
-							<img class="hot-board-pic" src="../Pics/girl3.jpg">
+							<img class="hot-board-pic card-image" src="../Pics/girl3.jpg">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
@@ -117,9 +121,9 @@
 
 				<div class="board_type_div">
 					<div class="board_type_title">運動類</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="Group1.html">
-							<img class="hot-board-pic" src="./BoardPics/4.png">
+							<img class="hot-board-pic card-image" src="./BoardPics/4.png">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
@@ -133,9 +137,9 @@
 						</a>
 						<span class="board_popular_level">人氣: <span class="explode">3986 爆</span></span>
 					</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="hotUser.html">
-							<img class="hot-board-pic" src="./BoardPics/5.png">
+							<img class="hot-board-pic card-image" src="./BoardPics/5.png">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
@@ -153,9 +157,9 @@
 
 				<div class="board_type_div">
 					<div class="board_type_title">男女關係類</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="hotUser.html">
-							<img class="hot-board-pic" src="./BoardPics/6.png">
+							<img class="hot-board-pic card-image" src="./BoardPics/6.png">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
@@ -169,9 +173,9 @@
 						</a>
 						<span class="board_popular_level">人氣: <span class="explode">8163 爆</span></span>                
 					</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="hotUser.html">
-							<img class="hot-board-pic" src="./BoardPics/7.png">
+							<img class="hot-board-pic card-image" src="./BoardPics/7.png">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
@@ -185,9 +189,9 @@
 						</a>
 						<span class="board_popular_level">人氣: <span class="explode">6231 爆</span></span>                
 					</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="hotUser.html">
-							<img class="hot-board-pic" src="./BoardPics/8.png">
+							<img class="hot-board-pic card-image" src="./BoardPics/8.png">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
@@ -205,9 +209,9 @@
 
 				<div class="board_type_div">
 					<div class="board_type_title">美容類</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="hotUser.html">
-							<img class="hot-board-pic" src="./BoardPics/9.png">
+							<img class="hot-board-pic card-image" src="./BoardPics/9.png">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
@@ -221,9 +225,9 @@
 						</a>
 						<span class="board_popular_level">人氣: <span class="hot">1826 熱</span></span>                
 					</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="hotUser.html">
-							<img class="hot-board-pic" src="./BoardPics/10.png">
+							<img class="hot-board-pic card-image" src="./BoardPics/10.png">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
@@ -241,9 +245,9 @@
 
 				<div class="board_type_div">
 					<div class="board_type_title">遊戲類</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="hotUser.html">
-							<img class="hot-board-pic" src="./BoardPics/11.png">
+							<img class="hot-board-pic card-image" src="./BoardPics/11.png">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
@@ -257,9 +261,9 @@
 						</a>
 						<span class="board_popular_level">人氣: <span class="explode">3377 爆</span></span>                
 					</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="hotUser.html">
-							<img class="hot-board-pic" src="./BoardPics/1.png">
+							<img class="hot-board-pic card-image" src="./BoardPics/1.png">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
@@ -273,9 +277,9 @@
 						</a>
 						<span class="board_popular_level">人氣: <span class="explode">2974 爆</span></span>                
 					</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="hotUser.html">
-							<img class="hot-board-pic" src="./BoardPics/2.png">
+							<img class="hot-board-pic card-image" src="./BoardPics/2.png">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
@@ -293,9 +297,9 @@
 
 				<div class="board_type_div">
 					<div class="board_type_title">地區類</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="hotUser.html">
-							<img class="hot-board-pic" src="./BoardPics/3.png">
+							<img class="hot-board-pic card-image" src="./BoardPics/3.png">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
@@ -309,9 +313,9 @@
 						</a>
 						<span class="board_popular_level">人氣: <span class="bomb">10923 炸</span></span>                
 					</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="hotUser.html">
-							<img class="hot-board-pic" src="./BoardPics/4.png">
+							<img class="hot-board-pic card-image" src="./BoardPics/4.png">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
@@ -325,9 +329,9 @@
 						</a>
 						<span class="board_popular_level">人氣: <span class="explode">7324 爆</span></span>                
 					</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="hotUser.html">
-							<img class="hot-board-pic" src="./BoardPics/5.png">
+							<img class="hot-board-pic card-image" src="./BoardPics/5.png">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
@@ -341,9 +345,9 @@
 						</a>
 						<span class="board_popular_level">人氣: <span class="explode">2973 爆</span></span>                
 					</div>
-					<div class="board_block">
+					<div class="board_block card">
 						<a target="" href="hotUser.html">
-							<img class="hot-board-pic" src="./BoardPics/6.png">
+							<img class="hot-board-pic card-image" src="./BoardPics/6.png">
 						</a>
 						<a target="" href="">
 							<div class="board_title">
