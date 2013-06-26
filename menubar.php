@@ -1,10 +1,6 @@
 <?php
 require_once('define.php');
 
-if (!isset($_SESSION)) {
-	session_start();
-}
-
 /***************************************************************************/
 if (BYPASS_LOGIN) {
 	$_SESSION['Username'] = "Sosoman";
