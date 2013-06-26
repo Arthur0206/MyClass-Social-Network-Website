@@ -12,7 +12,7 @@ function processCard() {
 			if ($(this).is('.board')) {
 				$(this).css('border-color', '#E1E1E1').find('.board-name-wrapper').css('border-color', '#E1E1E1');
 			} else {
-				$(this).css({'background-color': '#FFFFFF', 'border-color': '#E1E1E1'}).find('.card-image').css('border-color', '#E1E1E1');
+				$(this).css({'background-color': '#FFFFFF', 'border-color': '#C1C1C1'}).find('.card-image').css('border-color', '#C1C1C1');
 			}
 		}
 	); //end hover
