@@ -27,8 +27,10 @@
 					<div class="board-info-wrapper"> 
 						<div class="board-info">
 							<div class="float-left-info">
-								<span class="hot-count">2280</span>
-								<span class="hot-level">炸</span>
+								<span class="hot">
+									<span class="hot-count">2280</span>
+									<span class="hot-level">熱</span>
+								</span>
 							</div>
 							<div class="float-right-info">
 								<div class="like">
@@ -54,8 +56,10 @@
 					<div class="board-info-wrapper"> 
 						<div class="board-info">
 							<div class="float-left-info">
-								<span class="hot-count">2280</span>
-								<span class="hot-level">炸</span>
+								<span class="bomb">
+									<span class="hot-count">2280</span>
+									<span class="hot-level">炸</span>
+								</span>
 							</div>
 							<div class="float-right-info">
 								<div class="like">
@@ -87,8 +91,10 @@
 					<div class="board-info-wrapper"> 
 						<div class="board-info">
 							<div class="float-left-info">
-								<span class="hot-count">2280</span>
-								<span class="hot-level">炸</span>
+								<span class="explode">
+									<span class="hot-count">2280</span>
+									<span class="hot-level">爆</span>
+								</span>
 							</div>
 							<div class="float-right-info">
 								<div class="like">
@@ -113,8 +119,10 @@
 					<div class="board-info-wrapper"> 
 						<div class="board-info">
 							<div class="float-left-info">
-								<span class="hot-count">2280</span>
-								<span class="hot-level">炸</span>
+								<span class="explode">
+									<span class="hot-count">2280</span>
+									<span class="hot-level">爆</span>
+								</span>
 							</div>
 							<div class="float-right-info">
 								<div class="like">
@@ -139,8 +147,10 @@
 					<div class="board-info-wrapper"> 
 						<div class="board-info">
 							<div class="float-left-info">
-								<span class="hot-count">2280</span>
-								<span class="hot-level">炸</span>
+								<span class="hot">
+									<span class="hot-count">2280</span>
+									<span class="hot-level">熱</span>
+								</span>
 							</div>
 							<div class="float-right-info">
 								<div class="like">
@@ -165,8 +175,10 @@
 					<div class="board-info-wrapper"> 
 						<div class="board-info">
 							<div class="float-left-info">
-								<span class="hot-count">2280</span>
-								<span class="hot-level">炸</span>
+								<span class="hot">
+									<span class="hot-count">2280</span>
+									<span class="hot-level">熱</span>
+								</span>
 							</div>
 							<div class="float-right-info">
 								<div class="like">
@@ -199,8 +211,10 @@
 					<div class="board-info-wrapper"> 
 						<div class="board-info">
 							<div class="float-left-info">
-								<span class="hot-count">2280</span>
-								<span class="hot-level">炸</span>
+								<span class="bomb">
+									<span class="hot-count">2280</span>
+									<span class="hot-level">炸</span>
+								</span>
 							</div>
 							<div class="float-right-info">
 								<div class="like">
@@ -227,8 +241,10 @@
 					<div class="board-info-wrapper"> 
 						<div class="board-info">
 							<div class="float-left-info">
-								<span class="hot-count">2280</span>
-								<span class="hot-level">炸</span>
+								<span class="bomb">
+									<span class="hot-count">2280</span>
+									<span class="hot-level">炸</span>
+								</span>
 							</div>
 							<div class="float-right-info">
 								<div class="like">
@@ -255,8 +271,10 @@
 					<div class="board-info-wrapper"> 
 						<div class="board-info">
 							<div class="float-left-info">
-								<span class="hot-count">2280</span>
-								<span class="hot-level">炸</span>
+								<span class="explode">
+									<span class="hot-count">2280</span>
+									<span class="hot-level">爆</span>
+								</span>
 							</div>
 							<div class="float-right-info">
 								<div class="like">
