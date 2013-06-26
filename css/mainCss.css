@@ -103,15 +103,15 @@ ul {
 }
 .bomb {
 	font-weight: bold;
-	color: #517099;
+	//color: #517099;
 }
 .explode {
 	font-weight: bold;
-	color: #BA3239;
+	//color: #BA3239;
 }
 .hot {
 	font-weight: bold;
-	color: #e28035;
+	//color: #e28035;
 }
 .hidden {
 	display: none;
@@ -686,6 +686,16 @@ li.selected {
 }
 
 /* 討論版的小box */
+.board_title h1 {
+	padding-top: 4px;
+	padding-bottom: 7px; 
+}
+.hot-board-pic {
+	border: 1px solid #D8D5D0;
+	height: 121px;
+	width: 111px;
+	padding: 0px;
+}
 .board_type_title {
 	font-size: 120%;
 	color: #CC0000;
@@ -695,20 +705,20 @@ li.selected {
 .board_block {
 	float: left;
 	width: 318px; //250px;
-	height: 103px;
-	padding: 5px;
+	height: 123px;
+	padding: 3px;
 	margin: 5px;
-	border-radius: 5px 5px 5px 5px;
+	//border-radius: 5px 5px 5px 5px;
 	background-color: #FFFFFF;
-	//border: 1px solid #D8D5D0;
-	box-shadow: 0px 0px 2px 2px #D8D5D0;
+	border: 1px solid #D8D5D0;
+	//box-shadow: 0px 0px 2px 2px #D8D5D0;
 	overflow: hidden;
 	z-index: 10;
 	position: relative;
 }
 .board_title {
-	max-width: 210px;
-	height: 89px;
+	max-width: 200px;
+	height: 105px;
 	overflow: hidden;
 	float: left;
 	margin-left: 5px;
@@ -1246,11 +1256,4 @@ hr {
 /* 文章頁面 */
 #article_panel {
 
-}
-
-/* 討論版頁面 */
-#board_panel {
-	width: 1015px;
-	//overflow: hidden;
-	margin: auto;
 }
