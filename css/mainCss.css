@@ -691,7 +691,7 @@ li.selected {
 	padding-bottom: 7px; 
 }
 .hot-board-pic {
-	border: 1px solid #D8D5D0;
+	border: 1px solid #C1C1C1;
 	height: 121px;
 	width: 111px;
 	padding: 0px;
@@ -710,7 +710,7 @@ li.selected {
 	margin: 5px;
 	//border-radius: 5px 5px 5px 5px;
 	background-color: #FFFFFF;
-	border: 1px solid #D8D5D0;
+	border: 1px solid #C1C1C1;
 	//box-shadow: 0px 0px 2px 2px #D8D5D0;
 	overflow: hidden;
 	z-index: 10;
