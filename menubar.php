@@ -1,3 +1,9 @@
+<?php
+if (!isset($_SESSION)) {
+	session_start();
+}
+?>
+
         <header id="masthead">
         <div id="menubar">
             <a id="logo" href="/MyClass/Home.php">
@@ -58,18 +64,44 @@
                 </li>
             </ul>
             <ul class="dropdown">
+<?php
+if (isset($_SESSION['Username'])) {
+?>
+                <li>
+                <a href='/MyClass/User/logout.php'>登出</a>
+                </li>
+<?php
+} else {
+?>
                 <li>
                 <a href='/MyClass/User/registerUser.php'>註冊</a>
                 </li>
                 <li>
-                <a href='/MyClass/User/logIn.php'>登入</a>
+                <a href='/MyClass/User/login.php'>登入</a>
                 </li>
+<?php
+}
+?>
+
+<?php
+if (isset($_SESSION['Username'])) {
+?>
                 <li>
-                <a id='username_button' href='/MyClass/User/userMain.php'> Sosoman </a>
+                <a id='username_button' href='/MyClass/User/userMain.php'> <?php echo $_SESSION['Username'] ?> </a>
                 </li>
+<?php
+}
+?>
             </ul>
+
+<?php
+if (isset($_SESSION['Username'])) {
+?>
             <a id='user_img' href='/MyClass/User/userMain.php'>
                 <img src='/MyClass/User/Sosoman/head.jpg' alt='Arthur Chen' height="47" width="47">
             </a>
+<?php
+}
+?>
         </div>
         </header>
