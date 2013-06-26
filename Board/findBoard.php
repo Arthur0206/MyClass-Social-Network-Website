@@ -175,7 +175,7 @@
 					</div>
 					<div class="board_block card">
 						<a target="" href="hotUser.html">
-							<img class="hot-board-pic card-image" src="./BoardPics/7.png">
+							<img class="hot-board-pic card-image" src="../Pics/sex.jpg">
 						</a>
 						<a target="" href="">
 							<div class="board_title">

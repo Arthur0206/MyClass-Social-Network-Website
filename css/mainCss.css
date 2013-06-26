@@ -727,8 +727,8 @@ li.selected {
 	float: left;
 }
 .board_block h1 {
-	width: 210px;
-	font-size: 145%;
+	width: 200px;
+	font-size: 135%;
 	margin: auto;
 	color: #333333;
 	text-align: center;
