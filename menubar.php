@@ -93,7 +93,7 @@ if (isset($_SESSION['Username'])) {
 if (isset($_SESSION['Username'])) {
 ?>
                 <li>
-                <a id='username_button' href='/MyClass/User/userMain.php'> <?php echo $_SESSION['Username'] ?> </a>
+                <a id='username_button' <?php echo (($_SESSION['Sex'])=='男')?' class="boy-user-link" ':' class="girl-user-link" ';?> href='/MyClass/User/userMain.php'> <?php echo $_SESSION['Username'] ?> </a>
                 </li>
 <?php
 }
@@ -104,7 +104,7 @@ if (isset($_SESSION['Username'])) {
 if (isset($_SESSION['Username'])) {
 ?>
             <a id='user_img' href='/MyClass/User/userMain.php'>
-                <img src='/MyClass/User/Sosoman/head.jpg' alt='Arthur Chen' height="47" width="47">
+                <img <?php echo 'src="/MyClass/User/' . $_SESSION['Username'] . '/head.jpg"' ?> alt='Arthur Chen' height="47" width="47">
             </a>
 <?php
 }

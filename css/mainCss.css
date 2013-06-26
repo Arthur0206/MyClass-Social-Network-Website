@@ -84,16 +84,16 @@ ul {
 	list-style: none outside none;
 }
 .girl-user-link {   /* 女生user連結為粉紅色 */
-	color: #e5737d;
+	color: #e5737d !important;
 }
 .boy-user-link {    /* 男生user連結為藍色 */
-	color: #527fc2;
+	color: #527fc2 !important;
 }
 .group-link {       /* 群組連結為綠色 */
-	color: #61A120;
+	color: #61A120 !important;
 }
 .board-link {       /* 群組連結為綠色 */
-	color: #61A120; //#61A120;
+	color: #61A120 !important; //#61A120;
 }
 .black-link {       /* 黑色連結 */
 	color: #333333;
@@ -239,7 +239,7 @@ li.selected {
 #username_button {
 	font: bold 20px/20px "Arial";
 	padding: 17px 12px; // 17px 6px;
-	color: #527fc2; //#037586; //#e5737d; /* #B60000; */
+	//color: #527fc2; //#037586; //#e5737d; /* #B60000; */
 }
 
 /* Home Advertisement*/
