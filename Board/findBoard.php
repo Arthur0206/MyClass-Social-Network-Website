@@ -79,7 +79,7 @@
 									你知道馬英九是gay嗎? 那你知道凱泰和力宏是gay嗎? 快到八卦版來發表和蒐集八卦吧!
 								</p>
 							</div>
-							<span class="board_popular_level">人氣: <span class="bomb">10923 炸</span></span>    
+							<span class="board_popular_level">人氣: <span class="bomb">10923</span></span>    
 						</div>
 					</a>
 					<a target="" href="Group1.html">
@@ -93,7 +93,7 @@
 									妳最近諸事不順, 被老闆壓榨, 或是跟男朋友吵架所以快氣炸了嗎? 快來Hate發洩, 讓所有版友們一起幫妳罵髒話吧!
 								</p>
 							</div>
-							<span class="board_popular_level">人氣: <span class="explode">5032 爆</span></span>
+							<span class="board_popular_level">人氣: <span class="explode">5032</span></span>
 						</div>
 					</a>
 					<a target="" href="hotUser.html">
@@ -107,7 +107,7 @@
 									想看笑話或是分享你今天新想到的爛笑話就來Joke版吧!
 								</p>
 							</div>
-							<span class="board_popular_level">人氣: <span class="explode">2189 爆</span></span>               
+							<span class="board_popular_level">人氣: <span class="explode">2189</span></span>               
 						</div>
 					</a>
 				</div>
@@ -125,7 +125,7 @@
 									總冠軍賽 熱火 vs 馬刺 開始了!!!</br>『LBJ和Kobe誰切入比較強』投票活動開始~
 								</p>
 							</div>
-							<span class="board_popular_level">人氣: <span class="explode">3986 爆</span></span>
+							<span class="board_popular_level">人氣: <span class="explode">3986</span></span>
 						</div>
 					</a>
 					<a target="" href="hotUser.html">
@@ -139,7 +139,7 @@
 									楊岱剛連續72場兩安打, 即將打破日本職棒紀錄!!!&nbsp快來跟版友們一起為台灣之光加油吧!
 								</p>
 							</div>
-							<span class="board_popular_level">人氣: <span class="hot">1356 熱</span></span>                
+							<span class="board_popular_level">人氣: <span class="hot">1356</span></span>                
 						</div>
 					</a>
 				</div>
@@ -157,7 +157,7 @@
 									想要看帥哥美女, 或是詢問今天在捷運上看到的美腿美女, 或是分享新發現的正妹? 來帥哥美女版就對了!
 								</p>
 							</div>
-							<span class="board_popular_level">人氣: <span class="explode">8163 爆</span></span>               
+							<span class="board_popular_level">人氣: <span class="explode">8163</span></span>               
 						</div>
 					</a>
 					<a target="" href="hotUser.html">
@@ -171,7 +171,7 @@
 									你可以在這裡討論一切有關『性』的話題~
 								</p>
 							</div>
-							<span class="board_popular_level">人氣: <span class="explode">6231 爆</span></span>               
+							<span class="board_popular_level">人氣: <span class="explode">6231</span></span>               
 						</div>
 					</a>
 					<a target="" href="hotUser.html">
@@ -185,7 +185,7 @@
 									想要了解男生或女生都在想什麼嗎?來Boy-Girl版和版友們討論吧!
 								</p>
 							</div>
-							<span class="board_popular_level">人氣: <span class="explode">3659 爆</span></span>               
+							<span class="board_popular_level">人氣: <span class="explode">3659</span></span>               
 						</div>
 					</a>
 				</div>
@@ -203,7 +203,7 @@
 									想要畫出最適合自己的完美彩妝嗎?來和各位美女版友討論學習吧!
 								</p>
 							</div>	
-							<span class="board_popular_level">人氣: <span class="hot">1826 熱</span></span>                
+							<span class="board_popular_level">人氣: <span class="hot">1826</span></span>                
 						</div>
 					</a>
 					<a target="" href="hotUser.html">
@@ -217,7 +217,7 @@
 									想要讓自己越來越美嗎?來和各位美女版友一起討論學習吧!
 								</p>
 							</div>
-							<span class="board_popular_level">人氣: <span class="hot">1377 熱</span></span>                
+							<span class="board_popular_level">人氣: <span class="hot">1377</span></span>                
 						</div>
 					</a>
 				</div>
@@ -235,7 +235,7 @@
 									來玩Diablo吧!
 								</p>
 							</div>
-							<span class="board_popular_level">人氣: <span class="explode">3377 爆</span></span>               
+							<span class="board_popular_level">人氣: <span class="explode">3377</span></span>               
 						</div>
 					</a>
 					<a target="" href="hotUser.html">
@@ -249,7 +249,7 @@
 									來玩WOW吧!
 								</p>
 							</div>
-						<span class="board_popular_level">人氣: <span class="explode">2974 爆</span></span>                
+						<span class="board_popular_level">人氣: <span class="explode">2974</span></span>                
 						</div>
 					</a>
 					<a target="" href="hotUser.html">
@@ -263,7 +263,7 @@
 									來玩LOL吧!
 								</p>
 							</div>
-							<span class="board_popular_level">人氣: <span class="hot">1125 熱</span></span>                
+							<span class="board_popular_level">人氣: <span class="hot">1125</span></span>                
 						</div>
 					</a>
 				</div>
@@ -281,7 +281,7 @@
 									討論所有台北裡好吃好玩的地方!『台北哪個夜市最棒』投票開始囉~
 								</p>
 							</div>
-							<span class="board_popular_level">人氣: <span class="bomb">10923 炸</span></span>                
+							<span class="board_popular_level">人氣: <span class="bomb">10923</span></span>                
 						</div>
 					</a>
 					<a target="" href="hotUser.html">
@@ -295,7 +295,7 @@
 									來討論所有有關美國的旅遊, 留學, 遊學資訊吧!『哪一種美式食物最好吃』投票開始!
 								</p>
 							</div>
-							<span class="board_popular_level">人氣: <span class="explode">7324 爆</span></span>               
+							<span class="board_popular_level">人氣: <span class="explode">7324</span></span>               
 						</div>
 					</a>
 					<a target="" href="hotUser.html">
@@ -309,7 +309,7 @@
 									台中人都來吧!『台中哪所高中制服最好看』投票開始囉~
 								</p>
 							</div>
-							<span class="board_popular_level">人氣: <span class="explode">2973 爆</span></span>               
+							<span class="board_popular_level">人氣: <span class="explode">2973</span></span>               
 						</div>
 					</a>
 					<a target="" href="hotUser.html">
@@ -323,7 +323,7 @@
 									一人一票支持成立高雄國!
 								</p>
 							</div>
-							<span class="board_popular_level">人氣: <span class="hot">1377 熱</span></span>                
+							<span class="board_popular_level">人氣: <span class="hot">1377</span></span>                
 						</div>
 					</a>
 				</div>
