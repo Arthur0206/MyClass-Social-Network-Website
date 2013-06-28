@@ -68,11 +68,9 @@
 				</div>
 				<div class="board_type_div">
 					<div class="board_type_title">聊天類</div>
-					<div class="board_block card">
-						<a target="" href="group1.html">
+					<a target="" href="group1.html">
+						<div class="board_block card">
 							<img class="hot-board-pic card-image" src="../Pics/talk.jpg">
-						</a>
-						<a target="" href="">
 							<div class="board_title">
 								<h1 style="color:#819351">
 									八卦版
@@ -81,15 +79,12 @@
 									你知道馬英九是gay嗎? 那你知道凱泰和力宏是gay嗎? 快到八卦版來發表和蒐集八卦吧!
 								</p>
 							</div>
-						</a>
-						<span class="board_popular_level">人氣: <span class="bomb">10923 炸</span></span>    
-
-					</div>
-					<div class="board_block card">
-						<a target="" href="Group1.html">
+							<span class="board_popular_level">人氣: <span class="bomb">10923 炸</span></span>    
+						</div>
+					</a>
+					<a target="" href="Group1.html">
+						<div class="board_block card">
 							<img class="hot-board-pic card-image" src="../Pics/angry-bird-2.png">
-						</a>
-						<a target="" href="">
 							<div class="board_title">
 								<h1 style="color:#632f34">
 									Hate版
@@ -98,14 +93,12 @@
 									妳最近諸事不順, 被老闆壓榨, 或是跟男朋友吵架所以快氣炸了嗎? 快來Hate發洩, 讓所有版友們一起幫妳罵髒話吧!
 								</p>
 							</div>
-						</a>
-						<span class="board_popular_level">人氣: <span class="explode">5032 爆</span></span>
-					</div>
-					<div class="board_block card">
-						<a target="" href="hotUser.html">
+							<span class="board_popular_level">人氣: <span class="explode">5032 爆</span></span>
+						</div>
+					</a>
+					<a target="" href="hotUser.html">
+						<div class="board_block card">
 							<img class="hot-board-pic card-image" src="../Pics/girl3.jpg">
-						</a>
-						<a target="" href="">
 							<div class="board_title">
 								<h1 style="color:#e28035">
 									Joke版
@@ -114,18 +107,16 @@
 									想看笑話或是分享你今天新想到的爛笑話就來Joke版吧!
 								</p>
 							</div>
-						</a>
-						<span class="board_popular_level">人氣: <span class="explode">2189 爆</span></span>                
-					</div>
+							<span class="board_popular_level">人氣: <span class="explode">2189 爆</span></span>               
+						</div>
+					</a>
 				</div>
 
 				<div class="board_type_div">
 					<div class="board_type_title">運動類</div>
-					<div class="board_block card">
-						<a target="" href="Group1.html">
+					<a target="" href="hotUser.html">
+						<div class="board_block card">
 							<img class="hot-board-pic card-image" src="./BoardPics/4.png">
-						</a>
-						<a target="" href="">
 							<div class="board_title">
 								<h1 style="color:#e51937">
 									NBA版
@@ -134,14 +125,12 @@
 									總冠軍賽 熱火 vs 馬刺 開始了!!!</br>『LBJ和Kobe誰切入比較強』投票活動開始~
 								</p>
 							</div>
-						</a>
-						<span class="board_popular_level">人氣: <span class="explode">3986 爆</span></span>
-					</div>
-					<div class="board_block card">
-						<a target="" href="hotUser.html">
+							<span class="board_popular_level">人氣: <span class="explode">3986 爆</span></span>
+						</div>
+					</a>
+					<a target="" href="hotUser.html">
+						<div class="board_block card">
 							<img class="hot-board-pic card-image" src="./BoardPics/5.png">
-						</a>
-						<a target="" href="">
 							<div class="board_title">
 								<h1 style="color:#978e60">
 									棒球版
@@ -150,18 +139,16 @@
 									楊岱剛連續72場兩安打, 即將打破日本職棒紀錄!!!&nbsp快來跟版友們一起為台灣之光加油吧!
 								</p>
 							</div>
-						</a>
-						<span class="board_popular_level">人氣: <span class="hot">1356 熱</span></span>                
-					</div>
+							<span class="board_popular_level">人氣: <span class="hot">1356 熱</span></span>                
+						</div>
+					</a>
 				</div>
 
 				<div class="board_type_div">
 					<div class="board_type_title">男女關係類</div>
-					<div class="board_block card">
-						<a target="" href="hotUser.html">
+					<a target="" href="hotUser.html">
+						<div class="board_block card">
 							<img class="hot-board-pic card-image" src="./BoardPics/6.png">
-						</a>
-						<a target="" href="">
 							<div class="board_title">
 								<h1 style="color:#e28035">
 									帥哥美女版
@@ -170,14 +157,12 @@
 									想要看帥哥美女, 或是詢問今天在捷運上看到的美腿美女, 或是分享新發現的正妹? 來帥哥美女版就對了!
 								</p>
 							</div>
-						</a>
-						<span class="board_popular_level">人氣: <span class="explode">8163 爆</span></span>                
-					</div>
-					<div class="board_block card">
-						<a target="" href="hotUser.html">
+							<span class="board_popular_level">人氣: <span class="explode">8163 爆</span></span>               
+						</div>
+					</a>
+					<a target="" href="hotUser.html">
+						<div class="board_block card">
 							<img class="hot-board-pic card-image" src="../Pics/sex.jpg">
-						</a>
-						<a target="" href="">
 							<div class="board_title">
 								<h1 style="color:#e5737d">
 									Sex版
@@ -186,14 +171,12 @@
 									你可以在這裡討論一切有關『性』的話題~
 								</p>
 							</div>
-						</a>
-						<span class="board_popular_level">人氣: <span class="explode">6231 爆</span></span>                
-					</div>
-					<div class="board_block card">
-						<a target="" href="hotUser.html">
+							<span class="board_popular_level">人氣: <span class="explode">6231 爆</span></span>               
+						</div>
+					</a>
+					<a target="" href="hotUser.html">
+						<div class="board_block card">
 							<img class="hot-board-pic card-image" src="./BoardPics/8.png">
-						</a>
-						<a target="" href="">
 							<div class="board_title">
 								<h1 style="color:#b1a5c3">
 									Boy-Girl版
@@ -202,18 +185,16 @@
 									想要了解男生或女生都在想什麼嗎?來Boy-Girl版和版友們討論吧!
 								</p>
 							</div>
-						</a>
-						<span class="board_popular_level">人氣: <span class="explode">3659 爆</span></span>                
-					</div>
+							<span class="board_popular_level">人氣: <span class="explode">3659 爆</span></span>               
+						</div>
+					</a>
 				</div>
 
 				<div class="board_type_div">
 					<div class="board_type_title">美容類</div>
-					<div class="board_block card">
-						<a target="" href="hotUser.html">
+					<a target="" href="hotUser.html">
+						<div class="board_block card">
 							<img class="hot-board-pic card-image" src="./BoardPics/9.png">
-						</a>
-						<a target="" href="">
 							<div class="board_title">
 								<h1 style="color:#e5737d">
 									彩妝版
@@ -221,15 +202,13 @@
 								<p>
 									想要畫出最適合自己的完美彩妝嗎?來和各位美女版友討論學習吧!
 								</p>
-							</div>
-						</a>
-						<span class="board_popular_level">人氣: <span class="hot">1826 熱</span></span>                
-					</div>
-					<div class="board_block card">
-						<a target="" href="hotUser.html">
+							</div>	
+							<span class="board_popular_level">人氣: <span class="hot">1826 熱</span></span>                
+						</div>
+					</a>
+					<a target="" href="hotUser.html">
+						<div class="board_block card">
 							<img class="hot-board-pic card-image" src="./BoardPics/10.png">
-						</a>
-						<a target="" href="">
 							<div class="board_title">
 								<h1 style="color:#819351">
 									美容版
@@ -238,18 +217,16 @@
 									想要讓自己越來越美嗎?來和各位美女版友一起討論學習吧!
 								</p>
 							</div>
-						</a>
-						<span class="board_popular_level">人氣: <span class="hot">1377 熱</span></span>                
-					</div>
+							<span class="board_popular_level">人氣: <span class="hot">1377 熱</span></span>                
+						</div>
+					</a>
 				</div>
 
 				<div class="board_type_div">
 					<div class="board_type_title">遊戲類</div>
-					<div class="board_block card">
-						<a target="" href="hotUser.html">
+					<a target="" href="hotUser.html">
+						<div class="board_block card">
 							<img class="hot-board-pic card-image" src="./BoardPics/11.png">
-						</a>
-						<a target="" href="">
 							<div class="board_title">
 								<h1 style="color:#CC0000">
 									Diablo版
@@ -258,14 +235,12 @@
 									來玩Diablo吧!
 								</p>
 							</div>
-						</a>
-						<span class="board_popular_level">人氣: <span class="explode">3377 爆</span></span>                
-					</div>
-					<div class="board_block card">
-						<a target="" href="hotUser.html">
-							<img class="hot-board-pic card-image" src="./BoardPics/1.png">
-						</a>
-						<a target="" href="">
+							<span class="board_popular_level">人氣: <span class="explode">3377 爆</span></span>               
+						</div>
+					</a>
+					<a target="" href="hotUser.html">
+						<div class="board_block card">
+						<img class="hot-board-pic card-image" src="./BoardPics/1.png">
 							<div class="board_title">
 								<h1 style="color:#2a405c">
 									WOW版
@@ -274,14 +249,12 @@
 									來玩WOW吧!
 								</p>
 							</div>
-						</a>
 						<span class="board_popular_level">人氣: <span class="explode">2974 爆</span></span>                
-					</div>
-					<div class="board_block card">
-						<a target="" href="hotUser.html">
+						</div>
+					</a>
+					<a target="" href="hotUser.html">
+						<div class="board_block card">
 							<img class="hot-board-pic card-image" src="./BoardPics/2.png">
-						</a>
-						<a target="" href="">
 							<div class="board_title">
 								<h1 style="color:#7e52c1">
 									LOL版
@@ -290,18 +263,16 @@
 									來玩LOL吧!
 								</p>
 							</div>
-						</a>
-						<span class="board_popular_level">人氣: <span class="hot">1125 熱</span></span>                
-					</div>
+							<span class="board_popular_level">人氣: <span class="hot">1125 熱</span></span>                
+						</div>
+					</a>
 				</div>
 
 				<div class="board_type_div">
 					<div class="board_type_title">地區類</div>
-					<div class="board_block card">
-						<a target="" href="hotUser.html">
+					<a target="" href="hotUser.html">
+						<div class="board_block card">
 							<img class="hot-board-pic card-image" src="./BoardPics/3.png">
-						</a>
-						<a target="" href="">
 							<div class="board_title">
 								<h1 style="color:#819351">
 									台北版
@@ -310,14 +281,12 @@
 									討論所有台北裡好吃好玩的地方!『台北哪個夜市最棒』投票開始囉~
 								</p>
 							</div>
-						</a>
-						<span class="board_popular_level">人氣: <span class="bomb">10923 炸</span></span>                
-					</div>
-					<div class="board_block card">
-						<a target="" href="hotUser.html">
+							<span class="board_popular_level">人氣: <span class="bomb">10923 炸</span></span>                
+						</div>
+					</a>
+					<a target="" href="hotUser.html">
+						<div class="board_block card">
 							<img class="hot-board-pic card-image" src="./BoardPics/4.png">
-						</a>
-						<a target="" href="">
 							<div class="board_title">
 								<h1 style="color:#cc0000">
 									美國版
@@ -326,14 +295,12 @@
 									來討論所有有關美國的旅遊, 留學, 遊學資訊吧!『哪一種美式食物最好吃』投票開始!
 								</p>
 							</div>
-						</a>
-						<span class="board_popular_level">人氣: <span class="explode">7324 爆</span></span>                
-					</div>
-					<div class="board_block card">
-						<a target="" href="hotUser.html">
+							<span class="board_popular_level">人氣: <span class="explode">7324 爆</span></span>               
+						</div>
+					</a>
+					<a target="" href="hotUser.html">
+						<div class="board_block card">
 							<img class="hot-board-pic card-image" src="./BoardPics/5.png">
-						</a>
-						<a target="" href="">
 							<div class="board_title">
 								<h1 style="color:#632f34">
 									台中版
@@ -342,14 +309,12 @@
 									台中人都來吧!『台中哪所高中制服最好看』投票開始囉~
 								</p>
 							</div>
-						</a>
-						<span class="board_popular_level">人氣: <span class="explode">2973 爆</span></span>                
-					</div>
-					<div class="board_block card">
-						<a target="" href="hotUser.html">
+							<span class="board_popular_level">人氣: <span class="explode">2973 爆</span></span>               
+						</div>
+					</a>
+					<a target="" href="hotUser.html">
+						<div class="board_block card">
 							<img class="hot-board-pic card-image" src="./BoardPics/6.png">
-						</a>
-						<a target="" href="">
 							<div class="board_title">
 								<h1 style="color:#e28035">
 									高雄版
@@ -358,9 +323,9 @@
 									一人一票支持成立高雄國!
 								</p>
 							</div>
-						</a>
-						<span class="board_popular_level">人氣: <span class="hot">1377 熱</span></span>                
-					</div>
+							<span class="board_popular_level">人氣: <span class="hot">1377 熱</span></span>                
+						</div>
+					</a>
 				</div>
 			</div>
 		</div>
