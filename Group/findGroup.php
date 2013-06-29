@@ -13,6 +13,7 @@ if (!isset($_SESSION)) {
         <meta name="keywords" content="group,club,blog,meetup,event,board,friends,social,chat,news,student,class,版,群組,朋友,交友,班級,班版,討論版,活動,學生,聯誼,同學,同學會,社團" />
         <title>MyClass - 讓妳認識很多新朋友!</title>
         <link href="../css/main.css" type="text/css" rel="stylesheet"/>
+        <link href="../css/group.css" type="text/css" rel="stylesheet"/>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
 	<script src="../_js/menuBar.js"></script> 
 	<script src="../_js/collapsableList.js"></script> 
@@ -283,291 +284,225 @@ if (!isset($_SESSION)) {
                                 <li id="sort_bar_title">排序</li>
                             </ul>
                         </div>
+            			<div class="group_continer">
+            				<div class="group card">
+            					<a class="group-image-link" href="groupPage.php">
+            						<img class="group-image card-image" alt="" src="../Pics/girl-group-2.jpeg">
+            						<div class="group-describe-wrapper"> 
+            							<h1 class="group-headline">
+                							<span class="group-type" style="background-color: #99CC00">
+                								班版
+                							</span>
+                                            中山女中三年五班
+                                        </h1>
+            							<p class="group-description">
+                                            3年5班請加入 不是本班的請勿加入, 嚴禁男生加入, 若再犯會被檢舉的, 謝謝合作！
+                                        </p>
+            						</div>
+            						<div class="group-info-wrapper"> 
+                                        <div class="group-location"> 
+                                            地點: 台北市
+                                        </div>
+                                        <div class="group-member-count">
+                                            42人
+                                        </div>
+            							<div class="group-action-bar">
+                        					<span class="status">已報名</span>
+                        					<img class="bookmark" src="../Pics/pin.png">
+                        					<img class="facebook-like" src="../Pics/facebook-like.png">
+            							</div>
+            						</div>
+            					</a>
+            				</div>
+                        </div>
 
-                        <div class="group_block">
-                            <a target="" href="group1.html">
-                                <img class="hot-event-pic" width="93" height="93" src="./GroupPics/groupPic1.png">
-                            </a>
-                            <a target="" href="">
-                                <div class="group_title">
-                                    <h1>
-                                        成大土木系一年級
-                                    </h1>
-                                    <p>
-                                    我們是一群有理想的年輕人, 希望可以在這裡認識很多新朋友。
-                                    </p>
-                                </div>
-                            </a>
-                            <!--<span class="hot-event-type" style="background-color: #CC0000">比賽</span>-->
-                            <div class="group_info">
-                                <p>
-                                性質: 班版<br/>
-                                地點: 高雄市
-                                </p>
-                            </div>
-                            <span class="group_member_count">53人已參加</span>     
+            			<div class="group_continer">
+            				<div class="group card">
+            					<a class="group-image-link" href="groupPage.php">
+            						<img class="group-image card-image" alt="" src="../Pics/date-club.jpg">
+            						<div class="group-describe-wrapper"> 
+            							<h1 class="group-headline">
+                							<span class="group-type" style="background-color: #99CC00">
+                								班版
+                							</span>
+                                            文化大學外文系三年級 (2006已畢業)
+                                        </h1>
 
-                        </div>
-                        <div class="group_block">
-                            <a target="" href="Group1.html">
-                                <img class="hot-event-pic" width="91" height="91" src="./GroupPics/GroupPic2.png">
-                            </a>
-                            <a target="" href="">
-                                <div class="group_title">
-                                    <h1>
-                                        東海大學吉他社
-                                    </h1>
-                                    <p>
-                                    歡迎所有東海大學吉他社的現役社員及前輩加入喔 :)
-                                    </p>
-                                </div>
-                            </a>
-                            <!--<span class="hot-event-type" style="background-color: #336699">社團&活動</span>-->
-                            <div class="group_info">
-                                <p>
-                                性質: 社團<br/>
-                                地點: 台中市
-                                </p>
-                            </div>
-                            <span class="group_member_count">285人已參加</span>
-
-                        </div>
-                        <div class="group_block">
-                            <a target="" href="hotUser.html">
-                                <img class="hot-event-pic" width="91" height="91" src="./GroupPics/GroupPic3.png">
-                            </a>
-                            <a target="" href="">
-                                <div class="group_title">
-                                    <h1>
-                                        中壢高中3年13班-2002年畢業
-                                    </h1>
-                                    <p>
-                                    壢中幼稚園點名囉~
-                                    </p>
-                                </div>
-                            </a>
-                            <!--<span class="hot-event-type" style="background-color: #99CC00">聯誼</span>-->
-                            <div class="group_info">
-                                <p>
-                                性質: 班版<br/>
-                                地點: 中壢市
-                                </p>
-                            </div>
-                            <span class="hot-event-count">42人已參加</span>                
-                        </div>
-                        <div class="group_block">
-                            <a target="" href="group1.html">
-                                <img class="hot-event-pic" width="93" height="93" src="./GroupPics/groupPic1.png">
-                            </a>
-                            <a target="" href="">
-                                <div class="group_title">
-                                    <h1>
-                                        成大土木系一年級
-                                    </h1>
-                                    <p>
-                                    我們是一群有理想的年輕人, 希望可以在這裡認識很多新朋友。
-                                    </p>
-                                </div>
-                            </a>
-                            <!--<span class="hot-event-type" style="background-color: #CC0000">比賽</span>-->
-                            <div class="group_info">
-                                <p>
-                                性質: 班版<br/>
-                                地點: 高雄市
-                                </p>
-                            </div>
-                            <span class="group_member_count">53人已參加</span>     
-
-                        </div>
-                        <div class="group_block">
-                            <a target="" href="Group1.html">
-                                <img class="hot-event-pic" width="91" height="91" src="./GroupPics/GroupPic2.png">
-                            </a>
-                            <a target="" href="">
-                                <div class="group_title">
-                                    <h1>
-                                        東海大學吉他社
-                                    </h1>
-                                    <p>
-                                    歡迎所有東海大學吉他社的現役社員及前輩加入喔 :)
-                                    </p>
-                                </div>
-                            </a>
-                            <!--<span class="hot-event-type" style="background-color: #336699">社團&活動</span>-->
-                            <div class="group_info">
-                                <p>
-                                性質: 社團<br/>
-                                地點: 台中市
-                                </p>
-                            </div>
-                            <span class="group_member_count">285人已參加</span>
-
-                        </div>
-                        <div class="group_block">
-                            <a target="" href="hotUser.html">
-                                <img class="hot-event-pic" width="91" height="91" src="./GroupPics/GroupPic3.png">
-                            </a>
-                            <a target="" href="">
-                                <div class="group_title">
-                                    <h1>
-                                        中壢高中3年13班-2002年畢業
-                                    </h1>
-                                    <p>
-                                    壢中幼稚園點名囉~
-                                    </p>
-                                </div>
-                            </a>
-                            <!--<span class="hot-event-type" style="background-color: #99CC00">聯誼</span>-->
-                            <div class="group_info">
-                                <p>
-                                性質: 班版<br/>
-                                地點: 中壢市
-                                </p>
-                            </div>
-                            <span class="hot-event-count">42人已參加</span>                
-                        </div>
-                        <div class="group_block">
-                            <a target="" href="group1.html">
-                                <img class="hot-event-pic" width="93" height="93" src="./GroupPics/groupPic1.png">
-                            </a>
-                            <a target="" href="">
-                                <div class="group_title">
-                                    <h1>
-                                        成大土木系一年級
-                                    </h1>
-                                    <p>
-                                    我們是一群有理想的年輕人, 希望可以在這裡認識很多新朋友。
-                                    </p>
-                                </div>
-                            </a>
-                            <!--<span class="hot-event-type" style="background-color: #CC0000">比賽</span>-->
-                            <div class="group_info">
-                                <p>
-                                性質: 班版<br/>
-                                地點: 高雄市
-                                </p>
-                            </div>
-                            <span class="group_member_count">53人已參加</span>     
-
-                        </div>
-                        <div class="group_block">
-                            <a target="" href="Group1.html">
-                                <img class="hot-event-pic" width="91" height="91" src="./GroupPics/GroupPic2.png">
-                            </a>
-                            <a target="" href="">
-                                <div class="group_title">
-                                    <h1>
-                                        東海大學吉他社
-                                    </h1>
-                                    <p>
-                                    歡迎所有東海大學吉他社的現役社員及前輩加入喔 :)
-                                    </p>
-                                </div>
-                            </a>
-                            <!--<span class="hot-event-type" style="background-color: #336699">社團&活動</span>-->
-                            <div class="group_info">
-                                <p>
-                                性質: 社團<br/>
-                                地點: 台中市
-                                </p>
-                            </div>
-                            <span class="group_member_count">285人已參加</span>
-
-                        </div>
-                        <div class="group_block">
-                            <a target="" href="hotUser.html">
-                                <img class="hot-event-pic" width="91" height="91" src="./GroupPics/GroupPic3.png">
-                            </a>
-                            <a target="" href="">
-                                <div class="group_title">
-                                    <h1>
-                                        中壢高中3年13班-2002年畢業
-                                    </h1>
-                                    <p>
-                                    壢中幼稚園點名囉~
-                                    </p>
-                                </div>
-                            </a>
-                            <!--<span class="hot-event-type" style="background-color: #99CC00">聯誼</span>-->
-                            <div class="group_info">
-                                <p>
-                                性質: 班版<br/>
-                                地點: 中壢市
-                                </p>
-                            </div>
-                            <span class="hot-event-count">42人已參加</span>                
-                        </div>
-                        <div class="group_block">
-                            <a target="" href="group1.html">
-                                <img class="hot-event-pic" width="93" height="93" src="./GroupPics/groupPic1.png">
-                            </a>
-                            <a target="" href="">
-                                <div class="group_title">
-                                    <h1>
-                                        成大土木系一年級
-                                    </h1>
-                                    <p>
-                                    我們是一群有理想的年輕人, 希望可以在這裡認識很多新朋友。
-                                    </p>
-                                </div>
-                            </a>
-                            <!--<span class="hot-event-type" style="background-color: #CC0000">比賽</span>-->
-                            <div class="group_info">
-                                <p>
-                                性質: 班版<br/>
-                                地點: 高雄市
-                                </p>
-                            </div>
-                            <span class="group_member_count">53人已參加</span>     
-
-                        </div>
-                        <div class="group_block">
-                            <a target="" href="Group1.html">
-                                <img class="hot-event-pic" width="91" height="91" src="./GroupPics/GroupPic2.png">
-                            </a>
-                            <a target="" href="">
-                                <div class="group_title">
-                                    <h1>
-                                        東海大學吉他社
-                                    </h1>
-                                    <p>
-                                    歡迎所有東海大學吉他社的現役社員及前輩加入喔 :)
-                                    </p>
-                                </div>
-                            </a>
-                            <!--<span class="hot-event-type" style="background-color: #336699">社團&活動</span>-->
-                            <div class="group_info">
-                                <p>
-                                性質: 社團<br/>
-                                地點: 台中市
-                                </p>
-                            </div>
-                            <span class="group_member_count">285人已參加</span>
-
-                        </div>
-                        <div class="group_block">
-                            <a target="" href="hotUser.html">
-                                <img class="hot-event-pic" width="91" height="91" src="./GroupPics/GroupPic3.png">
-                            </a>
-                            <a target="" href="">
-                                <div class="group_title">
-                                    <h1>
-                                        中壢高中3年13班-2002年畢業
-                                    </h1>
-                                    <p>
-                                    壢中幼稚園點名囉~
-                                    </p>
-                                </div>
-                            </a>
-                            <!--<span class="hot-event-type" style="background-color: #99CC00">聯誼</span>-->
-                            <div class="group_info">
-                                <p>
-                                性質: 班版<br/>
-                                地點: 中壢市
-                                </p>
-                            </div>
-                            <span class="hot-event-count">42人已參加</span>                
-                        </div>
+            							<p class="group-description">
+                                            快期末考了, 大家一起來唸書吧大家一起來唸書吧大家一起來唸書吧大家一起來唸書吧大家一起來唸書吧大家一起來唸書吧大家一起來唸書吧大家一起來唸書吧大家一起來唸書吧
+                                        </p>
+            						</div>
+            						<div class="group-info-wrapper"> 
+                                        <div class="group-location"> 
+                                            地點: 台北市
+                                        </div>
+                                        <div class="group-member-count">
+                                            42人
+                                        </div>
+            							<div class="group-action-bar">
+                        					<span class="status">已加入</span>
+                        					<img class="bookmark" src="../Pics/pin.png">
+                        					<img class="facebook-like" src="../Pics/facebook-like.png">
+            							</div>
+            						</div>
+            					</a>
+            				</div>
+            			</div>
+            			<div class="group_continer">
+            				<div class="group card">
+            					<a class="group-image-link" href="groupPage.php">
+            						<img class="group-image card-image" alt="" src="../Pics/date-club.jpg">
+            						<div class="group-describe-wrapper"> 
+            							<h1 class="group-headline">
+                							<span class="group-type" style="background-color: #CC0000">
+                								聯誼
+                							</span>
+                                            單身聯誼會
+                                        </h1>
+            							<p class="group-description">
+                                            歡迎單身的朋友來加入, 不定期舉辦聯誼
+                                        </p>
+            						</div>
+            						<div class="group-info-wrapper"> 
+                                        <div class="group-location"> 
+                                            地點: 台北市
+                                        </div>
+                                        <div class="group-member-count">
+                                            42人
+                                        </div>
+            							<div class="group-action-bar">
+                        					<span class="status">已加入</span>
+                        					<img class="bookmark" src="../Pics/pin.png">
+                        					<img class="facebook-like" src="../Pics/facebook-like.png">
+            							</div>
+            						</div>
+            					</a>
+            				</div>
+            			</div>
+            			<div class="group_continer">
+            				<div class="group card">
+            					<a class="group-image-link" href="groupPage.php">
+            						<img class="group-image card-image" alt="" src="../Pics/guitar.jpg">
+            						<div class="group-describe-wrapper"> 
+            							<h1 class="group-headline">
+                							<span class="group-type" style="background-color: #336699">
+                								學校社團
+                							</span>
+                                            東海大學吉他社
+                                        </h1>
+            							<p class="group-description">
+                                            想要自彈自唱情歌來追女生嗎? 那還不快加入! 熱烈招會員中～
+                                        </p>
+            						</div>
+            						<div class="group-info-wrapper"> 
+                                        <div class="group-location"> 
+                                            地點: 台北市
+                                        </div>
+                                        <div class="group-member-count">
+                                            42人
+                                        </div>
+            							<div class="group-action-bar">
+                        					<span class="status">已加入</span>
+                        					<img class="bookmark" src="../Pics/pin.png">
+                        					<img class="facebook-like" src="../Pics/facebook-like.png">
+            							</div>
+            						</div>
+            					</a>
+            				</div>
+            			</div>
+            			<div class="group_continer">
+            				<div class="group card">
+            					<a class="group-image-link" href="groupPage.php">
+            						<img class="group-image card-image" alt="" src="../Pics/kobe.jpg">
+            						<div class="group-describe-wrapper"> 
+            							<h1 class="group-headline">
+                							<span class="group-type" style="background-color: #0099CC">
+                								運動
+                							</span>
+                                            Laker's Fans
+                                        </h1>
+            							<p class="group-description">
+                                            Kobe強爆了!喜歡laoda的朋友就加入吧!
+                                        </p>
+            						</div>
+            						<div class="group-info-wrapper"> 
+                                        <div class="group-location"> 
+                                            地點: 台北市
+                                        </div>
+                                        <div class="group-member-count">
+                                            42人
+                                        </div>
+            							<div class="group-action-bar">
+                        					<span class="status">已加入</span>
+                        					<img class="bookmark" src="../Pics/pin.png">
+                        					<img class="facebook-like" src="../Pics/facebook-like.png">
+            							</div>
+            						</div>
+            					</a>
+            				</div>
+            			</div>
+            			<div class="group_continer">
+            				<div class="group card">
+            					<a class="group-image-link" href="groupPage.php">
+            						<img class="group-image card-image" alt="" src="../Pics/girl-group.jpeg">
+            						<div class="group-describe-wrapper"> 
+            							<h1 class="group-headline">
+                							<span class="group-type" style="background-color: #99CC00">
+                								班版
+                							</span>
+                                            景美女中二年十班 (2004已畢業)
+                                        </h1>
+            							<p class="group-description">
+                                            景美2年10班的班版. 班聚要半在哪裡呢?
+                                        </p>
+            						</div>
+            						<div class="group-info-wrapper"> 
+                                        <div class="group-location"> 
+                                            地點: 台北市
+                                        </div>
+                                        <div class="group-member-count">
+                                            42人
+                                        </div>
+            							<div class="group-action-bar">
+                        					<span class="status">以受邀,尚未回應</span>
+                        					<img class="bookmark" src="../Pics/pin.png">
+                        					<img class="facebook-like" src="../Pics/facebook-like.png">
+            							</div>
+            						</div>
+            					</a>
+            				</div>
+            			</div>
+            			<div class="group_continer">
+            				<div class="group card">
+            					<a class="group-image-link" href="groupPage.php">
+            						<img class="group-image card-image" alt="" src="../Pics/girl-group-2.jpeg">
+            						<div class="group-describe-wrapper"> 
+            							<h1 class="group-headline">
+                							<span class="group-type" style="background-color: #99CC00">
+                								班版
+                							</span>
+                                            中山女中三年五班
+                                        </h1>
+            							<p class="group-description">
+                                            3年5班請加入 不是本班的請勿加入, 嚴禁男生加入, 若再犯會被檢舉的, 謝謝合作！
+                                        </p>
+            						</div>
+            						<div class="group-info-wrapper"> 
+                                        <div class="group-location"> 
+                                            地點: 台北市
+                                        </div>
+                                        <div class="group-member-count">
+                                            42人
+                                        </div>
+            							<div class="group-action-bar">
+                        					<span class="status">已報名</span>
+                        					<img class="bookmark" src="../Pics/pin.png">
+                        					<img class="facebook-like" src="../Pics/facebook-like.png">
+            							</div>
+            						</div>
+            					</a>
+            				</div>
+            			</div>
                     </div>
                 </div>
             </div>
