@@ -270,15 +270,15 @@
 
                         <div class="event_block">
                             <a target="" href="hotUser.html">
-                                <img class="hot-event-pic" src="../Pics/girl3.jpg">
+                                <img class="event-pic" src="../Pics/girl3.jpg">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
                                     <h1>
-										<span class="hot-event-type" style="background-color: #CC0000">
+										<span class="event-type" style="background-color: #CC0000">
 											比賽
 										</span>
-                                        <span class="hot-event-title"> 
+                                        <span class="event-headline"> 
 											三對三鬥牛大賽
 										</span>
                                     </h1>
@@ -306,15 +306,15 @@
                         </div>
                         <div class="event_block">
                             <a target="" href="hotUser.html">
-                                <img class="hot-event-pic" src="../Pics/girl1.jpg">
+                                <img class="event-pic" src="../Pics/girl1.jpg">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
                                     <h1>
-										<span class="hot-event-type" style="background-color: #336699">
+										<span class="event-type" style="background-color: #336699">
 											社團活動
 										</span>
-                                        <span class="hot-event-title"> 
+                                        <span class="event-headline"> 
 											東海大學吉他社成果發表會
 										</span>
                                     </h1>
@@ -326,7 +326,7 @@
                             <div class="event_info">
                                 <p>
 									發起人: <a class="group-link" href="#">東海大學吉他社</a><br/>
-                                	時間: 6月15日(六) - 6月16日(日)<br/>
+                                	時間: 6月15日(六) 16:30pm<br/>
                                	 	地點: 東海大學大禮堂<br/>
 									已參加: <span class="red-text">42</span>人
 								</p>
@@ -346,15 +346,131 @@
                         </div>
                         <div class="event_block">
                             <a target="" href="hotUser.html">
-                                <img class="hot-event-pic" src="../Pics/girl2.jpg">
+                                <img class="event-pic" src="../Pics/girl2.jpg">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
                                     <h1>
-										<span class="hot-event-type" style="background-color: #99CC00">
+										<span class="event-type" style="background-color: #99CC00">
 											聯誼
 										</span>
-                                        <span class="hot-event-title"> 
+                                        <span class="event-headline"> 
+											成大土木系一年級徵聯誼
+										</span>
+                                    </h1>
+                                    <p>
+                                    	我們都是非常有誠意的男生, 希望可以和大學女生聯誼. 我們都是非常有誠意的男生, 希望可以和大學女生聯誼. 我們都是非常有誠意的男生, 希望可以和大學女生聯誼.
+                                    </p>
+                                </div>
+                            </a>
+                            <div class="event_info">
+                                <p>
+									發起人: <a class="group-link" href="#">成大土木系一年級</a><br/>
+                                	時間: 6月19(三)<br/>
+                                	地點: 待定<br/>
+                                	已參加: <span class="red-text">4223</span>人
+								</p>
+                            </div>    
+							<div class="event-action-bar">
+								<a href="">
+									<span class="status">已報名,等待回應</span>
+									<img class="action" src="../Pics/finger.png">
+								</a>
+								<a href="">
+									<img class="bookmark" src="../Pics/pin.png">
+								</a>
+								<a href="">
+									<img class="facebook-like" src="../Pics/facebook-like.png">
+								</a>
+							</div>
+                        </div>
+                        <div class="event_block">
+                            <a target="" href="hotUser.html">
+                                <img class="event-pic" src="../Pics/girl3.jpg">
+                            </a>
+                            <a target="" href="">
+                                <div class="event_title">
+                                    <h1>
+										<span class="event-type" style="background-color: #CC0000">
+											比賽
+										</span>
+                                        <span class="event-headline"> 
+											三對三鬥牛大賽
+										</span>
+                                    </h1>
+                                    <p>
+                               	    	來鬥牛吧! 贏的隊可以得到景美區最強的名號!
+                                    </p>
+                                </div>
+                            </a>
+                            <div class="event_info">
+                                <p>
+									發起人: <a class="boy-user-link" href="#">sosoman</a><br/>
+                                	時間: 6月16日(日)<br/>
+                                	地點: 景美橋下球場<br/>
+									已參加: <span class="red-text">42</span>人
+								</p>
+                            </div>    
+							<div class="event-action-bar">
+								<a href="">
+									<img class="bookmark" src="../Pics/pin.png">
+								</a>
+								<a href="">
+									<img class="facebook-like" src="../Pics/facebook-like.png">
+								</a>
+							</div>
+                        </div>
+                        <div class="event_block">
+                            <a target="" href="hotUser.html">
+                                <img class="event-pic" src="../Pics/girl1.jpg">
+                            </a>
+                            <a target="" href="">
+                                <div class="event_title">
+                                    <h1>
+										<span class="event-type" style="background-color: #336699">
+											社團活動
+										</span>
+                                        <span class="event-headline"> 
+											東海大學吉他社成果發表會
+										</span>
+                                    </h1>
+                                    <p>
+                                    	一年一度的成果發表又開始囉, 歡迎外校的朋友一起來參加 :)
+                                    </p>
+                                </div>
+                            </a>
+                            <div class="event_info">
+                                <p>
+									發起人: <a class="group-link" href="#">東海大學吉他社</a><br/>
+                                	時間: 6月15日(六) 16:30pm<br/>
+                               	 	地點: 東海大學大禮堂<br/>
+									已參加: <span class="red-text">42</span>人
+								</p>
+                            </div>    
+							<div class="event-action-bar">
+								<a href="">
+									<span class="status">已受邀</span>
+									<img class="action" src="../Pics/finger.png">
+								</a>
+								<a href="">
+									<img class="bookmark" src="../Pics/pin.png">
+								</a>
+								<a href="">
+									<img class="facebook-like" src="../Pics/facebook-like.png">
+								</a>
+							</div>
+                        </div>
+                        <div class="event_block">
+                            <a target="" href="hotUser.html">
+                                <img class="event-pic" src="../Pics/girl2.jpg">
+                            </a>
+                            <a target="" href="">
+                                <div class="event_title">
+                                    <h1>
+										<span class="event-type" style="background-color: #99CC00">
+											聯誼
+										</span>
+                                        <span class="event-headline"> 
 											成大土木系一年級徵聯誼
 										</span>
                                     </h1>

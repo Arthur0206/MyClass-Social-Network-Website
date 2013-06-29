@@ -143,7 +143,7 @@ if (!isset($_SESSION)) {
                                 </p>
                             </div>
                         </a>
-                        <span class="hot-event-type" style="background-color: #336699">社團&活動</span>
+                        <span class="hot-event-type" style="background-color: #336699">社團活動</span>
                         <div class="hot-event-info">
                             <p>
                             時間: 5月24日(六) 18:30pm  - 22:30pm<br/>
