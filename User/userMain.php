@@ -14,11 +14,14 @@ if (!isset($_SESSION)) {
         <title>MyClass - 讓妳認識很多新朋友!</title>
         <link href="../css/form.css" type="text/css" rel="stylesheet">
         <link href="../css/main.css" type="text/css" rel="stylesheet">
+        <link href="../css/user.css" type="text/css" rel="stylesheet">
         <link href="../css/about.css" type="text/css" rel="stylesheet">
         <link href="../css/album.css" type="text/css" rel="stylesheet">
         <link href="../css/friend.css" type="text/css" rel="stylesheet">
         <link href="../css/group.css" type="text/css" rel="stylesheet">
         <link href="../css/board.css" type="text/css" rel="stylesheet">
+        <link href="../css/event.css" type="text/css" rel="stylesheet">
+        <link href="../css/wall.css" type="text/css" rel="stylesheet">
 	<link href="../fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script> 
 	<script src="../_js/menuBar.js"></script>
