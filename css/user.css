@@ -44,3 +44,64 @@
 	position: relative;
 	top: -55px;
 }
+
+/* 朋友 panel */
+#friend_panel {
+	width: 980px;
+	margin: auto;
+}
+.user {
+	background-color: #FFFFFF;
+	width: 140px;
+	height: 160px;
+	float: left;
+	margin: 10px;
+	overflow: hidden;
+	border: 1px solid #C1C1C1;
+}
+.user-image {
+	width: 130px; 
+	height: 110px; 
+	display: block;
+	border: 1px solid #C1C1C1;
+	margin: 4px 4px 0px 4px; 
+}
+.user-name {
+    color: #222222;//#686E77;
+    font-size: 14px;
+    font-weight: bold;
+	text-align: center;
+	margin: 4px 0px 0px 0px;
+}
+.user-name-wrapper {
+	height: 25px;
+	overflow: hidden;
+}
+.user-info {
+	overflow: hidden;
+	margin: 0px 7px 0px 7px;
+	padding: 1px 0px 0px 0px;
+ 	//border-top: 1px dotted #CCCCCC;
+	font-size: 12px;
+	color: #666666 !important;
+}
+.user-location {
+	//float: left;
+	padding-left: 5px;
+}
+.user-info .like-icon {
+	float: right;
+	width: 10px;
+	height: 10px;
+	margin: 3px 4px 0px 4px;
+}
+.user-info .gender-icon {
+	//float: right;
+	width: 11px;
+	height: 11px;
+	opacity: 0.8;
+	vertical-align: middle;
+}
+.user-info .like-count {
+	float: right;
+}

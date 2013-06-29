@@ -17,7 +17,6 @@ if (!isset($_SESSION)) {
         <link href="../css/user.css" type="text/css" rel="stylesheet">
         <link href="../css/about.css" type="text/css" rel="stylesheet">
         <link href="../css/album.css" type="text/css" rel="stylesheet">
-        <link href="../css/friend.css" type="text/css" rel="stylesheet">
         <link href="../css/group.css" type="text/css" rel="stylesheet">
         <link href="../css/board.css" type="text/css" rel="stylesheet">
         <link href="../css/event.css" type="text/css" rel="stylesheet">
