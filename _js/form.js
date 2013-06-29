@@ -340,6 +340,10 @@ function processCreateGroupForm() {
 }
 
 function processLogInForm(){
+	//register submit function to disable submit button when submitted
+	//conflict with varification
+	// disableWhenSubmit($('#logIn-form'));
+	
 	$('#logIn-form').validate({
 		rules: {
 			account: {
@@ -362,6 +366,9 @@ function processLogInForm(){
 }
 
 function processRegisterForm(){
+	//register submit function to disable submit button when submitted
+	//conflict with varification
+	// disableWhenSubmit($('#register-form'));
 
  	//allow number only in .number-only input field.
 	$('.number-only').keyup(function() {
@@ -466,10 +473,10 @@ function processRegisterForm(){
 				required: true,
 				notDefault: true
 			},
-			account: {
-				required: true,
-				remote: 'check_account.php'
-			},
+			//account: {
+			//	required: true,
+			//	remote: 'check_account.php'
+			//},
 			password: {
 				required: true,
 				rangelength: [3,16]
@@ -566,3 +573,14 @@ function processRegisterForm(){
 
 	$('input').eq(0).focus();
 }
+
+function disableWhenSubmit(formElement)
+{
+	formElement.submit(function() {
+		var subButton = $(this).find(':submit');
+		subButton.attr('disabled', true);
+		subButton.val('...傳送資料中');
+	}); // end submit
+}
+
+

@@ -56,4 +56,10 @@ function toUtf8($ar)
 	
   	return $c;
 }
+
+function phpAlert($msg) 
+{
+        echo '<script type="text/javascript">alert("' . $msg . '"); </script>';
+}
+
 ?>
