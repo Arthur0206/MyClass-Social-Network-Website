@@ -5,7 +5,7 @@ function processEventPanel()
 
 	// when clicked: 
 	// show all monthly_event_wrapper and br => hide all event_block => filtering => show some event_block => hide some monthly_event_wrapper and br
-	
+
 	// 之後也許會改成每個filter button有對應的block, 當filter button 被按, 就把其他的block都整個hide. 
 	// 優點: 易於用ajax更新各個頁面
 	// 缺點: 1. 會有重複的event_block(ex.某個event_block屬於兩個filter block, 就會有兩份copy) 2. 如果有"所有event"按鍵, 則還是要把event按照時間插入"所有event"block
