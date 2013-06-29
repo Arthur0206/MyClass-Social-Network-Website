@@ -7,13 +7,11 @@
 if (!isset($_SESSION)) {
   	session_start();
 }
-// 前一個網頁
-$_SESSION['PrevPage'] = "index.php";
 ?>
 
 <?php
 // 處理已經登入的使用者又白目想到login.php頁面, 直接轉回Home.php
-if (isset($_SESSION['Username']) && isset($_SESSION['Fullname'])) {
+if (isset($_SESSION['username']) && isset($_SESSION['fullname'])) {
     	header("Location: " . HOME_PAGE);
 }
 
@@ -21,7 +19,6 @@ if (isset($_SESSION['Username']) && isset($_SESSION['Fullname'])) {
 // 登入
 //*******************************//
 // login_form.php的標題
-$_SESSION['login_form_title'] = "請先登入";
 
 // 有帳號與密碼欄位
 if (isset($_POST['username']) && isset($_POST['password'])) {
@@ -46,22 +43,29 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 		// 使用者輸入的帳號與密碼存在於member資料表
     		if ($totalRows) {    
 			// 建立session變數
-	    		$_SESSION['Username'] = $username;
-			$_SESSION['Fullname'] = mysql_result($result, 0, 'fullname');
-		    	$_SESSION['Sex'] = mysql_result($result, 0, 'sex');
+	    		$_SESSION['username'] = $username;
+			$_SESSION['fullname'] = mysql_result($result, 0, 'fullname');
+		    	$_SESSION['sex'] = mysql_result($result, 0, 'sex');
 			// 用cookie or session?
 			// $_SESSION['StaySignIn'] = $stay_sign_in;
 
-			// 成功登入, 前往 main.php
-    			header("Location: ". HOME_PAGE);
+			if (isset($_SESSION['loginfail'])) {
+				$_SESSION['loginfail'] = NULL;
+				unset($_SESSION['loginfail']);
+			}
+
+			// 成功登入, 前往 previous page.
+			header(sprintf("Location: %s", $_SESSION['prevpage']));
 	  	} else {
+			$_SESSION['loginfail'] = true;
 		    	// 重新登入, 前往login.php 
     			header("Location: http://localhost/MyClass/User/login.php");
   		}
 	}
 	else
-	{		
-		// 無效的帳號或密碼, 重新登入, 前往login.php 
+	{
+		$_SESSION['loginfail'] = true;
+		// sql query fail 或是 使用者權限不足, 重新登入, 前往login.php 
     		header("Location: http://localhost/MyClass/User/login.php");
 	}
 }
@@ -104,6 +108,11 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 			<div class="row">
 				<label for="password" class="describe-label">密碼</label>
 				<input name="password" type="password" id="password" maxlength="32" size="24">
+				<?php 
+				if (isset($_SESSION['loginfail'])) {
+					echo '<label for="password" class="error"><br>您輸入的帳號或密碼不正確</label>';
+				} 
+				?>
 			</div>
 			<div class="row">
 				<input type="checkbox" name="stay_sign_in" id="stay_sign_in">
