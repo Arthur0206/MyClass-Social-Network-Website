@@ -6,7 +6,7 @@
         <meta name="keywords" content="group,club,blog,meetup,event,board,friends,social,chat,news,student,class,版,群組,朋友,交友,班級,班版,討論版,活動,學生,聯誼,同學,同學會,社團" />
         <title>MyClass - 讓妳認識很多新朋友!</title>
         <link href="../css/form.css" type="text/css" rel="stylesheet">
-        <link href="../css/mainCss.css" type="text/css" rel="stylesheet">
+        <link href="../css/main.css" type="text/css" rel="stylesheet">
         <link href="../css/about.css" type="text/css" rel="stylesheet">
         <link href="../css/album.css" type="text/css" rel="stylesheet">
 	<link href="../fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet">
