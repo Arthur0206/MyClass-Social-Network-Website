@@ -7,7 +7,7 @@
     position: relative;
 	background-color: #FFFFFF;
 	width: 200px;
-	height: 252px;
+	height: 250px;
 	float: left;
 	margin: 15px;
 	overflow: hidden;
@@ -55,6 +55,7 @@
     color: #CC0000;
     //float: right;
 	margin-left: 8px;
+    margin-top: 2px;
 }
 .group-info-wrapper {
     font-size: 12px;
@@ -94,7 +95,7 @@
 .group-action-bar {
 	display: table-cell;
 	position: absolute; 
-	top: 234px; 
+	top: 233px; 
 	right: 0px;
 	//float:right;
 }
