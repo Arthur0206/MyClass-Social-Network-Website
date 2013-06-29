@@ -124,12 +124,6 @@
 	opacity: 0.5;
 	vertical-align: middle;
 }
-.event-action-bar .action {
-	width: 20px;
-	height: 16px;
-	opacity: 0.5;
-	vertical-align: middle;
-}
 .event-action-bar .status {
 	border-radius: 3px;
 	position: relative;

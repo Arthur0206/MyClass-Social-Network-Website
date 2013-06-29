@@ -67,22 +67,15 @@
 	margin-left: 8px;
 }
 .group-action-bar .facebook-like {
-    float: right;
+    //float: right;
 	width: 18px;
 	height: 18px;
 	vertical-align: middle;
 }
 .group-action-bar .bookmark {
-    float: right;
+    //float: right;
 	width: 22px;
 	height: 18px;
-	opacity: 0.5;
-	vertical-align: middle;
-}
-.group-action-bar .action {
-    float: right;
-	width: 18px;
-	height: 16px;
 	opacity: 0.5;
 	vertical-align: middle;
 }
