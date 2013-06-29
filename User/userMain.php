@@ -38,14 +38,11 @@ if (!isset($_SESSION)) {
 	<script src="../fancybox/jquery.fancybox-1.3.4.min.js"></script>
         <script>
             $(document).ready(function() {
-                // Process Menu Bar
+               			// Process Menu Bar
 				processMenuBar();
         		
 				// Process User Background Area
 				preocessUserBackground();
-        		
-				// Process Second Bar
-				processSecondBar();
         		
 				// Process Card 
 				processCard();
@@ -61,6 +58,9 @@ if (!isset($_SESSION)) {
 				
 				// Process Event Panel
 				processEventPanel();
+        		
+				// Process Second Bar: 需放在processEventPanel()後, 否則會把event都hide起來
+				processSecondBar();
 
 				// Process Block Edit Button (group_block, user_block, board_block, event_block 右下角gray_button)
 				processBlockEditButton();
