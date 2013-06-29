@@ -186,7 +186,6 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 					<div class="event-action-bar">
 						<a href="">
 							<span class="status">已受邀</span>
-							<img class="action" src="../Pics/finger.png">
 						</a>
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
@@ -234,7 +233,6 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 					<div class="event-action-bar">
 						<a href="">
 							<span class="status">已報名,等待回應</span>
-							<img class="action" src="../Pics/finger.png">
 						</a>
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
@@ -356,7 +354,6 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 					<div class="event-action-bar">
 						<a href="">
 							<span class="status">已受邀</span>
-							<img class="action" src="../Pics/finger.png">
 						</a>
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
@@ -397,7 +394,6 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 					<div class="event-action-bar">
 						<a href="">
 							<span class="status">已受邀</span>
-							<img class="action" src="../Pics/finger.png">
 						</a>
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
@@ -445,7 +441,6 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 					<div class="event-action-bar">
 						<a href="">
 							<span class="status">已報名,等待回應</span>
-							<img class="action" src="../Pics/finger.png">
 						</a>
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
@@ -486,7 +481,6 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 					<div class="event-action-bar">
 						<a href="">
 							<span class="status">已報名,等待回應</span>
-							<img class="action" src="../Pics/finger.png">
 						</a>
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
@@ -534,7 +528,6 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 					<div class="event-action-bar">
 						<a href="">
 							<span class="status">已報名,等待回應</span>
-							<img class="action" src="../Pics/finger.png">
 						</a>
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
@@ -581,7 +574,6 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 					<div class="event-action-bar">
 						<a href="">
 							<span class="status">已報名,等待回應</span>
-							<img class="action" src="../Pics/finger.png">
 						</a>
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
@@ -622,7 +614,6 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 					<div class="event-action-bar">
 						<a href="">
 							<span class="status">已報名,等待回應</span>
-							<img class="action" src="../Pics/finger.png">
 						</a>
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
@@ -663,7 +654,6 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 					<div class="event-action-bar">
 						<a href="">
 							<span class="status">已受邀</span>
-							<img class="action" src="../Pics/finger.png">
 						</a>
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
@@ -710,7 +700,6 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 					<div class="event-action-bar">
 						<a href="">
 							<span class="status">已受邀</span>
-							<img class="action" src="../Pics/finger.png">
 						</a>
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
