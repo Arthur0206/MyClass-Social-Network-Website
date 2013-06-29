@@ -43,7 +43,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_events">
                         <div class="event_block cared">
                             <a target="" href="group1.html">
-                                <img class="hot-event-pic" width="103" height="106" src="../Event/EventPics/EventPic1.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic1.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -70,7 +70,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                         </div>
                         <div class="event_block cared">
                             <a target="" href="group1.html">
-                                <img class="hot-event-pic" width="103" height="106" src="../Event/EventPics/EventPic1.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic1.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -97,7 +97,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                         </div>
                         <div class="event_block joined">
                             <a target="" href="Group1.html">
-                                <img class="hot-event-pic" width="103" height="103" src="../Event/EventPics/EventPic2.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic2.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -131,7 +131,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_events">
                         <div class="event_block created">
                             <a target="" href="hotUser.html">
-                                <img class="hot-event-pic" width="103" height="103" src="../Event/EventPics/EventPic3.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic3.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -166,7 +166,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_events">
                         <div class="event_block created cared">
                             <a target="" href="hotUser.html">
-                                <img class="hot-event-pic" width="103" height="103" src="../Event/EventPics/EventPic3.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic3.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -201,7 +201,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_events">
                         <div class="event_block cared">
                             <a target="" href="group1.html">
-                                <img class="hot-event-pic" width="103" height="106" src="../Event/EventPics/EventPic1.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic1.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -228,7 +228,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                         </div>
                         <div class="event_block requested cared">
                             <a target="" href="group1.html">
-                                <img class="hot-event-pic" width="103" height="106" src="../Event/EventPics/EventPic1.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic1.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -256,7 +256,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                         </div>
                         <div class="event_block created">
                             <a target="" href="Group1.html">
-                                <img class="hot-event-pic" width="103" height="103" src="../Event/EventPics/EventPic2.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic2.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -283,7 +283,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                         </div>
                         <div class="event_block created cared">
                             <a target="" href="hotUser.html">
-                                <img class="hot-event-pic" width="103" height="103" src="../Event/EventPics/EventPic3.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic3.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -317,7 +317,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_events">
                         <div class="event_block joined cared">
                             <a target="" href="group1.html">
-                                <img class="hot-event-pic" width="103" height="106" src="../Event/EventPics/EventPic1.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic1.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -344,7 +344,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                         </div>
                         <div class="event_block joined cared">
                             <a target="" href="group1.html">
-                                <img class="hot-event-pic" width="103" height="106" src="../Event/EventPics/EventPic1.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic1.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -378,7 +378,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_events">
                         <div class="event_block joined">
                             <a target="" href="Group1.html">
-                                <img class="hot-event-pic" width="103" height="103" src="../Event/EventPics/EventPic2.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic2.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -412,7 +412,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_events">
                         <div class="event_block created">
                             <a target="" href="hotUser.html">
-                                <img class="hot-event-pic" width="103" height="103" src="../Event/EventPics/EventPic3.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic3.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -439,7 +439,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                         </div>
                         <div class="event_block cared created">
                             <a target="" href="group1.html">
-                                <img class="hot-event-pic" width="103" height="106" src="../Event/EventPics/EventPic1.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic1.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -466,7 +466,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                         </div>
                         <div class="event_block requested cared">
                             <a target="" href="group1.html">
-                                <img class="hot-event-pic" width="103" height="106" src="../Event/EventPics/EventPic1.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic1.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -500,7 +500,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_events">
                         <div class="event_block cared created joined">
                             <a target="" href="group1.html">
-                                <img class="hot-event-pic" width="103" height="106" src="../Event/EventPics/EventPic1.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic1.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -527,7 +527,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                         </div>
                         <div class="event_block requested cared">
                             <a target="" href="group1.html">
-                                <img class="hot-event-pic" width="103" height="106" src="../Event/EventPics/EventPic1.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic1.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -555,7 +555,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                         </div>
                         <div class="event_block requested cared">
                             <a target="" href="group1.html">
-                                <img class="hot-event-pic" width="103" height="106" src="../Event/EventPics/EventPic1.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic1.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
@@ -583,7 +583,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                         </div>
                         <div class="event_block requested cared">
                             <a target="" href="group1.html">
-                                <img class="hot-event-pic" width="103" height="106" src="../Event/EventPics/EventPic1.png">
+                                <img class="hot-event-pic" src="../Event/EventPics/EventPic1.png">
                             </a>
                             <a target="" href="">
                                 <div class="event_title">
