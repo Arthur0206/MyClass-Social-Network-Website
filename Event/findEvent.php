@@ -18,16 +18,19 @@ if (!isset($_SESSION)) {
 	<script src="../_js/menuBar.js"></script> 
 	<script src="../_js/collapsableList.js"></script> 
 	<script src="../_js/searchBar.js"></script> 
+	<script src="../_js/card.js"></script> 
         <script>
             $(document).ready(function() {
                 //Process Menu Bar
-		processMenuBar();
-
+                processMenuBar();
+                
                 // Process Collapsable List
-		processCollapsableList();
-
-		// Process Search Bar
-		processSearchBar();
+                processCollapsableList();
+                
+                // Process Search Bar
+                processSearchBar();
+                
+                processCard();
             }); // ready
         </script>
     </head>
@@ -276,7 +279,7 @@ if (!isset($_SESSION)) {
                             </ul>
                         </div>
 
-                        <div class="event_block">
+                        <div class="event_block card">
                             <a target="" href="hotUser.html">
                                 <img class="event-pic" src="../Pics/girl3.jpg">
                             </a>
@@ -312,7 +315,7 @@ if (!isset($_SESSION)) {
 								</a>
 							</div>
                         </div>
-                        <div class="event_block">
+                        <div class="event_block card">
                             <a target="" href="hotUser.html">
                                 <img class="event-pic" src="../Pics/girl1.jpg">
                             </a>
@@ -352,7 +355,7 @@ if (!isset($_SESSION)) {
 								</a>
 							</div>
                         </div>
-                        <div class="event_block">
+                        <div class="event_block card">
                             <a target="" href="hotUser.html">
                                 <img class="event-pic" src="../Pics/girl2.jpg">
                             </a>
@@ -392,7 +395,7 @@ if (!isset($_SESSION)) {
 								</a>
 							</div>
                         </div>
-                        <div class="event_block">
+                        <div class="event_block card">
                             <a target="" href="hotUser.html">
                                 <img class="event-pic" src="../Pics/girl3.jpg">
                             </a>
@@ -428,7 +431,7 @@ if (!isset($_SESSION)) {
 								</a>
 							</div>
                         </div>
-                        <div class="event_block">
+                        <div class="event_block card">
                             <a target="" href="hotUser.html">
                                 <img class="event-pic" src="../Pics/girl1.jpg">
                             </a>
@@ -468,7 +471,7 @@ if (!isset($_SESSION)) {
 								</a>
 							</div>
                         </div>
-                        <div class="event_block">
+                        <div class="event_block card">
                             <a target="" href="hotUser.html">
                                 <img class="event-pic" src="../Pics/girl2.jpg">
                             </a>
