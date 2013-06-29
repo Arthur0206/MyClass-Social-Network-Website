@@ -41,7 +41,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_event_wrapper">
 			<div class="monthly_event_title">2013年7月</div>
 			<div class="monthly_events">
-                <div class="event_block cared">
+                <div class="event_block card cared">
                     <a target="" href="hotUser.html">
                         <img class="event-pic" src="../Pics/girl3.jpg">
                     </a>
@@ -77,7 +77,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 						</a>
 					</div>
                 </div>
-                <div class="event_block cared">
+                <div class="event_block card cared">
                     <a target="" href="hotUser.html">
                         <img class="event-pic" src="../Pics/girl3.jpg">
                     </a>
@@ -113,7 +113,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 						</a>
 					</div>
                 </div>
-                <div class="event_block joined">
+                <div class="event_block card joined">
                     <a target="" href="hotUser.html">
                         <img class="event-pic" src="../Pics/girl3.jpg">
                     </a>
@@ -156,7 +156,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_event_wrapper">
 			<div class="monthly_event_title">2013年6月</div>
 			<div class="monthly_events">
-                <div class="event_block created">
+                <div class="event_block card created">
                     <a target="" href="hotUser.html">
                         <img class="event-pic" src="../Pics/girl1.jpg">
                     </a>
@@ -204,7 +204,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_event_wrapper">
 			<div class="monthly_event_title">2013年6月</div>
 			<div class="monthly_events">
-                <div class="event_block created cared">
+                <div class="event_block card created cared">
                     <a target="" href="hotUser.html">
                         <img class="event-pic" src="../Pics/girl2.jpg">
                     </a>
@@ -253,7 +253,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_event_wrapper">
 			<div class="monthly_event_title">2013年5月</div>
 			<div class="monthly_events">
-                <div class="event_block cared">
+                <div class="event_block card cared">
                     <a target="" href="hotUser.html">
                         <img class="event-pic" src="../Pics/girl3.jpg">
                     </a>
@@ -289,7 +289,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 						</a>
 					</div>
                 </div>
-                <div class="event_block requested cared">
+                <div class="event_block card requested cared">
                     <a target="" href="hotUser.html">
                         <img class="event-pic" src="../Pics/girl3.jpg">
                     </a>
@@ -326,7 +326,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 					</div>
                 </div>
 
-                <div class="event_block created">
+                <div class="event_block card created">
                     <a target="" href="hotUser.html">
                         <img class="event-pic" src="../Pics/girl1.jpg">
                     </a>
@@ -367,7 +367,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 					</div>
                 </div>
 
-                <div class="event_block created cared">
+                <div class="event_block card created cared">
                     <a target="" href="hotUser.html">
                         <img class="event-pic" src="../Pics/girl1.jpg">
                     </a>
@@ -415,7 +415,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_event_wrapper">
 			<div class="monthly_event_title">2013年4月</div>
 			<div class="monthly_events">
-                <div class="event_block joined cared">
+                <div class="event_block card joined cared">
                     <a target="" href="hotUser.html">
                         <img class="event-pic" src="../Pics/girl2.jpg">
                     </a>
@@ -456,7 +456,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 					</div>
                 </div>
 
-                <div class="event_block joined cared">
+                <div class="event_block card joined cared">
                     <a target="" href="hotUser.html">
                         <img class="event-pic" src="../Pics/girl2.jpg">
                     </a>
@@ -504,7 +504,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_event_wrapper">
 			<div class="monthly_event_title">2013年3月</div>
 			<div class="monthly_events">
-                <div class="event_block joined">
+                <div class="event_block card joined">
                     <a target="" href="hotUser.html">
                         <img class="event-pic" src="../Pics/girl2.jpg">
                     </a>
@@ -551,7 +551,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_event_wrapper">
 			<div class="monthly_event_title">2013年2月</div>
 			<div class="monthly_events">
-                <div class="event_block created">
+                <div class="event_block card created">
                     <a target="" href="hotUser.html">
                         <img class="event-pic" src="../Pics/girl2.jpg">
                     </a>
@@ -592,7 +592,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 					</div>
                 </div>
 
-                <div class="event_block cated created">
+                <div class="event_block card cated created">
                     <a target="" href="hotUser.html">
                         <img class="event-pic" src="../Pics/girl2.jpg">
                     </a>
@@ -633,7 +633,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 					</div>
                 </div>
 
-                <div class="event_block requested cared">
+                <div class="event_block card requested cared">
                     <a target="" href="hotUser.html">
                         <img class="event-pic" src="../Pics/girl1.jpg">
                     </a>
@@ -680,7 +680,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			<div class="monthly_event_wrapper">
 			<div class="monthly_event_title">2013年1月</div>
 			<div class="monthly_events">
-                <div class="event_block cared requested cared">
+                <div class="event_block card requested cared">
                     <a target="" href="hotUser.html">
                         <img class="event-pic" src="../Pics/girl1.jpg">
                     </a>
