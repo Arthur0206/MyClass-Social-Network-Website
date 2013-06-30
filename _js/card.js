@@ -1,18 +1,22 @@
 function processCard() {
 	$('.card').hover(
 		function() {
-			if ($(this).is('.board')) {
+			if ($(this).is('.board')) { 
+                //obselate - this is for no img board
 				color = $(this).find('.board-name-wrapper').css('background-color');
 				$(this).css('border-color', color).find('.board-name-wrapper').css('border-color', color);
 			} else {
 				$(this).css({'background-color': '#F4F4F4', 'border-color': '#C1C1C1'}).find('.card-image').css('border-color', '#C1C1C1');
+                $(this).find('.status').css({'background-color': '#CC0000', 'padding': '2px 4px 2px 4px'});
 			}
 		},
 		function() {
 			if ($(this).is('.board')) {
+                //obselate - this is for no img board
 				$(this).css('border-color', '#E1E1E1').find('.board-name-wrapper').css('border-color', '#E1E1E1');
 			} else {
 				$(this).css({'background-color': '#FFFFFF', 'border-color': '#C1C1C1'}).find('.card-image').css('border-color', '#C1C1C1');
+                $(this).find('.status').css({'background-color': '#666666', 'padding': '1px 2px 1px 2px'});
 			}
 		}
 	); //end hover

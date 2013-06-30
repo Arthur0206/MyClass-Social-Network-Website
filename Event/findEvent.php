@@ -345,7 +345,6 @@ if (!isset($_SESSION)) {
 							<div class="event-action-bar">
 								<a href="">
 									<span class="status">已受邀</span>
-									<img class="action" src="../Pics/finger.png">
 								</a>
 								<a href="">
 									<img class="bookmark" src="../Pics/pin.png">
@@ -385,7 +384,6 @@ if (!isset($_SESSION)) {
 							<div class="event-action-bar">
 								<a href="">
 									<span class="status">已報名,等待回應</span>
-									<img class="action" src="../Pics/finger.png">
 								</a>
 								<a href="">
 									<img class="bookmark" src="../Pics/pin.png">
@@ -461,7 +459,6 @@ if (!isset($_SESSION)) {
 							<div class="event-action-bar">
 								<a href="">
 									<span class="status">已受邀</span>
-									<img class="action" src="../Pics/finger.png">
 								</a>
 								<a href="">
 									<img class="bookmark" src="../Pics/pin.png">
@@ -501,7 +498,6 @@ if (!isset($_SESSION)) {
 							<div class="event-action-bar">
 								<a href="">
 									<span class="status">已報名,等待回應</span>
-									<img class="action" src="../Pics/finger.png">
 								</a>
 								<a href="">
 									<img class="bookmark" src="../Pics/pin.png">

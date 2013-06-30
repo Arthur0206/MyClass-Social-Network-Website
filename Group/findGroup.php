@@ -18,6 +18,7 @@ if (!isset($_SESSION)) {
 	<script src="../_js/menuBar.js"></script> 
 	<script src="../_js/collapsableList.js"></script> 
 	<script src="../_js/searchBar.js"></script> 
+    <script src="../_js/card.js"></script> 
         <script>
             $(document).ready(function() {
                 //Process Menu Bar
@@ -28,6 +29,8 @@ if (!isset($_SESSION)) {
 
 		// Process Search Bar
 		processSearchBar();
+        
+        processCard();
             }); // ready
         </script>
     </head>
