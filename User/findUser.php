@@ -302,6 +302,7 @@ if (!isset($_SESSION)) {
                     						<span class="like-count">128</span>
                     						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
                     					</span>
+                                        <img class="action" src="../Pics/list-plus.png">
                     				</div>
                     			</a>
                     		</div>
@@ -320,6 +321,7 @@ if (!isset($_SESSION)) {
                     						<span class="like-count">98</span>
                     						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
                     					</span>
+                                        <img class="action" src="../Pics/list-plus.png">
                     				</div>
                     			</a>
                     		</div>
@@ -338,6 +340,7 @@ if (!isset($_SESSION)) {
                     						<span class="like-count">128</span>
                     						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
                     					</span>
+                                        <img class="action" src="../Pics/list-plus.png">
                     				</div>
                     			</a>
                     		</div>
@@ -356,6 +359,7 @@ if (!isset($_SESSION)) {
                     						<span class="like-count">278</span>
                     						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
                     					</span>
+                                        <img class="action" src="../Pics/list-plus.png">
                     				</div>
                     			</a>
                     		</div>
@@ -374,6 +378,7 @@ if (!isset($_SESSION)) {
                     						<span class="like-count">73</span>
                     						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
                     					</span>
+                                        <img class="action" src="../Pics/list-plus.png">
                     				</div>
                     			</a>
                     		</div>
@@ -392,6 +397,7 @@ if (!isset($_SESSION)) {
                     						<span class="like-count">209</span>
                     						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
                     					</span>
+                                        <img class="action" src="../Pics/list-plus.png">
                     				</div>
                     			</a>
                     		</div>
@@ -410,6 +416,7 @@ if (!isset($_SESSION)) {
                     						<span class="like-count">38</span>
                     						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
                     					</span>
+                                        <img class="action" src="../Pics/list-plus.png">
                     				</div>
                     			</a>
                     		</div>
@@ -428,6 +435,7 @@ if (!isset($_SESSION)) {
                     						<span class="like-count">35</span>
                     						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
                     					</span>
+                                        <img class="action" src="../Pics/list-plus.png">
                     				</div>
                     			</a>
                     		</div>

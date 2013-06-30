@@ -343,15 +343,10 @@ if (!isset($_SESSION)) {
 								</p>
                             </div>    
 							<div class="event-action-bar">
-								<a href="">
-									<span class="status">已受邀</span>
-								</a>
-								<a href="">
-									<img class="bookmark" src="../Pics/pin.png">
-								</a>
-								<a href="">
-									<img class="facebook-like" src="../Pics/facebook-like.png">
-								</a>
+								<span class="status">已受邀</span>
+                                <img class="action" src="../Pics/list-plus.png">   
+								<img class="bookmark" src="../Pics/pin.png">
+								<img class="facebook-like" src="../Pics/facebook-like.png">
 							</div>
                         </div>
                         <div class="event_block card">
@@ -382,15 +377,10 @@ if (!isset($_SESSION)) {
 								</p>
                             </div>    
 							<div class="event-action-bar">
-								<a href="">
-									<span class="status">已報名,等待回應</span>
-								</a>
-								<a href="">
-									<img class="bookmark" src="../Pics/pin.png">
-								</a>
-								<a href="">
-									<img class="facebook-like" src="../Pics/facebook-like.png">
-								</a>
+								<span class="status">已報名,等待回應</span>
+                                <img class="action" src="../Pics/list-plus.png">
+								<img class="bookmark" src="../Pics/pin.png">
+								<img class="facebook-like" src="../Pics/facebook-like.png">
 							</div>
                         </div>
                         <div class="event_block card">
@@ -457,15 +447,10 @@ if (!isset($_SESSION)) {
 								</p>
                             </div>    
 							<div class="event-action-bar">
-								<a href="">
-									<span class="status">已受邀</span>
-								</a>
-								<a href="">
-									<img class="bookmark" src="../Pics/pin.png">
-								</a>
-								<a href="">
-									<img class="facebook-like" src="../Pics/facebook-like.png">
-								</a>
+								<span class="status">已受邀</span>
+                                <img class="action" src="../Pics/list-plus.png">
+								<img class="bookmark" src="../Pics/pin.png">
+								<img class="facebook-like" src="../Pics/facebook-like.png">
 							</div>
                         </div>
                         <div class="event_block card">
@@ -496,15 +481,10 @@ if (!isset($_SESSION)) {
 								</p>
                             </div>    
 							<div class="event-action-bar">
-								<a href="">
-									<span class="status">已報名,等待回應</span>
-								</a>
-								<a href="">
-									<img class="bookmark" src="../Pics/pin.png">
-								</a>
-								<a href="">
-									<img class="facebook-like" src="../Pics/facebook-like.png">
-								</a>
+								<span class="status">已報名,等待回應</span>
+                                <img class="action" src="../Pics/list-plus.png">
+								<img class="bookmark" src="../Pics/pin.png">
+								<img class="facebook-like" src="../Pics/facebook-like.png">
 							</div>
                         </div>
                     </div>

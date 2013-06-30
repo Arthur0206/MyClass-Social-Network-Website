@@ -92,6 +92,12 @@
 	//vertical-align: middle;
 	color: #FFFFFF;
 }
+.group-action-bar .action {
+	width: 16px;
+	height: 18px;
+	opacity: 0.7;
+	vertical-align: middle;
+}
 .group-action-bar {
 	display: table-cell;
 	position: absolute; 

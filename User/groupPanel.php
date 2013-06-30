@@ -27,6 +27,7 @@
                             </div>
 							<div class="group-action-bar">
             					<span class="status">已加入</span>
+                                <img class="action" src="../Pics/list-plus.png">
             					<img class="bookmark" src="../Pics/pin.png">
             					<img class="facebook-like" src="../Pics/facebook-like.png">
 							</div>
@@ -58,6 +59,7 @@
                             </div>
 							<div class="group-action-bar">
             					<span class="status">已加入</span>
+                                <img class="action" src="../Pics/list-plus.png">
             					<img class="bookmark" src="../Pics/pin.png">
             					<img class="facebook-like" src="../Pics/facebook-like.png">
 							</div>
@@ -89,6 +91,7 @@
                             </div>
 							<div class="group-action-bar">
             					<span class="status">已加入</span>
+                                <img class="action" src="../Pics/list-plus.png">
             					<img class="bookmark" src="../Pics/pin.png">
             					<img class="facebook-like" src="../Pics/facebook-like.png">
 							</div>
@@ -120,6 +123,7 @@
                             </div>
 							<div class="group-action-bar">
             					<span class="status">已加入</span>
+                                <img class="action" src="../Pics/list-plus.png">
             					<img class="bookmark" src="../Pics/pin.png">
             					<img class="facebook-like" src="../Pics/facebook-like.png">
 							</div>
@@ -151,6 +155,7 @@
                             </div>
 							<div class="group-action-bar">
             					<span class="status">以受邀,尚未回應</span>
+                                <img class="action" src="../Pics/list-plus.png">
             					<img class="bookmark" src="../Pics/pin.png">
             					<img class="facebook-like" src="../Pics/facebook-like.png">
 							</div>
@@ -182,6 +187,7 @@
                             </div>
 							<div class="group-action-bar">
             					<span class="status">已報名</span>
+                                <img class="action" src="../Pics/list-plus.png">
             					<img class="bookmark" src="../Pics/pin.png">
             					<img class="facebook-like" src="../Pics/facebook-like.png">
 							</div>

@@ -7,7 +7,8 @@ function processCard() {
 				$(this).css('border-color', color).find('.board-name-wrapper').css('border-color', color);
 			} else {
 				$(this).css({'background-color': '#F4F4F4', 'border-color': '#C1C1C1'}).find('.card-image').css('border-color', '#C1C1C1');
-                $(this).find('.status').css({'background-color': '#CC0000', 'padding': '2px 4px 2px 4px'});
+                //$(this).find('.status').css({'background-color': '#CC0000', 'padding': '2px 4px 2px 4px'});
+                $(this).find('.status').css('background-color', '#CC0000');
 			}
 		},
 		function() {
@@ -16,7 +17,8 @@ function processCard() {
 				$(this).css('border-color', '#E1E1E1').find('.board-name-wrapper').css('border-color', '#E1E1E1');
 			} else {
 				$(this).css({'background-color': '#FFFFFF', 'border-color': '#C1C1C1'}).find('.card-image').css('border-color', '#C1C1C1');
-                $(this).find('.status').css({'background-color': '#666666', 'padding': '1px 2px 1px 2px'});
+                //$(this).find('.status').css({'background-color': '#666666', 'padding': '1px 2px 1px 2px'});
+                $(this).find('.status').css('background-color', '#666666');
 			}
 		}
 	); //end hover

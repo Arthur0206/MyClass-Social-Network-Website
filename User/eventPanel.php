@@ -187,6 +187,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 						<a href="">
 							<span class="status">已受邀</span>
 						</a>
+                        <img class="action" src="../Pics/list-plus.png">
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
 						</a>
@@ -234,6 +235,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 						<a href="">
 							<span class="status">已報名,等待回應</span>
 						</a>
+                        <img class="action" src="../Pics/list-plus.png">
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
 						</a>
@@ -355,6 +357,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 						<a href="">
 							<span class="status">已受邀</span>
 						</a>
+                        <img class="action" src="../Pics/list-plus.png">
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
 						</a>
@@ -395,6 +398,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 						<a href="">
 							<span class="status">已受邀</span>
 						</a>
+                        <img class="action" src="../Pics/list-plus.png">
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
 						</a>
@@ -442,6 +446,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 						<a href="">
 							<span class="status">已報名,等待回應</span>
 						</a>
+                        <img class="action" src="../Pics/list-plus.png">
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
 						</a>
@@ -482,6 +487,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 						<a href="">
 							<span class="status">已報名,等待回應</span>
 						</a>
+                        <img class="action" src="../Pics/list-plus.png">
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
 						</a>
@@ -529,6 +535,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 						<a href="">
 							<span class="status">已報名,等待回應</span>
 						</a>
+                        <img class="action" src="../Pics/list-plus.png">
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
 						</a>
@@ -575,6 +582,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 						<a href="">
 							<span class="status">已報名,等待回應</span>
 						</a>
+                        <img class="action" src="../Pics/list-plus.png">
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
 						</a>
@@ -615,6 +623,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 						<a href="">
 							<span class="status">已報名,等待回應</span>
 						</a>
+                        <img class="action" src="../Pics/list-plus.png">
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
 						</a>
@@ -655,6 +664,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 						<a href="">
 							<span class="status">已受邀</span>
 						</a>
+                        <img class="action" src="../Pics/list-plus.png">
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
 						</a>
@@ -701,6 +711,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 						<a href="">
 							<span class="status">已受邀</span>
 						</a>
+                        <img class="action" src="../Pics/list-plus.png">
 						<a href="">
 							<img class="bookmark" src="../Pics/pin.png">
 						</a>

@@ -114,12 +114,14 @@
 	min-width: 90px;
 }
 .event-action-bar .facebook-like {
+    //float: right;
 	width: 18px;
 	height: 18px;
 	vertical-align: middle;
 }
 .event-action-bar .bookmark {
-	width: 22px;
+    //float: right;
+	width: 21px;
 	height: 18px;
 	opacity: 0.5;
 	vertical-align: middle;
@@ -133,6 +135,12 @@
 	background-color: #666666;
 	//vertical-align: middle;
 	color: #FFFFFF;
+}
+.event-action-bar .action {
+	width: 16px;
+	height: 18px;
+	opacity: 0.7;
+	vertical-align: middle;
 }
 .event-action-bar {
 	display: table-cell;

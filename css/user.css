@@ -87,7 +87,7 @@
 }
 .user-location {
 	//float: left;
-	padding-left: 5px;
+	//padding-left: 5px;
 }
 .user-info .like-icon {
 	float: right;
@@ -104,4 +104,11 @@
 }
 .user-info .like-count {
 	float: right;
+}
+.user-info .action {
+	width: 15px;
+	height: 17px;
+	opacity: 0.7;
+    float: right;
+    margin-top: 0px;
 }
