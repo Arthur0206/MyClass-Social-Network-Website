@@ -8,16 +8,16 @@
 			<a class="user-link" href="albumPage.php">
 				<img class="user-image card-image" alt="" src="../Pics/girl1.jpg">
 				<div class="user-name-wrapper"> 
-					<h1 class="user-name">郭雪芙</h1>
+					<h1 class="user-name">郭雪芙  </h1>
 				</div>
 				<div class="user-info"> 
 					<span class="user-age">18<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
 					<span class="user-location">新北市</span>
-					<span class="like">
-						<span class="like-count">128</span>
-						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
-					</span>
-                    <img class="action" src="../Pics/list-plus.png">
+                </div>
+                <div class="user-action-bar">
+					<img class="bookmark" alt="讚" src="../Pics/pin.png">
+                    <img class="action" src="../Pics/friend-icon-2.png">
+                    <span class="status">我關注了她</span>
 				</div>
 			</a>
 		</div>
@@ -30,14 +30,15 @@
 					<h1 class="user-name">徐若瑄</h1>
 				</div>
 				<div class="user-info"> 
-					<span class="user-age">43<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
+					<span class="user-age">18<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
 					<span class="user-location">新北市</span>
-					<span class="like">
-						<span class="like-count">98</span>
-						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
-					</span>
-                    <img class="action" src="../Pics/list-plus.png">
+                </div>
+                <div class="user-action-bar">
+					<img class="bookmark" alt="讚" src="../Pics/pin.png">
+                    <img class="action" src="../Pics/friend-icon-2.png">
+                    <span class="status">陌生人</span>
 				</div>
+
 			</a>
 		</div>
 	</div>
@@ -49,14 +50,15 @@
 					<h1 class="user-name">陳妍希</h1>
 				</div>
 				<div class="user-info"> 
-					<span class="user-age">29<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
+					<span class="user-age">18<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
 					<span class="user-location">新北市</span>
-					<span class="like">
-						<span class="like-count">128</span>
-						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
-					</span>
-                    <img class="action" src="../Pics/list-plus.png">
+                </div>
+                <div class="user-action-bar">
+					<img class="bookmark" alt="讚" src="../Pics/pin.png">
+                    <img class="action" src="../Pics/friend-icon-2.png">
+                    <span class="status">她關注了我</span>
 				</div>
+
 			</a>
 		</div>
 	</div>
@@ -68,14 +70,15 @@
 					<h1 class="user-name">侯佩岑</h1>
 				</div>
 				<div class="user-info"> 
-					<span class="user-age">35<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
+					<span class="user-age">18<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
 					<span class="user-location">新北市</span>
-					<span class="like">
-						<span class="like-count">278</span>
-						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
-					</span>
-                    <img class="action" src="../Pics/list-plus.png">
+                </div>
+                <div class="user-action-bar">
+					<img class="bookmark" alt="讚" src="../Pics/pin.png">
+                    <img class="action" src="../Pics/friend-icon-2.png">
+                    <span class="status">陌生人</span>
 				</div>
+
 			</a>
 		</div>
 	</div>
@@ -87,14 +90,15 @@
 					<h1 class="user-name">隋棠</h1>
 				</div>
 				<div class="user-info"> 
-					<span class="user-age">36<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
+					<span class="user-age">18<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
 					<span class="user-location">新北市</span>
-					<span class="like">
-						<span class="like-count">73</span>
-						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
-					</span>
-                    <img class="action" src="../Pics/list-plus.png">
+                </div>
+                <div class="user-action-bar">
+					<img class="bookmark" alt="讚" src="../Pics/pin.png">
+                    <img class="action" src="../Pics/friend-icon-2.png">
+                    <span class="status">陌生人</span>
 				</div>
+
 			</a>
 		</div>
 	</div>
@@ -106,14 +110,15 @@
 					<h1 class="user-name">李豫芬</h1>
 				</div>
 				<div class="user-info"> 
-					<span class="user-age">29<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
+					<span class="user-age">18<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
 					<span class="user-location">新北市</span>
-					<span class="like">
-						<span class="like-count">209</span>
-						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
-					</span>
-                    <img class="action" src="../Pics/list-plus.png">
+                </div>
+                <div class="user-action-bar">
+					<img class="bookmark" alt="讚" src="../Pics/pin.png">
+                    <img class="action" src="../Pics/friend-icon-2.png">
+                    <span class="status">朋友邀請已寄出</span>
 				</div>
+
 			</a>
 		</div>
 	</div>
@@ -125,14 +130,15 @@
 					<h1 class="user-name">馮媛甄</h1>
 				</div>
 				<div class="user-info"> 
-					<span class="user-age">28<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
+					<span class="user-age">18<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
 					<span class="user-location">新北市</span>
-					<span class="like">
-						<span class="like-count">38</span>
-						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
-					</span>
-                    <img class="action" src="../Pics/list-plus.png">
+                </div>
+                <div class="user-action-bar">
+					<img class="bookmark" alt="讚" src="../Pics/pin.png">
+                    <img class="action" src="../Pics/friend-icon-2.png">
+                    <span class="status">朋友</span>
 				</div>
+
 			</a>
 		</div>
 	</div>
@@ -144,14 +150,15 @@
 					<h1 class="user-name">邵庭</h1>
 				</div>
 				<div class="user-info"> 
-					<span class="user-age">26<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
+					<span class="user-age">18<img class="gender-icon" alt="女" src="../Pics/Female.png"></span>
 					<span class="user-location">新北市</span>
-					<span class="like">
-						<span class="like-count">35</span>
-						<img class="like-icon" alt="讚" src="../Pics/icon_like.png">
-					</span>
-                    <img class="action" src="../Pics/list-plus.png">
+                </div>
+                <div class="user-action-bar">
+					<img class="bookmark" alt="讚" src="../Pics/pin.png">
+                    <img class="action" src="../Pics/friend-icon-2.png">
+                    <span class="status">互相關注</span>
 				</div>
+
 			</a>
 		</div>
 	</div>
