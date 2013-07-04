@@ -1,10 +1,18 @@
 <?php
 require_once('define.php');
+require_once('function.php');
 
 if ($_SERVER['PHP_SELF'] != '/MyClass/User/login.php' && $_SERVER['PHP_SELF'] != '/MyClass/User/registerUser.php') {
 	$_SESSION['prevpage'] = $_SERVER['PHP_SELF'];
 }
 
+/*
+if (isset($_SESSION['username'])) {
+	phpAlert("Session[username] is set");
+} else {
+	phpAlert("Session[username] is not set");
+}
+*/
 /***************************************************************************/
 if (BYPASS_LOGIN) {
 	$_SESSION['username'] = "Sosoman";
