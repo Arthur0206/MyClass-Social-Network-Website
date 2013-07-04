@@ -40,8 +40,8 @@ if (!isset($_SESSION)) {
                			// Process Menu Bar
 				processMenuBar();
         		
-				// Process User Background Area
-				preocessUserBackground();
+				// Process User Background Area. Disable 小圖片
+				// preocessUserBackground();
         		
 				// Process Card 
 				processCard();
@@ -86,10 +86,10 @@ if (!isset($_SESSION)) {
         <div id="user_background" class="boy_user_background" style="position:relative">
 		<div id="user_profile_pics">
 		<img class="user_profile_pic_big" src="./Sosoman/head.jpg"></br>
-		<img class="user_profile_pic_small" src="./Sosoman/head1.jpg">
+		<!--<img class="user_profile_pic_small" src="./Sosoman/head1.jpg">
 		<img class="user_profile_pic_small" src="./Sosoman/head2.jpg">
 		<img class="user_profile_pic_small" src="./Sosoman/head3.jpg">
-		<img class="user_profile_pic_small" src="./Sosoman/head4.jpg">
+		<img class="user_profile_pic_small" src="./Sosoman/head4.jpg">-->
 		</div>
 		<div id="username_text">Sosoman<br/>&nbsp&nbsp陳令堯</div>
 		<!--<span id="hide_background_button" style="position:absolute;left:46%;bottom:1px;color:#333333;background-color:#edebe2;padding:5px 10px;border-radius:10px 10px 0 0;box-shadow:0px 0px 2px 1px #acacac;cursor:pointer">最小化背景圖片</span>-->
