@@ -53,47 +53,41 @@
 .user {
 	background-color: #FFFFFF;
 	width: 140px;
-	height: 160px;
+	height: 171px;
 	float: left;
 	margin: 10px;
 	overflow: hidden;
 	border: 1px solid #C1C1C1;
 }
 .user-image {
-	width: 130px; 
-	height: 110px; 
+	width: 132px; 
+	height: 111px; 
 	display: block;
 	border: 1px solid #C1C1C1;
-	margin: 4px 4px 0px 4px; 
+	margin: 3px 3px 0px 3px; 
 }
 .user-name {
     color: #222222;//#686E77;
     font-size: 14px;
     font-weight: bold;
 	text-align: center;
-	margin: 4px 0px 0px 0px;
+	margin: 2px 0px 0px 0px;
 }
 .user-name-wrapper {
-	height: 25px;
+	height: 21px;
 	overflow: hidden;
 }
 .user-info {
 	overflow: hidden;
 	margin: 0px 7px 0px 7px;
-	padding: 1px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
  	//border-top: 1px dotted #CCCCCC;
 	font-size: 12px;
 	color: #666666 !important;
 }
-.user-location {
-	//float: left;
-	//padding-left: 5px;
-}
-.user-info .like-icon {
-	float: right;
-	width: 10px;
-	height: 10px;
-	margin: 3px 4px 0px 4px;
+.user-info .user-location {
+	//float: right;
+	padding-left: 5px;
 }
 .user-info .gender-icon {
 	//float: right;
@@ -102,13 +96,33 @@
 	opacity: 0.8;
 	vertical-align: middle;
 }
-.user-info .like-count {
-	float: right;
+.user-action-bar {
+    margin-top: 1px;
 }
-.user-info .action {
-	width: 15px;
-	height: 17px;
+.user-action-bar .action {
+	width: 20px;
+	height: 20px;
 	opacity: 0.7;
     float: right;
     margin-top: 0px;
+}
+.user-action-bar .status {
+    float: right;
+    text-align: center;
+	border-radius: 3px;
+	//position: relative;
+	//top: 0px;
+	font-size: 12px;
+	padding: 1px 2px 1px 2px;
+    margin-right: 2px;
+	background-color: #666666;
+	//vertical-align: middle;
+	color: #FFFFFF;
+}
+.user-action-bar .bookmark {
+	float: right;
+	width: 19px;
+	height: 15px;
+    opacity: 0.5;
+	margin: 2px 4px 0px 4px;
 }
