@@ -28,7 +28,7 @@ function processMenuBar() {
             }, // mouseover
             function() {
 		if (!$(this).is('.selected')) {
-            		$(this).css('background-color', '#fcf9f2').find('.menu_big_chi').css('color', '#e51937');
+            		$(this).css('background-color', '#ffffff').find('.menu_big_chi').css('color', '#e51937');
 		        $(this).find('.menu_small_chi').css('color', '#C3C3C3');
 		}
         	    	$(this).find('.menu_tabs_dropdown_link').hide();

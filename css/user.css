@@ -1,5 +1,9 @@
 /* 使用者首頁 */
 
+#user_background {
+    //width: 900px;
+    //margin: auto;
+}
 .boy_user_background {
 	background-color: #3c97ad;
 	height: 185px;
@@ -47,7 +51,7 @@
 
 /* 朋友 panel */
 #friend_panel {
-	width: 980px;
+	width: 900px;
 	margin: auto;
 }
 .user {
