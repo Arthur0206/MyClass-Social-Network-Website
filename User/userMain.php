@@ -21,6 +21,7 @@ if (!isset($_SESSION)) {
         <link href="../css/board.css" type="text/css" rel="stylesheet">
         <link href="../css/event.css" type="text/css" rel="stylesheet">
         <link href="../css/wall.css" type="text/css" rel="stylesheet">
+        <!--<link href="../css/article.css" type="text/css" rel="stylesheet">-->
 	<link href="../fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script> 
 	<script src="../_js/menuBar.js"></script>
