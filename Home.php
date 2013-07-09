@@ -18,17 +18,7 @@ if (!isset($_SESSION)) {
         <script>
             $(document).ready(function() {
                 /* ------------------------------------ Process Menu Bar ----------------------------------- */
-		processMenuBar();
-
-                /* ---------------------------------- Process Hot User Block --------------------------------- */
-                $('.hot-user').hover(
-                function() {
-                    $(this).css('background-color', '#eef2e0');
-                }, // mouseover
-                function() {
-                    $(this).css('background-color', '#FFFFF2');
-                } // mouseout
-                ); // hover
+		        processMenuBar();
             }); // ready
         </script> 
     </head>
