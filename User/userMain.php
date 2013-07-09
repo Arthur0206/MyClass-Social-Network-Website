@@ -97,7 +97,7 @@ if (!isset($_SESSION)) {
 	</div>
 	<div id="second_bar">
 		<ul>
-			<li><a href="#about_panel">關於</a></li>
+			<li><a href="#about_panel">個人資料</a></li>
 			<li><a href="#wall_panel">動態牆</a></li>
 			<li><a href="#album_panel">相簿</a></li>
 			<li><a href="#friend_panel">朋友</a></li>
