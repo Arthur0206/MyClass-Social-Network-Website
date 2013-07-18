@@ -6,7 +6,6 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 
 		<div id="event_panel" class="panel">
 			<div class="setting_panel">
-				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
 				<div class="private_list" style="width:305px;bottom:-88px;right:0px"> <!-- 用js來計算並填入width, top, left -->
 					<span class="private_title">我參加的活動：</span>
 					<span class="private_option selected">公開</span>

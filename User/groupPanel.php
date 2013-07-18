@@ -1,7 +1,6 @@
 		<div id="group_panel" class="panel">		
-			<div class="setting_panel">
-				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
-			</div>
+            <div style="height: 50px;">
+            </div>
 			<div class="group_continer">
 				<div class="group card">
 					<a class="group-image-link" href="groupPage.php">

@@ -42,7 +42,7 @@ if (!isset($_SESSION)) {
 				processMenuBar();
         		
 				// Process User Background Area. Disable 小圖片
-				// preocessUserBackground();
+				preocessUserBackground();
         		
 				// Process Card 
 				processCard();
@@ -85,39 +85,91 @@ if (!isset($_SESSION)) {
 	/* include top menu bar */ 
 	require_once('../menubar.php'); 
 	?>
-        <div id="user_background" class="boy_user_background" style="position:relative">
-		<div id="user_profile_pics">
-		<img class="user_profile_pic_big" src="./Sosoman/head.jpg"></br>
-		<!--<img class="user_profile_pic_small" src="./Sosoman/head1.jpg">
-		<img class="user_profile_pic_small" src="./Sosoman/head2.jpg">
-		<img class="user_profile_pic_small" src="./Sosoman/head3.jpg">
-		<img class="user_profile_pic_small" src="./Sosoman/head4.jpg">-->
+    <div id="user_background" class="boy_user_background">
+        <div class="user_back_img_block">
+            <a href="">
+                <img src="../Pics/tall_pic.jpg" width="180px" height="200px">
+            </a>
+        </div>
+        <div class="user_back_img_block">
+            <a href="">
+                <img src="../Pics/wide_pic_4.jpg" width="280px" height="200px">
+            </a>
+        </div>
+        <div class="user_back_img_block">
+            <a href="">
+                <img src="../Pics/girl3.jpg" width="250px" height="200px">
+            </a>
+        </div>
+        <div class="user_back_img_block">
+            <a href="">
+                <img src="../Pics/wide_pic.jpg" width="290px" height="200px">
+            </a>
+        </div>
+        <div class="user_back_img_block">
+            <a href="">
+                <img src="../Pics/wide_pic_2.jpg" width="280px" height="200px">
+            </a>
+        </div>
+        <div class="user_back_img_block">
+            <a href="">
+                <img src="../Pics/nature.jpg" width="250px" height="200px">
+            </a>
+        </div>
+        <div class="user_back_img_block">
+            <a href="">
+                <img src="../Pics/wide_pic_3.jpg" width="290px" height="200px">
+            </a>
+        </div>
+        <div class="user_back_img_block">
+            <a href="">
+                <img src="../Pics/girl4.jpg" width="180px" height="200px">
+            </a>
+        </div>
+		<div id="user_profile_block">
+            <a href="">
+		        <img class="user_profile_img" src="../Pics/girl2.jpg">
+            </a>
+    		<div class="user_profile_text">
+                <div>
+                    Puff001
+                </div>
+                <div>
+                    郭雪芙
+                </div>
+            </div>
 		</div>
-		<div id="username_text">Sosoman<br/>&nbsp&nbsp陳令堯</div>
+
 		<!--<span id="hide_background_button" style="position:absolute;left:46%;bottom:1px;color:#333333;background-color:#edebe2;padding:5px 10px;border-radius:10px 10px 0 0;box-shadow:0px 0px 2px 1px #acacac;cursor:pointer">最小化背景圖片</span>-->
 	</div>
 	<div id="second_bar">
 		<ul>
-			<li><a href="#about_panel">個人資料</a></li>
-			<li><a href="#wall_panel">動態牆</a></li>
-			<li><a href="#album_panel">相簿</a></li>
-			<li><a href="#friend_panel">朋友</a></li>
-			<li><a href="#group_panel">群組</a></li>
-			<li><a href="#event_panel">活動</a></li>
-			<li><a href="#article_panel">文章</a></li>
-			<li><a href="#board_panel" class="last_tab">討論版</a></li>
+			<li><a href="#about_panel"><img src="../Pics/paper.png" width=30px>個人資料</a></li>
+			<li><a href="#wall_panel"><img src="../Pics/profile.png" width=30px>動態牆</a></li>
+			<li><a href="#album_panel"><img src="../Pics/ticket-icon.png" width=30px>相簿</a></li>
+			<li><a href="#friend_panel"><img src="../Pics/notes-edit.png" width=30px>朋友</a></li>
+			<li><a href="#group_panel"><img src="../Pics/pen-2.png" width=30px>群組</a></li>
+			<li><a href="#event_panel"><img src="../Pics/calendar-icon.png" width=30px>活動</a></li>
+			<li><a href="#article_panel"><img src="../Pics/checklist-2.png" width=30px>文章</a></li>
+			<li><a href="#board_panel"><img src="../Pics/list-plus.png" width=30px>討論版</a></li>
+            <li><a href="#board_panel"><img src="../Pics/setting.png" width=30px>設定</a></li>
 		</ul>
 	</div>
+    <div id="panel_continer">
 	<?php 
-	require_once('aboutPanel.php'); 
-	require_once('wallPanel.php'); 
-	require_once('albumPanel.php'); 
-	require_once('friendPanel.php'); 
-	require_once('groupPanel.php'); 
-	require_once('eventPanel.php'); 
-	require_once('articlePanel.php'); 
-	require_once('boardPanel.php'); 
+	    require_once('aboutPanel.php'); 
+	    require_once('wallPanel.php'); 
+	    require_once('albumPanel.php'); 
+	    require_once('friendPanel.php'); 
+	    require_once('groupPanel.php'); 
+	    require_once('eventPanel.php'); 
+	    require_once('articlePanel.php'); 
+	    require_once('boardPanel.php'); 
 	?> 
+<<<<<<< HEAD
 	</div>
+=======
+    </div>
+>>>>>>> 7287cc996d7389b7b55d589470ccdce04d63bd0d
     </body>
 </html>

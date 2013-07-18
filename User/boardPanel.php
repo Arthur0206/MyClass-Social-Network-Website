@@ -1,7 +1,6 @@
 <div id="board_panel" class="panel">
 	<div class="setting_panel">
 		<span id="all_moment_filter" class="filter_button is_clicked unselectable">我關切的討論版</span>
-		<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
 		<div class="private_list" style="width:350px;bottom:-16px;right:0px"> <!-- 用js來計算並填入width, top, left -->
 			<span class="private_title">我的『討論版』頁面：</span>
 			<span class="private_option selected">公開</span>

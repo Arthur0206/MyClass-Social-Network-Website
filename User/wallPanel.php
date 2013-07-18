@@ -2,7 +2,6 @@
 			<div class="setting_panel">
 				<span id="all_moment_filter" class="filter_button is_clicked unselectable">朋友及我的動態</span>
 				<span id="user_own_moment_filter" class="filter_button unselectable">我個人的動態</span>
-				<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
 				<div class="private_list" style="width:305px;bottom:-40px;right:0px"> <!-- 用js來計算並填入width, top, left -->
 					<span class="private_title">我個人的動態：</span>
 					<span class="private_option selected">公開</span>
