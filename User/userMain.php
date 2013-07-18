@@ -144,7 +144,7 @@ if (!isset($_SESSION)) {
 	</div>
 	<div id="second_bar">
 		<ul>
-			<li><a href="#about_panel"><img src="../Pics/paper.png" width=30px>個人資料</a></li>
+			<li><a href="#about_panel"><img src="../Pics/Paper.png" width=30px>個人資料</a></li>
 			<li><a href="#wall_panel"><img src="../Pics/profile.png" width=30px>動態牆</a></li>
 			<li><a href="#album_panel"><img src="../Pics/ticket-icon.png" width=30px>相簿</a></li>
 			<li><a href="#friend_panel"><img src="../Pics/notes-edit.png" width=30px>朋友</a></li>
