@@ -5,12 +5,12 @@
     position: relative;
     //top: 10px;
     width: 1000px;
-    height: 400px;
+    height: 360px;
     margin: auto;
 }
 .user_back_img_block {
     float: left;
-    height: 200px;
+    height: 180px;
     //width: 200px;
     overflow: hidden;
     display: inline;
@@ -18,7 +18,7 @@
     padding: 0px;
 }
 .user_back_img_block img {
-    height: 200px;
+    height: 180px;
     //width: 200px;
     //border: 1px solid #777777;
     opacity: 0.8;
@@ -35,16 +35,16 @@
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 5px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     background-color: #FFFFFF;
-	width: 152px;
+	width: 154px;
 	height: 190px;
 	position: absolute;
 	left: 30px;
-	top: 260px;
+	top: 220px;
 	margin-right: 0px;
 	padding: 0px;
 }
 .user_profile_img {
-    margin: 5px 5px 0px 5px;
+    margin: 6px 6px 1px 6px;
 	width: 140px;
 	height: 140px;
 	border: 1px solid #C1C1C1;
@@ -62,7 +62,7 @@
 }
 /* 朋友 panel */
 #friend_panel {
-	width: 860px;
+	width: 1000px;
 	margin: auto;
 }
 .user {
@@ -70,7 +70,7 @@
 	width: 140px;
 	height: 171px;
 	float: left;
-	margin: 15px;
+	margin: 10px 0px 10px 20px;
 	overflow: hidden;
 	border: 1px solid #C1C1C1;
 }

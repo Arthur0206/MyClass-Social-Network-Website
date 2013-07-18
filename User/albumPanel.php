@@ -1,6 +1,5 @@
 <div id="album_panel" class="panel">
 	<div class="setting_panel">
-		<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
 		<span id="add_new_moment_button" class="add_search_button unselectable">＋新增相簿</span>
 	</div>
 	<div class="albums_continer">

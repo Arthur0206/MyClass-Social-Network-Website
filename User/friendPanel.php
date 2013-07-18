@@ -1,6 +1,5 @@
 <div id="friend_panel" class="panel">
 	<div class="setting_panel">
-		<span class="private_button"><img src="../Pics/pen.png"><span>隱私設定</span></span>
 		<span id="search_new_friend_button" class="add_search_button unselectable">收尋其他使用者</span>
 	</div>
 	<div class="user_continer">
