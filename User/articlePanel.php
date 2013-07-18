@@ -1,6 +1,7 @@
 <div id="article_panel" class="panel">
 	<div class="setting_panel">
 	</div>
+<!--
 	<div>
 		<table style="width:100%">
 		<tr>
@@ -32,4 +33,5 @@
 		</tr>
 		</table>
 	</div>
+-->
 </div>

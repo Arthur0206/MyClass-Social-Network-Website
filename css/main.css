@@ -599,14 +599,15 @@ li.selected {
 
 /* Second Bar */
 #second_bar {
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(241, 241, 241, 0.9)) repeat scroll 0 0 transparent;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(235, 235, 235, 0.9)) repeat scroll 0 0 transparent;
+    //background: linear-gradient(#FFFFFF, #EEEEEE) repeat scroll 0 0 #FFFFFF;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
 	height: 65px;
-	background-color: #FFFFFF;
-	margin-bottom: 2px;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	//background-color: #FFFFFF;
+	//margin-bottom: 1px;
+	border-bottom: 1px solid #E6E6E6;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 #second_bar ul {
@@ -618,7 +619,7 @@ li.selected {
 	float: left;
 	//padding: 20px;
 	width: 88px;
-    height: 67px;
+    height: 66px;
 	text-align: center;
 	//border-left: 1px solid #D8D5D0;
 }
