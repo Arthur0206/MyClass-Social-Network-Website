@@ -599,7 +599,10 @@ li.selected {
 
 /* Second Bar */
 #second_bar {
-	height: 43px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+	height: 60px;
 	background-color: #FFFFFF;
 	margin-bottom: 2px;
 	box-shadow: 0px 0px 2px 1px #D8D5D0;
@@ -609,19 +612,28 @@ li.selected {
 	padding-left: 200px;
 }
 #second_bar a {
-	color: #333333;
+	color: #444444;
 	float: left;
-	padding: 13px;
-	width: 60px;
+	//padding: 20px;
+	width: 80px;
+    height: 60px;
 	text-align: center;
-	border-left: 1px solid #D8D5D0;
+	//border-left: 1px solid #D8D5D0;
 }
-.last_tab {
-	border-right: 1px solid #D8D5D0;
+#second_bar img {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #second_bar a.active {
 	background-color: #cd6661;
 	color: #ffffff;
+}
+#second_bar a.hovered {
+	background-color: #F1F1F1;
+	color: #444444;
 }
 .panel {
 	min-height: 795px;

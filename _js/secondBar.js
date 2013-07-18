@@ -6,6 +6,7 @@ function processSecondBar()
 		
 		// 改變被選到的tab的顏色
 		$('#second_bar a.active').removeClass('active');
+        $(this).removeClass('hovered');
 		$(this).addClass('active').blur();
 
 		// retrieve href from link (is id of panel to display)
@@ -18,6 +19,19 @@ function processSecondBar()
 
 		return false;
 	}); // end click
+
+	$('#second_bar a').hover(
+        function() {
+            if (!$(this).hasClass('active')){
+		        $(this).addClass('hovered').blur();
+            }
+        },
+        function() {
+            if (!$(this).hasClass('active')){
+		        $(this).removeClass('hovered').blur();
+            }
+        }
+    );
 
 	// 點動態牆tab, 讓一進個人首頁就看到動態牆
 	$('#second_bar a').eq(4).click();
