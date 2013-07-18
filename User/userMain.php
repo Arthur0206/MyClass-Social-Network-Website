@@ -80,6 +80,7 @@ if (!isset($_SESSION)) {
         </script>
     </head>
     <body>
+	<div style="margin:auto;box-shadow: 0px 0px 2px 1px #D8D5D0;background:url('../Pics/background.png')">
 	<?php 
 	/* include top menu bar */ 
 	require_once('../menubar.php'); 
@@ -117,5 +118,6 @@ if (!isset($_SESSION)) {
 	require_once('articlePanel.php'); 
 	require_once('boardPanel.php'); 
 	?> 
+	</div>
     </body>
 </html>
