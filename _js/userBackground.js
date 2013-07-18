@@ -1,13 +1,13 @@
 function preocessUserBackground() 
 {
-    $('.user_back_img_block img').hover(
-        function() {
-            $(this).css('opacity', '1');
-        },
-        function() {
-            $(this).css('opacity', '0.8');
-        }
-    );
+    //$('.user_back_img_block img').hover(
+    //    function() {
+    //        $(this).css('opacity', '1');
+    //    },
+    //    function() {
+    //        $(this).css('opacity', '0.7');
+    //    }
+    //);
 /*
 	$('.user_profile_pic_small').click(function() {
 		var big_pic = $('.user_profile_pic_big');
