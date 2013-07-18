@@ -1,11 +1,27 @@
 /* 使用者首頁 */
 
 #user_background {
+	//box-shadow: 2px 0px 2px 0px #D8D5D0;
     position: relative;
     //top: 10px;
-    width: 1024px;
+    width: 1000px;
     height: 400px;
     margin: auto;
+}
+.user_back_img_block {
+    float: left;
+    height: 200px;
+    //width: 200px;
+    overflow: hidden;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+.user_back_img_block img {
+    height: 200px;
+    //width: 200px;
+    //border: 1px solid #777777;
+    opacity: 0.9;
 }
 .boy_user_background {
 	background-color: #3c97ad;
@@ -20,8 +36,8 @@
     border-radius: 5px;
     background-color: #FFFFFF;
 	width: 152px;
-	height: 185px;
-	position: relative;
+	height: 190px;
+	position: absolute;
 	left: 30px;
 	top: 260px;
 	margin-right: 0px;
@@ -38,10 +54,15 @@
     text-align: center;
     color: #444444;
 }
-
+#panel_continer {
+	width: 1000px;
+	margin: auto;
+    background-color: #F8F8F8;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24), 0 1px 5px rgba(0, 0, 0, 0.05);
+}
 /* 朋友 panel */
 #friend_panel {
-	width: 900px;
+	width: 860px;
 	margin: auto;
 }
 .user {
@@ -49,7 +70,7 @@
 	width: 140px;
 	height: 171px;
 	float: left;
-	margin: 10px;
+	margin: 15px;
 	overflow: hidden;
 	border: 1px solid #C1C1C1;
 }

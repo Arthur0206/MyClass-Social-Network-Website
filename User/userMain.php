@@ -42,7 +42,7 @@ if (!isset($_SESSION)) {
 				processMenuBar();
         		
 				// Process User Background Area. Disable 小圖片
-				// preocessUserBackground();
+				preocessUserBackground();
         		
 				// Process Card 
 				processCard();
@@ -84,9 +84,51 @@ if (!isset($_SESSION)) {
 	/* include top menu bar */ 
 	require_once('../menubar.php'); 
 	?>
-    <div id="user_background" class="boy_user_background" style="position:relative">
+    <div id="user_background" class="boy_user_background">
+        <div class="user_back_img_block">
+            <a href="">
+                <img src="../Pics/tall_pic.jpg" width="170px" height="200px">
+            </a>
+        </div>
+        <div class="user_back_img_block">
+            <a href="">
+                <img src="../Pics/wide_pic_4.jpg" width="300px" height="200px">
+            </a>
+        </div>
+        <div class="user_back_img_block">
+            <a href="">
+                <img src="../Pics/girl3.jpg" width="240px" height="200px">
+            </a>
+        </div>
+        <div class="user_back_img_block">
+            <a href="">
+                <img src="../Pics/wide_pic.jpg" width="290px" height="200px">
+            </a>
+        </div>
+        <div class="user_back_img_block">
+            <a href="">
+                <img src="../Pics/wide_pic_2.jpg" width="290px" height="200px">
+            </a>
+        </div>
+        <div class="user_back_img_block">
+            <a href="">
+                <img src="../Pics/girl4.jpg" width="170px" height="200px">
+            </a>
+        </div>
+        <div class="user_back_img_block">
+            <a href="">
+                <img src="../Pics/wide_pic_3.jpg" width="300px" height="200px">
+            </a>
+        </div>
+        <div class="user_back_img_block">
+            <a href="">
+                <img src="../Pics/girl8.jpg" width="240px" height="200px">
+            </a>
+        </div>
 		<div id="user_profile_block">
-		    <img class="user_profile_img" src="../Pics/girl2.jpg">
+            <a href="">
+		        <img class="user_profile_img" src="../Pics/girl2.jpg">
+            </a>
     		<div class="user_profile_text">
                 <div>
                     Puff001
@@ -112,15 +154,17 @@ if (!isset($_SESSION)) {
             <li><a href="#board_panel"><img src="../Pics/setting.png" width=30px>設定</a></li>
 		</ul>
 	</div>
+    <div id="panel_continer">
 	<?php 
-	require_once('aboutPanel.php'); 
-	require_once('wallPanel.php'); 
-	require_once('albumPanel.php'); 
-	require_once('friendPanel.php'); 
-	require_once('groupPanel.php'); 
-	require_once('eventPanel.php'); 
-	require_once('articlePanel.php'); 
-	require_once('boardPanel.php'); 
+	    require_once('aboutPanel.php'); 
+	    require_once('wallPanel.php'); 
+	    require_once('albumPanel.php'); 
+	    require_once('friendPanel.php'); 
+	    require_once('groupPanel.php'); 
+	    require_once('eventPanel.php'); 
+	    require_once('articlePanel.php'); 
+	    require_once('boardPanel.php'); 
 	?> 
+    </div>
     </body>
 </html>
