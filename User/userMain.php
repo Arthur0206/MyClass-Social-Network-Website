@@ -87,17 +87,17 @@ if (!isset($_SESSION)) {
     <div id="user_background" class="boy_user_background">
         <div class="user_back_img_block">
             <a href="">
-                <img src="../Pics/tall_pic.jpg" width="170px" height="200px">
+                <img src="../Pics/tall_pic.jpg" width="180px" height="200px">
             </a>
         </div>
         <div class="user_back_img_block">
             <a href="">
-                <img src="../Pics/wide_pic_4.jpg" width="300px" height="200px">
+                <img src="../Pics/wide_pic_4.jpg" width="280px" height="200px">
             </a>
         </div>
         <div class="user_back_img_block">
             <a href="">
-                <img src="../Pics/girl3.jpg" width="240px" height="200px">
+                <img src="../Pics/girl3.jpg" width="250px" height="200px">
             </a>
         </div>
         <div class="user_back_img_block">
@@ -107,22 +107,22 @@ if (!isset($_SESSION)) {
         </div>
         <div class="user_back_img_block">
             <a href="">
-                <img src="../Pics/wide_pic_2.jpg" width="290px" height="200px">
+                <img src="../Pics/wide_pic_2.jpg" width="280px" height="200px">
             </a>
         </div>
         <div class="user_back_img_block">
             <a href="">
-                <img src="../Pics/girl4.jpg" width="170px" height="200px">
+                <img src="../Pics/nature.jpg" width="250px" height="200px">
             </a>
         </div>
         <div class="user_back_img_block">
             <a href="">
-                <img src="../Pics/wide_pic_3.jpg" width="300px" height="200px">
+                <img src="../Pics/wide_pic_3.jpg" width="290px" height="200px">
             </a>
         </div>
         <div class="user_back_img_block">
             <a href="">
-                <img src="../Pics/girl8.jpg" width="240px" height="200px">
+                <img src="../Pics/girl4.jpg" width="180px" height="200px">
             </a>
         </div>
 		<div id="user_profile_block">

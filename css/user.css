@@ -21,7 +21,7 @@
     height: 200px;
     //width: 200px;
     //border: 1px solid #777777;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .boy_user_background {
 	background-color: #3c97ad;
@@ -57,7 +57,7 @@
 #panel_continer {
 	width: 1000px;
 	margin: auto;
-    background-color: #F8F8F8;
+    background-color: #F6F6F6;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24), 0 1px 5px rgba(0, 0, 0, 0.05);
 }
 /* 朋友 panel */
