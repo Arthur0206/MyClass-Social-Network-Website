@@ -599,8 +599,7 @@ li.selected {
 
 /* Second Bar */
 #second_bar {
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(235, 235, 235, 0.9)) repeat scroll 0 0 transparent;
-    //background: linear-gradient(#FFFFFF, #EEEEEE) repeat scroll 0 0 #FFFFFF;
+    background: linear-gradient(#FFFFFF, #EBEBEB) repeat scroll 0 0 #FFFFFF;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -631,11 +630,13 @@ li.selected {
     margin-right: auto;
 }
 #second_bar a.active {
-	background-color: #cd6661;
+    background: linear-gradient(#ed7671, #ac4540) repeat scroll 0 0 #cd6661;
+	//background-color: #cd6661;
 	color: #ffffff;
 }
 #second_bar a.hovered {
-	background-color: #F1F1F1;
+    background: linear-gradient(#FFFFFF, #CCCCCC) repeat scroll 0 0 #FFFFFF;
+	//background-color: #F1F1F1;
 	color: #444444;
 }
 .panel {
