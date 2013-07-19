@@ -1,5 +1,10 @@
 /* 使用者首頁 */
-
+#search_result_user {
+	width: 1000px;
+	min-height: 751px;
+	margin-left: 60px;
+	//margin-right: auto;
+}
 #user_background {
 	//box-shadow: 2px 0px 2px 0px #D8D5D0;
     position: relative;
@@ -70,9 +75,15 @@
 	width: 140px;
 	height: 171px;
 	float: left;
-	margin: 10px 0px 10px 20px;
+	//margin: 10px 0px 10px 20px;
 	overflow: hidden;
 	border: 1px solid #C1C1C1;
+}
+.panel .user {
+    margin: 10px 0px 10px 20px;
+}
+#search_result_user .user {
+    margin: 10px 0px 10px 20px;
 }
 .user-image {
 	width: 132px; 

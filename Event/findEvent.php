@@ -271,7 +271,7 @@ if (!isset($_SESSION)) {
                 </div>
                 <!-- End of 紅色搜尋bar -->
                 <div id="search_result_wrapper">
-                    <div id="search_result_div">
+                    <div id="search_result_event">
                         <div id="sort_list_wrapper">
                             <ul id="sort_list">
                                 <li id="sort_bar_dropdown_list">人氣<li>

@@ -502,9 +502,9 @@ li.selected {
     color: #4F5F5F;
     font-weight: bold;
 }
-#search_list_wrapper.no-side-bar {	/* 左邊沒有area side bar的頁面, search bar的margin設成0 */
-	margin: 0;
-}
+//#search_list_wrapper.no-side-bar {	/* 左邊沒有area side bar的頁面, search bar的margin設成0 */
+//	margin: 0;
+//}
 #search_list {
 	display: inline;
 }
@@ -601,18 +601,18 @@ li.selected {
 	margin-left: 230px;
 	min-height: 751px;
 }
-#search_result_wrapper.no-side-bar {	/* 左邊沒有area side bar的頁面, search result wrapper的margin設成0 */
-	margin: 0;
-}
-#search_result_div {
-	width: 900px;
-	min-height: 751px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#search_result_div.no-side-bar {	/* 左邊沒有area side bar的頁面, search result div的寬度加大 */
-	width: 1020px;
-}
+//#search_result_wrapper.no-side-bar {	/* 左邊沒有area side bar的頁面, search result wrapper的margin設成0 */
+//	margin: 0;
+//}
+//#search_result_div {
+//	width: 1000px;
+//	min-height: 751px;
+//	margin-left: 60px;
+//	//margin-right: auto;
+//}
+//#search_result_div.no-side-bar {	/* 左邊沒有area side bar的頁面, search result div的寬度加大 */
+//	width: 1020px;
+//}
 
 /* Second Bar */
 #second_bar {
