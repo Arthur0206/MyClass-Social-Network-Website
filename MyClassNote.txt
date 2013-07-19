@@ -34,3 +34,6 @@ To Do List
 * 首頁要變成你有興趣的動態,而不是你和你朋友的動態.
 * 面向學生: 用戶card上面要有學校. 常常推薦兩個學校團體辦聯誼.顯示在所有會員的首頁,問他們有沒有興趣
 * 個人profile要可以給自己的facebook帳號.其他用戶可以看facebook來更聊解這個人.
+* set menubar to fixed position. (like facebook)
+* auto scroll to focus on second bar when entering user main page.
+* fix jQuery issue on linux when swithcing between user tabs. 
