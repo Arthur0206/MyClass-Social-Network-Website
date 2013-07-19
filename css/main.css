@@ -493,10 +493,14 @@ li.selected {
 #search_list_wrapper {
 	margin-left: 230px;
 	height: 41px;
-	background-color: #cd6563; //#CC0000;
+    background: linear-gradient(#FFFFFF, #F0F0F0) repeat scroll 0 0 #F0F0F0;
+    border: 1px solid #CCCCCC;
+    color: #5F5F5F;
+    font-weight: bold;
+	//background-color: #cd6563; //#CC0000;
 	//border-top: 1px solid #D8D5D0;
-	border-bottom: 1px solid #D8D5D0;
-	border-radius: 2px 2px 2px 2px;
+	//border-bottom: 1px solid #D8D5D0;
+	//border-radius: 2px 2px 2px 2px;
 }
 #search_list_wrapper.no-side-bar {	/* 左邊沒有area side bar的頁面, search bar的margin設成0 */
 	margin: 0;
@@ -510,7 +514,7 @@ li.selected {
 }
 .search_bar_title {
 	padding: 13px 7px 12px 10px;
-	color: #FFFFF2;
+	color: #5F5F5F;
 }
 .search_bar_dropdown_list_wrapper {
 	margin: 7px 0px 5px 0px;
@@ -518,7 +522,7 @@ li.selected {
 	height: 15px;
 	border-radius: 4px;
 	border: 1px solid #D8D5D0;
-	background-color: #FFFFF2; //#f5f5f5; //#FFFFFF;
+	background-color: #FAF9F7; //#f5f5f5; //#FFFFFF;
 	cursor: pointer;
 	z-index: 10;
 	position: relative;
@@ -526,7 +530,7 @@ li.selected {
 .search_bar_dropdown_list_div {
 	border-radius: 4px;
 	border: 1px solid #D8D5D0;
-	background-color: #FFFFF2;//#f5f5f5; //#FFFFFF;
+	background-color: #FAF9F7;//#f5f5f5; //#FFFFFF;
 	cursor: pointer;
 	top: -1px;
 	left: -1px;

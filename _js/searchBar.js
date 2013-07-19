@@ -27,7 +27,7 @@ function processSearchBar()
 		},
 		function() {
 			if (!$(this).is('.disabled')) {
-				$(this).css('background-color', '#FFFFF2');
+				$(this).css('background-color', '#FAF9F7');
 			}
 		}
 	); // end hover
