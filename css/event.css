@@ -64,7 +64,6 @@
 	//box-shadow: 0px 0px 2px 2px #D8D5D0;
 	//border: 1px solid #E1E1E1;
 	overflow: hidden;
-	z-index: 10;
 	position: relative;
 }
 .event_title {
