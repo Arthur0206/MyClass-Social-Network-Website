@@ -22,12 +22,12 @@ function processSearchBar()
 	).hover( // end click
 		function() { 
 			if (!$(this).is('.disabled')) {
-				$(this).css('background-color', '#f5f5f5');
+				$(this).css('background-color', '#FAF9F7');
 			}
 		},
 		function() {
 			if (!$(this).is('.disabled')) {
-				$(this).css('background-color', '#FAF9F7');
+				$(this).css('background-color', '#f5f5f5');
 			}
 		}
 	); // end hover
