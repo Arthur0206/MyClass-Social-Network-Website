@@ -157,6 +157,7 @@ hr {
 	//margin-right: auto;
 }
 #masthead > div {
+    //background: linear-gradient(#FFFFFF, #EBEBEB) repeat scroll 0 0 #FFFFFF;
 	//width: 900px;
 	margin-left: auto;
 	margin-right: auto;
@@ -168,12 +169,14 @@ hr {
 	float: left;
 }
 li.selected {
-	background-color: #e51937;
+    //background-image: linear-gradient(#F4373F, #BC282F);
+	background-color: #E3262E;//#AB171E; #e51937;
 }
 .menu_big_chi {
 	text-align: center;
 	color: #e51937; //#ae2a26; //#CC0000;
 	font: 20px/20px "Arial";
+    font-weight: bold;
 	padding-bottom: 5px;
 	display: block;
 	padding-left: 9px;
@@ -184,21 +187,21 @@ li.selected {
 }
 .menu_small_chi {
 	text-align: center;
-	color: #C3C3C3;
+	color: #999999;
 	font: 11px/11px "Arial";
 	display: block;
 	padding-left: 6px;
 	padding-right: 6px;
 }
 .menu_small_chi.selected {
-	color: #FFFFF2;
+	color: #FFFFFF;
 }
 .menu_tabs, .dropdown {
 	margin: 0;
 	z-index: 3;
 }
 .menu_tabs > li > a {
-	color: #C3C3C3;
+	//color: #C3C3C3;
 	display: block;
 	font: bold 16px/16px "Arial";
 	letter-spacing: 0.05em;
