@@ -39,8 +39,8 @@ if (BYPASS_LOGIN) {
                         </span>
                     </span>
                 </a>										     <!-- 特別設定width -->
-                <a href="/MyClass/Group/findGroup.php" class="menu_tabs_dropdown_link" id="find_group_link" style="width:99px;">找群組</a> 
-                <a href="/MyClass/Group/createGroup.php" class="menu_tabs_dropdown_link" id="create_group_link" style="width:99px">開新群組</a>
+                <!--<a href="/MyClass/Group/findGroup.php" class="menu_tabs_dropdown_link" id="find_group_link" style="width:99px;">找群組</a> 
+                <a href="/MyClass/Group/createGroup.php" class="menu_tabs_dropdown_link" id="create_group_link" style="width:99px">開新群組</a>-->
                 </li>
                 <li id="event_tab">
                 <a href="/MyClass/Event/findEvent.php" style="width:105px;padding:11px 0px 8px 0px"> <!-- 特別設定width, padding -->
@@ -53,8 +53,8 @@ if (BYPASS_LOGIN) {
                         </span>
                     </span>
                 </a>										     <!-- 特別設定width -->
-                <a href="/MyClass/Event/findEvent.php" class="menu_tabs_dropdown_link" id="find_event_link" style="width:99px">找活動</a>
-                <a href="/MyClass/Event/createEvent.php" class="menu_tabs_dropdown_link" id="create_event_link" style="width:99px">開新活動</a>
+                <!--<a href="/MyClass/Event/findEvent.php" class="menu_tabs_dropdown_link" id="find_event_link" style="width:99px">找活動</a>
+                <a href="/MyClass/Event/createEvent.php" class="menu_tabs_dropdown_link" id="create_event_link" style="width:99px">開新活動</a>-->
                 </li>
                 <li id="user_tab">
                 <a href="/MyClass/User/findUser.php">

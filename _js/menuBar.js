@@ -18,7 +18,7 @@ function processMenuBar() {
     }
 
     // 先把所有dropdown menutabs藏起來
-    $('.menu_tabs_dropdown_link').hide();
+    //$('.menu_tabs_dropdown_link').hide();
 
     $('.menu_tabs li').hover(
             function() {
@@ -35,6 +35,7 @@ function processMenuBar() {
             } // mouseout
     ); // hover
 
+    /*
     $('.menu_tabs_dropdown_link').hover(
             function() {
             	$(this).css({'background-color':'#FFFFF2', 'color':'#e51937'});
@@ -43,4 +44,5 @@ function processMenuBar() {
             	$(this).css({'background-color':'#e51937', 'color':'#FFFFFF'});
             } // mouseout
     ); // hover
+    */
 }
