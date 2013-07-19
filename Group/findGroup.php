@@ -273,7 +273,7 @@ if (!isset($_SESSION)) {
 				<h8>不拘</h8><img src="../Pics/triangle.png" height="12" style="float:right;margin-top:2px;margin-right:1px">
 			    </div>
 			</li>
-                        <div id="keyword_submit_button"><img src="../Pics/button.png" height="40"></div>
+                        <div id="keyword_submit_button">收尋</div>
                         <input type="text" name="fname" id="keyword_input" value="請輸入關鍵字">
                         <li class="search_bar_title" id="keyword_title">關鍵字</li>
                     </ul>

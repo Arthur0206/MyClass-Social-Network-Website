@@ -176,7 +176,7 @@ li.selected {
 	text-align: center;
 	color: #e51937; //#ae2a26; //#CC0000;
 	font: 20px/20px "Arial";
-    font-weight: bold;
+    //font-weight: bold;
 	padding-bottom: 5px;
 	display: block;
 	padding-left: 9px;
@@ -494,13 +494,13 @@ li.selected {
 	margin-left: 230px;
 	height: 41px;
     background: linear-gradient(#FFFFFF, #F0F0F0) repeat scroll 0 0 #F0F0F0;
-    border: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    //background: linear-gradient(#F6F6F6, #E0E0E0) repeat scroll 0 0 #F6F6F6;
+    //border: 1px solid #C0C0C0;
     color: #5F5F5F;
     font-weight: bold;
-	//background-color: #cd6563; //#CC0000;
-	//border-top: 1px solid #D8D5D0;
-	//border-bottom: 1px solid #D8D5D0;
-	//border-radius: 2px 2px 2px 2px;
 }
 #search_list_wrapper.no-side-bar {	/* 左邊沒有area side bar的頁面, search bar的margin設成0 */
 	margin: 0;
@@ -545,7 +545,16 @@ li.selected {
 	float: right;
 }
 #keyword_submit_button {
-	margin: 5px;
+    cursor: pointer;
+    background: linear-gradient(#FFFFFF, #F0F0F0) repeat scroll 0 0 #F0F0F0;
+    border: 1px solid #CCCCCC;
+    width: 60px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+	margin: 7px 15px 0px 10px;
+    border-radius: 3px 3px 3px 3px;
+	//margin-top: 5px;
 	float: right;
 }
 #keyword_input {
