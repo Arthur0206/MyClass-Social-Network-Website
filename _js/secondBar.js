@@ -1,6 +1,9 @@
 function processSecondBar() 
 {
 	$('#second_bar a').click(function() {
+        // remember current scroll position
+        var tempScrollTop = $(window).scrollTop();
+        
 		// hide all panels first
 		$('.panel').hide();
 		
@@ -17,6 +20,9 @@ function processSecondBar()
 		// 把本來打開的隱私選單關起來
 		$(selectedPanel).siblings().find('.private_list').hide();
 
+        // restore scroll position
+        $(window).scrollTop(tempScrollTop);
+        
 		return false;
 	}); // end click
 
