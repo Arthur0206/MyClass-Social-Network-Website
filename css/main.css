@@ -630,7 +630,7 @@ li.selected {
     margin-right: auto;
 }
 #second_bar a.active {
-    background: linear-gradient(#ed7671, #ac4540) repeat scroll 0 0 #cd6661;
+    background: linear-gradient(#fd8681, #ac4540) repeat scroll 0 0 #cd6661;
 	//background-color: #cd6661;
 	color: #ffffff;
 }
