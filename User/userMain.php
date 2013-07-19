@@ -127,7 +127,7 @@ if (!isset($_SESSION)) {
         </div>
 		<div id="user_profile_block">
             <a href="">
-		        <img class="user_profile_img" src="../Pics/girl2.jpg">
+		        <img class="user_profile_img" src="../Pics/girl5.jpg">
             </a>
     		<div class="user_profile_text">
                 <div>
