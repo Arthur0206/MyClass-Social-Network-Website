@@ -146,7 +146,7 @@ if (!isset($_SESSION)) {
                     <div id="sort_by_botton" style="margin-left: 40px">
                         <span id="sort_by_label">排序:</span>
                         <span id="sort_by_selected">即時人氣</span>
-                        <img src="../Pics/triangle.png" height="8" style="float:right;margin-top:14px;margin-right:0px;z-index:1200">
+                        <img src="../Pics/triangle.png" height="8" style="float:right;margin-top:15px;z-index:1200">
                     </div>
                 </div>
 	    		<a target="" href="group1.html">

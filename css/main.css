@@ -573,7 +573,7 @@ li.selected {
 /* 結果排序按鍵 */
 .sort_by_wrapper {
     width: 1000px;
-    height: 70px;
+    height: 75px;
     //margin: 10px 100px 10px 10px;
 }
 #sort_by_botton {
@@ -594,7 +594,7 @@ li.selected {
 }
 #sort_by_label {
     float: left;
-    line-height: 35px;
+    line-height: 36px;
     //padding-top: 13px;
     padding-left: 10px;
     font-size: 13px;

@@ -2,7 +2,7 @@
 #search_result_user {
 	width: 900px;
 	min-height: 751px;
-	margin-left: 78px;
+	margin-left: 68px;
 	//margin-right: auto;
 }
 #user_background {
@@ -83,7 +83,7 @@
     margin: 10px 0px 10px 20px;
 }
 #search_result_user .user {
-    margin: 10px 0px 10px 20px;
+    margin: 10px 0px 10px 30px;
 }
 .user-image {
 	width: 132px; 
