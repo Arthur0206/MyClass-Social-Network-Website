@@ -276,7 +276,7 @@ if (!isset($_SESSION)) {
                             <div id="sort_by_botton" style="margin-left: 38px">
                                 <span id="sort_by_label">排序:</span>
                                 <span id="sort_by_selected">地區</span>
-                                <img src="../Pics/triangle.png" height="8" style="float:right;margin-top:15px;z-index:1200">
+                                <img src="../Pics/triangle.png" height="8" style="margin-top:15px;z-index:1200">
                             </div>
                         </div>
 
