@@ -25,11 +25,11 @@ if (BYPASS_LOGIN) {
         <header id="masthead">
         <div id="menubar">
             <a id="logo" href="/MyClass/Home.php">
-                <img src="/MyClass/Pics/meetup.png" alt="MyClass" style="margin: 5px 15px 5px 15px;">
+                <img src="/MyClass/Pics/meetup.png" alt="MyClass" style="width: 70px; margin: 7px 15px 0px 15px;">
             </a>
             <ul class="menu_tabs">
-                <li id="group_tab">
-                <a href="/MyClass/Group/findGroup.php" style="width:105px;padding:11px 0px 8px 0px"> <!-- 特別設定width, padding -->
+                <li id="group_tab" class="menu_tab">
+                <a href="/MyClass/Group/findGroup.php"> <!-- 特別設定width, padding -->
                     <span class="menu_tab">
                         <span class="menu_big_chi">
                             群組
@@ -42,8 +42,8 @@ if (BYPASS_LOGIN) {
                 <!--<a href="/MyClass/Group/findGroup.php" class="menu_tabs_dropdown_link" id="find_group_link" style="width:99px;">找群組</a> 
                 <a href="/MyClass/Group/createGroup.php" class="menu_tabs_dropdown_link" id="create_group_link" style="width:99px">開新群組</a>-->
                 </li>
-                <li id="event_tab">
-                <a href="/MyClass/Event/findEvent.php" style="width:105px;padding:11px 0px 8px 0px"> <!-- 特別設定width, padding -->
+                <li id="event_tab" class="menu_tab">
+                <a href="/MyClass/Event/findEvent.php"> <!-- 特別設定width, padding -->
                     <span class="menu_tab">
                         <span class="menu_big_chi">
                             活動
@@ -56,7 +56,7 @@ if (BYPASS_LOGIN) {
                 <!--<a href="/MyClass/Event/findEvent.php" class="menu_tabs_dropdown_link" id="find_event_link" style="width:99px">找活動</a>
                 <a href="/MyClass/Event/createEvent.php" class="menu_tabs_dropdown_link" id="create_event_link" style="width:99px">開新活動</a>-->
                 </li>
-                <li id="user_tab" style="width:100px;">
+                <li id="user_tab" class="menu_tab">
                 <a href="/MyClass/User/findUser.php">
                     <span class="menu_tab">
                         <span class="menu_big_chi">
@@ -68,7 +68,7 @@ if (BYPASS_LOGIN) {
                     </span>
                 </a>
                 </li>
-                <li id="board_tab" style="width:100px;">
+                <li id="board_tab" class="menu_tab">
                 <a href="/MyClass/Board/findBoard.php">
                     <span class="menu_tab">
                         <span class="menu_big_chi">
