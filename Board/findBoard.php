@@ -117,7 +117,7 @@ if (!isset($_SESSION)) {
 		<!-- 紅色搜尋bar -->
 		<div id="search_list_wrapper">
 			<ul id="search_list">
-				<li class="search_bar_title">類別</li>
+				<li class="search_bar_title">類別:</li>
 				<li>
                     <div class="search_bar_dropdown_list_wrapper" style="width:116px">
 					    <div class="search_bar_dropdown_list_div">
@@ -136,19 +136,17 @@ if (!isset($_SESSION)) {
 			    </li>
 			    <div id="keyword_submit_button">收尋</div>
 			    <input type="text" name="fname" id="keyword_input" value="請輸入關鍵字">
-			    <li class="search_bar_title" id="keyword_title">關鍵字</li>
+			    <li class="search_bar_title" id="keyword_title">關鍵字:</li>
 		    </ul>
 	    </div>
 	<!-- End of 紅色搜尋bar -->
 	    <div id="search_result_wrapper">
 	    	<div id="search_result_board">
                 <div class="sort_by_wrapper">
-                    <div class="sort_by_block">
-                        <label for="sort_by" id="sort_by">排序:</label>
-                        <select name="sort_by" id="sort_by">
-					        <option value="0">即時人氣</option>
-					        <option value="1">類別</option>
-                        </select>
+                    <div id="sort_by_botton" style="margin-left: 40px">
+                        <span id="sort_by_label">排序:</span>
+                        <span id="sort_by_selected">即時人氣</span>
+                        <img src="../Pics/triangle.png" height="8" style="float:right;margin-top:14px;margin-right:0px;z-index:1200">
                     </div>
                 </div>
 	    		<a target="" href="group1.html">
