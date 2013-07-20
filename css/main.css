@@ -570,32 +570,14 @@ li.selected {
 }
 
 /* 結果排序按鍵 */
-#sort_list_wrapper {
-	margin-top: 10px;
-	height: 40px;
+.sort_by_wrapper {
+    width: 1000px;
+    height: 50px;
+    //margin: 10px 100px 10px 10px;
 }
-#sort_list {
-	display: inline;
+.sort_by_block {
+    float: right;
 }
-#sort_list li {
-	float: right;
-	font: 17px/17px;
-}
-#sort_bar_title {
-	margin-top: 6px;
-	color: #CC0000;
-}
-#sort_bar_dropdown_list {
-	margin-right: 10px;
-	margin-left: 10px;
-	padding: 6px 10px 5px 10px;
-	//border: 2px solid #D8D5D0;
-	box-shadow: 0px 0px 1px 1px #D8D5D0;
-	cursor: pointer;
-	border-radius: 5px;
-	background-color: #f5f5f5;
-}
-
 /* 搜尋結果內容 */
 #search_result_wrapper {
 	margin-left: 230px;

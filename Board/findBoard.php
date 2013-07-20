@@ -142,13 +142,15 @@ if (!isset($_SESSION)) {
 	<!-- End of 紅色搜尋bar -->
 	    <div id="search_result_wrapper">
 	    	<div id="search_result_board">
-	    		<div id="sort_list_wrapper">
-	    			<ul id="sort_list">
-	    				<li id="sort_bar_dropdown_list">人氣<li>
-	    				<li id="sort_bar_title">排序</li>
-                    </ul>
-	    		</div>
-
+                <div class="sort_by_wrapper">
+                    <div class="sort_by_block">
+                        <label for="sort_by" id="sort_by">排序:</label>
+                        <select name="sort_by" id="sort_by">
+					        <option value="0">即時人氣</option>
+					        <option value="1">類別</option>
+                        </select>
+                    </div>
+                </div>
 	    		<a target="" href="group1.html">
 	    			<div class="board_block card">
 	    				<img class="hot-board-pic card-image" src="../Pics/talk.jpg">
