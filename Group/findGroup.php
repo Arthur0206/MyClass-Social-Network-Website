@@ -197,7 +197,7 @@ if (!isset($_SESSION)) {
                 <!-- 紅色搜尋bar -->
                 <div id="search_list_wrapper">
                     <ul id="search_list">
-                        <li class="search_bar_title">群組類別</li>
+                        <li class="search_bar_title">群組類別:</li>
                         <li><div class="search_bar_dropdown_list_wrapper" style="width:105px">
 				<div class="search_bar_dropdown_list_div">
 					<ul id="group_class_list" style="width:105px;height:170px;padding:5px">
@@ -216,7 +216,7 @@ if (!isset($_SESSION)) {
 				<h8>不拘</h8><img src="../Pics/triangle.png" height="8" style="float:right;margin-top:4px;margin-right:1px;z-index:1200">
 			    </div>
 			</li>
-                        <li class="search_bar_title">群組性質</li>
+                        <li class="search_bar_title">群組性質:</li>
                         <li><div class="search_bar_dropdown_list_wrapper" style="width:116px">
 				<div class="search_bar_dropdown_list_div">
 					<ul id="group_type_list" style="width:116px;height:339px;padding:5px">
@@ -245,7 +245,7 @@ if (!isset($_SESSION)) {
 				<h8>不拘</h8><img src="../Pics/triangle.png" height="8" style="float:right;margin-top:4px;margin-right:1px">
 			    </div>
 			</li>
-                        <li class="search_bar_title">地區</li>
+                        <li class="search_bar_title">地區:</li>
                         <li><div class="search_bar_dropdown_list_wrapper" style="width:80px">
 				<div class="search_bar_dropdown_list_div">
 					<ul id="group_area_list" style="width:80px;height:322px;padding:5px">
@@ -275,17 +275,18 @@ if (!isset($_SESSION)) {
 			</li>
                         <div id="keyword_submit_button">收尋</div>
                         <input type="text" name="fname" id="keyword_input" value="請輸入關鍵字">
-                        <li class="search_bar_title" id="keyword_title">關鍵字</li>
+                        <li class="search_bar_title" id="keyword_title">關鍵字:</li>
                     </ul>
                 </div>
                 <!-- End of 紅色搜尋bar -->
                 <div id="search_result_wrapper">
                     <div id="search_result_group">
-                        <div id="sort_list_wrapper">
-                            <ul id="sort_list">
-                                <li id="sort_bar_dropdown_list">人氣<li>
-                                <li id="sort_bar_title">排序</li>
-                            </ul>
+                        <div class="sort_by_wrapper">
+                            <div id="sort_by_botton" style="margin-left: 30px">
+                                <span id="sort_by_label">排序:</span>
+                                <span id="sort_by_selected">地區</span>
+                                <img src="../Pics/triangle.png" height="8" style="float:right;margin-top:14px;margin-right:0px;z-index:1200">
+                            </div>
                         </div>
             			<div class="group_continer">
             				<div class="group card">

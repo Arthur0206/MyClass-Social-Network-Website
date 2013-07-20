@@ -2,9 +2,9 @@
 
 /* 討論版的小box */
 #search_result_board {
-	width: 1200px;
+	width: 900px;
 	min-height: 751px;
-	margin-left: 50px;
+	margin-left: 60px;
 	//margin-right: auto;
 }
 .board_block {
@@ -24,7 +24,7 @@
     margin: 5px;
 }
 #search_result_board .board_block {
-    margin: 10px;
+    margin: 10px 0px 10px 40px;
 }
 .board_title h1 {
 	padding-top: 4px;
