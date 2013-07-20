@@ -80,7 +80,7 @@ if (!isset($_SESSION)) {
         </script>
     </head>
     <body>
-	<div style="margin:auto;box-shadow: 0px 0px 2px 1px #D8D5D0;background:url('../Pics/background.png')">
+	<div style="margin:auto;box-shadow: 0px 0px 2px 1px #D8D5D0">
 	    <?php 
 	    /* include top menu bar */ 
 	    require_once('../menubar.php'); 
