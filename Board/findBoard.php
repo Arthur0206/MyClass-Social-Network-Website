@@ -131,7 +131,7 @@ if (!isset($_SESSION)) {
 					    		<li>地區類</li>
 					    	</ul>
 					    </div>
-					    <h8>不拘</h8><img src="../Pics/triangle.png" height="12" style="float:right;margin-top:2px;margin-right:1px;z-index:1200">
+					    <h8>不拘</h8><img src="../Pics/triangle.png" height="8" style="float:right;margin-top:4px;margin-right:1px;z-index:1200">
 				    </div>
 			    </li>
 			    <div id="keyword_submit_button">收尋</div>

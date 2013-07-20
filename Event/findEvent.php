@@ -215,7 +215,7 @@ if (!isset($_SESSION)) {
 						<li>學習＆研究</li>
 					</ul>
 				</div>
-				<h8>不拘</h8><img src="../Pics/triangle.png" height="12" style="float:right;margin-top:2px;margin-right:1px;z-index:1200">
+				<h8>不拘</h8><img src="../Pics/triangle.png" height="8" style="float:right;margin-top:4px;margin-right:1px;z-index:1200">
 			    </div>
 			</li>
                         <li class="search_bar_title">活動發起人</li>
@@ -233,7 +233,7 @@ if (!isset($_SESSION)) {
 						<li>非學校群組</li>
 					</ul>
 				</div>
-				<h8>不拘</h8><img src="../Pics/triangle.png" height="12" style="float:right;margin-top:2px;margin-right:1px">
+				<h8>不拘</h8><img src="../Pics/triangle.png" height="8" style="float:right;margin-top:4px;margin-right:1px">
 			    </div>
 			</li>
                         <li class="search_bar_title">地區</li>
@@ -261,7 +261,7 @@ if (!isset($_SESSION)) {
 						<li>南投縣</li>
 					</ul>
 				</div>
-				<h8>不拘</h8><img src="../Pics/triangle.png" height="12" style="float:right;margin-top:2px;margin-right:1px">
+				<h8>不拘</h8><img src="../Pics/triangle.png" height="8" style="float:right;margin-top:4px;margin-right:1px">
 			    </div>
 			</li>
                         <div id="keyword_submit_button">收尋</div>

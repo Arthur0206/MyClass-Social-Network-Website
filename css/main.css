@@ -553,17 +553,18 @@ li.selected {
     text-align: center;
     line-height: 28px;
     font-size: 16px;
-	margin: 6px 20px 0px 8px;
+	margin: 5px 20px 0px 8px;
     border-radius: 3px 3px 3px 3px;
 	//margin-top: 5px;
 	float: right;
 }
 #keyword_input {
-	margin: 7px 4px 0px 0px;
+	margin: 5px 4px 0px 0px;
+    font-size: 15px;
 	float: right;
 	border-radius: 4px;
-	height: 24px;
-	width: 100px;
+	height: 26px;
+	width: 150px;
 	padding-left: 5px;
 	color: #b6b6ae;
 	border: 1px solid #d0d5cb;
