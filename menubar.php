@@ -56,7 +56,7 @@ if (BYPASS_LOGIN) {
                 <!--<a href="/MyClass/Event/findEvent.php" class="menu_tabs_dropdown_link" id="find_event_link" style="width:99px">找活動</a>
                 <a href="/MyClass/Event/createEvent.php" class="menu_tabs_dropdown_link" id="create_event_link" style="width:99px">開新活動</a>-->
                 </li>
-                <li id="user_tab" class="menu_tab">
+                <li id="user_tab" class="menu_tab" style="width: 100px;">
                 <a href="/MyClass/User/findUser.php">
                     <span class="menu_tab">
                         <span class="menu_big_chi">
@@ -68,7 +68,7 @@ if (BYPASS_LOGIN) {
                     </span>
                 </a>
                 </li>
-                <li id="board_tab" class="menu_tab">
+                <li id="board_tab" class="menu_tab" style="width: 100px;">
                 <a href="/MyClass/Board/findBoard.php">
                     <span class="menu_tab">
                         <span class="menu_big_chi">
@@ -116,7 +116,7 @@ if (isset($_SESSION['username'])) {
 if (isset($_SESSION['username'])) {
 ?>
             <a id='user_img' href='/MyClass/User/userMain.php'>
-                <img <?php echo 'src="/MyClass/User/' . $_SESSION['username'] . '/head.jpg"' ?> alt='Arthur Chen' height="47" width="47">
+                <img <?php echo 'src="/MyClass/User/' . $_SESSION['username'] . '/head.jpg"' ?> alt='Arthur Chen' height="52" width="52">
             </a>
 <?php
 }
