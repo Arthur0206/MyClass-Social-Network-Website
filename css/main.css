@@ -274,7 +274,6 @@ li.selected {
 	margin-left: auto;
 	margin-right: auto;
 	//border: 1px solid #D8D5D5;
-	background-color: #f1f1f1; //#FFFFF2;
 	//background-color: #FFFFFF;	
 	height: 795px;
 	width: 1140px;
@@ -518,7 +517,7 @@ li.selected {
 	float: left;
 }
 .search_bar_title {
-	padding: 13px 5px 12px 10px;
+	padding: 12px 5px 12px 10px;
 	color: #5F5F5F;
 }
 .search_bar_dropdown_list_wrapper {
@@ -558,13 +557,13 @@ li.selected {
     text-align: center;
     line-height: 28px;
     font-size: 16px;
-	margin: 5px 20px 0px 8px;
+	margin: 6px 20px 0px 8px;
     border-radius: 3px 3px 3px 3px;
 	//margin-top: 5px;
 	float: right;
 }
 #keyword_input {
-	margin: 5px 4px 0px 0px;
+	margin: 6px 4px 0px 0px;
     font-size: 15px;
 	float: right;
 	border-radius: 4px;

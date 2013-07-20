@@ -25,7 +25,7 @@ if (BYPASS_LOGIN) {
         <header id="masthead">
         <div id="menubar">
             <a id="logo" href="/MyClass/Home.php">
-                <img src="/MyClass/Pics/meetup.png" alt="MyClass" style="width: 70px; margin: 7px 15px 0px 15px;">
+                <img src="/MyClass/Pics/meetup.png" alt="MyClass" style="width: 70px; margin: 6px 15px 0px 15px;">
             </a>
             <ul class="menu_tabs">
                 <li id="group_tab" class="menu_tab">
