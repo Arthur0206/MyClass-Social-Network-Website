@@ -37,3 +37,7 @@ To Do List
 * set menubar to fixed position. (like facebook)
 * auto scroll to focus on second bar when entering user main page.
 * fix jQuery issue on linux when swithcing between user tabs. 
+* [Important]
+在event, group, board頁面中也要有side bar. 這個side bar在search頁面也有. 點到sidebar其中一個item就會進到那個頁面.   在search result頁面中選到一個card的話,左邊的sidebar會打開這個card的最後一層並highlight這個item. 這個功能很有用,當使用者正在某個event的頁面中,或是選到某個event的card時,sidebar秀出相關(附近)的event.例如：當使用者在看輔大日文系的頁面時,左邊sidebar還會秀出輔大外文,輔大電機,輔大經濟,等等.
+* menubar上要加一些非常重要的東西:  你受邀的group/event, 你未看的訊息, 朋友邀請/關注/確認.
+* 動態牆改名. post 新動態改成google plus 的style, 使用者比較容易分享. 可以打文字, 貼照片, 分享link(會顯示出頁面的圖片), 貼影片(用Yoututbe). 看別人的動態強就像看blog一樣, 只有那個人的貼文, 和回應. 看自己的牆則有所有朋友的貼文和自己的貼文. 首頁也要有一個block放幾個動態牆上的內容.（當某人貼動態時, update此人所有有關聯的用戶的'動態貼文linked list', 這樣就不用每次開動態強頁面就搜尋排序所有關聯用戶的新動態.） 
