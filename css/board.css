@@ -8,6 +8,7 @@
 	//margin-right: auto;
 }
 .board_block {
+    border-radius: 3px;
 	float: left;
 	width: 318px; //250px;
 	height: 123px;
@@ -31,6 +32,7 @@
 	padding-bottom: 7px; 
 }
 .hot-board-pic {
+    border-radius: 3px;
 	float: left;
 	border: 1px solid #C1C1C1;
 	height: 121px;

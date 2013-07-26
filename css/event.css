@@ -59,6 +59,7 @@
 
 /* 活動小box */
 .event_block {
+    border-radius: 3px;
 	float: left;
 	width: 385px;//250px;
 	height: 132px;
@@ -87,6 +88,7 @@
 	float: left;
 }
 .event-pic {
+    border-radius: 3px;
 	height: 130px;
 	width: 120px;
 	border: 1px solid #C1C1C1;

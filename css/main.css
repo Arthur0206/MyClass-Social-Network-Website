@@ -1,4 +1,68 @@
 @charset "utf-8";
+/* Home */
+#circle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px; 
+}
+#HomeAd {
+    border: 1px solid #D8D5D5;
+    overflow: hidden;
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+}
+#HomeAd_pic {
+    width: 1000px;
+    height: 400px;
+}
+#home_content_wrapper {
+    margin: auto;
+    width: 1000px;
+    height: 1000px;
+}
+.recommend_wrapper {
+    display: inline-block;
+}
+.recommend_block .user {
+    margin: 6px 0px 0px 6px;
+}
+.recommend_block .event_block {
+    margin: 20px 0px 0px 6px;
+}
+.recommend_block .group {
+    margin: 6px 0px 0px 6px;
+}
+#recommend_wrapper_1 {
+    margin-right: 10px;
+}
+#recommend_wrapper_2 {
+    float: right;
+}
+.recommend_block {
+    border: 1px solid #D8D5D5;
+    border-radius: 3px;
+    background-color: #F2F1F1;
+}
+#recommend_block_1 {
+    width: 305px;
+    height: 545px;
+}
+#recommend_block_2 {
+    width: 675px;
+    height: 825px;
+}
+.recommend_title_block {
+    font-size: 20px;
+    height: 50px;
+    padding-left: 10px;
+}
+.recommend_title {
+    font-weight: bold;
+    line-height: 50px;
+}
 /* Body */
 body {
 	background-color: #f4f4f4; //#f1f1f1; //#FFFFF2; //#fcf9f2;
@@ -254,227 +318,6 @@ li.selected {
 	//color: #527fc2; //#037586; //#e5737d; /* #B60000; */
 }
 
-/* Home Advertisement*/
-#homeAd {
-	background-color: #BA3239;//#037586; //#ae2a26; //#037586; //#C11919; /*#B80000;*/
-	height: 0px;//240px;
-	margin-bottom: 1em;
-	//box-shadow: 2px 2px 2px 2px #888888;
-}
-
-#homeAd div {
-    display: none;
-}
-
-/* Home Content */
-#home_container {
-	border-radius: 5px 5px 5px 5px;
-	margin-bottom: 2em;
-	margin-top: 0;
-	margin-left: auto;
-	margin-right: auto;
-	//border: 1px solid #D8D5D5;
-	//background-color: #FFFFFF;	
-	height: 795px;
-	width: 1140px;
-	padding: 0;
-}
-
-/* Fire Icon & 人氣Title */
-.hot-title-div {
-	font-size: 125%;
-}
-#hot-title-span-1 {
-	margin: 10px 0px 0px 25px;
-}
-#hot-title-span-2 {
-	margin: 10px 0px 0px 463px;
-}
-#hot-title-span-3 {
-	margin: 10px 0px 0px 25px;
-}
-#hot-title-span-4 {
-	margin: 10px 0px 0px 388px;
-}
-.fire-pic {
-	margin: 8px 5px 0px 0px;
-}
-
-/* 四大熱門公告外框 */
-.hot-block {
-	float: left;
-	border-radius: 5px 5px 5px 5px;
-	margin: 20px;
-	padding: 3px;
-	width: 524px;                  /* 設定width只是設定到content的width, padding/margin/border會另外加寬此element看起來的寬度 */
-	height: 312px;
-//	border: 1px solid #D8D5D5;
-	//background-color: #eef2e0;
-//	box-shadow: 1px 1px 1px 1px #888888;
-}
-
-/* 人氣用戶 */
-.hot-user {
-	float: left;
-	width: 117px;
-	height: 142px;
-	padding: 5px;
-	margin: 1px;
-	border-radius: 5px 5px 5px 5px;
-	background-color: #FFFFFF;
-	border: 1px solid #D8D5D0;
-	font-size: 85%;
-	overflow: hidden;
-}
-.hot-user a {
-	text-align: center;
-	display: block;
-}
-.focused-block {
-	background-color: #000000;
-}
-.hot-user .girl-user-link, .hot-user .group-link, .hot-user .boy-user-link {
-	margin-top: 1px; 
-}
-
-/* 熱門討論版＆文章 */
-.hot-board {
-	float: left;
-	width: 258px;               /* 兩個hot-article div, 所以 2*(width + 2 padding + 2 border + 2 margin) = hot-block的content width, 524 */
-	height: 152px;              /* 三個hot-article div, 所以 3*(height + 2 padding + 2 border + 2 margin) = hot-block的content height, 312 */
-	//padding: 0px;
-	margin: 1px;
-	border-radius: 5px 5px 5px 5px;
-	background-color: #FFFFFF;
-	border: 1px solid #D8D5D0;
-	overflow: hidden;
-}
-.hot-board h1 {
-	font-weight: normal;
-	font-size: 120%;
-	padding: 4px 1px 4px 1px;
-	margin: 0;
-	text-align: center;
-}
-.hot-article-words {
-	font-size: 95%;
-	padding: 4px 4px 3px 4px;
-	overflow: hidden;
-	border-bottom: 1px solid #DDDDDD; //#D8D5D0;
-	height: 33px;
-}
-.hot-article-title {
-	color: #333333;
-	min-width: 250px;
-//	font-weight: bold;
-}
-.hot-article-good {
-	color: #BA3239;
-}
-.hot-article-bad {
-	color: #61A120;
-}
-.hot-article-info {
-	padding-top: 3px;
-	float: right;
-	font-size: 85%;
-}
-
-/* 熱門群組 */
-.hot-group {
-	float: left;
-	width: 160px;
-	height: 142px;
-	padding: 5px;
-	margin: 1px 0px 1px 2px;
-	border-radius: 5px 5px 5px 5px;
-	background-color: #FFFFFF;
-	border: 1px solid #D8D5D0;
-	overflow: hidden;
-}
-.hot-group div {
-	height: 26px;
-}
-.hot-group h1 {
-	font-size: 95%;
-	padding: 6px 0 3px 0;
-	margin: 0;
-	color: #333333;
-	width: 159px;
-	text-align: center;
-}
-.hot-group h1.long_title {
-	text-align: left;
-}
-.hot-group-count {
-	float: right;
-	padding-right: 3px;
-	color:  #0066CC; //#61A120;
-	font-size: 80%;
-}
-
-/* 熱門活動 */
-.hot-event {
-	float: left;
-	width: 510px;               /* 兩個hot-article div, 所以 2*(width + 2 padding + 2 border + 2 margin) = hot-block的content width, 524 */
-	height: 90px;              /* 三個hot-article div, 所以 3*(height + 2 padding + 2 border + 2 margin) = hot-block的content height, 312 */
-	padding: 5px;
-	margin: 1px;
-	border-radius: 5px 5px 5px 5px;
-	background-color: #FFFFFF;
-	border: 1px solid #D8D5D0;
-	overflow: hidden;
-}
-.hot-event-type {
-	border-radius: 2px 2px 2px 2px;
-	color: #FFFFFF;
-	float: right;
-	font-size: 12px;
-	//text-align: center;
-	padding: 3px 5px 3px 5px;//5px 7px 5px 7px;
-}
-.hot-event-pic {
-	height: 130px;
-	width: 120px;
-	border: 1px solid #C1C1C1;
-	float: left;
-	margin: 0px 5px 0px 0px; 
-}
-.hot-event-words {
-	//display: inline;
-	width: 320px;
-	height: 60px;
-	overflow: hidden;
-
-	float: left;
-}
-.hot-event-info {
-	font-size: 90%;
-	float: left;
-}
-.hot-event h1 {
-	display: inline;
-	font-size: 100%;
-	padding: 0;
-	margin: 0;
-	color: #333333;
-}
-.hot-event p {
-	font-size: 85%;
-	padding: 0;
-	margin: 5px 0px 0px 0px;
-	color: #333333;
-}
-.hot-event-count {
-	float: right; 
-	line-height: 50px;
-	font-size: 80%;
-	color: #0066CC;
-}
-.hot-block h1:hover {
-	color: #CC0000;
-}
-
 /* 找群組, 找活動 */
 #container_frame {
 	border-top: 1px solid #D8D5D0;
@@ -513,12 +356,13 @@ li.selected {
 	display: inline;
 }
 #search_list li{
-	font: 17px/17px bold;
+	font: 15px bold;
 	float: left;
 }
 .search_bar_title {
 	padding: 13px 5px 12px 10px;
 	color: #5F5F5F;
+    font-size: 14px;
 }
 .search_bar_dropdown_list_wrapper {
 	margin: 7px 0px 5px 0px;
@@ -556,7 +400,7 @@ li.selected {
     height: 28px;
     text-align: center;
     line-height: 28px;
-    font-size: 16px;
+    //font-size: 16px;
 	margin: 6px 20px 0px 8px;
     border-radius: 3px 3px 3px 3px;
 	//margin-top: 5px;
@@ -612,18 +456,6 @@ li.selected {
 	margin-left: 230px;
 	min-height: 751px;
 }
-//#search_result_wrapper.no-side-bar {	/* 左邊沒有area side bar的頁面, search result wrapper的margin設成0 */
-//	margin: 0;
-//}
-//#search_result_div {
-//	width: 1000px;
-//	min-height: 751px;
-//	margin-left: 60px;
-//	//margin-right: auto;
-//}
-//#search_result_div.no-side-bar {	/* 左邊沒有area side bar的頁面, search result div的寬度加大 */
-//	width: 1020px;
-//}
 
 /* Second Bar */
 #second_bar {

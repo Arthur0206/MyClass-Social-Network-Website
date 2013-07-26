@@ -71,6 +71,7 @@
 	margin: auto;
 }
 .user {
+    border-radius: 3px;
 	background-color: #FFFFFF;
 	width: 140px;
 	height: 171px;
@@ -86,6 +87,7 @@
     margin: 10px 0px 10px 30px;
 }
 .user-image {
+    border-radius: 3px;
 	width: 132px; 
 	height: 111px; 
 	display: block;
