@@ -42,6 +42,11 @@ if (!isset($_SESSION)) {
         	    /* include recommend block 1 */ 
         	    require_once('./recommend_wrapper_1.php'); 
         	?>
+        	<?php 
+        	    /* include recommend block 4 */ 
+        	    require_once('./recommend_wrapper_4.php'); 
+        	?>
+        </div>
         <div id="home_content_right">
         	<?php 
         	    /* include recommend block 2 */ 
