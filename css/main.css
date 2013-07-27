@@ -102,7 +102,50 @@
     font-weight: bold;
     line-height: 70px;
 }
-
+.board_with_article {
+	//float: left;
+	width: 288px;             
+	//height: 180px;           
+	//padding: 0px;
+	border-radius: 3px;
+	background-color: #FFFFFF;
+	border: 1px solid #D8D5D0;
+	overflow: hidden;
+    margin: 6px 6px 0px 6px;
+}
+.board_with_article h1 {
+	font-weight: normal;
+	font-size: 120%;
+	padding: 4px 1px 4px 1px;
+	margin: 0;
+	text-align: center;
+}
+.recommend_article {
+	font-size: 95%;
+	padding: 4px 4px 3px 4px;
+	overflow: hidden;
+	border-top: 1px solid #DDDDDD; //#D8D5D0;
+	height: 36px;
+}
+.recommend_article_title {
+	color: #333333;
+	min-width: 250px;
+}
+.article_push {
+	color: #BA3239;
+}
+.article_boo {
+	color: #61A120;
+}
+.recommend_article_info {
+	padding-top: 3px;
+	float: right;
+	font-size: 85%;
+}
+.recommend_board_title {
+    color: #FFFFFF;
+    line-height: 30px;
+}
 /* Body */
 body {
 	background-color: #f4f4f4; //#f1f1f1; //#FFFFF2; //#fcf9f2;
