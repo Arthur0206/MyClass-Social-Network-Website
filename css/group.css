@@ -1,4 +1,7 @@
 /* 群組頁面 */
+.last_in_recommend_block {
+    margin-bottom: 6px;
+}
 #search_result_group {
 	width: 1000px;
 	min-height: 751px;
