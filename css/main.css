@@ -87,7 +87,7 @@
     overflow: hidden;
     border: 1px solid #D8D5D5;
     border-radius: 3px;
-    background-color: #F6F6F6;//#F7F7F7;
+    background-color: #F7F7F7;
 }
 .recommend_title_block {
     font-size: 20px;
@@ -125,7 +125,7 @@
 	padding: 4px 4px 3px 4px;
 	overflow: hidden;
 	border-top: 1px solid #DDDDDD; //#D8D5D0;
-	height: 36px;
+	height: 37px;
 }
 .recommend_article_title {
 	color: #333333;
@@ -138,9 +138,11 @@
 	color: #61A120;
 }
 .recommend_article_info {
-	padding-top: 3px;
+	//padding-top: 3px;
 	float: right;
 	font-size: 85%;
+    position: relative;
+    top: 6px;
 }
 .recommend_board_title {
     color: #FFFFFF;
