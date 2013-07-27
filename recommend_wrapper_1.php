@@ -1,6 +1,6 @@
     <div class="recommend_wrapper" id="recommend_wrapper_1">
         <div class="recommend_title_block">
-            <img src="./Pics/like.png" height=18px> 
+            <img class="recommend_icon" src="./Pics/like.png" height=18px> 
             <span class="recommend_title"> 
                 推薦您認識的朋友 
             </span>

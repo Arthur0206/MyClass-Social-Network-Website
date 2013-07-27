@@ -1,6 +1,6 @@
 <div class="recommend_wrapper" id="recommend_wrapper_2">
     <div class="recommend_title_block">
-        <img src="./Pics/like.png" height=18px> 
+        <img class="recommend_icon" src="./Pics/like.png" height=18px> 
         <span class="recommend_title"> 
             您希望舉辦這個聯誼嗎? 
         </span>
@@ -38,7 +38,7 @@
 	        	</a>
 	        </div>
             <div class="vs">
-                vs
+                VS
             </div>
 	        <div class="group card">
 	        	<a class="group-image-link" href="groupPage.php">
@@ -119,7 +119,7 @@
 	    	</div>
         
             <div class="vs">
-                vs
+                VS
             </div>
 	    	<div class="group card">
 	    		<a class="group-image-link" href="groupPage.php">

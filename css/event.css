@@ -82,7 +82,7 @@
 .event_title {
 	margin-bottom: 2px;
 	//display: inline;
-	max-width: 257px;
+	width: 257px;
 	height: 62px;
 	overflow: hidden;
 	float: left;
