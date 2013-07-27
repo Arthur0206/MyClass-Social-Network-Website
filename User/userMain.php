@@ -37,6 +37,7 @@ if (!isset($_SESSION)) {
 	<!--<script src="../_js/jquery.easing.1.3.js"></script> 先disable, 省去不必須的下載-->
 	<script src="../fancybox/jquery.fancybox-1.3.4.min.js"></script>
         <script>
+
             $(document).ready(function() {
                			// Process Menu Bar
 				processMenuBar();
@@ -77,6 +78,7 @@ if (!isset($_SESSION)) {
 					cyclic: true
 				});
             }); // ready
+
         </script>
     </head>
     <body>
@@ -164,7 +166,7 @@ if (!isset($_SESSION)) {
 	        require_once('groupPanel.php'); 
 	        require_once('eventPanel.php'); 
 	        require_once('articlePanel.php'); 
-	        require_once('boardPanel.php'); 
+	        require_once('boardPanel.php');
 	    ?> 
 	    </div>
     </div>

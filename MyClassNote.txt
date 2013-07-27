@@ -10,6 +10,10 @@
 
 To Do List
 =================================================================================================================================================
+* 所有block的pin, operation, like buttons都刪掉, 只有status狀態顯示在最右下角, mouseover時在從block上顯示出像是pinterest的button: pin, operarte, like.
+* User block 裡, 把"台北市"塞在左下角, "18女"塞在左上角, 中間那一行改成放學校資訊: 政治大學經濟系
+* 所有block的圖片外面的白框, 可能要消掉, 學pinterest style
+
 * userMain.php頁面中, 按到螢幕任何地方, 只要不是button, textarea... 就把開起來的東西關掉 ex. private_list, textarea, ...
 * userMain.php頁面中的button, 在firefox上還是紅色, 要改掉. 也許要改成新的button class.
 * userMain.php頁面中, 新增或修改moment post時, 要加上一個可添加照片的按鍵, 並且可以刪除之前的照片.
