@@ -43,9 +43,6 @@
     width: 1000px;
     height: 1000px;
 }
-.recommend_wrapper {
-    display: inline-block;
-}
 .recommend_block .user {
     margin-right: 6px;
 }
@@ -54,12 +51,6 @@
 }
 .recommend_block .group {
 //    margin: 6px 0px 0px 6px;
-}
-#recommend_wrapper_1 {
-    margin-right: 10px;
-}
-#recommend_wrapper_2 {
-    float: right;
 }
 .recommend_block {    
     overflow: hidden;
