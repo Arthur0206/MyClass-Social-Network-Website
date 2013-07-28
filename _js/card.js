@@ -34,14 +34,13 @@ function processCard() {
 		}
 	); //end hover
 
-	$('.like').hover(
+	$('.board_with_article').hover(
 		function() {
-			$(this).find('.like-icon').attr('src', '../Pics/icon_like_red.png');
-			$(this).find('.like-count').css('color', 'red');
+			color = $(this).find('.recommend_board_title').css('background-color');
+			$(this).css('border-color', color);
 		},
 		function() {
-			$(this).find('.like-icon').attr('src', '../Pics/icon_like.png');
-			$(this).find('.like-count').css('color', '#888888');
+			$(this).css('border-color', '#D8D5D0');
 		}
 	); //end hover
 }
