@@ -72,16 +72,16 @@
 	        	</a>
 	        </div>
             <div class="ask_block">
-                <div style=" margin-top: 0px; line-height: 30px;font-size: 17px; background: linear-gradient(#FFFFFF, #E4E4E4) repeat scroll 0 0 #FFFFFF; color: #000000; border-radius: 3px;border: 1px solid #CCCCCC; width: 187px; padding: 10px; height: 88px;"> 
+                <div class="question"> 
                     如果這兩個群組舉辦聯誼, 您會想參加嗎?
                 </div>
-                <div style=" margin-top: 6px; line-height: 19px;font-size: 17px; background-image: linear-gradient(#E3262E, #AB171E); color: #FFFFFF; border-radius: 3px;border: 1px solid #990A0F; width: 187px; padding: 10px; text-align: center; cursor: pointer;"> 
+                <div class="answer red_answer"> 
                     想參加
                 </div>
-                <div style=" margin-top: 6px; line-height: 19px;font-size: 17px; background: linear-gradient(#FFFFFF, #E4E4E4) repeat scroll 0 0 #FFFFFF; color: #000000; border-radius: 3px;border: 1px solid #CCCCCC; width: 187px; padding: 10px; text-align: center; cursor: pointer;"> 
+                <div class="answer">
                     不想參加
                 </div>
-                <div style=" margin-top: 6px; line-height: 19px;font-size: 17px; background: linear-gradient(#FFFFFF, #E4E4E4) repeat scroll 0 0 #FFFFFF; color: #000000; border-radius: 3px;border: 1px solid #CCCCCC; width: 187px; padding: 10px; text-align: center; cursor: pointer;"> 
+                <div class="answer">
                     不確定
                 </div>
             </div>
@@ -152,16 +152,16 @@
 	    		</a>
 	    	</div>
             <div class="ask_block">
-                <div style=" margin-top: 0px; line-height: 30px;font-size: 17px; background: linear-gradient(#FFFFFF, #E4E4E4) repeat scroll 0 0 #FFFFFF; color: #000000; border-radius: 3px;border: 1px solid #CCCCCC; width: 187px; padding: 10px; height: 88px;"> 
+                <div class="question"> 
                     您希望 Laker's Fans 和 東海大學吉他社 聯誼嗎?
                 </div>
-                <div style=" margin-top: 6px; line-height: 19px;font-size: 17px; background-image: linear-gradient(#E3262E, #AB171E); color: #FFFFFF; border-radius: 3px;border: 1px solid #990A0F; width: 187px; padding: 10px; text-align: center; cursor: pointer;"> 
+                <div class="answer red_answer"> 
                     想參加
                 </div>
-                <div style=" margin-top: 6px; line-height: 19px;font-size: 17px; background: linear-gradient(#FFFFFF, #E4E4E4) repeat scroll 0 0 #FFFFFF; color: #000000; border-radius: 3px;border: 1px solid #CCCCCC; width: 187px; padding: 10px; text-align: center; cursor: pointer;"> 
+                <div class="answer">
                     不想參加
                 </div>
-                <div style=" margin-top: 6px; line-height: 19px;font-size: 17px; background: linear-gradient(#FFFFFF, #E4E4E4) repeat scroll 0 0 #FFFFFF; color: #000000; border-radius: 3px;border: 1px solid #CCCCCC; width: 187px; padding: 10px; text-align: center; cursor: pointer;"> 
+                <div class="answer">
                     不確定
                 </div>
             </div>
