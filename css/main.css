@@ -8,6 +8,12 @@
     float: right;
     overflow: hidden;
 }
+.blank {
+    float: left; 
+    padding-left: 9px; 
+    padding-right: 10px; 
+    min-width: 10px;
+}
 .vs {
     color: #666666;
     float: left; 
@@ -20,13 +26,44 @@
     color: #666666;
     float: left; 
     line-height: 170px; 
-    padding-left: 11px; 
-    padding-right: 16px; 
+    padding-left: 4px; 
+    padding-right: 9px; 
     font-size: 18px;
 }
 .ask_block {
     margin-left: 8px;
     float: right;
+}
+.question {
+    overflow: hidden;
+    margin-top: 0px; 
+    line-height: 24px;
+    font-size: 17px; 
+    background: linear-gradient(#FFFFFF, #E4E4E4) repeat scroll 0 0 #FFFFFF; 
+    color: #000000; 
+    border-radius: 3px;
+    border: 1px solid #CCCCCC; 
+    width: 170px; 
+    padding: 10px; 
+    height: 88px;
+}
+.answer {
+    margin-top: 6px; 
+    line-height: 19px;
+    font-size: 17px; 
+    background: linear-gradient(#FFFFFF, #E4E4E4) repeat scroll 0 0 #FFFFFF; 
+    color: #000000; 
+    border-radius: 3px;
+    border: 1px solid #CCCCCC; 
+    width: 170px; 
+    padding: 10px; 
+    text-align: center; 
+    cursor: pointer;
+}
+.red_answer {
+    background-image: linear-gradient(#E3262E, #AB171E); 
+    color: #FFFFFF; 
+    border: 1px solid #990A0F; 
 }
 .two_user_block {
     overflow: hidden;
@@ -39,6 +76,16 @@
 .friend_event {
     overflow: hidden;
     margin: 6px 6px 0px 6px;
+}
+.three_groups {
+    overflow: hidden;
+    margin: 6px 6px 0px 6px;
+}
+.three_groups .group {
+    //margin: 6px 0px 0px 6px;
+}
+.middle_group {
+    margin: 0px 20px 0px 20px;
 }
 #HomeAd {
     border: 1px solid #D8D5D5;
@@ -80,14 +127,12 @@
 .recommend_block .event_block p {
     font-size: 13px;
 }
-.recommend_block .group {
-//    margin: 6px 0px 0px 6px;
-}
-.recommend_block {    
+.recommend_block {   
+    background: url("../Pics/background_img_2.jpg") repeat scroll; 
     overflow: hidden;
     border: 1px solid #D8D5D5;
     border-radius: 3px;
-    background-color: #F7F7F7;
+    //background-color: #F7F7F7;
 }
 .recommend_title_block {
     font-size: 20px;
@@ -121,6 +166,7 @@
 	text-align: center;
 }
 .recommend_article {
+    cursor: pointer;
 	font-size: 95%;
 	padding: 4px 4px 3px 4px;
 	overflow: hidden;
