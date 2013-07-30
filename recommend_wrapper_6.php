@@ -47,11 +47,11 @@
                 <div class="answer red_answer" style="margin-top: 1px;"> 
                     報名參加
                 </div>
-                <div class="answer">
-                    收尋其他看電影活動
+                <div class="answer" style="font-size: 16px;">
+                    收尋其他「看電影」活動
                 </div>
-                <div class="answer">
-                    自己建立看電影活動
+                <div class="answer" style="font-size: 16px;">
+                    自己建立「看電影」活動
                 </div>
             </div>
         </div>
@@ -94,11 +94,11 @@
                 <div class="answer red_answer" style="margin-top: 1px;"> 
                     報名參加
                 </div>
-                <div class="answer">
-                    收尋其他唱歌活動
+                <div class="answer" style="font-size: 16px;">
+                    收尋其他「唱歌」活動
                 </div>
-                <div class="answer">
-                    自己建立唱歌活動
+                <div class="answer" style="font-size: 16px;">
+                    自己建立「唱歌」活動
                 </div>
             </div>
         </div>
