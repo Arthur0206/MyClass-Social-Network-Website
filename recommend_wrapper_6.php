@@ -48,10 +48,10 @@
                     報名參加
                 </div>
                 <div class="answer">
-                    找其他看電影活動
+                    收尋其他看電影活動
                 </div>
                 <div class="answer">
-                    我來創一個看電影活動
+                    自己建立看電影活動
                 </div>
             </div>
         </div>
@@ -95,10 +95,10 @@
                     報名參加
                 </div>
                 <div class="answer">
-                    找其他看唱歌活動
+                    收尋其他唱歌活動
                 </div>
                 <div class="answer">
-                    我來創一個唱歌活動
+                    自己建立唱歌活動
                 </div>
             </div>
         </div>

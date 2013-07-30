@@ -55,7 +55,7 @@
     width: 175px;    
 }
 .event_choose .answer {
-    font-size: 16px;
+    //font-size: 16px;
     line-height: 31px; 
     width: 185px;      
 }
@@ -74,6 +74,7 @@
 }
 .red_answer {
     background-image: linear-gradient(#E3262E, #AB171E); 
+    //background-image: linear-gradient(#E5737D, #AB171E); 
     color: #FFFFFF; 
     border: 1px solid #990A0F; 
 }
@@ -120,9 +121,11 @@
     height: 400px;
 }
 #home_content_wrapper {
+    overflow: hidden;
     margin: auto;
+    margin-bottom: 50px;
     width: 1000px;
-    height: 1000px;
+    //height: 1000px;
 }
 .recommend_block .user {
     margin-right: 6px;

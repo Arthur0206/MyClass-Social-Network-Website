@@ -58,11 +58,11 @@ if (!isset($_SESSION)) {
         	?>
         	<?php 
         	    /* include recommend block 5 */ 
-        	    require_once('./recommend_wrapper_3.php'); 
+        	    require_once('./recommend_wrapper_6.php'); 
         	?>
         	<?php 
         	    /* include recommend block 5 */ 
-        	    require_once('./recommend_wrapper_6.php'); 
+        	    require_once('./recommend_wrapper_3.php'); 
         	?>
         </div>
     </div>
