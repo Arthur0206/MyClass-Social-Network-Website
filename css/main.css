@@ -156,9 +156,9 @@
     font-size: 13px;
 }
 .recommend_block {   
-    background: url("../Pics/background_img.jpg") repeat scroll; 
+    //background: url("../Pics/background_img.jpg") repeat scroll; 
     overflow: hidden;
-    border: 1px solid #D8D5D5;
+    //border: 1px solid #D8D5D5;
     border-radius: 3px;
     //background-color: #F7F7F7;
 }
