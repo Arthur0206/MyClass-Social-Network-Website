@@ -60,6 +60,10 @@ if (!isset($_SESSION)) {
         	    /* include recommend block 5 */ 
         	    require_once('./recommend_wrapper_3.php'); 
         	?>
+        	<?php 
+        	    /* include recommend block 5 */ 
+        	    require_once('./recommend_wrapper_6.php'); 
+        	?>
         </div>
     </div>
 </body>

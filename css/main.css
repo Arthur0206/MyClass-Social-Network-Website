@@ -31,31 +31,43 @@
     font-size: 18px;
 }
 .ask_block {
-    margin-left: 8px;
+    margin-left: 6px;
     float: right;
 }
 .question {
     overflow: hidden;
-    margin-top: 0px; 
     line-height: 24px;
     font-size: 17px; 
     background: linear-gradient(#FFFFFF, #E4E4E4) repeat scroll 0 0 #FFFFFF; 
     color: #000000; 
     border-radius: 3px;
     border: 1px solid #CCCCCC; 
-    width: 170px; 
+    width: 175px; 
     padding: 10px; 
     height: 88px;
 }
+.event_choose {
+    margin-left: 8px;
+    float: right;
+}
+.ask_block .answer {
+    line-height: 19px; 
+    width: 175px;    
+}
+.event_choose .answer {
+    font-size: 16px;
+    line-height: 31px; 
+    width: 185px;      
+}
 .answer {
     margin-top: 6px; 
-    line-height: 19px;
+    //line-height: 19px;
     font-size: 17px; 
     background: linear-gradient(#FFFFFF, #E4E4E4) repeat scroll 0 0 #FFFFFF; 
     color: #000000; 
     border-radius: 3px;
     border: 1px solid #CCCCCC; 
-    width: 170px; 
+    //width: 170px; 
     padding: 10px; 
     text-align: center; 
     cursor: pointer;
@@ -64,6 +76,11 @@
     background-image: linear-gradient(#E3262E, #AB171E); 
     color: #FFFFFF; 
     border: 1px solid #990A0F; 
+}
+.blue_answer {
+    background-image: linear-gradient(#336699, #003366); 
+    color: #FFFFFF; 
+    border: 1px solid #0F0A99;
 }
 .two_user_block {
     overflow: hidden;
@@ -78,6 +95,10 @@
     margin: 6px 6px 0px 6px;
 }
 .three_groups {
+    overflow: hidden;
+    margin: 6px 6px 0px 6px;
+}
+.recommend_event {
     overflow: hidden;
     margin: 6px 6px 0px 6px;
 }
@@ -110,6 +131,10 @@
     height: 165px;
     width: 425px;
 }
+.recommend_block .event_block {
+    height: 165px;
+    width: 425px;
+}
 .recommend_block .event-pic {
     height: 162px;
     width: 150px;
@@ -128,9 +153,9 @@
     font-size: 13px;
 }
 .recommend_block {   
-    //background: url("../Pics/background_img.jpg") repeat scroll; 
+    background: url("../Pics/background_img.jpg") repeat scroll; 
     overflow: hidden;
-    //border: 1px solid #D8D5D5;
+    border: 1px solid #D8D5D5;
     border-radius: 3px;
     //background-color: #F7F7F7;
 }
