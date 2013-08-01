@@ -1,5 +1,5 @@
 <div id="album_panel" class="panel">
-	<div class="setting_panel">
+	<div class="control_panel">
 		<span id="add_new_moment_button" class="add_search_button unselectable">＋新增相簿</span>
 	</div>
 	<div class="albums_continer">

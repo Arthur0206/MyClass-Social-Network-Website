@@ -1,5 +1,5 @@
 		<div id="group_panel" class="panel">		
-            <div style="height: 50px;">
+	        <div class="control_panel">
             </div>
 
 			<div class="group card">

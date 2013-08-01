@@ -18,9 +18,9 @@ if (!isset($_SESSION)) {
         <link href="../css/about.css" type="text/css" rel="stylesheet">
         <link href="../css/album.css" type="text/css" rel="stylesheet">
         <link href="../css/group.css" type="text/css" rel="stylesheet">
-        <link href="../css/board.css" type="text/css" rel="stylesheet">
         <link href="../css/event.css" type="text/css" rel="stylesheet">
         <link href="../css/wall.css" type="text/css" rel="stylesheet">
+        <link href="../css/settin.css" type="text/css" rel="stylesheet">
         <!--<link href="../css/article.css" type="text/css" rel="stylesheet">-->
 	<link href="../fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script> 
@@ -153,8 +153,10 @@ if (!isset($_SESSION)) {
 	    		<li><a href="#group_panel"><img src="../Pics/pen-2.png" width=30px>群組</a></li>
 	    		<li><a href="#event_panel"><img src="../Pics/calendar-icon.png" width=30px>活動</a></li>
 	    		<li><a href="#article_panel"><img src="../Pics/checklist-2.png" width=30px>文章</a></li>
-	    		<li><a href="#board_panel"><img src="../Pics/list-plus.png" width=30px>討論版</a></li>
-                <li><a href="#board_panel"><img src="../Pics/setting.png" width=30px>設定</a></li>
+	    		<!-- 
+                    <li><a href="#board_panel"><img src="../Pics/list-plus.png" width=30px>討論版</a></li> 
+                -->
+                <li><a href="#setting_panel"><img src="../Pics/setting.png" width=30px>設定</a></li>
 	    	</ul>
 	    </div>
         <div id="panel_continer">
@@ -166,7 +168,8 @@ if (!isset($_SESSION)) {
 	        require_once('groupPanel.php'); 
 	        require_once('eventPanel.php'); 
 	        require_once('articlePanel.php'); 
-	        require_once('boardPanel.php');
+	        require_once('settingPanel.php'); 
+	        //require_once('boardPanel.php');
 	    ?> 
 	    </div>
     </div>

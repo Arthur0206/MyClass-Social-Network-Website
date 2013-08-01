@@ -1,6 +1,6 @@
 /* 相簿頁面 */
 #album_panel {
-	width: 1000px;
+	width: 900px;
 	margin: auto;
 }
 .album {
@@ -9,7 +9,7 @@
 	width: 200px;
 	height: 220px;
 	float: left;
-	margin: 19px 0px 19px 38px;
+	margin: 10px 0px 10px 20px;
 	overflow: hidden;
 	border: 1px solid #C1C1C1;
 }

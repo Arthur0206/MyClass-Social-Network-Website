@@ -1,5 +1,5 @@
 <div id="article_panel" class="panel">
-	<div class="setting_panel">
+	<div class="control_panel">
 	</div>
 <!--
 	<div>

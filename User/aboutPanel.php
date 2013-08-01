@@ -1,5 +1,5 @@
 		<div id="about_panel" class="panel">
-			<div class="setting_panel">
+			<div class="control_panel">
 				<div class="private_list" style="width:394px;bottom:-16px;right:0px"> <!-- 用js來計算並填入width, top, left -->
 					<span class="private_title">我的『關於』頁面隱私設定：</span>
 					<span class="private_option selected">公開</span>

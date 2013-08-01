@@ -156,9 +156,9 @@
     font-size: 13px;
 }
 .recommend_block {   
-    //background: url("../Pics/background_img.jpg") repeat scroll; 
+    background: url("../Pics/background_img.jpg") repeat scroll; 
     overflow: hidden;
-    //border: 1px solid #D8D5D5;
+    border: 1px solid #D8D5D5;
     border-radius: 3px;
     //background-color: #F7F7F7;
 }
@@ -221,6 +221,9 @@
 .recommend_board_title {
     color: #FFFFFF;
     line-height: 30px;
+}
+.last_in_recommend_block {
+    margin-bottom: 6px;
 }
 /* Body */
 body {
@@ -636,7 +639,7 @@ li.selected {
 	color: #444444;
 	float: left;
 	//padding: 20px;
-	width: 88px;
+	width: 99px;
     height: 66px;
 	text-align: center;
 	//border-left: 1px solid #D8D5D0;
@@ -691,7 +694,7 @@ li.selected {
 }
 
 /* 隱私設定按鈕 */
-.setting_panel {
+.control_panel {
 	position: relative;
 	height: 69px;
 }

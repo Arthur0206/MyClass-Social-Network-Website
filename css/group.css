@@ -1,7 +1,4 @@
 /* 群組頁面 */
-.last_in_recommend_block {
-    margin-bottom: 6px;
-}
 #search_result_group {
 	width: 1000px;
 	min-height: 751px;
@@ -9,7 +6,7 @@
 	//margin-right: auto;
 }
 #group_panel {
-	width: 1000px;
+	width: 900px;
 	margin: auto;
 }
 .group {
@@ -24,7 +21,7 @@
 	border: 1px solid #C1C1C1;
 }
 .panel .group {
-    margin: 19px 0px 19px 38px;
+    margin: 10px 0px 10px 20px;
 }
 #search_result_group .group {
     margin: 10px 0px 10px 30px;

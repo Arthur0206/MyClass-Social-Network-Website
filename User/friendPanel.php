@@ -1,5 +1,5 @@
 <div id="friend_panel" class="panel">
-	<div class="setting_panel">
+	<div class="control_panel">
 		<span id="search_new_friend_button" class="add_search_button unselectable">收尋其他使用者</span>
 	</div>
 	<div class="user_continer">
