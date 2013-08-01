@@ -44,10 +44,10 @@
 					<a href="./Sosoman/Album/Moment/7_b.jpg" rel="gallery" title="一堆高爾夫球"><img src="./Sosoman/Album/Moment/7_s.jpg" width="70" height="70" alt="golf balls"></a>
 					<a href="./Sosoman/Album/Moment/8_b.jpg" rel="gallery" title="古老城牆"><img src="./Sosoman/Album/Moment/8_s.jpg" width="70" height="70" alt="rock wall"></a>
 					<form> <!--  只有自己的moment有這些button -->
-					<input type="button" class="hidden-button" value="編輯">
-					<input type="button" class="hidden-button delete-button" value="刪除">
-					<input type="button" class="cancel-button hidden" value="取消">
-					<input type="submit" class="submit-button hidden" value="提交">
+					<input type="button" class="hidden-button silver_button" value="編輯">
+					<input type="button" class="hidden-button delete-button red_button" value="刪除">
+					<input type="button" class="cancel-button hidden red_button" value="取消">
+					<input type="submit" class="submit-button hidden silver_button" value="提交">
 					</form>
 				</div>
 				<a href="hotUser.html" class="like-button"><img src="../Pics/heart.png">6</a>
@@ -62,10 +62,10 @@
 而且台灣人不喜歡投資軟體，賣硬體的今天賣出去就有錢進來，賣幾個就可以損益兩平，這是比較容易算得出來的，但軟體就算今天有一千萬人用這個軟體也不一定賺錢，LINE都已經破千萬人用了，前不久也還沒賺錢，這很難估算，而且軟體業變動很快，DrawSomething風光也不過三個月就沒了，當整個投資氛圍都沒有對軟體業有個樣板及估計方法，就不會有人願意將資源投資進來，而美國等先進國家都已經有很好的模版了，他們都可以去將軟體公司估值出來且有成功案例可循，這樣的制度或環境沒建立起來應該很難有好的投資環境吧
 					</p>	<div class="date">6月18日 6:48m</div>
 						<form> <!--  只有自己的moment有這些button -->
-						<input type="button" class="hidden-button" value="編輯">
-						<input type="button" class="hidden-button delete-button" value="刪除">
-						<input type="button" class="cancel-button hidden" value="取消">
-						<input type="submit" class="submit-button hidden" value="提交">
+						<input type="button" class="hidden-button silver_button" value="編輯">
+						<input type="button" class="hidden-button delete-button red_button" value="刪除">
+						<input type="button" class="cancel-button hidden red_button" value="取消">
+						<input type="submit" class="submit-button hidden silver_button" value="提交">
 						</form>
 					</div>
 				</div>
@@ -76,10 +76,10 @@
 					<p>想吃大便嗎?
 					</p><div class="date">6月18日 7:20pm</div>
 						<form> <!--  只有自己的moment有這些button -->
-						<input type="button" class="hidden-button" value="編輯">
-						<input type="button" class="hidden-button delete-button" value="刪除">
-						<input type="button" class="cancel-button hidden" value="取消">
-						<input type="submit" class="submit-button hidden" value="提交">
+						<input type="button" class="hidden-button silver_button" value="編輯">
+						<input type="button" class="hidden-button delete-button red_button" value="刪除">
+						<input type="button" class="cancel-button hidden red_button" value="取消">
+						<input type="submit" class="submit-button hidden silver_button" value="提交">
 						</form>
 					</div>
 				</div>
@@ -90,10 +90,10 @@
 					<p>想吃啊
 					</p><div class="date">6月18日 7:22pm</div>
 						<form> <!--  只有自己的moment有這些button -->
-						<input type="button" class="hidden-button" value="編輯">
-						<input type="button" class="hidden-button delete-button" value="刪除">
-						<input type="button" class="cancel-button hidden" value="取消">
-						<input type="submit" class="submit-button hidden" value="提交">
+						<input type="button" class="hidden-button silver_button" value="編輯">
+						<input type="button" class="hidden-button delete-button red_button" value="刪除">
+						<input type="button" class="cancel-button hidden red_button" value="取消">
+						<input type="submit" class="submit-button hidden silver_button" value="提交">
 						</form>
 					</div>
 				</div>
@@ -104,10 +104,10 @@
 					<p>明天再吃好了
 					</p><div class="date">6月18日 7:26pm</div>
 						<form> <!--  只有自己的moment有這些button -->
-						<input type="button" class="gray_button hidden-button" value="編輯">
-						<input type="button" class="gray_button hidden-button delete-button" value="刪除">
-						<input type="button" class="gray_button cancel-button hidden" value="取消">
-						<input type="submit" class="gray_button submit-button hidden" value="提交">
+						<input type="button" class="hidden-button silver_button" value="編輯">
+						<input type="button" class="hidden-button delete-button red_button" value="刪除">
+						<input type="button" class="cancel-button hidden red_button" value="取消">
+						<input type="submit" class="submit-button hidden silver_button" value="提交">
 						</form>
 					</div>
 				</div>
@@ -118,7 +118,7 @@
 					<p>幹 樓上被到帳號喔
 					</p><div class="date">6月19日 9:15am</div>
 						<form> <!--  只有自己的moment有這些button -->
-						<input type="button" class="hidden-button" value="刪除">
+						<input type="button" class="hidden-button red_button" value="刪除">
 						</form>
 					</div>
 				</div>
@@ -129,10 +129,10 @@
 					<p>嘻嘻
 					</p><div class="date">6月19日 11:38m</div>
 						<form> <!--  只有自己的moment有這些button -->
-						<input type="button" class="hidden-button" value="編輯">
-						<input type="button" class="hidden-button delete-button" value="刪除">
-						<input type="button" class="cancel-button hidden" value="取消">
-						<input type="submit" class="submit-button hidden" value="提交">
+						<input type="button" class="hidden-button silver_button" value="編輯">
+						<input type="button" class="hidden-button delete-button red_button" value="刪除">
+						<input type="button" class="cancel-button hidden red_button" value="取消">
+						<input type="submit" class="submit-button hidden silver_button" value="提交">
 						</form>
 					</div>
 				</div>
@@ -193,10 +193,10 @@
 					<p>很高興認識妳^^
 					</p><div class="date">6月18日 11:38m</div>
 						<form> <!--  只有自己的moment有這些button -->
-						<input type="button" class="hidden-button" value="編輯">
-						<input type="button" class="hidden-button delete-button" value="刪除">
-						<input type="button" class="cancel-button hidden" value="取消">
-						<input type="submit" class="submit-button hidden" value="提交">
+						<input type="button" class="hidden-button silver_button" value="編輯">
+						<input type="button" class="hidden-button delete-button red_button" value="刪除">
+						<input type="button" class="cancel-button hidden red_button" value="取消">
+						<input type="submit" class="submit-button hidden silver_button" value="提交">
 						</form>
 					</div>
 				</div>
@@ -250,10 +250,10 @@
 				<div class="moment_post"> <!-- Case#4 : user_own但沒有gallery的case-->
 				<p>睡不著覺啊~</p>
 				<form> <!--  只有自己的moment有這些button -->
-					<input type="button" class="hidden-button" value="編輯">
-					<input type="button" class="hidden-button delete-button" value="刪除">
-					<input type="button" class="cancel-button hidden" value="取消">
-					<input type="submit" class="submit-button hidden" value="提交">
+					<input type="button" class="hidden-button silver_button" value="編輯">
+					<input type="button" class="hidden-button delete-button red_button" value="刪除">
+					<input type="button" class="cancel-button hidden red_button" value="取消">
+					<input type="submit" class="submit-button hidden silver_button" value="提交">
 				</form>
 				<a href="hotUser.html" class="like-button"><img src="../Pics/heart.png">0</a>
 				<a href="hotUser.html" class="respond-button"><img src="../Pics/comment.png">1241</a>

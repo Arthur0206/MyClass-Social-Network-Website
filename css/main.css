@@ -358,20 +358,6 @@ hr {
 	width: 87%;
 	float: right;
 }
-.gray_button { /* 貼在小block右下角的灰色按鍵 */
-	position:absolute;
-	bottom:0;
-	right:-2px;
-	border-radius: 6px;
-	font-weight: bold;
-	height: 30px;
-	padding: 6px 15px 6px 15px;
-	font-size: 95%;
-	cursor: pointer;
-	background-color: #f5f5f5 !important;
-	border: 1px solid #dcdcdc !important;
-	color: #444 !important;
-}
 
 /* Menu Bar */ 
 #masthead {

@@ -17,7 +17,7 @@
 	overflow: hidden;
 	min-height: 90px;
 	padding: 5px;
-	clear: right;
+	clear: both;
 }
 .date_line_title {
 	font-size: 110%;
@@ -88,36 +88,36 @@
 	float: right;			/* 沒有gallery時moment_post裡的"編輯" "取消"button */
 	margin: 7px 110px 0 4px;
 
-	background-color: #f5f5f5 !important; /* firefox不work */
-	border: 1px solid #dcdcdc !important;
-	color: #444 !important;
+	//background-color: #f5f5f5 !important; /* firefox不work */
+	//border: 1px solid #dcdcdc !important;
+	//color: #444 !important;
 //	font-weight: normal;
 }
 .moment_post form .submit-button , .moment_post form .delete-button {
 	float: right;			/* 沒有gallery時moment_post裡的"提交" "刪除"button */
 	margin: 7px 0px 0 4px;	
 
-	background-color: #f5f5f5 !important;
-	border: 1px solid #dcdcdc !important;
-	color: #444 !important;
+	//background-color: #f5f5f5 !important;
+	//border: 1px solid #dcdcdc !important;
+	//color: #444 !important;
 //	font-weight: normal;
 }
 .moment_post #gallery form .cancel-button, .moment_post #gallery form .hidden-button {
 	float: right;			/* 有gallery時moment_post裡的"編輯" "取消"button */
 	margin: 40px 110px 0 4px;
 
-	background-color: #f5f5f5 !important;
-	border: 1px solid #dcdcdc !important;
-	color: #444 !important;
+	//background-color: #f5f5f5 !important;
+	//border: 1px solid #dcdcdc !important;
+	//color: #444 !important;
 //	font-weight: normal;
 }
 .moment_post #gallery form .submit-button, .moment_post #gallery form .delete-button {
 	float: right;			/* 有gallery時moment_post裡的"提交" "刪除"button */
 	margin: 40px 0px 0 4px;	
 
-	background-color: #f5f5f5 !important;
-	border: 1px solid #dcdcdc !important;
-	color: #444 !important;
+	//background-color: #f5f5f5 !important;
+	//border: 1px solid #dcdcdc !important;
+	//color: #444 !important;
 //	font-weight: normal;
 }
 .moment_content textarea {
@@ -171,9 +171,9 @@
 .moment_response form .submit-button, .moment_response form .cancel-button, .moment_response form .hidden-button, .moment_response form .delete-button {
 	margin: 0 0 0 4px;
 	float: right;
-	background-color: #f5f5f5;
-	border: 1px solid #dcdcdc;
-	color: #444;
+	//background-color: #f5f5f5;
+	//border: 1px solid #dcdcdc;
+	//color: #444;
 //	font-weight: normal;
 }
 .moment_post textarea {

@@ -7,9 +7,9 @@
 				<div class="p_wrapper">
 				<p>我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~</p>
 				</div>
-				<input type="button" class="hidden-button" value="編輯">
-				<input type="button" class="cancel-button hidden" value="取消">
-				<input type="submit" class="submit-button hidden" value="提交">
+				<input type="button" class="hidden-button silver_button" value="編輯">
+				<input type="button" class="cancel-button hidden red_button" value="取消">
+				<input type="submit" class="submit-button hidden silver_button" value="提交">
 				</form>
 			</div>
 			<div id="info_block" class="about_block">
@@ -22,9 +22,9 @@
 				<tr><td class="entry_title">感情狀態</td><td><input class="hidden"><span>單身</span></td></tr>
 				<tr><td class="entry_title">地區</td><td><input class="hidden"><span>台灣, 桃園縣</span></td></tr>
 				</table>
-				<input type="button" class="hidden-button" value="編輯">
-				<input type="button" class="cancel-button hidden" value="取消">
-				<input type="submit" class="submit-button hidden" value="提交">
+				<input type="button" class="hidden-button silver_button" value="編輯">
+				<input type="button" class="cancel-button hidden red_button" value="取消">
+				<input type="submit" class="submit-button hidden silver_button" value="提交">
 				</form>
 			</div>
 			<div id="education_block" class="about_block">
@@ -37,9 +37,9 @@
 				<tr><td class="entry_title">大學</td><td>台中市中興大學</td></tr>
 				<tr><td class="entry_title">研究所</td><td>UCSD, University of California, San Diego</td></tr>
 				</table>
-				<input type="button" class="hidden-button" value="編輯">
-				<input type="button" class="cancel-button hidden" value="取消">
-				<input type="submit" class="submit-button hidden" value="提交">
+				<input type="button" class="hidden-button silver_button" value="編輯">
+				<input type="button" class="cancel-button hidden red_button" value="取消">
+				<input type="submit" class="submit-button hidden silver_button" value="提交">
 				</form>
 			</div>
 			<div id="work_block" class="about_block">
@@ -49,9 +49,9 @@
 				<tr><td class="entry_title">從2010年至2013年</td><td>Broadcom Corporation</td></tr>
 				<tr><td class="entry_title">從2007年至2008年</td><td>空中特勤隊, Army, Taiwan</td></tr>
 				</table>
-				<input type="button" class="hidden-button" value="編輯">
-				<input type="button" class="cancel-button hidden" value="取消">
-				<input type="submit" class="submit-button hidden" value="提交">
+				<input type="button" class="hidden-button silver_button" value="編輯">
+				<input type="button" class="cancel-button hidden red_button" value="取消">
+				<input type="submit" class="submit-button hidden silver_button" value="提交">
 				</form>
 			</div>
 			<div id="hobbit_block" class="about_block">
@@ -60,9 +60,9 @@
 				<div class="p_wrapper">
 				<p>運動 交友 旅遊 音樂 吉他 美食 創業 冒險 聯誼</p>
 				</div>
-				<input type="button" class="hidden-button" value="編輯">
-				<input type="button" class="cancel-button hidden" value="取消">
-				<input type="submit" class="submit-button hidden" value="提交">
+				<input type="button" class="hidden-button silver_button" value="編輯">
+				<input type="button" class="cancel-button hidden red_button" value="取消">
+				<input type="submit" class="submit-button hidden silver_button" value="提交">
 				</form>
 			</div>
 		</div>
