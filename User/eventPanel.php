@@ -6,24 +6,6 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 
 		<div id="event_panel" class="panel">
 			<div class="control_panel">
-				<div class="private_list" style="width:305px;bottom:-88px;right:0px"> <!-- 用js來計算並填入width, top, left -->
-					<span class="private_title">我參加的活動：</span>
-					<span class="private_option selected">公開</span>
-					<span class="private_option">限朋友可見</span>
-					<span class="private_option">隱藏</span></br>
-					<span class="private_title">我發起的活動：</span>
-					<span class="private_option selected">公開</span>
-					<span class="private_option">限朋友可見</span>
-					<span class="private_option">隱藏</span>
-					<span class="private_title">我受邀的活動：</span>
-					<span class="private_option selected">公開</span>
-					<span class="private_option">限朋友可見</span>
-					<span class="private_option">隱藏</span>
-					<span class="private_title">我關切的活動：</span>
-					<span class="private_option selected">公開</span>
-					<span class="private_option">限朋友可見</span>
-					<span class="private_option">隱藏</span>
-				</div>
 				<a href="../Event/createEvent.php" target="blank"><span class="red_button unselectable" style="margin: 18px 20px 8px 0px;">建立新活動</span></a>
 				<a href="../Event/findEvent.php" target="blank"><span class="silver_button unselectable" style="margin: 18px 15px 8px 0px;">搜尋其他活動</span></a>
 			</div>

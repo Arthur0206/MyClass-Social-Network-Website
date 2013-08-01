@@ -702,65 +702,8 @@ li.selected {
     font-size: 110%;
     border-radius: 3px;
 }
-/* 隱私設定按鈕 */
+/* 設定panel */
 .control_panel {
 	position: relative;
 	height: 69px;
-}
-.private_button {
-	float: right;
-	font-size: 110%;
-	width: 118px;
-	height: 25px;
-	margin: 20px 0px 20px 0px;
-	text-align: center;
-	border-radius: 30px;
-	box-shadow: 0px 0px 2px 1px #acacac;//#D8D5D0;
-	background-color: #edebe2;
-	padding-bottom: 2px;
-	padding-top: 2px;
-	cursor: pointer;
-}
-.private_button img {
-	margin-top: 2px;
-	width: 20px;
-	height: 20px;
-	position: relative;
-	left: -3px;
-}
-.private_button span {
-	position: relative;
-	top: -4px;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-}
-.private_list {
-	border-radius: 4px;
-	background-color: #FFFFF2;
-	box-shadow: 0px 0px 2px 1px #acacac;//#D8D5D0;
-	position: absolute;
-	//top: 46px; 
-	//left: 440px;
-	//width: 395px;
-	padding: 5px;
-	display: none;
-	z-index: 100;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-}
-.private_list span {
-	padding: 5px;
-	line-height: 1.6em;
-}
-.private_title {
-	color: #333333;//#3c97ad;
-	min-width: 207px;
-	margin-left: 4px;
-}
-.private_option {
-	cursor: pointer;
-}
-.private_option.selected {
-	color: #3c97ad; 
-	font-weight: bold;
 }

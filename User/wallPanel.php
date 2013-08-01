@@ -2,16 +2,6 @@
 			<div class="setting_panel">
 				<span id="all_moment_filter" class="filter_button is_clicked unselectable">朋友及我的動態</span>
 				<span id="user_own_moment_filter" class="filter_button unselectable">我個人的動態</span>
-				<div class="private_list" style="width:305px;bottom:-40px;right:0px"> <!-- 用js來計算並填入width, top, left -->
-					<span class="private_title">我個人的動態：</span>
-					<span class="private_option selected">公開</span>
-					<span class="private_option">限朋友可見</span>
-					<span class="private_option">隱藏</span></br>
-					<span class="private_title">所有人的動態：</span>
-					<span class="private_option selected">公開</span>
-					<span class="private_option">限朋友可見</span>
-					<span class="private_option">隱藏</span>
-				</div>
 				<span id="add_new_moment_button" class="red_button unselectable" style="margin: 18px 0px 8px 0px;">發表動態</span>
 			</div>
 		<div class="moment_wrapper">

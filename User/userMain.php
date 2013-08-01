@@ -27,7 +27,6 @@ if (!isset($_SESSION)) {
 	<script src="../_js/menuBar.js"></script>
 	<script src="../_js/userBackground.js"></script>
 	<script src="../_js/secondBar.js"></script>
-	<script src="../_js/settingPanel.js"></script>
 	<script src="../_js/aboutPanel.js"></script>
 	<script src="../_js/wallPanel.js"></script>
 	<script src="../_js/eventPanel.js"></script>
@@ -49,7 +48,7 @@ if (!isset($_SESSION)) {
 				processCard();
 				
 				// Process Setting Panel
-				processSettingPanel();
+				//processSettingPanel();
         		
 				// Process About Panel
 				processAboutPanel();
