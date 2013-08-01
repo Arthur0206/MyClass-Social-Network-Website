@@ -1,5 +1,7 @@
 		<div id="group_panel" class="panel">		
 	        <div class="control_panel">
+				<a href="../Event/createGroup.php" target="blank"><span class="red_button unselectable" style="margin: 18px 12px 8px 0px;">建立新群組</span></a>
+				<a href="../Event/findGroup.php" target="blank"><span class="silver_button unselectable" style="margin: 18px 15px 8px 0px;">搜尋其他群組</span></a>
             </div>
 
 			<div class="group card">

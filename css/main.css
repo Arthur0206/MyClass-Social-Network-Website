@@ -680,19 +680,28 @@ li.selected {
 	background-color: #4096ab;
 }
 /* 新增, 搜尋紅按鈕*/
-.add_search_button {
-	background-color: #cd6661;
+.red_button {
+    background-image: linear-gradient(#E3262E, #AB171E);  
+    border: 1px solid #990A0F; 
 	color: #FFFFFF;
-	margin: 18px 14px 15px 0px;
-	padding: 6px 16px 5px 12px;
+	//margin: 18px 10px 15px 0px;
+	padding: 10px 15px 10px 15px;
 	float: right;
 	cursor: pointer;
 	font-size: 110%;
-	border-radius: 20px;
-	border: 1px solid #D8D5D0;
-	//box-shadow: 0px 0px 2px 1px #D8D5D0;
+	border-radius: 3px;
 }
-
+.silver_button {
+    background: linear-gradient(#FFFFFF, #E4E4E4) repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC; 
+    color: #444444;
+    //margin: 18px 10px 15px 0px;
+    padding: 10px 15px 10px 15px;
+    float: right;
+    cursor: pointer;
+    font-size: 110%;
+    border-radius: 3px;
+}
 /* 隱私設定按鈕 */
 .control_panel {
 	position: relative;

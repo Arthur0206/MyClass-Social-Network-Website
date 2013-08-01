@@ -12,7 +12,7 @@
 					<span class="private_option">限朋友可見</span>
 					<span class="private_option">隱藏</span>
 				</div>
-				<span id="add_new_moment_button" class="add_search_button unselectable">＋發表動態</span>
+				<span id="add_new_moment_button" class="red_button unselectable" style="margin: 18px 0px 8px 0px;">發表動態</span>
 			</div>
 		<div class="moment_wrapper">
 			<div class="time_title">今天<br>09:23pm</div>
