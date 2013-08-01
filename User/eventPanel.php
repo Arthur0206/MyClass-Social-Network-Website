@@ -6,6 +6,11 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 
 		<div id="event_panel" class="panel">
 			<div class="control_panel">
+                <div id="sort_by_botton" style="margin-left: 5px; margin-top: 20px;">
+                    <span id="sort_by_label">查看類別:</span>
+                    <span id="sort_by_selected">所有活動</span>
+                    <img height="8" style="margin-top:15px;z-index:1200" src="../Pics/triangle.png">
+                </div>
 				<a href="../Event/createEvent.php" target="blank"><span class="red_button unselectable" style="margin: 18px 20px 8px 0px;">建立新活動</span></a>
 				<a href="../Event/findEvent.php" target="blank"><span class="silver_button unselectable" style="margin: 18px 10px 8px 0px;">搜尋其他活動</span></a>
 			</div>

@@ -6,14 +6,14 @@
 	//margin-right: auto;
 }
 #event_panel {
-	width: 800px;
+	width: 900px;
 	margin: auto;
 }
 .monthly_event_wrapper {
 	margin: 10px 0px 10px 0px;
 }
 .monthly_event_title {
-	float:left;
+	//float:left;
 	font-size: 85%;
 	font-weight: bold;
 	margin: 8px 6px 3px 40px;
