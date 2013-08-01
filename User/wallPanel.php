@@ -7,7 +7,9 @@
                 </div>
 				<span id="all_moment_filter" class="filter_button is_clicked unselectable">朋友及我的動態</span>
 				<span id="user_own_moment_filter" class="filter_button unselectable">我個人的動態</span>
-				<span id="add_new_moment_button" class="red_button unselectable" style="margin: 18px 0px 8px 0px;">發表動態</span>
+				<span id="add_new_moment_button" class="small_red_button unselectable" style="margin: 18px 0px 8px 0px;">
+                    發表動態
+                </span>
 			</div>
 		<div class="moment_wrapper">
 			<div class="time_title">今天<br>09:23pm</div>

@@ -691,6 +691,17 @@ li.selected {
 	font-size: 110%;
 	border-radius: 3px;
 }
+.small_red_button {
+    background-image: linear-gradient(#E3262E, #AB171E);  
+    border: 1px solid #990A0F; 
+	color: #FFFFFF;
+	//margin: 18px 10px 15px 0px;
+	padding: 8px 12px 8px 12px;
+	float: right;
+	cursor: pointer;
+	font-size: 15px;
+	border-radius: 3px;
+}
 .silver_button {
     background: linear-gradient(#FFFFFF, #E4E4E4) repeat scroll 0 0 #FFFFFF;
     border: 1px solid #CCCCCC; 
@@ -702,6 +713,18 @@ li.selected {
     font-size: 110%;
     border-radius: 3px;
 }
+.small_silver_button {
+    background: linear-gradient(#FFFFFF, #E4E4E4) repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC; 
+    color: #444444;
+    //margin: 18px 10px 15px 0px;
+	padding: 8px 12px 8px 12px;
+    float: right;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
 /* 設定panel */
 .control_panel {
 	position: relative;

@@ -1,6 +1,6 @@
 <div id="friend_panel" class="panel">
 	<div class="control_panel">
-		<span id="search_new_friend_button" class="silver_button unselectable" style="margin: 18px 20px 8px 0px;">收尋其他用戶</span>
+		<span id="search_new_friend_button" class="small_silver_button unselectable" style="margin: 18px 20px 8px 0px;">收尋其他用戶</span>
 	</div>
 	<div class="user_continer">
 		<div class="user card">

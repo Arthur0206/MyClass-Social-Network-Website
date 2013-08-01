@@ -11,8 +11,8 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                     <span id="sort_by_selected">所有活動</span>
                     <img height="8" style="margin-top:15px;z-index:1200" src="../Pics/triangle.png">
                 </div>
-				<a href="../Event/createEvent.php" target="blank"><span class="red_button unselectable" style="margin: 18px 20px 8px 0px;">建立新活動</span></a>
-				<a href="../Event/findEvent.php" target="blank"><span class="silver_button unselectable" style="margin: 18px 10px 8px 0px;">搜尋其他活動</span></a>
+				<a href="../Event/createEvent.php" target="blank"><span class="small_red_button unselectable" style="margin: 18px 20px 8px 0px;">建立新活動</span></a>
+				<a href="../Event/findEvent.php" target="blank"><span class="small_silver_button unselectable" style="margin: 18px 10px 8px 0px;">搜尋其他活動</span></a>
 			</div>
 
 			<div class="setting_panel_2nd">

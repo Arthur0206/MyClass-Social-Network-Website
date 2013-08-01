@@ -1,6 +1,6 @@
 <div id="album_panel" class="panel">
 	<div class="control_panel">
-		<span id="add_new_moment_button" class="red_button unselectable" style="margin: 18px 12px 8px 0px;">新增相簿</span>
+		<span id="add_new_moment_button" class="small_red_button unselectable" style="margin: 18px 12px 8px 0px;">新增相簿</span>
 	</div>
 	<div class="albums_continer">
 		<div class="album card">
