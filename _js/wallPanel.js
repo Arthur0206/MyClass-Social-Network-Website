@@ -183,18 +183,34 @@ function processWallPanel()
 	}); // end click
 
 	// 藍灰按鍵
-	// Moment Filter
-	$('#all_moment_filter, #user_own_moment_filter').click(function() {
-		$(this).siblings('.filter_button').removeClass('is_clicked');
-		$(this).addClass('is_clicked');
-
-		$('.moment_wrapper').show();
-
-		// 查看是否為"我個人的動態"按鍵
-		if ($(this).is('#user_own_moment_filter')) {
+    $('.filter_botton').toggle(
+        function() {
+            $(this).children('.filter_dropdown_list_div').show();
+        },
+        function() {
+            $(this).children('.filter_dropdown_list_div').hide();
+        }
+    );
+    
+    $('.filter_selection').hover(
+        function() {
+            $(this).css('color', '#2CB4DA');
+        },
+        function() {
+            $(this).css('color', '#333333');
+        }
+    ).click(function() {
+		var new_text = $(this).text();
+		$(this).parent().parent().find('.filter_selected').html(new_text);
+        
+        $('.moment_wrapper').show();
+        if ($(this).is('#select_my_post')) {
 			$('.moment_wrapper').not('.user_own').hide();
-		} 
-	});
+        } else if ($(this).is('#select_friend_post')){
+			$('.moment_wrapper.user_own').hide();
+        }
+        $(this).parent('.filter_selected').value($(this).value());
+    });
 }
 
 function cancelAllOtherEditor()

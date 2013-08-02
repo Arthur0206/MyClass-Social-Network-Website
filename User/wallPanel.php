@@ -1,16 +1,26 @@
-		<div id="wall_panel" class="panel">
-			<div class="setting_panel">
-                <div id="sort_by_botton" style="margin-left: 5px; margin-top: 20px;">
-                    <span id="sort_by_label">查看類別:</span>
-                    <span id="sort_by_selected">所有動態</span>
-                    <img height="8" style="margin-top:15px;z-index:1200" src="../Pics/triangle.png">
-                </div>
-				<span id="all_moment_filter" class="filter_button is_clicked unselectable">朋友及我的動態</span>
-				<span id="user_own_moment_filter" class="filter_button unselectable">我個人的動態</span>
-				<span id="add_new_moment_button" class="small_red_button unselectable" style="margin: 18px 0px 8px 0px;">
-                    發表動態
-                </span>
-			</div>
+	<div id="wall_panel" class="panel">
+		<div class="setting_panel">
+            <div class="filter_botton" style="margin-left: 5px; margin-top: 20px; width: 142px;">
+                <span class="filter_label">類別:</span>
+                <span class="filter_selected">所有動態</span>
+                <img height="8" style="margin-top:15px; z-index:10; float: right;" src="../Pics/triangle.png">
+			    <div class="filter_dropdown_list_div" style="width: 150px;">
+			        <div id="select_all_post" class="filter_selection">
+                        所有動態
+                    </div>
+			        <div id="select_friend_post" class="filter_selection">
+                        朋友的動態
+                    </div>
+			        <div id="select_my_post" class="filter_selection">
+                        我的動態
+                    </div>
+			    </div>
+		    </div>
+			<span id="add_new_moment_button" class="small_red_button unselectable" style="margin: 18px 0px 8px 0px;">
+                發表動態
+            </span>
+		</div>
+
 		<div class="moment_wrapper">
 			<div class="time_title">今天<br>09:23pm</div>
 			<div class="wall_poster_pic">
@@ -262,4 +272,4 @@
 		</div>
 		<!--<div class="timeline_wrapper"><div class="date_line_title">6/17 (一)</div> <hr></div>-->
 
-		</div>
+	</div>
