@@ -182,17 +182,18 @@ function processWallPanel()
 		}
 	}); // end click
 
-	// 藍灰按鍵
-    $('.filter_botton').toggle(
+    //filter button
+    $('#wall_panel .filter_botton').toggle(
         function() {
-            $(this).children('.filter_dropdown_list_div').show();
+            $('#wall_panel .filter_dropdown_list_div').show();
         },
         function() {
-            $(this).children('.filter_dropdown_list_div').hide();
+            $('#wall_panel .filter_dropdown_list_div').hide();
         }
     );
     
-    $('.filter_selection').hover(
+    //filter dropdown list
+    $('#wall_panel .filter_selection').hover(
         function() {
             $(this).css('color', '#2CB4DA');
         },

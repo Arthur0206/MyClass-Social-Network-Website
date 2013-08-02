@@ -27,15 +27,6 @@
 #event_panel .add_search_button {
 	float: left;
 }
-#event_panel .setting_panel_2nd {
-	position: relative;
-	height: 49px;
-	padding-top: 0;
-	margin-left: 110px;
-}
-.setting_panel_2nd .filter_button {
-	margin-top: 0;
-}
 #event_panel hr {
 	border: dashed #b6b6ae; //#4096ab;
 	border-width: 1px;

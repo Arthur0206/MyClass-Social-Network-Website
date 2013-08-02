@@ -6,20 +6,30 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 
 		<div id="event_panel" class="panel">
 			<div class="control_panel">
-                <div id="sort_by_botton" style="margin-left: 5px; margin-top: 20px;">
-                    <span id="sort_by_label">查看類別:</span>
-                    <span id="sort_by_selected">所有活動</span>
-                    <img height="8" style="margin-top:15px;z-index:1200" src="../Pics/triangle.png">
-                </div>
+                <div class="filter_botton" style="margin-left: 5px; margin-top: 20px; width: 155px;">
+                    <span class="filter_label">類別:</span>
+                    <span class="filter_selected">所有活動</span>
+                    <img height="8" style="margin-top:15px; z-index:10; float: right;" src="../Pics/triangle.png">
+    			    <div class="filter_dropdown_list_div" style="width: 163px;">
+    			        <div id="all_event_filter" class="filter_selection">
+                            所有活動
+                        </div>
+    			        <div id="joined_event_filter" class="filter_selection">
+                            我參加的活動
+                        </div>
+    			        <div id="created_event_filter" class="filter_selection">
+                            我發起的活動
+                        </div>
+    			        <div id="invited_event_filter" class="filter_selection">
+                            我受邀的活動
+                        </div>
+    			        <div id="cared_event_filter" class="filter_selection">
+                            我關切的活動
+                        </div>
+    			    </div>
+    		    </div>
 				<a href="../Event/createEvent.php" target="blank"><span class="small_red_button unselectable" style="margin: 18px 20px 8px 0px;">建立新活動</span></a>
 				<a href="../Event/findEvent.php" target="blank"><span class="small_silver_button unselectable" style="margin: 18px 10px 8px 0px;">搜尋其他活動</span></a>
-			</div>
-
-			<div class="setting_panel_2nd">
-				<span id="joined_event_filter" class="filter_button is_clicked unselectable">我參加的活動</span>
-				<span id="created_event_filter" class="filter_button unselectable">我發起的活動</span>
-				<span id="invited_event_filter" class="filter_button unselectable">我受邀的活動</span>
-				<span id="cared_event_filter" class="filter_button unselectable">我關切的活動</span>
 			</div>
 
 			<div id="not_yet_event_hr" class="event_timing_hr"><span>還沒開始的活動</span> <hr></div>

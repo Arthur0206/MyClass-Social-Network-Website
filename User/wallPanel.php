@@ -1,5 +1,5 @@
 	<div id="wall_panel" class="panel">
-		<div class="setting_panel">
+		<div class="control_panel">
             <div class="filter_botton" style="margin-left: 5px; margin-top: 20px; width: 142px;">
                 <span class="filter_label">類別:</span>
                 <span class="filter_selected">所有動態</span>
