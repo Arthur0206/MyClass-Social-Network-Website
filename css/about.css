@@ -1,10 +1,10 @@
 /* 關於頁面 */
 #about_panel {
-	width: 700px;
+	width: 500px;
 	margin: auto;
 }
 .about_block {
-	border-radius: 7px;
+	border-radius: 2px;
 	border: 1px solid #D8D5D0;
 	margin-bottom: 20px;
 	z-index: 2;
@@ -29,7 +29,7 @@
 	width: 93%;
 }
 .about_block p {
-	margin: 8px 10px 8px 10px;
+	margin: 15px 10px 15px 10px;
 }
 #about_panel textarea {
 	margin: 2px 10px 10px 10px;
