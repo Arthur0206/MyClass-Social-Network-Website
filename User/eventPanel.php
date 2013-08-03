@@ -32,10 +32,10 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 				<a href="../Event/findEvent.php" target="blank"><span class="small_silver_button unselectable" style="margin: 18px 10px 8px 0px;">搜尋其他活動</span></a>
 			</div>
 
-			<div id="not_yet_event_hr" class="event_timing_hr"><span>還沒開始的活動</span> <hr></div>
+            <div class="load_more">顯示更多以前的活動</div>
 
 			<div class="monthly_event_wrapper">
-			<div class="monthly_event_title">2013年7月</div>
+			<span class="monthly_event_title">今天 - 2013年7月29日</span>
 			<div class="monthly_events">
                 <div class="event_block card cared">
                     <a target="" href="hotUser.html">
@@ -150,7 +150,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 
 
 			<div class="monthly_event_wrapper">
-			<div class="monthly_event_title">2013年6月</div>
+			<span class="monthly_event_title">明天 - 2013年7月31日</span>
 			<div class="monthly_events">
                 <div class="event_block card created">
                     <a target="" href="hotUser.html">
@@ -195,10 +195,8 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			</div>
 			</div>
 
-			<div id="on_going_event_hr" class="event_timing_hr"><span>正在進行的活動</span><hr></div>
-
 			<div class="monthly_event_wrapper">
-			<div class="monthly_event_title">2013年6月</div>
+			<span class="monthly_event_title">2013年8月1日</span>
 			<div class="monthly_events">
                 <div class="event_block card created cared">
                     <a target="" href="hotUser.html">
@@ -244,10 +242,8 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			</div>
 			</div>
 
-			<div id="end_event_hr" class="event_timing_hr"><span>已經結束的活動</span> <hr></div>
-
 			<div class="monthly_event_wrapper">
-			<div class="monthly_event_title">2013年5月</div>
+			<span class="monthly_event_title">2013年8月5日</span>
 			<div class="monthly_events">
                 <div class="event_block card cared">
                     <a target="" href="hotUser.html">
@@ -409,7 +405,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 
 
 			<div class="monthly_event_wrapper">
-			<div class="monthly_event_title">2013年4月</div>
+			<span class="monthly_event_title">2013年8月13日</span>
 			<div class="monthly_events">
                 <div class="event_block card joined cared">
                     <a target="" href="hotUser.html">
@@ -498,7 +494,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 
 
 			<div class="monthly_event_wrapper">
-			<div class="monthly_event_title">2013年3月</div>
+			<span class="monthly_event_title">2013年8月20日</span>
 			<div class="monthly_events">
                 <div class="event_block card joined">
                     <a target="" href="hotUser.html">
@@ -545,7 +541,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 
 
 			<div class="monthly_event_wrapper">
-			<div class="monthly_event_title">2013年2月</div>
+			<span class="monthly_event_title">2013年9月5日</span>
 			<div class="monthly_events">
                 <div class="event_block card created">
                     <a target="" href="hotUser.html">
@@ -674,7 +670,7 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
 			</div>
 
 			<div class="monthly_event_wrapper">
-			<div class="monthly_event_title">2013年1月</div>
+			<span class="monthly_event_title">2013年1月23日</span>
 			<div class="monthly_events">
                 <div class="event_block card requested cared">
                     <a target="" href="hotUser.html">
@@ -718,4 +714,5 @@ javascript 貼 xml 時, 把所有events照 月份 以及"還沒開始""正在進
                 </div>
 			</div>
 			</div>
+            <div class="load_more">顯示更多以後的活動</div>
 		</div>
