@@ -31,6 +31,8 @@ function processEventPanel()
 	// 缺點: 1. 會有重複的event_block(ex.某個event_block屬於兩個filter block, 就會有兩份copy) 2. 如果有"所有event"按鍵, 則還是要把event按照時間插入"所有event"block
 	$('#all_event_filter, #joined_event_filter, #created_event_filter, #invited_event_filter, #cared_event_filter').click(function() {
 
+        // 把load more button 顯示出來
+        $('.load_more').show();
 		// 把所有之前插入的no_event_title
 		$('.no_event_title').remove();
 		// 先把所有event_wrapper都show出來, 因為之後要把達成某些條件的hide起來
@@ -60,14 +62,17 @@ function processEventPanel()
 		
 		// 印出"尚未有XXX event"的文字
 		if ($('.monthly_event_wrapper:visible').length == 0) {
+            // 隱藏load more button
+            $('.load_more').hide();
+            
 			if ($(this).is('#joined_event_filter')) {
-				$('.control_panel').after('<div class="no_event_title">您尚未加入任何活動</div>');
+				$('#event_panel .control_panel').after('<div class="no_event_title">您尚未加入任何活動</div>');
 			} else if ($(this).is('#created_event_filter')) {
-				$('.control_panel').after('<div class="no_event_title">您尚未建立任何活動</div>');
+				$('#event_panel .control_panel').after('<div class="no_event_title">您尚未建立任何活動</div>');
 			} else if ($(this).is('#invited_event_filter')) {
-				$('.control_panel').after('<div class="no_event_title">您沒有受邀於任何活動</div>');
+				$('#event_panel .control_panel').after('<div class="no_event_title">您沒有受邀於任何活動</div>');
 			} else if ($(this).is('#cared_event_filter')) {
-				$('.control_panel').after('<div class="no_event_title">您尚未關注任何活動</div>');
+				$('#event_panel .control_panel').after('<div class="no_event_title">您尚未關注任何活動</div>');
 			}
 		}
 	}); // click
