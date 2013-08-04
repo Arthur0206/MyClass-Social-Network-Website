@@ -6,17 +6,48 @@
 	//margin-right: auto;
 }
 #event_panel {
-	width: 900px;
+	width: 600px;
 	margin: auto;
+}
+.no_event_title {
+    color: #888888;
+    line-height: 125px;
+    text-align: center;
+    margin: 10px 0px 10px 5px;
+    border-radius: 3px;
+	//float: left;
+	width: 385px;
+	height: 132px;
+	border: 1px dashed #C1C1C1;
+}
+.load_more {
+    background-image: linear-gradient(#E3262E, #AB171E);
+    border: 1px solid #990A0F;
+    //background: linear-gradient(#FFFFFF, #F2F2F2) repeat scroll 0 0 #FFFFFF;
+    //border: 1px solid #CCCCCC;
+    background-image: linear-gradient(#6699CC, #336699);
+    border: 1px solid #336699;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 3px 10px 3px 10px;
+    font-size: 12px;
+    margin: 20px 10px 0px 8px;
 }
 .monthly_event_wrapper {
 	margin: 10px 0px 10px 0px;
 }
 .monthly_event_title {
+    display: inline-block;
 	//float:left;
 	font-size: 85%;
+    border-radius: 3px;
+    color: #FFFFFF;
 	font-weight: bold;
-	margin: 8px 6px 3px 40px;
+    background-color: #AAAAAA;
+	margin: 0px 0px 10px 8px;
+    padding: 3px 15px 3px 15px;
 }
 .monthly_events {
 	overflow: hidden;
@@ -32,20 +63,6 @@
 	border-width: 1px;
 	width: 87%;
 	float: right;
-}
-.event_timing_hr span {
-	color: #4096ab;
-	background-color: #fcf9f2;
-	padding: 0px;
-	//font-size: 110%;
-	//font-weight: bold;
-}
-.event_block_bandage {
-	position: absolute;
-	top:-5px;
-	right: -5px;
-	width: 131px;
-	height: 121px;
 }
 
 /* 活動小box */
@@ -65,7 +82,7 @@
 	position: relative;
 }
 .panel .event_block {
-    margin: 5px;
+    margin: 10px 0px 10px 5px;
 }
 #search_result_event .event_block {
     margin: 10px 0px 10px 38px;
