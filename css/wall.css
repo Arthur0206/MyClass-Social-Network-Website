@@ -1,6 +1,6 @@
 /* 動態牆頁面 */
 #wall_panel {
-	width: 560px;
+	width: 550px;
 	margin: auto;
 }
 #wall_panel .control_panel {
@@ -57,7 +57,7 @@
 .moment_content {
 	border-radius: 2px;
 	float: left;
-	width: 450px;
+	width: 435px;
 	min-height: 53px;
 	//margin: 4px 0px 5px 10px;
 	padding: 12px 15px 12px 14px;
@@ -72,8 +72,8 @@
 	margin-top: 8px;
 }
 .moment_content #gallery img {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     padding-top: 5px;
 	padding-right: 5px;
 }
