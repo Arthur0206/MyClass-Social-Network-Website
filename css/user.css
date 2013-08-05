@@ -60,6 +60,8 @@
     color: #444444;
 }
 #panel_continer {
+    min-height: 600px;
+    overflow: hidden;
 	width: 1000px;
 	margin: auto;
     background-color: #F6F6F6;

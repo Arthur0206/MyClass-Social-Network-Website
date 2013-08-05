@@ -647,9 +647,6 @@ li.selected {
 	//background-color: #F1F1F1;
 	color: #444444;
 }
-.panel {
-	min-height: 795px;
-}
 
 /* 新增, 搜尋紅按鈕*/
 .red_button {
