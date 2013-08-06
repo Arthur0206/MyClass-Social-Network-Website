@@ -205,7 +205,12 @@
 	opacity: 0.5;
 	vertical-align: middle;
 }
+.post-action-bar .count {
+	vertical-align: middle;
+}
 .post-action-bar {
+	font-size: 13px;
+	color: #666666 !important;
     margin: 5px 5px 0px 0px;
 	//display: table-cell;
 	//top:117px; 

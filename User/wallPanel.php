@@ -39,12 +39,10 @@
 			    	    	<a href="./NamiChang1987/Album/Moment/1_b.jpg" rel="gallery" title="我今天撿到的怪東西^^"><img src="./NamiChang1987/Album/Moment/1_s.jpg" alt="golf balls"></a>
 			    	    </div>
 					    <div class="post-action-bar">
-					    	<a href="">
-					    		<img class="bookmark" src="../Pics/ticket-icon.png">
-					    	</a>
-					    	<a href="">
-					    		<img class="facebook-like" src="../Pics/icon_like.png">
-					    	</a>
+				        	<img class="bookmark" src="../Pics/ticket-icon.png">
+                            <span class="count">7</span>
+				        	<img class="facebook-like" src="../Pics/icon_like.png">
+                            <span class="count">64</span>
 					    </div>
 			    	</div>
 			    </div>
@@ -77,12 +75,10 @@
 		    		    	</form>
 		    		    </div>
 					    <div class="post-action-bar">
-					    	<a href="">
-					    		<img class="bookmark" src="../Pics/ticket-icon.png">
-					    	</a>
-					    	<a href="">
-					    		<img class="facebook-like" src="../Pics/icon_like.png">
-					    	</a>
+				        	<img class="bookmark" src="../Pics/ticket-icon.png">
+                            <span class="count">7</span>
+				        	<img class="facebook-like" src="../Pics/icon_like.png">
+                            <span class="count">64</span>
 					    </div>
 
 		    		</div>
@@ -135,12 +131,10 @@
 		    		<div class="moment_post"> <!-- Case#2 : 不是user_own且沒有gallery的case -->
 		    		    <p>熱火贏了 我愛君子劍 ! Ray Gun~~~</p>
 				        <div class="post-action-bar">
-				        	<a href="">
-				        		<img class="bookmark" src="../Pics/ticket-icon.png">
-				        	</a>
-				        	<a href="">
-				        		<img class="facebook-like" src="../Pics/icon_like.png">
-				        	</a>
+				        	<img class="bookmark" src="../Pics/ticket-icon.png">
+                            <span class="count">7</span>
+				        	<img class="facebook-like" src="../Pics/icon_like.png">
+                            <span class="count">64</span>
 				        </div>
 		    		</div>
 		    	</div>
@@ -184,12 +178,10 @@
                         
 		    		    </div>
 				        <div class="post-action-bar">
-				        	<a href="">
-				        		<img class="bookmark" src="../Pics/ticket-icon.png">
-				        	</a>
-				        	<a href="">
-				        		<img class="facebook-like" src="../Pics/icon_like.png">
-				        	</a>
+				        	<img class="bookmark" src="../Pics/ticket-icon.png">
+                            <span class="count">7</span>
+				        	<img class="facebook-like" src="../Pics/icon_like.png">
+                            <span class="count">64</span>
 				        </div>
 		    		</div>
 		    	</div>
@@ -231,12 +223,10 @@
 		    		<div class="moment_post">
 		    		    <p>今天看到帥哥 超爽的~</p>
 				        <div class="post-action-bar">
-				        	<a href="">
-				        		<img class="bookmark" src="../Pics/ticket-icon.png">
-				        	</a>
-				        	<a href="">
-				        		<img class="facebook-like" src="../Pics/icon_like.png">
-				        	</a>
+				        	<img class="bookmark" src="../Pics/ticket-icon.png">
+                            <span class="count">7</span>
+				        	<img class="facebook-like" src="../Pics/icon_like.png">
+                            <span class="count">64</span>
 				        </div>
 		    		</div>
 		    	</div>
@@ -262,12 +252,10 @@
 		    		    	<a href="./KobeIsGod/Album/Moment/1_b.jpg" rel="gallery" title="一堆高爾夫球"><img src="./KobeIsGod/Album/Moment/1_s.jpg" alt="golf balls"></a>
 		    		    </div>
 				        <div class="post-action-bar">
-				        	<a href="">
-				        		<img class="bookmark" src="../Pics/ticket-icon.png">
-				        	</a>
-				        	<a href="">
-				        		<img class="facebook-like" src="../Pics/icon_like.png">
-				        	</a>
+				        	<img class="bookmark" src="../Pics/ticket-icon.png">
+                            <span class="count">7</span>
+				        	<img class="facebook-like" src="../Pics/icon_like.png">
+                            <span class="count">64</span>
 				        </div>
 		    		</div>
 		    	</div>
