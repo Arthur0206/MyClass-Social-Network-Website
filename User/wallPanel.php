@@ -34,12 +34,18 @@
                 </div>
 			    <div class="moment_content">
 			    	<div class="moment_post">
-			    	<p>剛剛在捷運上被人摸屁股了 QQ~</p>
-			    	<div id="gallery">
-			    		<a href="./NamiChang1987/Album/Moment/1_b.jpg" rel="gallery" title="我今天撿到的怪東西^^"><img src="./NamiChang1987/Album/Moment/1_s.jpg" alt="golf balls"></a>
-			    	</div>
-			    	<a href="hotUser.html" class="like-button"><img src="../Pics/heart.png">0</a>
-			    	<a href="hotUser.html" class="respond-button"><img src="../Pics/comment.png">0</a>
+			    	    <p>剛剛在捷運上被人摸屁股了 QQ~</p>
+			    	    <div id="gallery">
+			    	    	<a href="./NamiChang1987/Album/Moment/1_b.jpg" rel="gallery" title="我今天撿到的怪東西^^"><img src="./NamiChang1987/Album/Moment/1_s.jpg" alt="golf balls"></a>
+			    	    </div>
+					    <div class="post-action-bar">
+					    	<a href="">
+					    		<img class="bookmark" src="../Pics/ticket-icon.png">
+					    	</a>
+					    	<a href="">
+					    		<img class="facebook-like" src="../Pics/icon_like.png">
+					    	</a>
+					    </div>
 			    	</div>
 			    </div>
             </div>
@@ -58,20 +64,27 @@
                 </div>
 		    	<div class="moment_content"> <!--  Sosoman自己的moment: user_own class -->
 		    		<div class="moment_post" style="position:relative"> <!-- Case#1 : 是user_own且有gallery的case --> <!--  發的文是moment_post, 回文是moment_response -->
-		    		<p>我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~
-		    		</p>
-		    		<div id="gallery">
-		    			<a href="./Sosoman/Album/Moment/7_b.jpg" rel="gallery" title="一堆高爾夫球"><img src="./Sosoman/Album/Moment/7_s.jpg" alt="golf balls"></a>
-		    			<a href="./Sosoman/Album/Moment/8_b.jpg" rel="gallery" title="古老城牆"><img src="./Sosoman/Album/Moment/8_s.jpg" alt="rock wall"></a>
-		    			<form> <!--  只有自己的moment有這些button -->
-		    			<input type="button" class="hidden-button silver_button" value="編輯">
-		    			<input type="button" class="hidden-button delete-button red_button" value="刪除">
-		    			<input type="button" class="cancel-button hidden red_button" value="取消">
-		    			<input type="submit" class="submit-button hidden silver_button" value="提交">
-		    			</form>
-		    		</div>
-		    		<a href="hotUser.html" class="like-button"><img src="../Pics/heart.png">6</a>
-		    		<a href="hotUser.html" class="respond-button"><img src="../Pics/comment.png">23</a>
+		    		    <p>我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~我喜歡認識新朋友~
+		    		    </p>
+		    		    <div id="gallery">
+		    		    	<a href="./Sosoman/Album/Moment/7_b.jpg" rel="gallery" title="一堆高爾夫球"><img src="./Sosoman/Album/Moment/7_s.jpg" alt="golf balls"></a>
+		    		    	<a href="./Sosoman/Album/Moment/8_b.jpg" rel="gallery" title="古老城牆"><img src="./Sosoman/Album/Moment/8_s.jpg" alt="rock wall"></a>
+		    		    	<form> <!--  只有自己的moment有這些button -->
+		    		    	<input type="button" class="hidden-button silver_button" value="編輯">
+		    		    	<input type="button" class="hidden-button delete-button red_button" value="刪除">
+		    		    	<input type="button" class="cancel-button hidden red_button" value="取消">
+		    		    	<input type="submit" class="submit-button hidden silver_button" value="提交">
+		    		    	</form>
+		    		    </div>
+					    <div class="post-action-bar">
+					    	<a href="">
+					    		<img class="bookmark" src="../Pics/ticket-icon.png">
+					    	</a>
+					    	<a href="">
+					    		<img class="facebook-like" src="../Pics/icon_like.png">
+					    	</a>
+					    </div>
+
 		    		</div>
 		    	</div>
                 
@@ -120,9 +133,15 @@
                 </div>
 		    	<div class="moment_content">
 		    		<div class="moment_post"> <!-- Case#2 : 不是user_own且沒有gallery的case -->
-		    		<p>熱火贏了 我愛君子劍 ! Ray Gun~~~</p>
-		    		<a href="hotUser.html" class="like-button"><img src="../Pics/heart.png">28</a>
-		    		<a href="hotUser.html" class="respond-button"><img src="../Pics/comment.png">2</a>
+		    		    <p>熱火贏了 我愛君子劍 ! Ray Gun~~~</p>
+				        <div class="post-action-bar">
+				        	<a href="">
+				        		<img class="bookmark" src="../Pics/ticket-icon.png">
+				        	</a>
+				        	<a href="">
+				        		<img class="facebook-like" src="../Pics/icon_like.png">
+				        	</a>
+				        </div>
 		    		</div>
 		    	</div>
 	    		<div class="moment_response">
@@ -154,18 +173,24 @@
             
 		    	<div class="moment_content">
 		    		<div class="moment_post"> <!-- Case#3 : 不是user_own但有gallery的case -->
-		    		<p>今天的活動太好完了 ! 認識很多新朋友～ 希望改天還能一起出去玩 !</p>
-		    		<div id="gallery">   <!-- 照片若超過6or7張, 就把後面的照片display:none, 再在第一張和最後一張各加上左右選擇按鍵, 按到之後用js修改display:none(一次把最前面shown picture改成hide, 再把後面第一張的hidden picture改成show)-->
-		    			<a href="./NancyLin/Album/Moment/slide1.jpg" rel="gallery" title="一堆高爾夫球"><img src="./NancyLin/Album/Moment/slide1_h.jpg" alt="golf balls"></a>
-		    			<a href="./NancyLin/Album/Moment/slide2.jpg" rel="gallery" title="古老城牆"><img src="./NancyLin/Album/Moment/slide2_h.jpg" alt="rock wall"></a>
-		    			<a href="./NancyLin/Album/Moment/slide3.jpg" rel="gallery" title="美麗的城堡"><img src="./NancyLin/Album/Moment/slide3_h.jpg" alt="old course"></a>
-		    			<a href="./NancyLin/Album/Moment/slide4.jpg" rel="gallery" title="城堡裡的怪東西"><img src="./NancyLin/Album/Moment/slide4_h.jpg" alt="tees"></a>
-		    			<a href="./NancyLin/Album/Moment/slide5.jpg" rel="gallery" title="湖與樹"><img src="./NancyLin/Album/Moment/slide5_h.jpg" alt="tree"></a>
-		    			<a href="./NancyLin/Album/Moment/slide6.jpg" rel="gallery" title="旁邊打球的老人們..."><img src="./NancyLin/Album/Moment/slide6_h.jpg" alt="ocean course"></a>
-            
-		    		</div>
-		    		<a href="hotUser.html" class="like-button"><img src="../Pics/heart.png">6</a>
-		    		<a href="hotUser.html" class="respond-button"><img src="../Pics/comment.png">23</a>
+		    		    <p>今天的活動太好完了 ! 認識很多新朋友～ 希望改天還能一起出去玩 !</p>
+		    		    <div id="gallery">   <!-- 照片若超過6or7張, 就把後面的照片display:none, 再在第一張和最後一張各加上左右選擇按鍵, 按到之後用js修改display:none(一次把最前面shown picture改成hide, 再把後面第一張的hidden picture改成show)-->
+		    		    	<a href="./NancyLin/Album/Moment/slide1.jpg" rel="gallery" title="一堆高爾夫球"><img src="./NancyLin/Album/Moment/slide1_h.jpg" alt="golf balls"></a>
+		    		    	<a href="./NancyLin/Album/Moment/slide2.jpg" rel="gallery" title="古老城牆"><img src="./NancyLin/Album/Moment/slide2_h.jpg" alt="rock wall"></a>
+		    		    	<a href="./NancyLin/Album/Moment/slide3.jpg" rel="gallery" title="美麗的城堡"><img src="./NancyLin/Album/Moment/slide3_h.jpg" alt="old course"></a>
+		    		    	<a href="./NancyLin/Album/Moment/slide4.jpg" rel="gallery" title="城堡裡的怪東西"><img src="./NancyLin/Album/Moment/slide4_h.jpg" alt="tees"></a>
+		    		    	<a href="./NancyLin/Album/Moment/slide5.jpg" rel="gallery" title="湖與樹"><img src="./NancyLin/Album/Moment/slide5_h.jpg" alt="tree"></a>
+		    		    	<a href="./NancyLin/Album/Moment/slide6.jpg" rel="gallery" title="旁邊打球的老人們..."><img src="./NancyLin/Album/Moment/slide6_h.jpg" alt="ocean course"></a>
+                        
+		    		    </div>
+				        <div class="post-action-bar">
+				        	<a href="">
+				        		<img class="bookmark" src="../Pics/ticket-icon.png">
+				        	</a>
+				        	<a href="">
+				        		<img class="facebook-like" src="../Pics/icon_like.png">
+				        	</a>
+				        </div>
 		    		</div>
 		    	</div>
 	    		<div class="moment_response user_own">
@@ -204,9 +229,15 @@
             
 		    	<div class="moment_content">
 		    		<div class="moment_post">
-		    		<p>今天看到帥哥 超爽的~</p>
-		    		<a href="hotUser.html" class="like-button"><img src="../Pics/heart.png">2</a>
-		    		<a href="hotUser.html" class="respond-button"><img src="../Pics/comment.png">5</a>
+		    		    <p>今天看到帥哥 超爽的~</p>
+				        <div class="post-action-bar">
+				        	<a href="">
+				        		<img class="bookmark" src="../Pics/ticket-icon.png">
+				        	</a>
+				        	<a href="">
+				        		<img class="facebook-like" src="../Pics/icon_like.png">
+				        	</a>
+				        </div>
 		    		</div>
 		    	</div>
 		    </div>
@@ -226,12 +257,18 @@
             
 		    	<div class="moment_content">
 		    		<div class="moment_post">
-		    		<p>幹 剛剛在捷運上遇到Kobe 他好像被抓了 不知道為什麼 QQ~</p>
-		    		<div id="gallery">
-		    			<a href="./KobeIsGod/Album/Moment/1_b.jpg" rel="gallery" title="一堆高爾夫球"><img src="./KobeIsGod/Album/Moment/1_s.jpg" alt="golf balls"></a>
-		    		</div>
-		    		<a href="hotUser.html" class="like-button"><img src="../Pics/heart.png">0</a>
-		    		<a href="hotUser.html" class="respond-button"><img src="../Pics/comment.png">0</a>
+		    		    <p>幹 剛剛在捷運上遇到Kobe 他好像被抓了 不知道為什麼 QQ~</p>
+		    		    <div id="gallery">
+		    		    	<a href="./KobeIsGod/Album/Moment/1_b.jpg" rel="gallery" title="一堆高爾夫球"><img src="./KobeIsGod/Album/Moment/1_s.jpg" alt="golf balls"></a>
+		    		    </div>
+				        <div class="post-action-bar">
+				        	<a href="">
+				        		<img class="bookmark" src="../Pics/ticket-icon.png">
+				        	</a>
+				        	<a href="">
+				        		<img class="facebook-like" src="../Pics/icon_like.png">
+				        	</a>
+				        </div>
 		    		</div>
 		    	</div>
 		    </div>

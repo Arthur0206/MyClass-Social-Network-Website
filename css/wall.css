@@ -18,6 +18,7 @@
     padding-bottom: 30px;
 }
 .moment_content_wrapper {
+    cursor: pointer;
     float: right;
 	overflow: hidden;
 	min-height: 90px;
@@ -57,15 +58,15 @@
 	border-radius: 2px;
 	float: left;
 	width: 430px;
-	min-height: 53px;
+	//min-height: 53px;
 	//margin: 4px 0px 5px 10px;
 	padding: 8px;
-	border: 1px solid #E8E5E0;
+	border: 1px solid #D8D5D0;
 	background-color: #FFFFFF;
 }
 .moment_response {
     width: 438px;
-    background: #F1F1F1;
+    background: #F4F4F4;
 	padding: 4px;
 	overflow: auto;
 	clear: left;
@@ -98,7 +99,7 @@
 .moment_post {
 	overflow: hidden;
 	position: relative;
-	min-height: 55px;
+	//min-height: 55px;
 }
 .moment_post form .cancel-button, .moment_post form .hidden-button {
 	float: right;			/* 沒有gallery時moment_post裡的"編輯" "取消"button */
@@ -192,34 +193,22 @@
 	margin-bottom: 5px;
 }
 
-
-.like-button {
-	position: absolute;
-	display: block;
-	width: 50px;
-	overflow: hidden;
-	bottom: -1px;
-	right: 0px; //110px;
-	color: #cd6661; //#cc0000;
-	font-size: 85%;
-}
-.respond-button {
-	position: absolute;
-	display: block;
-	width: 50px;
-	overflow: hidden;
-	bottom: -1px;
-	right: 50px; //160px;
-	color: #61A120; //#cc0000;
-	font-size: 85%;
-}
-.like-button img {
-	width: 19px;
-	height: 19px;
+.post-action-bar .facebook-like {
+    padding-left: 5px;
+	width: 16px;
+	height: 16px;
 	vertical-align: middle;
 }
-.respond-button img {
-	width: 18px;
-	height: 18px;
+.post-action-bar .bookmark {
+	width: 22px;
+	height: 20px;
+	opacity: 0.5;
 	vertical-align: middle;
+}
+.post-action-bar {
+    margin: 5px 5px 0px 0px;
+	//display: table-cell;
+	//top:117px; 
+	//right: 5px;
+	float:right;
 }
