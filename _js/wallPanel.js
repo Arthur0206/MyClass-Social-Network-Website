@@ -16,7 +16,7 @@ function processWallPanel()
 	); // end hover
 
 	// hover moment_response 區塊時, 顯示"編輯"和"刪除"按鍵
-	$('.moment_content .moment_response').hover(
+	$('.moment_wrapper .moment_response').hover(
 		function() {
 			$(this).find('.hidden-button:not(.is_clicked)').css('visibility','visible').hide().fadeIn(100);
 		},

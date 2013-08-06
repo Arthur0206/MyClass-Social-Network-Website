@@ -48,8 +48,7 @@
         <div class="moment_wrapper user_own">
 		    <div class="wall_poster_pic">
 		    	<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
-		    </div>
-        
+		    </div>  
 		    <div class="moment_content_wrapper">
                 <div class="moment_author">
 		    	    <a href="hotUser.html" class="wall_poster_username boy-user-link">Sosoman</a>
@@ -74,36 +73,37 @@
 		    		<a href="hotUser.html" class="like-button"><img src="../Pics/heart.png">6</a>
 		    		<a href="hotUser.html" class="respond-button"><img src="../Pics/comment.png">23</a>
 		    		</div>
-		    		<hr>
-		    		<div class="moment_response user_own"> <!--  Sosoman自己的moment: user_own class -->
-		    			<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
-		    			<div>
-		    			<a href="hotUser.html" class="boy-user-link">Sosoman</a>
-		    			<p>智障
-		    			</p>	<div class="date">6月18日 6:48m</div>
-		    				<form> <!--  只有自己的moment有這些button -->
-		    				<input type="button" class="hidden-button silver_button" value="編輯">
-		    				<input type="button" class="hidden-button delete-button red_button" value="刪除">
-		    				<input type="button" class="cancel-button hidden red_button" value="取消">
-		    				<input type="submit" class="submit-button hidden silver_button" value="提交">
-		    				</form>
-		    			</div>
-		    		</div>
-
-		    		<div class="moment_response last user_own"> <!-- 最後一個留言必須是"last" class -->
-		    			<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
-		    			<div><a href="hotUser.html" class="boy-user-link">Sosoman</a>
-		    			<p>白癡
-		    			</p><div class="date">6月19日 11:38m</div>
-		    				<form> <!--  只有自己的moment有這些button -->
-		    				<input type="button" class="hidden-button silver_button" value="編輯">
-		    				<input type="button" class="hidden-button delete-button red_button" value="刪除">
-		    				<input type="button" class="cancel-button hidden red_button" value="取消">
-		    				<input type="submit" class="submit-button hidden silver_button" value="提交">
-		    				</form>
-		    			</div>
-		    		</div>
 		    	</div>
+                
+	    		<div class="moment_response user_own"> <!--  Sosoman自己的moment: user_own class -->
+	    			<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
+	    			<div>
+	    			<a href="hotUser.html" class="boy-user-link">Sosoman</a>
+	    			<p>智障
+	    			</p>	
+                        <span class="date">6月18日 6:48m</span>
+	    				<form> <!--  只有自己的moment有這些button -->
+	    				<input type="button" class="hidden-button silver_button" value="編輯">
+	    				<input type="button" class="hidden-button delete-button red_button" value="刪除">
+	    				<input type="button" class="cancel-button hidden red_button" value="取消">
+	    				<input type="submit" class="submit-button hidden silver_button" value="提交">
+	    				</form>
+	    			</div>
+	    		</div>
+
+	    		<div class="moment_response last user_own"> <!-- 最後一個留言必須是"last" class -->
+	    			<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
+	    			<div><a href="hotUser.html" class="boy-user-link">Sosoman</a>
+	    			<p>白癡
+	    			</p><span class="date">6月19日 11:38m</span>
+	    				<form> <!--  只有自己的moment有這些button -->
+	    				<input type="button" class="hidden-button silver_button" value="編輯">
+	    				<input type="button" class="hidden-button delete-button red_button" value="刪除">
+	    				<input type="button" class="cancel-button hidden red_button" value="取消">
+	    				<input type="submit" class="submit-button hidden silver_button" value="提交">
+	    				</form>
+	    			</div>
+	    		</div>
 		    </div>
         </div>
 
@@ -124,20 +124,19 @@
 		    		<a href="hotUser.html" class="like-button"><img src="../Pics/heart.png">28</a>
 		    		<a href="hotUser.html" class="respond-button"><img src="../Pics/comment.png">2</a>
 		    		</div>
-		    		<hr>
-		    		<div class="moment_response">
-		    			<a href="hotUser.html"><img src="/MyClass/User/KobeIsGod/head.jpg"></a>
-		    			<div><a href="hotUser.html" class="boy-user-link">KobeIsGod</a>
-		    			<p>不懂偽君子有什麼好...
-		    			</p><div class="date">6月18日 3:20pm</div></div>
-		    		</div>
-		    		<div class="moment_response last">
-		    			<a href="hotUser.html"><img src="/MyClass/User/NancyLin/head.jpg"></a>
-		    			<div><a href="hotUser.html" class="girl-user-link">NancyLin</a>
-		    			<p>靠邀! 我就是喜歡你管我啦~
-		    			</p><div class="date">6月18日 3:55pm</div></div>
-		    		</div>
 		    	</div>
+	    		<div class="moment_response">
+	    			<a href="hotUser.html"><img src="/MyClass/User/KobeIsGod/head.jpg"></a>
+	    			<div><a href="hotUser.html" class="boy-user-link">KobeIsGod</a>
+	    			<p>不懂偽君子有什麼好...
+	    			</p><span class="date">6月18日 3:20pm</span></div>
+	    		</div>
+	    		<div class="moment_response last">
+	    			<a href="hotUser.html"><img src="/MyClass/User/NancyLin/head.jpg"></a>
+	    			<div><a href="hotUser.html" class="girl-user-link">NancyLin</a>
+	    			<p>靠邀! 我就是喜歡你管我啦~靠邀! 我就是喜歡你管我啦~靠邀! 我就是喜歡你管我啦~靠邀! 我就是喜歡你管我啦~靠邀! 我就是喜歡你管我啦~
+	    			</p><span class="date">6月18日 3:55pm</span></div>
+	    		</div>
             </div>
         </div>
 
@@ -168,27 +167,26 @@
 		    		<a href="hotUser.html" class="like-button"><img src="../Pics/heart.png">6</a>
 		    		<a href="hotUser.html" class="respond-button"><img src="../Pics/comment.png">23</a>
 		    		</div>
-		    		<hr>
-		    		<div class="moment_response user_own">
-		    			<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
-		    			<div><a href="hotUser.html" class="boy-user-link">Sosoman</a>
-		    			<p>很高興認識妳^^
-		    			</p><div class="date">6月18日 11:38m</div>
-		    				<form> <!--  只有自己的moment有這些button -->
-		    				<input type="button" class="hidden-button silver_button" value="編輯">
-		    				<input type="button" class="hidden-button delete-button red_button" value="刪除">
-		    				<input type="button" class="cancel-button hidden red_button" value="取消">
-		    				<input type="submit" class="submit-button hidden silver_button" value="提交">
-		    				</form>
-		    			</div>
-		    		</div>
-		    		<div class="moment_response last">
-		    			<a href="hotUser.html"><img src="/MyClass/User/NancyLin/head.jpg"></a>
-		    			<div><a href="hotUser.html" class="girl-user-link">NancyLin</a>
-		    			<p>我也是~ 改天再一起出去玩吧 : )
-		    			</p><div class="date">6月18日 11:38m</div></div>
-		    		</div>
 		    	</div>
+	    		<div class="moment_response user_own">
+	    			<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
+	    			<div><a href="hotUser.html" class="boy-user-link">Sosoman</a>
+	    			<p>很高興認識妳^^
+	    			</p><span class="date">6月18日 11:38m</span>
+	    				<form> <!--  只有自己的moment有這些button -->
+	    				<input type="button" class="hidden-button silver_button" value="編輯">
+	    				<input type="button" class="hidden-button delete-button red_button" value="刪除">
+	    				<input type="button" class="cancel-button hidden red_button" value="取消">
+	    				<input type="submit" class="submit-button hidden silver_button" value="提交">
+	    				</form>
+	    			</div>
+	    		</div>
+	    		<div class="moment_response last">
+	    			<a href="hotUser.html"><img src="/MyClass/User/NancyLin/head.jpg"></a>
+	    			<div><a href="hotUser.html" class="girl-user-link">NancyLin</a>
+	    			<p>我也是~ 改天再一起出去玩吧 : )
+	    			</p><span class="date">6月18日 11:38m</span></div>
+	    		</div>
 		    </div>
         </div>
 

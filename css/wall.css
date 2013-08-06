@@ -1,10 +1,10 @@
 /* 動態牆頁面 */
 #wall_panel {
-	width: 550px;
+	width: 520px;
 	margin: auto;
 }
 #wall_panel .control_panel {
-    margin: 0 0px 30px 80px;
+    margin: 0 0px 30px 73px;
 }
 .timeline_wrapper {
 	overflow: hidden;
@@ -50,19 +50,34 @@
 }
 .wall_poster_pic img {
     border: 1px solid #EEEEEE;
-	height: 64px;
-	width: 64px;
-	//border-radius: 3px;
+	height: 60px;
+	width: 60px;
 }
 .moment_content {
 	border-radius: 2px;
 	float: left;
-	width: 435px;
+	width: 430px;
 	min-height: 53px;
 	//margin: 4px 0px 5px 10px;
-	padding: 12px 15px 12px 14px;
-	border: 1px solid #D8D5D0;
+	padding: 8px;
+	border: 1px solid #E8E5E0;
 	background-color: #FFFFFF;
+}
+.moment_response {
+    width: 438px;
+    background: #F1F1F1;
+	padding: 4px;
+	overflow: auto;
+	clear: left;
+	border-left: 1px solid #D8D5D0;
+	border-right: 1px solid #D8D5D0;
+	border-bottom: 1px solid #D8D5D0;
+}
+.moment_response div {
+    width: 390px;
+	margin-left: 5px;
+	float: left;
+	position: relative; /* for all red buttons in moment_response*/
 }
 .moment_content p {
 	margin: 0;
@@ -72,8 +87,8 @@
 	margin-top: 8px;
 }
 .moment_content #gallery img {
-    width: 140px;
-    height: 140px;
+    width: 138px;
+    height: 138px;
     padding-top: 5px;
 	padding-right: 5px;
 }
@@ -121,38 +136,29 @@
 	//color: #444 !important;
 //	font-weight: normal;
 }
+.moment_post p {
+    margin-top: 3px;
+    font-size: 14px;
+}
 .moment_content textarea {
 	margin-left: 0px;
 	//width: 600px;
 }
-.moment_response {
-	padding: 4px 0 4px 0;
-	overflow: auto;
-	clear: left;
-	border-bottom: 1px solid #D8D5D0;
-}
-.moment_response.last {
-	border: none;
-	padding-bottom: 0;
-}
-.moment_response div {
-	width: 400px;
-	margin: 1px 0 0 6px;
-	float: left;
-	position: relative; /* for all red buttons in moment_response*/
-}
 .moment_response p {
+    line-height: 18px;
 	margin: 0;
-	font-size: 90%;
+	font-size: 12px;
 }
 .moment_response div a {
-	font-size: 90%;
+    line-height: 18px;
+    font-weight: bold;
+	font-size: 12px;
 	margin-right: 5px;
 	float: left;
 }
 .moment_response img {
- 	width:50px;
-	height:50px;
+ 	width:36px;
+	height:36px;
 	border-radius: 2px;
 	float: left;
 }
@@ -161,13 +167,13 @@
 	float: left !important;
 	margin: 7px 0 5px 0;
 }
-.moment_content .date {
-	margin: 1px 0 16px 0;
-	width: 100px;
-	float: left;
-	display: inline;
-	color: #acacac;
-	font-size: 80%;
+ .date {
+    line-height: 18px;
+    width: 100px;
+    float: left;
+    display: inline;
+    color: #acacac;
+    font-size: 12px;
 }
 .moment_response form .submit-button, .moment_response form .cancel-button, .moment_response form .hidden-button, .moment_response form .delete-button {
 	margin: 0 0 0 4px;
