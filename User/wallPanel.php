@@ -45,12 +45,12 @@
             </div>
         </div>
 
-        <div class="moment_wrapper">
+        <div class="moment_wrapper user_own">
 		    <div class="wall_poster_pic">
 		    	<a href="hotUser.html"><img src="/MyClass/User/Sosoman/head.jpg"></a>
 		    </div>
         
-		    <div class="moment_content_wrapper user_own">
+		    <div class="moment_content_wrapper">
                 <div class="moment_author">
 		    	    <a href="hotUser.html" class="wall_poster_username boy-user-link">Sosoman</a>
                 </div>
