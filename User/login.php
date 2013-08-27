@@ -80,7 +80,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
     <title>MyClass - 讓妳認識很多新朋友!</title>
     <link href="../css/main.css" type="text/css" rel="stylesheet">
     <link href="../css/form.css" type="text/css" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script> 
+    <script src="/MyClass/_js/jquery-1.7.2.min.js"></script> 
 	<script src="../_js/jquery.validate.min.js"></script>
 	<script src="../_js/menuBar.js"></script>
 	<script src="../_js/form.js"></script>

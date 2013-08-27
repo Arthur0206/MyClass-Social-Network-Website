@@ -17,7 +17,7 @@ if (!isset($_SESSION)) {
         <link href="./css/user.css" type="text/css" rel="stylesheet">
         <link href="./css/event.css" type="text/css" rel="stylesheet">
         <link href="./css/group.css" type="text/css" rel="stylesheet">
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script> 
+        <script src="/MyClass/_js/jquery-1.7.2.min.js"></script> 
 	<script src="./_js/menuBar.js"></script>
     <script src="./_js/card.js"></script>
         <script>
