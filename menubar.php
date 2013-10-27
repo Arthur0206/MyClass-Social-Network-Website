@@ -32,7 +32,7 @@ if (BYPASS_LOGIN) {
                 <a href="/MyClass/Group/findGroup.php"> <!-- 特別設定width, padding -->
                     <span class="menu_tab">
                         <span class="menu_big_chi">
-                            群組
+                            群組test
                         </span>
                         <span class="menu_small_chi">
                             找群組, 開新群組
